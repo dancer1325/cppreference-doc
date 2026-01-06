@@ -1,11 +1,9 @@
 * expression
   * == sequence of _operators_ + _operands_ /
-    * specifies a computation
-    * may produce 
-      * result
-      * side-effects
-        * _Example:_ evaluate `std::printf("%d", 4)` prints the character '4' | standard output
-  * characterized -- by -- 2 independent properties
+    * may
+      * specifies a computation
+      * modify program's state (variables, memory, I/O, ...)
+  * 👀characterized -- by -- 2 independent properties👀
     * [type](type-id.md)
     * [value category](value_category.md)
 
@@ -24,22 +22,18 @@
   * [7 Expression-equivalence](expressions.html#Expression-equivalence)
   * [8 Defect reports](expressions.html#Defect_reports)
   * [9 See also](expressions.html#See_also)
-  
+
 #### General
 
 * [value categories](value_category.md) 
-  * (lvalue, rvalue, glvalue, prvalue, xvalue(since C++11)) classify expressions by their values 
-  * [order of evaluation](eval_order.html "cpp/language/eval order") of arguments and subexpressions specify the order in which intermediate results are obtained 
-
-
+* [order of evaluation of arguments & subexpressions](eval_order.md) 
 
 ### Operators
 
-Common operators   
----  
-[assignment](operator_assignment.html "cpp/language/operator assignment") | [increment  
-decrement](operator_incdec.html "cpp/language/operator incdec") | [arithmetic](operator_arithmetic.html "cpp/language/operator arithmetic") | [logical](operator_logical.html "cpp/language/operator logical") | [comparison](operator_comparison.html "cpp/language/operator comparison") | [member  
-access](operator_member_access.html "cpp/language/operator member access") | [other](operator_other.html "cpp/language/operator other")  
+#### Common operators   
+##### [assignment](operator_assignment.md)
+
+```c++
 a = b  
 a += b  
 a -= b  
@@ -50,10 +44,22 @@ a &= b
 a |= b  
 a ^= b  
 a <<= b  
-a >>= b |  ++a  
-\--a  
+a >>= b
+```
+
+##### [increment & decrement](operator_incdec.md)
+
+```c++
+++a  
+--a  
 a++  
-a\-- |  +a  
+a--
+```
+
+##### [arithmetic](operator_arithmetic.md)
+
+```c++
++a  
 -a  
 a + b  
 a - b  
@@ -65,42 +71,71 @@ a & b
 a | b  
 a ^ b  
 a << b  
-a >> b |  !a  
+a >> b
+```
+
+##### [logical](operator_logical.md)
+
+```c++
+!a  
 a && b  
-a || b |  a == b  
+a || b 
+```
+
+##### [comparison](operator_comparison.md) 
+
+```c++
+a == b  
 a != b  
 a < b  
 a > b  
 a <= b  
 a >= b  
-a <=> b |  a[...]  
+a <=> b 
+```
+
+##### [member access](operator_member_access.md)
+
+```c++
+a[...]  
 *a  
 &a  
 a->b  
 a.b  
 a->*b  
-a.*b | function call  
-  
-a(...)  
-comma  
-  
-a, b  
-conditional  
-  
-a ? b : c  
-Special operators   
-[`static_cast`](static_cast.html "cpp/language/static cast") converts one type to another related type  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast") converts within inheritance hierarchies  
-[`const_cast`](const_cast.html "cpp/language/const cast") adds or removes [cv](cv.html "cpp/language/cv")-qualifiers  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast") converts type to unrelated type  
-[C-style cast](explicit_cast.html "cpp/language/explicit cast") converts one type to another by a mix of static_cast, const_cast, and reinterpret_cast  
-[`new`](new.html "cpp/language/new") creates objects with dynamic storage duration  
-[`delete`](delete.html "cpp/language/delete") destructs objects previously created by the new expression and releases obtained memory area  
-[`sizeof`](sizeof.html "cpp/language/sizeof") queries the size of a type  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") queries the size of a [pack](parameter_pack.html "cpp/language/pack") (since C++11)  
-[`typeid`](typeid.html "cpp/language/typeid") queries the type information of a type  
-[`noexcept`](noexcept.html "cpp/language/noexcept") checks if an expression can throw an exception (since C++11)  
-[`alignof`](alignof.html "cpp/language/alignof") queries alignment requirements of a type (since C++11)  
+a.*b 
+```
+
+##### [other](operator_other.html "cpp/language/operator other")  
+
+* function call
+    ```c++
+    a(...)  
+    ```
+ 
+* comma
+    ```c++
+    a, b
+    ```    
+
+* conditional
+    ```c++
+    a ? b : c 
+    ```
+
+#### Special operators   
+* [`static_cast`](static_cast.md)  
+* [`dynamic_cast`](dynamic_cast.md) converts within inheritance hierarchies  
+* [`const_cast`](const_cast.html "cpp/language/const cast") adds or removes [cv](cv.html "cpp/language/cv")-qualifiers  
+* [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast") converts type to unrelated type  
+* [C-style cast](explicit_cast.html "cpp/language/explicit cast") converts one type to another by a mix of static_cast, const_cast, and reinterpret_cast  
+* [`new`](new.html "cpp/language/new") creates objects with dynamic storage duration  
+* [`delete`](delete.html "cpp/language/delete") destructs objects previously created by the new expression and releases obtained memory area  
+* [`sizeof`](sizeof.html "cpp/language/sizeof") queries the size of a type  
+* [`sizeof...`](sizeof....html "cpp/language/sizeof...") queries the size of a [pack](parameter_pack.html "cpp/language/pack") (since C++11)  
+* [`typeid`](typeid.html "cpp/language/typeid") queries the type information of a type  
+* [`noexcept`](noexcept.html "cpp/language/noexcept") checks if an expression can throw an exception (since C++11)  
+* [`alignof`](alignof.html "cpp/language/alignof") queries alignment requirements of a type (since C++11)  
   
   * [operator precedence](operator_precedence.html "cpp/language/operator precedence") defines the order in which operators are bound to their arguments 
   * [alternative representations](operator_alternative.html "cpp/language/operator alternative") are alternative spellings for some operators 

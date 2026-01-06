@@ -19,7 +19,8 @@
     * evaluated | compile time
     * | being used as a constraint, part of the interface of a template  
 
-Violations of constraints are detected at compile time, early in the template instantiation process, which leads to easy to follow error messages: 
+Violations of constraints are detected at compile time, early in the template instantiation process,
+which leads to easy to follow error messages: 
     
     
     [std::list](../container/list.html)<int> l = {3, -1, 10};

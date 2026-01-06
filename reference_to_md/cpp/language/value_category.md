@@ -1,22 +1,35 @@
 * value categories 
-  * [_prvalue_](#prvalue),
-    * == “pure” rvalue
-    * == expression /
-      * | evaluate,
-        * computes the built-in operator's operand's value
-          * == NO _result object_
-        * initializes an object 
-          * -> _result object_
-  * [_xvalue_](#xvalue)
-    * == “eXpiring” value
-    * == glvalue / 
-      * object's resources can be reused
-  * [_lvalue_](#lvalue) 
-    * := glvalue / is NOT a xvalue 
-    * [glvalue](#glvalue)
-      * == “generalized” lvalue / 
-        * | evaluate, 
-          * determines the identity of an object or function 
+  * allows
+    * classify expressions -- by -- their values
+  * are
+    * [_prvalue_](#prvalue),
+      * == “pure” rvalue
+      * == expression /
+        * | evaluate,
+          * computes the built-in operator's operand's value
+            * == NO _result object_
+          * initializes an object 
+            * -> _result object_
+    * [_xvalue_](#xvalue)
+      * == “eXpiring” value
+      * == glvalue / 
+        * object's resources can be reused
+      * requirements
+        * C++11
+    * [_lvalue_](#lvalue) 
+      * := glvalue / is NOT a xvalue 
+      * ⚠️ORIGINALLY⚠️
+        * == assignment expression's left-hand (_l_) side
+          * ❌RIGHT now, NOT ALWAYS❌
+      * [glvalue](#glvalue)
+        * == “generalized” lvalue / 
+          * | evaluate, 
+            * determines the identity of an object or function 
+    * [rvalue](#rvalue) 
+      * == [prvalue](#prvalue) OR [xvalue](#xvalue)
+      * ⚠️ORIGINALLY⚠️
+        * == assignment expression's right-hand (_l_) side
+          * ❌RIGHT now, NOT ALWAYS❌
 
 * result object
   * may be a
@@ -30,74 +43,10 @@
       * EXCEPT to, == operand of [`decltype`](decltype.md) 
     * array prvalue  
       * EXCEPT to, == operand of [`decltype`](decltype.md)
-
-Extended content  
----  
-So-called, historically, because lvalues could appear on the left-hand side of an assignment expression
-* In general, it's not always the case: 
-    
-    
-    void foo();
-     
-    void baz()
-    {
-        int a; // Expression `a` is lvalue
-        a = 4; // OK, could appear on the left-hand side of an assignment expression
-     
-        int &b{a}; // Expression `b` is lvalue
-        b = 5; // OK, could appear on the left-hand side of an assignment expression
-     
-        const int &c{a}; // Expression `c` is lvalue
-        c = 6;           // ill-formed, assignment of read-only reference
-     
-        // Expression `foo` is lvalue
-        // address may be taken by built-in address-of operator
-        void (*p)() = &foo;
-     
-        foo = baz; // ill-formed, assignment of function
-    }  
+ 
   
-  * an [rvalue](value_category.html#rvalue) is a prvalue or an xvalue; 
-
-
-
-Extended content  
----  
-So-called, historically, because rvalues could appear on the right-hand side of an assignment expression
-* In general, it's not always the case:  Run this code
-    
-    
-    #include <iostream>
-     
-    struct S
-    {
-        S() : m{42} {}
-        S(int a) : m{a} {}
-        int m;
-    };
-     
-    int main()
-    {
-        S s;
-     
-        // Expression `S{}` is prvalue
-        // May appear on the right-hand side of an assignment expression
-        s = S{};
-     
-        [std::cout](../io/cout.html) << s.m << '\n';
-     
-        // Expression `S{}` is prvalue
-        // Can be used on the left-hand side too
-        [std::cout](../io/cout.html) << (S{} = S{7}).m << '\n';
-    }
-
-Output: 
-    
-    
-    42
-    7  
-  
-Note: this taxonomy went through significant changes with past C++ standard revisions, see [History](value_category.html#History) below for details. 
+Note: this taxonomy went through significant changes with past C++ standard revisions, 
+see [History](value_category.html#History) below for details. 
 
 Extended content  
 ---  

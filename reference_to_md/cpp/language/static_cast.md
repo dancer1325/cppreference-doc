@@ -1,124 +1,5 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-[Expressions](expressions.html "cpp/language/expressions")  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-  
-| [Operators](operators.html "cpp/language/operators")  
----  
-[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
-  
-[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
-[Literals](expressions.html#Literals "cpp/language/expressions")  
-[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
-[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
-Utilities  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-Types  
-[`typedef` declaration](typedef.html "cpp/language/typedef")  
-[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-Casts  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-**`static_cast`**  
-[`const_cast`](const_cast.html "cpp/language/const cast")  
-  
-| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
----  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-Memory allocation  
-| [`new` expression](new.html "cpp/language/new")  
----  
-  
-
----  
-  
-
-
-[ Expressions](expressions.html "cpp/language/expressions")
-
-General  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-[Constant expressions](constant_expression.html "cpp/language/constant expression")  
-[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
-  
-| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
----  
-[Requires expressions](requires.html "cpp/language/requires") (C++20)  
-[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
-[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
-  
-Literals  
-| [Integer literals](integer_literal.html "cpp/language/integer literal")  
----  
-[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
-[Boolean literals](bool_literal.html "cpp/language/bool literal")  
-[Character literals](character_literal.html "cpp/language/character literal")  
-  
-| [Escape sequences](escape.html "cpp/language/escape")  
----  
-[String literals](string_literal.html "cpp/language/string literal")  
-[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
-  
-Operators  
-| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
----  
-[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
-[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
-[Logical operators](operator_logical.html "cpp/language/operator logical")  
-[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
-[Member access operators](operator_member_access.html "cpp/language/operator member access")  
-[Other operators](operator_other.html "cpp/language/operator other")  
-[`new`-expression](new.html "cpp/language/new")  
-[`delete`-expression](delete.html "cpp/language/delete")  
-[`throw`-expression](throw.html "cpp/language/throw")  
-  
-| [`alignof`](alignof.html "cpp/language/alignof")  
----  
-[`sizeof`](sizeof.html "cpp/language/sizeof")  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
-[`typeid`](typeid.html "cpp/language/typeid")  
-[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
-[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
-  
-Conversions  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
-[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
-[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
-  
-| [`const_cast`](const_cast.html "cpp/language/const cast")  
----  
-**`static_cast`**  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-
-
-Converts between types using a combination of implicit and user-defined conversions. 
+* allows
+  * type A is converted -- , via combination of implicit & user-defined conversions, to -- type B (== related type)
 
 ## Contents
 
@@ -132,15 +13,11 @@ Converts between types using a combination of implicit and user-defined conversi
   * [8 References](static_cast.html#References)
   * [9 See also](static_cast.html#See_also)
 
-  
----  
-  
 ### Syntax  
-  
----  
-`**static_cast <**`target-type ﻿`**>(**`expression ﻿`**)**` |  |   
-  
-Returns a value of type target-type. 
+
+* `static_cast<target-type>(expression)`
+  * `target-type`
+    * == type / it's returned 
 
 ### Explanation
 
@@ -356,94 +233,6 @@ static_cast may also be used to disambiguate function overloads by performing a 
 ### Keywords
 
 [`static_cast`](../keyword/static_cast.html "cpp/keyword/static cast")
-
-### Example
-
-Run this code
-    
-    
-    #include <iostream>
-    #include <vector>
-     
-    struct B
-    {
-        int m = 42;
-        const char* hello() const
-        {
-            return "Hello world, this is B!\n";
-        }
-    };
-     
-    struct D : B
-    {
-        const char* hello() const
-        {
-            return "Hello world, this is D!\n";
-        }
-    };
-     
-    enum class E { ONE = 1, TWO, THREE };
-    enum EU { ONE = 1, TWO, THREE };
-     
-    int main()
-    {
-        // 1. static downcast
-        D d;
-        B& br = d; // upcast via implicit conversion
-        [std::cout](../io/cout.html) << "1) " << br.hello();
-        D& another_d = static_cast<D&>(br); // downcast
-        [std::cout](../io/cout.html) << "1) " << another_d.hello();
-     
-        // 3. lvalue to xvalue
-        [std::vector](../container/vector.html)<int> v0{1, 2, 3};
-        [std::vector](../container/vector.html)<int> v2 = static_cast<[std::vector](../container/vector.html)<int>&&>(v0);
-        [std::cout](../io/cout.html) << "3) after move, v0.size() = " << v0.size() << '\n';
-     
-        // 4. discarded-value expression
-        static_cast<void>(v2.size());
-     
-        // 5. initializing conversion
-        int n = static_cast<int>(3.14);
-        [std::cout](../io/cout.html) << "5) n = " << n << '\n';
-        [std::vector](../container/vector.html)<int> v = static_cast<[std::vector](../container/vector.html)<int>>(10);
-        [std::cout](../io/cout.html) << "5) v.size() = " << v.size() << '\n';
-     
-        // 6. inverse of implicit conversion
-        void* nv = &n;
-        int* ni = static_cast<int*>(nv);
-        [std::cout](../io/cout.html) << "6) *ni = " << *ni << '\n';
-     
-        // 7a. scoped enum to int
-        E e = E::TWO;
-        int two = static_cast<int>(e);
-        [std::cout](../io/cout.html) << "7a) " << two << '\n';
-     
-        // 7b. int to enum, enum to another enum
-        E e2 = static_cast<E>(two);
-        [[maybe_unused]]
-        EU eu = static_cast<EU>(e2);
-     
-        // 7f. pointer to member upcast
-        int D::*pm = &D::m;
-        [std::cout](../io/cout.html) << "7f) " << br.*static_cast<int B::*>(pm) << '\n';
-     
-        // 7g. void* to any object pointer
-        void* voidp = &e;
-        [[maybe_unused]]
-        [std::vector](../container/vector.html)<int>* p = static_cast<[std::vector](../container/vector.html)<int>*>(voidp);
-    }
-
-Output: 
-    
-    
-    1) Hello world, this is B!
-    1) Hello world, this is D!
-    3) after move, v0.size() = 0
-    5) n = 3
-    5) v.size() = 10
-    6) *ni = 3
-    7a) 2
-    7f) 42
 
 ### Defect reports
 
