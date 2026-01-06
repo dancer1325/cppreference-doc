@@ -1,47 +1,23 @@
-[Class templates](class_template.html "cpp/language/class template"), [function templates](function_template.html "cpp/language/function template") (including [generic lambdas](lambda.html "cpp/language/lambda")), and other [templated functions](templates.html#Templated_entity "cpp/language/templates") (typically members of class templates) might be associated with a _constraint ﻿_ , which specifies the requirements on template arguments, which can be used to select the most appropriate function overloads and template specializations. 
+* ⚠️requirements⚠️
+  * C++20
 
-Named sets of such [requirements](requires.html "cpp/language/requires") are called _concepts ﻿_. Each concept is a predicate, evaluated at compile time, and becomes a part of the interface of a template where it is used as a constraint: 
+* _constraint_
+  * == [requirements](requires.md) | template arguments
+  * use cases
+    * [Class templates](class_template.md)
+    * [function templates](function_template.md) 
+      * ALSO
+        * [generic lambdas](lambda.md)
+        * [templated functions](templates.md#templated-entity)
+          * _Example:= class templates' members
+  * allows
+    * select the MOST appropriate function overloads & template specializations 
 
-Run this code
-    
-    
-    #include <cstddef>
-    #include <concepts>
-    #include <functional>
-    #include <string>
-     
-    // Declaration of the concept “Hashable”, which is satisfied by any type “T”
-    // such that for values “a” of type “T”, the expression std::hash<T>{}(a)
-    // compiles and its result is convertible to std::size_t
-    template<typename T>
-    concept Hashable = requires(T a)
-    {
-        { [std::hash](../utility/hash.html)<T>{}(a) } -> [std::convertible_to](../concepts/convertible_to.html)<[std::size_t](../types/size_t.html)>;
-    };
-     
-    struct meow {};
-     
-    // Constrained C++20 function template:
-    template<Hashable T>
-    void f(T) {}
-    //
-    // Alternative ways to apply the same constraint:
-    // template<typename T>
-    //     requires Hashable<T>
-    // void f(T) {}
-    //
-    // template<typename T>
-    // void f(T) requires Hashable<T> {}
-    //
-    // void f(Hashable auto /* parameter-name */) {}
-     
-    int main()
-    {
-        using std::operator""s;
-     
-        f("abc"s);    // OK, std::string satisfies Hashable
-        // f(meow{}); // Error: meow does not satisfy Hashable
-    }
+* _concepts_
+  * == named sets of such [requirements](requires.md) 
+  * == predicate /
+    * evaluated | compile time
+    * | being used as a constraint, part of the interface of a template  
 
 Violations of constraints are detected at compile time, early in the template instantiation process, which leads to easy to follow error messages: 
     
@@ -78,16 +54,12 @@ The intent of concepts is to model semantic categories (Number, Range, RegularFu
   * [7 Defect reports](constraints.html#Defect_reports)
   * [8 See also](constraints.html#See_also)
 
-  
----  
-  
 ### Concepts
 
 A concept is a named set of [requirements](requires.html "cpp/language/requires"). The definition of a concept must appear at namespace scope. 
 
 The definition of a concept has the form   
-  
----  
+
 `**template <**` template-parameter-list `**>**` `**concept**` concept-name attr ﻿(optional) `**=**` constraint-expression`**;**` |  |   
 attr |  \-  |  sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
 ---|---|---  

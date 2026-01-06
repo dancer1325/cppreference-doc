@@ -1,210 +1,9 @@
-
-
+* ⚠️requirements⚠️
+  * C++20  
   
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
-  
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[Declarations](declarations.html "cpp/language/declarations")
-
-| Overview  
----  
-[Declaration syntax](declarations.html "cpp/language/declarations")  
-[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
-[Declarator](declarations.html#Declarators "cpp/language/declarations")  
-[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
-Specifiers  
-[typedef](typedef.html "cpp/language/typedef")  
-[inline](inline.html "cpp/language/inline")  
-[virtual function specifier](virtual.html "cpp/language/virtual")  
-[explicit function specifier](explicit.html "cpp/language/explicit")  
-[friend](friend.html "cpp/language/friend")  
-[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
-[consteval](consteval.html "cpp/language/consteval")(C++20)  
-[constinit](constinit.html "cpp/language/constinit")(C++20)  
-[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
-[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
-[class/struct](class.html "cpp/language/class")  
-[union](union.html "cpp/language/union")  
-[enum](enum.html "cpp/language/enum")  
-[decltype](decltype.html "cpp/language/decltype")(C++11)  
-[auto](auto.html "cpp/language/auto")(C++11)  
-[alignas](alignas.html "cpp/language/alignas")(C++11)  
-[constvolatile](cv.html "cpp/language/cv")  
-[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
-[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-  
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-[Pointer](pointer.html "cpp/language/pointer")  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-[asm declaration](asm.html "cpp/language/asm")  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-[Namespace definition](namespace.html "cpp/language/namespace")  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-[Function template declaration](function_template.html "cpp/language/function template")  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-[Linkage specification](language_linkage.html "cpp/language/language linkage")  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
-  
-  
-  
-
-
-[ Expressions](expressions.html "cpp/language/expressions")
-
-General  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-[Constant expressions](constant_expression.html "cpp/language/constant expression")  
-[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
-  
-| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
----  
-**Requires expressions** (C++20)  
-[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
-[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
-  
-Literals  
-| [Integer literals](integer_literal.html "cpp/language/integer literal")  
----  
-[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
-[Boolean literals](bool_literal.html "cpp/language/bool literal")  
-[Character literals](character_literal.html "cpp/language/character literal")  
-  
-| [Escape sequences](escape.html "cpp/language/escape")  
----  
-[String literals](string_literal.html "cpp/language/string literal")  
-[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
-  
-Operators  
-| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
----  
-[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
-[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
-[Logical operators](operator_logical.html "cpp/language/operator logical")  
-[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
-[Member access operators](operator_member_access.html "cpp/language/operator member access")  
-[Other operators](operator_other.html "cpp/language/operator other")  
-[`new`-expression](new.html "cpp/language/new")  
-[`delete`-expression](delete.html "cpp/language/delete")  
-[`throw`-expression](throw.html "cpp/language/throw")  
-  
-| [`alignof`](alignof.html "cpp/language/alignof")  
----  
-[`sizeof`](sizeof.html "cpp/language/sizeof")  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
-[`typeid`](typeid.html "cpp/language/typeid")  
-[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
-[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
-  
-Conversions  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
-[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
-[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
-  
-| [`const_cast`](const_cast.html "cpp/language/const cast")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-
-
-[ Templates](templates.html "cpp/language/templates")
-
-[Template parameters](template_parameters.html "cpp/language/template parameters")  
----  
-[Template arguments](template_arguments.html "cpp/language/template arguments")  
-[Class templates](class_template.html "cpp/language/class template")  
-[Function templates](function_template.html "cpp/language/function template")  
-[Class member templates](member_template.html "cpp/language/member template")  
-[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
-[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
-[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
-[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
-[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
-[Dependent names](dependent_name.html "cpp/language/dependent name")  
-[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
-[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
-[SFINAE](sfinae.html "cpp/language/sfinae")  
-[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
-**requires expression** (C++20)  
-  
-
-
-Yields a prvalue expression of type bool that describes the constraints. 
+* yields a `prvalue` expression /
+  * type == `bool`
+  * describes the constraints 
 
 ## Contents
 
@@ -221,12 +20,8 @@ Yields a prvalue expression of type bool that describes the constraints.
   * [11 References](requires.html#References)
   * [12 See also](requires.html#See_also)
 
-  
----  
-  
 ### Syntax  
-  
----  
+
 `**requires**` `**{**` requirement-seq `**}**` |  (1)  |   
 `**requires**` `**(**` parameter-list ﻿(optional) `**)**` `**{**` requirement-seq `**}**` |  (2)  |   
 parameter-list |  \-  |  a [parameter list](function.html#Parameter_list "cpp/language/function")  
@@ -291,8 +86,7 @@ If any of the following conditions is satisfied, the program is ill-formed:
     };
 
 ### Simple requirements  
-  
----  
+
 expression `**;**` |  |   
 expression |  \-  |  an expression which does not start with requires  
 ---|---|---  
@@ -317,8 +111,7 @@ A simple requirement asserts that expression is valid. expression is an [unevalu
 A requirement that starts with the keyword requires is always interpreted as a nested requirement. Thus a simple requirement cannot start with an unparenthesized requires expression. 
 
 ### Type requirements  
-  
----  
+
 `**typename**` identifier `**;**` |  |   
 identifier |  \-  |  a (possibly qualified) [identifier](name.html "cpp/language/identifiers") (including [simple template identifier](templates.html#Template_identifiers "cpp/language/templates"))   
 ---|---|---  
@@ -350,8 +143,7 @@ A type requirement asserts that the type named by identifier is valid: this can 
     };
 
 ### Compound requirements  
-  
----  
+
 `**{**` expression `**};**` |  (1)  |   
 `**{**` expression `**}**` `**noexcept**` `**;**` |  (2)  |   
 `**{**` expression `**} - >**` type-constraint `**;**` |  (3)  |   
@@ -395,8 +187,7 @@ expression is an [unevaluated operand](expressions.html#Potentially-evaluated_ex
     };
 
 ### Nested requirements  
-  
----  
+
 `**requires**` constraint-expression `**;**` |  |   
 constraint-expression |  \-  |  an expression representing [constraints](constraints.html "cpp/language/constraints")  
 ---|---|---  

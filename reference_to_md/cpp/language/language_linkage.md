@@ -1,41 +1,7 @@
 
 
   
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
   
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
   
   
   
@@ -51,35 +17,7 @@ Types
   
 
 
-[Declarations](declarations.html "cpp/language/declarations")
 
-| Overview  
----  
-[Declaration syntax](declarations.html "cpp/language/declarations")  
-[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
-[Declarator](declarations.html#Declarators "cpp/language/declarations")  
-[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
-Specifiers  
-[typedef](typedef.html "cpp/language/typedef")  
-[inline](inline.html "cpp/language/inline")  
-[virtual function specifier](virtual.html "cpp/language/virtual")  
-[explicit function specifier](explicit.html "cpp/language/explicit")  
-[friend](friend.html "cpp/language/friend")  
-[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
-[consteval](consteval.html "cpp/language/consteval")(C++20)  
-[constinit](constinit.html "cpp/language/constinit")(C++20)  
-[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
-[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
-[class/struct](class.html "cpp/language/class")  
-[union](union.html "cpp/language/union")  
-[enum](enum.html "cpp/language/enum")  
-[decltype](decltype.html "cpp/language/decltype")(C++11)  
-[auto](auto.html "cpp/language/auto")(C++11)  
-[alignas](alignas.html "cpp/language/alignas")(C++11)  
-[constvolatile](cv.html "cpp/language/cv")  
-[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
-[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
   
 | Declarators  
 ---  

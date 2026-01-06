@@ -9,29 +9,34 @@
   * [4 Members of specializations](template_specialization.html#Members_of_specializations)
   * [5 Defect reports](template_specialization.html#Defect_reports)
   * [6 See also](template_specialization.html#See_also)
-
   
 ### Syntax  
 
 `**template <>**` declaration |  |   
   
-Any of the following can be fully specialized: 
-
-  1. [function template](function_template.html "cpp/language/function template")
-  2. [class template](class_template.html "cpp/language/class template")
-  3. [variable template](variable_template.html "cpp/language/variable template")(since C++14)
-  4. [member function](member_functions.html "cpp/language/member functions") of a class template 
-  5. [static data member](static.html "cpp/language/static") of a class template 
-  6. [member class](nested_classes.html "cpp/language/nested types") of a class template 
-  7. member [enumeration](enum.html "cpp/language/enum") of a class template 
-  8. [member class template](member_template.html "cpp/language/member template") of a class or class template 
-  9. [member function template](member_template.html#Member_function_templates "cpp/language/member template") of a class or class template 
-  10. [member variable template](member_template.html#Member_variable_templates "cpp/language/member template") of a class or class template(since C++14)
+* ALLOWED |
+  1. [function template](function_template.md)
+  2. [class template](class_template.md)
+  3. [variable template](variable_template.md)
+     * requirements
+       * | C++14
+  4. class template's
+     * [ member function](member_functions.md)
+     * [static data member](static.md)
+     * [member class](nested_classes.md)
+     * member [enumeration](enum.md)
+  5. class OR class template
+     * [member class template](member_template.html "cpp/language/member template") 
+     * [member function template](member_template.html#Member_function_templates "cpp/language/member template")
+     * [member variable template](member_template.html#Member_variable_templates "cpp/language/member template")
+       * requirements
+       * | C++14
 
 
 ### In detail
 
-Explicit specialization may be declared in any scope where its primary template may be defined (which may be different from the scope where the primary template is defined; such as with out-of-class specialization of a [member template](member_template.html "cpp/language/member template")). Explicit specialization has to appear after the non-specialized template declaration. 
+* Explicit specialization may be declared in any scope where its primary template may be defined (which may be different from the scope where the primary template is defined; such as with out-of-class specialization of a [member template](member_template.html "cpp/language/member template"))
+* Explicit specialization has to appear after the non-specialized template declaration. 
     
     
     namespace N

@@ -1,68 +1,8 @@
-[C++](../../cpp.html "cpp")
+* ⚠️Experimental Feature⚠️
+  * == Concepts Technical Specification ISO/IEC TS 19217:2015
+  * ⚠️[FINAL feature adopted | C++20](../language/constraints.md)⚠️
 
-[Compiler support](../compiler_support.html "cpp/compiler support")  
----  
-[Freestanding and hosted](../freestanding.html "cpp/freestanding")  
-[Language](../language.html "cpp/language")  
-[Standard library](../standard_library.html "cpp/standard library")  
-[Standard library headers](../headers.html "cpp/header")  
-[Named requirements](../iterator/concepts.html "cpp/named req")  
-[Feature test macros](feature_test.html "cpp/feature test") (C++20)  
-[Language support library](../utility.html#Language_support "cpp/utility")  
-[Concepts library](../concepts.html "cpp/concepts") (C++20)  
-[Diagnostics library](../error.html "cpp/error")  
-[Memory management library](../memory.html "cpp/memory")  
-[Metaprogramming library](../meta.html "cpp/meta") (C++11)  
-[General utilities library](../utility.html "cpp/utility")  
-[Containers library](../container.html "cpp/container")  
-[Iterators library](../iterator.html "cpp/iterator")  
-[Ranges library](../ranges.html "cpp/ranges") (C++20)  
-[Algorithms library](../algorithm.html "cpp/algorithm")  
-[Strings library](../string.html "cpp/string")  
-[Text processing library](../text.html "cpp/text")  
-[Numerics library](../numeric.html "cpp/numeric")  
-[Date and time library](../chrono.html "cpp/chrono")  
-[Input/output library](../io.html "cpp/io")  
-[Filesystem library](../filesystem.html "cpp/filesystem") (C++17)  
-[Concurrency support library](../atomic.html "cpp/thread") (C++11)  
-[Execution control library](execution.html "cpp/execution") (C++26)  
-[Technical specifications](../experimental.html "cpp/experimental")  
-[Symbols index](../symbol_index.html "cpp/symbol index")  
-[External libraries](../links/libs.html "cpp/links/libs")  
-  
-
-
-[Experimental](../experimental.html "cpp/experimental")
-
-[Technical Specification](../experimental.html#Technical_Specification "cpp/experimental")  
----  
-[Filesystem library](fs.html "cpp/experimental/fs") (filesystem TS)  
-[Library fundamentals](memory.html "cpp/experimental/lib extensions") (library fundamentals TS)  
-[Library fundamentals 2](lib_extensions_2.html "cpp/experimental/lib extensions 2") (library fundamentals TS v2)  
-[Library fundamentals 3](lib_extensions_3.html "cpp/experimental/lib extensions 3") (library fundamentals TS v3)  
-[Extensions for parallelism](parallelism.html "cpp/experimental/parallelism") (parallelism TS)  
-[Extensions for parallelism 2](parallelism_2.html "cpp/experimental/parallelism 2") (parallelism TS v2)  
-[Extensions for concurrency](concurrency.html "cpp/experimental/concurrency") (concurrency TS)  
-[Extensions for concurrency 2](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/concurrency_2&action=edit&redlink=1 "cpp/experimental/concurrency 2 \(page does not exist\)") (concurrency TS v2)  
-**Concepts** (concepts TS)  
-[Ranges](ranges.html "cpp/experimental/ranges") (ranges TS)  
-[Reflection](reflect.html "cpp/experimental/reflect") (reflection TS)  
-[Mathematical special functions](special_math.html "cpp/experimental/special functions") (special functions TR)  
-[Experimental Non-TS](../experimental.html#Experimental_Non-TS "cpp/experimental")  
-[Pattern Matching](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/pm&action=edit&redlink=1 "cpp/experimental/pm \(page does not exist\)")  
-[Linear Algebra](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/la&action=edit&redlink=1 "cpp/experimental/la \(page does not exist\)")  
-[std::execution](execution.html "cpp/experimental/execution")  
-[Contracts](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/contracts&action=edit&redlink=1 "cpp/experimental/contracts \(page does not exist\)")  
-[2D Graphics](https://en.cppreference.com/mwiki/index.php?title=cpp/experimental/2dgraphics&action=edit&redlink=1 "cpp/experimental/2dgraphics \(page does not exist\)")  
-  
-
-
-  
-
-
-![](https://upload.cppreference.com/mwiki/images/3/31/Imbox_notice.png) |  **Experimental Feature** The functionality described on this page is part of the Concepts Technical Specification ISO/IEC TS 19217:2015 (concepts TS). For the version of this feature adopted in C++20, see [here](../language/constraints.html "cpp/language/constraints").   
----|---  
-  
+* TODO:
 This page describes an experimental core language feature. For named type requirements used in the specification of the standard library, see [named requirements](../iterator/concepts.html "cpp/named req")
 
 [Class templates](../language/class_template.html "cpp/language/class template"), [function templates](../language/function_template.html "cpp/language/function template"), and non-template functions (typically members of class templates) may be associated with a _constraint_ , which specifies the requirements on template arguments, which can be used to select the most appropriate function overloads and template specializations. 
@@ -133,9 +73,6 @@ If feature testing is supported, the features described here are indicated by th
   * [7 Partial ordering of constraints](constraints.html#Partial_ordering_of_constraints)
   * [8 Keywords](constraints.html#Keywords)
   * [9 Compiler support](constraints.html#Compiler_support)
-
-  
----  
   
 ### Placeholders
 
@@ -398,8 +335,7 @@ In this case, the keyword _requires_ must be followed by some constant expressio
     T add(T a, T b) { return a + b; }
 
 The syntax of _requires-expression_ is as follows:   
-  
----  
+
 `**requires**` `**(**` parameter-list(optional) `**)**` `**{**` requirement-seq `**}**` |  |   
 parameter-list |  \-  |  a comma-separated list of parameters like in a function declaration, except that default arguments are not allowed and the last parameter cannot be an ellipsis. These parameters have no storage, linkage or lifetime. These parameters are in scope until the closing `**}**` of the requirement-seq. If no parameters are used, the round parentheses may be omitted as well   
 ---|---|---  
@@ -472,8 +408,7 @@ A type requirement is the keyword typename followed by a type name, optionally q
 #### Compound Requirements
 
 A compound requirement has the form   
-  
----  
+   
 `**{**` expression `**}**` `**noexcept**`(optional) trailing-return-type(optional) `**;**` |  |   
   
 and specifies a conjunction of the following constraints: 

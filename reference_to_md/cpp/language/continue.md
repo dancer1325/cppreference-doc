@@ -30,41 +30,7 @@ Jump statements
 | **`continue`** \- [`break`](break.html "cpp/language/break")  
 ---  
   
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
   
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
   
   
   

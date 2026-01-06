@@ -1,104 +1,90 @@
+* defined | header [`<concepts>`](../header/concepts.md)   
 
-  
-
-
-[Concepts library](../concepts.html "cpp/concepts")
-
-| [Core language concepts](../concepts.html#Core_language_concepts "cpp/concepts")  
----  
-[same_as](same_as.html "cpp/concepts/same as")(C++20)  
-[derived_from](derived_from.html "cpp/concepts/derived from")(C++20)  
-[convertible_to](convertible_to.html "cpp/concepts/convertible to")(C++20)  
-[common_reference_with](common_reference_with.html "cpp/concepts/common reference with")(C++20)  
-[common_with](common_with.html "cpp/concepts/common with")(C++20)  
-**integral**(C++20)  
-[signed_integral](signed_integral.html "cpp/concepts/signed integral")(C++20)  
-[unsigned_integral](unsigned_integral.html "cpp/concepts/unsigned integral")(C++20)  
-[floating_point](floating_point.html "cpp/concepts/floating point")(C++20)  
-[swappableswappable_with](swappable.html "cpp/concepts/swappable")(C++20)(C++20)  
-[destructible](destructible.html "cpp/concepts/destructible")(C++20)  
-[constructible_from](constructible_from.html "cpp/concepts/constructible from")(C++20)  
-[default_initializable](default_initializable.html "cpp/concepts/default initializable")(C++20)` `  
-[move_constructible](move_constructible.html "cpp/concepts/move constructible")(C++20)  
-[copy_constructible](copy_constructible.html "cpp/concepts/copy constructible")(C++20)  
-[assignable_from](assignable_from.html "cpp/concepts/assignable from")(C++20)  
-  
-| [Comparison concepts](../concepts.html#Comparison_concepts "cpp/concepts")  
----  
-[equality_comparableequality_comparable_with](equality_comparable.html "cpp/concepts/equality comparable")(C++20)(C++20)  
-[totally_orderedtotally_ordered_with](totally_ordered.html "cpp/concepts/totally ordered")(C++20)(C++20)  
-[Object concepts](../concepts.html#Object_concepts "cpp/concepts")  
-[movable](movable.html "cpp/concepts/movable")(C++20)  
-[copyable](copyable.html "cpp/concepts/copyable")(C++20)  
-[semiregular](semiregular.html "cpp/concepts/semiregular")(C++20)  
-[regular](regular.html "cpp/concepts/regular")(C++20)  
-[Callable concepts](../concepts.html#Callable_concepts "cpp/concepts")  
-[invocableregular_invocable](invocable.html "cpp/concepts/invocable")(C++20)(C++20)  
-[predicate](predicate.html "cpp/concepts/predicate")(C++20)  
-[relation](relation.html "cpp/concepts/relation")(C++20)  
-[equivalence_relation](equivalence_relation.html "cpp/concepts/equivalence relation")(C++20)  
-[strict_weak_order](strict_weak_order.html "cpp/concepts/strict weak order")(C++20)  
-  
-| Exposition-only concepts  
----  
-[_boolean-testable_](boolean-testable.html "cpp/concepts/boolean-testable") ﻿(C++20)  
-  
+* requirements
+  * C++20
 
 
-Defined in header `[<concepts>](../header/concepts.html "cpp/header/concepts")` |  |   
----|---|---  
 template< class T >  
-concept integral = [std::is_integral_v](../types/is_integral.html)<T>; |  |  (since C++20)  
+concept integral = [std::is_integral_v](../types/is_integral.html)<T>; |  |  (since   
 | |   
   
-The concept integral<T> is satisfied if and only if `T` is an integral type. 
+The concept integral<T> is satisfied if and only if `T` is an integral type.
 
-### Example
+---
+// TODO: add it by Claude
+## Explanation
 
-Run this code
-    
-    
-    #include <concepts>
-    #include <iostream>
-     
-    void print(std::integral auto i)
-    {
-        [std::cout](../io/cout.html) << "Integral: " << i << '\n';
-    }
-     
-    void print(auto x)
-    {
-        [std::cout](../io/cout.html) << "Non-integral: " << x << '\n';
-    }
-     
-    int main()
-    {
-        [std::cout](../io/cout.html) << [std::boolalpha](../io/manip/boolalpha.html);
-     
-        static_assert(std::integral<bool>);
-        print(true);
-     
-        static_assert(std::integral<char>);
-        print('o');
-     
-        static_assert(std::integral<int>);
-        print(007);
-     
-        static_assert( ! std::integral<double> );
-        print(2e2);
-     
-        static_assert( ! std::integral<decltype("")> );
-        print("∫∫∫");
-    }
+### What is a Concept?
+A **concept** is a named set of requirements that a type must satisfy. Introduced in C++20, concepts allow you to constrain template parameters at compile-time with clear, declarative syntax.
 
-Output: 
-    
-    
-    Integral: true
-    Integral: o
-    Integral: 7
-    Non-integral: 200
-    Non-integral: ∫∫∫
+### Understanding the Definition
+
+```cpp
+template< class T >
+concept integral = std::is_integral_v<T>;
+```
+
+This definition means:
+* **`template< class T >`**: Declares a template parameter `T` that represents any type
+* **`concept integral`**: Defines a new concept named `integral`
+* **`= std::is_integral_v<T>`**: The requirement - `T` must satisfy the condition that `std::is_integral_v<T>` evaluates to `true`
+
+The concept `integral<T>` acts as a **compile-time boolean predicate**:
+* Returns `true` if `T` is an integral type (`bool`, `char`, `int`, `long`, etc.)
+* Returns `false` otherwise (for `double`, `std::string`, user-defined types, etc.)
+
+### Types that Satisfy `std::integral`
+
+The following types satisfy `std::integral<T>`:
+* `bool`
+* Character types: `char`, `char8_t`, `char16_t`, `char32_t`, `wchar_t`
+* Signed integers: `signed char`, `short`, `int`, `long`, `long long`
+* Unsigned integers: `unsigned char`, `unsigned short`, `unsigned int`, `unsigned long`, `unsigned long long`
+
+Types that do NOT satisfy `std::integral<T>`:
+* Floating-point types: `float`, `double`, `long double`
+* Pointers: `int*`, `void*`
+* References: `int&`, `const int&`
+* User-defined types: classes, structs, unions
+* Other types: `std::string`, `std::vector<int>`, etc.
+
+### Usage Example
+
+```cpp
+#include <concepts>
+#include <iostream>
+
+// Function template constrained by std::integral
+template<std::integral T>
+T increment(T value) {
+    return value + 1;
+}
+
+int main() {
+    // Valid: int satisfies std::integral
+    int a = increment(5);           // OK: returns 6
+
+    // Valid: char satisfies std::integral
+    char c = increment('A');        // OK: returns 'B'
+
+    // Invalid: double does NOT satisfy std::integral
+    // double d = increment(3.14);  // Compilation ERROR
+
+    // Invalid: std::string does NOT satisfy std::integral
+    // auto s = increment("hello"); // Compilation ERROR
+}
+```
+
+### Benefits
+
+Using `std::integral` provides:
+1. **Clear intent**: Makes it explicit that a function/class only works with integral types
+2. **Better error messages**: Violations are caught at the point of use with clear diagnostics
+3. **Compile-time safety**: Invalid types are rejected before code generation
+4. **Documentation**: The constraint serves as machine-checkable documentation
+// TODO: add it by Claude
+
+----
 
 ### References
 

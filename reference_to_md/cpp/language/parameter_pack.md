@@ -1,41 +1,7 @@
 
 
   
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
   
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
   
   
   
@@ -102,61 +68,9 @@ Miscellaneous
   
 
 
-[Declarations](declarations.html "cpp/language/declarations")
 
-| Overview  
----  
-[Declaration syntax](declarations.html "cpp/language/declarations")  
-[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
-[Declarator](declarations.html#Declarators "cpp/language/declarations")  
-[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
-Specifiers  
-[typedef](typedef.html "cpp/language/typedef")  
-[inline](inline.html "cpp/language/inline")  
-[virtual function specifier](virtual.html "cpp/language/virtual")  
-[explicit function specifier](explicit.html "cpp/language/explicit")  
-[friend](friend.html "cpp/language/friend")  
-[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
-[consteval](consteval.html "cpp/language/consteval")(C++20)  
-[constinit](constinit.html "cpp/language/constinit")(C++20)  
-[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
-[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
-[class/struct](class.html "cpp/language/class")  
-[union](union.html "cpp/language/union")  
-[enum](enum.html "cpp/language/enum")  
-[decltype](decltype.html "cpp/language/decltype")(C++11)  
-[auto](auto.html "cpp/language/auto")(C++11)  
-[alignas](alignas.html "cpp/language/alignas")(C++11)  
-[constvolatile](cv.html "cpp/language/cv")  
-[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
-[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
   
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-[Pointer](pointer.html "cpp/language/pointer")  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-[asm declaration](asm.html "cpp/language/asm")  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-[Namespace definition](namespace.html "cpp/language/namespace")  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-[Function template declaration](function_template.html "cpp/language/function template")  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-[Linkage specification](language_linkage.html "cpp/language/language linkage")  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
+ 
   
   
   

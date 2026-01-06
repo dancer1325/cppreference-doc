@@ -14,78 +14,89 @@
   * [4 Name resolution for template parameters](template_parameters.html#Name_resolution_for_template_parameters)
   * [5 Default template arguments](template_parameters.html#Default_template_arguments)
   * [6 Notes](template_parameters.html#Notes)
-  * [7 Examples](template_parameters.html#Examples)
   * [8 Defect reports](template_parameters.html#Defect_reports)
 
-### Constant template parameter
-
-Also known as _non-type template parameter_ (see [below](template_parameters.html#Notes)).   
+### Constant template parameter OR NON-type template parameter   
   
+* ALLOWED syntaxes
+  * `type name`
+    * `name`
+      * OPTIONAL
+  * `type name = default`
+    * `name`
+      * OPTIONAL
+  * `type ... name`
+    * `name`
+      * OPTIONAL
+    * requirements
+      * C++11  
 
-type name ﻿(optional) |  (1)  |   
-type name ﻿(optional) `**=**` default |  (2)  |   
-type `**...**` name ﻿(optional) |  (3)  |  (since C++11)  
-type |  \-  |  one of the following types: 
+* `type`
+  * ALLOWED types
+    * structural type
+    * type / contains a [placeholder type](auto.md)
+      * requirements
+        * C++17
+    * [placeholder -- for a -- deduced class type](ctad.md)
+      * requirements
+        * C++20
 
-  * a structural type (see below) 
+* `name`
+  * == constant template parameter name
+  * if it's used | class template's body's expression -> it's an unmodifiable [prvalue](value_category.md)
+    * EXCEPT TO, its type ==
+      * `lvalue` reference type OR
+      * class type
+        * requirements
+          * C++20
 
-| 
-
-  * a type that contains a [placeholder type](auto.html "cpp/language/auto")
-
-| (since C++17)  
----|---  
+* `default`
+  * [default template argument](#default-template-arguments)
+  * ALLOWED
+    1) constant template parameter
+    2) constant template parameter / has a default template argument
+    3) constant template [parameter pack](parameter_pack.md)
   
-  * a [placeholder for a deduced class type](ctad.html "cpp/language/class template argument deduction")
-
-| (since C++20)  
-name |  \-  |  the name of the constant template parameter   
-default |  \-  |  the [default template argument](template_parameters.html#Default_template_arguments)  
+* _structural type_
+  * ALLOWED types (OPTIONAL cv-qualified -- qualifiers are ignored--)
+    * [lvalue reference type](reference.md#lvalue-references) (-- to -- object OR function) 
+    * [integral type](type-id.md) 
+    * [pointer type](pointer.md) (-- to -- object OR function)
+    * [pointer -- to -- member type](pointer.md#pointers-to-members) (-- to -- member object OR member function) 
+    * [enumeration type](enum.md)
+    * [`std::nullptr_t`](../types/nullptr_t.md) 
+      * requirements
+        * C++11
+    * [floating-point type](type-id.md)
+      * requirements
+        * C++20
+    * [lambda closure type](lambda.md#closure-type) / lambda expression has NO capture
+      * requirements
+        * C++20
+    * NON-closure [literal class type](../named_req/LiteralType.md)
+      * requirements
+        * C++20
+      * ALL base classes & non-static data members
+        * public
+        * non-mutable
+        * 's ALLOWED types
+          * structural types
+          * array thereof
+            * POSSIBLE multi-dimensional 
   
-1) A constant template parameter.
+* array & function types 
+  * may be written | template declaration
+    * BUT 
+      * array is AUTOMATICALLY replaced -- by -- pointer to object
+      * function is AUTOMATICALLY replaced -- by -- pointer to function
 
-2) A constant template parameter with a default template argument.
+A template parameter of the form class Foo is not an unnamed constant template parameter of type `Foo`, 
+even if otherwise class Foo is an [elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier") and class Foo x; declares x to be of type `Foo`. 
 
-3) A constant template [parameter pack](parameter_pack.html "cpp/language/parameter pack").
-
-  
-A _structural type_ is one of the following types (optionally cv-qualified, the qualifiers are ignored): 
-
-  * [lvalue reference type](reference.html#lvalue_references "cpp/language/reference") (to object or to function); 
-  * an [integral type](type-id.html "cpp/language/type"); 
-  * a [pointer type](pointer.html "cpp/language/pointer") (to object or to function); 
-  * a [pointer to member type](pointer.html#Pointers_to_members "cpp/language/pointer") (to member object or to member function); 
-  * an [enumeration type](enum.html "cpp/language/enum"); 
-
-
-
-  * [std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t"); 
-
-| (since C++11)  
----|---  
-  
-  * a [floating-point type](type-id.html "cpp/language/type"); 
-  * a [lambda closure type](lambda.html#Closure_type "cpp/language/lambda") whose lambda expression has no capture; 
-  * a non-closure [literal class type](../named_req/LiteralType.html "cpp/named req/LiteralType") with the following properties: 
-
-
-
-    
-
-  * all base classes and non-static data members are public and non-mutable and 
-  * the types of all base classes and non-static data members are structural types or (possibly multi-dimensional) array thereof. 
-
-
-| (since C++20)  
----|---  
-  
-Array and function types may be written in a template declaration, but they are automatically replaced by pointer to object and pointer to function as appropriate. 
-
-When the name of a constant template parameter is used in an expression within the body of the class template, it is an unmodifiable [prvalue](value_category.html "cpp/language/value category") unless its type was an lvalue reference type, or unless its type is a class type(since C++20). 
-
-A template parameter of the form class Foo is not an unnamed constant template parameter of type `Foo`, even if otherwise class Foo is an [elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier") and class Foo x; declares x to be of type `Foo`. 
-
-An [identifier](name.html "cpp/language/identifiers") that names a constant template parameter of class type `T` denotes a static storage duration object of type const T, called a _template parameter object_ , which is [Template argument equivalence](template_arguments.html#Template_argument_equivalence "cpp/language/template arguments") to the corresponding template argument after it has been converted to the type of the template parameter. No two template parameter objects are template-argument-equivalent. 
+An [identifier](name.html "cpp/language/identifiers") that names a constant template parameter of class type `T` 
+denotes a static storage duration object of type const T, called a _template parameter object_ , 
+which is [Template argument equivalence](template_arguments.html#Template_argument_equivalence "cpp/language/template arguments") to the corresponding template argument 
+after it has been converted to the type of the template parameter. No two template parameter objects are template-argument-equivalent. 
     
     
     struct A

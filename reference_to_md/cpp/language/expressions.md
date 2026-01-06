@@ -1,162 +1,13 @@
-
-
-  
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
-  
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
-  
-  
-  
-
-  
-  
-  
-**Expressions**  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-  
-| [Operators](operators.html "cpp/language/operators")  
----  
-[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
-  
-[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
-[Literals](expressions.html#Literals "cpp/language/expressions")  
-[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
-[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
-Utilities  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-Types  
-[`typedef` declaration](typedef.html "cpp/language/typedef")  
-[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-Casts  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`const_cast`](const_cast.html "cpp/language/const cast")  
-  
-| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
----  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-Memory allocation  
-| [`new` expression](new.html "cpp/language/new")  
----  
-  
-
----  
-  
-
-
-**Expressions**
-
-General  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-[Constant expressions](constant_expression.html "cpp/language/constant expression")  
-[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
-  
-| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
----  
-[Requires expressions](requires.html "cpp/language/requires") (C++20)  
-[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
-[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
-  
-Literals  
-| [Integer literals](integer_literal.html "cpp/language/integer literal")  
----  
-[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
-[Boolean literals](bool_literal.html "cpp/language/bool literal")  
-[Character literals](character_literal.html "cpp/language/character literal")  
-  
-| [Escape sequences](escape.html "cpp/language/escape")  
----  
-[String literals](string_literal.html "cpp/language/string literal")  
-[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
-  
-Operators  
-| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
----  
-[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
-[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
-[Logical operators](operator_logical.html "cpp/language/operator logical")  
-[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
-[Member access operators](operator_member_access.html "cpp/language/operator member access")  
-[Other operators](operator_other.html "cpp/language/operator other")  
-[`new`-expression](new.html "cpp/language/new")  
-[`delete`-expression](delete.html "cpp/language/delete")  
-[`throw`-expression](throw.html "cpp/language/throw")  
-  
-| [`alignof`](alignof.html "cpp/language/alignof")  
----  
-[`sizeof`](sizeof.html "cpp/language/sizeof")  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
-[`typeid`](typeid.html "cpp/language/typeid")  
-[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
-[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
-  
-Conversions  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
-[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
-[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
-  
-| [`const_cast`](const_cast.html "cpp/language/const cast")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-
-
-An expression is a sequence of _operators_ and their _operands_ , that specifies a computation. 
-
-Expression evaluation may produce a result (e.g., evaluation of 2 + 2 produces the result 4) and may generate side-effects (e.g. evaluation of [std::printf](../io/c/fprintf.html)("%d", 4) prints the character '4' on the standard output). 
-
-Each C++ expression is characterized by two independent properties: A type and a value category. 
+* expression
+  * == sequence of _operators_ + _operands_ /
+    * specifies a computation
+    * may produce 
+      * result
+      * side-effects
+        * _Example:_ evaluate `std::printf("%d", 4)` prints the character '4' | standard output
+  * characterized -- by -- 2 independent properties
+    * [type](type-id.md)
+    * [value category](value_category.md)
 
 ## Contents
 
@@ -173,13 +24,11 @@ Each C++ expression is characterized by two independent properties: A type and a
   * [7 Expression-equivalence](expressions.html#Expression-equivalence)
   * [8 Defect reports](expressions.html#Defect_reports)
   * [9 See also](expressions.html#See_also)
-
-  
----  
   
 #### General
 
-  * [value categories](value_category.html "cpp/language/value category") (lvalue, rvalue, glvalue, prvalue, xvalue(since C++11)) classify expressions by their values 
+* [value categories](value_category.md) 
+  * (lvalue, rvalue, glvalue, prvalue, xvalue(since C++11)) classify expressions by their values 
   * [order of evaluation](eval_order.html "cpp/language/eval order") of arguments and subexpressions specify the order in which intermediate results are obtained 
 
 
