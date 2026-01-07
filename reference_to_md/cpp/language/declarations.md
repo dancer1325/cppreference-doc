@@ -2,7 +2,8 @@
   * allows
     * introduce (OR re-introduce) names | C++ program
       * re-introduce == defined ELSEWHERE
-  * ❌NOT need to declare something❌ 
+  * ❌if name ALREADY exist -> NOT MUST to declare again❌
+    * == throw an error
   * depends -- on the -- entity
   * 👀ALLOWED ones👀
     * [Function definition](function.md#function-declaration)

@@ -1,4 +1,12 @@
-# TODO:
+# allows
+## introduce (OR re-introduce) names | C++ program
+* [declaration.cpp](declaration.cpp)
+
+# ❌if name ALREADY exist -> NOT need to declare again❌
+* [declaration.cpp](declaration.cpp)
+
+# depends -- on the -- entity
+* [declarations_entities.cpp](declarations_entities.cpp)
 
 # [example.cpp](example.cpp)
 * goal
