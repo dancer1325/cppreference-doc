@@ -22,7 +22,16 @@
 ### Syntax
 
 * pointer declaration
-  * == any simple declaration / 's [declarator](declarations.md#declarators) has the form   
+  * == 💡any simple declaration / 's [declarator](declarations.md#declarators) has the form   
+    * [pointer declarator](#pointer-declarator)
+    * [pointer -- to -- member declarator](#pointer-to-member-declarator)💡
+
+* `attr`
+  * requirements
+    * C++11
+  * == list of [attributes](attributes.md)
+* [cv](cv.md)
+  * apply | pointer / it's being declared (❌NOT to the pointed-to type❌)
 
 #### Pointer declarator
 * `* attr cv declarator`
@@ -45,10 +54,7 @@
 2) **Pointer to member declarator** : the declaration S C::* D; declares D as a pointer to non-static member of `C` of type determined
 by the declaration specifier sequence `S`.
 
-  
----|---|---  
-attr |  \-  |  (since C++11) a list of [attributes](attributes.html "cpp/language/attributes")  
-cv |  \-  |  const/volatile qualification which apply to the pointer that is being declared (not to the pointed-to type, whose qualifications are part of declaration specifier sequence)   
+   
 declarator |  \-  |  any [declarator](declarations.html "cpp/language/declarations")  
   
 There are no pointers to [references](reference.html "cpp/language/reference") and 

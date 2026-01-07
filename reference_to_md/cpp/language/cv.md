@@ -1,7 +1,7 @@
 # `const` & `volatile` (`cv`) type qualifiers
 
 * ALLOWED |
-  * any type specifier,
+  * any type [specifier](declarations.md#specifiers),
     * ALSO [`decl-specifier-seq`](declarations.md) 
 
 * `const`

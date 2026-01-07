@@ -126,37 +126,76 @@ contract-specs can only appear if declarator declares a function or function tem
 ### Specifiers
 
 * **Declaration specifiers** (`decl-specifier-seq`)
-  * == sequence of the following (in any order) whitespace-separated specifiers
+  * == 💡sequence of the following (⚠️in any order⚠️) whitespace-separated specifiers💡
     * [`typedef`](typedef.md) specifier
       * if present -> 
         * the entire declaration == [typedef declaration](typedef.md)
         * EACH declarator introduces a NEW type name (NOT an object OR function) 
     * function specifiers ([`inline`](inline.md), [`virtual`](virtual.md), [`explicit`](explicit.md)
-      * ONLY ALLOWED | [function declarations](function.md) 
+      * ONLY ALLOWED | [function declarations](function.md)
+    * [`inline`](inline.md) specifier
+      * requirements
+        * C++17
+      * ALSO ALLOWED | variable declarations
+    * [`friend`](friend.md) specifier
+      * ALLOWED | 
+        * class declarations
+        * function declarations 
+    * [`constexpr`](constexpr.md) specifier
+      * requirements
+        * C++11
+      * restrictions
+        * | 1 `decl-specifier-seq`, ONLY can appear 1 of
+          * `constexpr`
+          * `consteval`
+          * `constinit`
+      * ONLY ALLOWED | 
+        * variable definitions
+        * function
+        * function template declarations,
+        * declaration of static data members of literal type
+    * [`consteval`](consteval.md) specifier
+      * requirements
+        * C++20
+      * restrictions
+        * | 1 `decl-specifier-seq`, ONLY can appear 1 of
+          * `constexpr`
+          * `consteval`
+          * `constinit`
+      * ONLY ALLOWED |
+        * function
+        * function template declarations 
+    * [`constinit`](constinit.md) specifier
+      * requirements
+        * C++20
+      * restrictions
+        * | 1 `decl-specifier-seq`, ONLY can appear 1 of
+          * `constexpr`
+          * `consteval`
+          * `constinit`
+      * ONLY ALLOWED |
+        * declaration of a variable / static OR thread storage duration
+    * [storage class specifier](storage_duration.md)
+      * restrictions
+        * ONLY ALLOWED 1!
+          * EXCEPT TO: | C+11, 
+            * `thread_local` & `extern`, OR
+            * `thread_local` & `static`
+      * ALLOWED ones
+        * [`register`](../keyword/register.md)
+          * C++17-
+        * [`static`](../keywords/static.md)
+        * [`thread_local`](../keyword/thread_local.md)
+          * C++11+
+        * [`extern`](../keyword/extern.md)
+        * [`mutable`](../keyword/mutable.md)
+  * **Type specifiers** (`type-specifier-seq`)
 
-
-
-  * the [`inline`](inline.html "cpp/language/inline") specifier is also allowed on variable declarations. 
-
-| (since C++17)  
----|---  
-  
-  * the [`friend`](friend.html "cpp/language/friend") specifier, allowed in class and function declarations. 
-
-
-
-  * the [`constexpr`](constexpr.html "cpp/language/constexpr") specifier, only allowed in variable definitions, function and function template declarations, and the declaration of static data members of literal type. 
-
-| (since C++11)  
----|---  
-  
-  * the [`consteval`](consteval.html "cpp/language/consteval") specifier, only allowed in function and function template declarations. 
-  * the [`constinit`](constinit.html "cpp/language/constinit") specifier, only allowed in declaration of a variable with static or thread storage duration. At most one of the constexpr, consteval, and constinit specifiers is allowed to appear in a decl-specifier-seq. 
-
-| (since C++20)  
-  
-  * [storage class specifier](storage_duration.html "cpp/language/storage duration") ([`register`](../keyword/register.html "cpp/keyword/register"), (until C++17) [`static`](../keywords/static.html "cpp/keyword/static"), [`thread_local`](../keyword/thread_local.html "cpp/keyword/thread local"), (since C++11) [`extern`](../keyword/extern.html "cpp/keyword/extern"), [`mutable`](../keyword/mutable.html "cpp/keyword/mutable")). Only one storage class specifier is allowed, except that thread_local may appear together with extern or static(since C++11). 
-  * **Type specifiers** (type-specifier-seq), a sequence of specifiers that names a type. The type of every entity introduced by the declaration is this type, optionally modified by the declarator (see below). This sequence of specifiers is also used by [type-id](type-id.html#Type_naming "cpp/language/type"). Only the following specifiers are part of type-specifier-seq, in any order: 
+* **Type specifiers** (`type-specifier-seq`)
+  * == 💡sequence of specifiers / names a type💡
+    * The type of every entity introduced by the declaration is this type, optionally modified by the declarator (see below)
+    * This sequence of specifiers is also used by [type-id](type-id.html#Type_naming "cpp/language/type")
+    * Only the following specifiers are part of type-specifier-seq, in any order: 
 
 
 
