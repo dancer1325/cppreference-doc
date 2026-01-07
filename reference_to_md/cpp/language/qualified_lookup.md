@@ -1,31 +1,17 @@
+* _qualified_ name
+  * := 💡name / appears | right hand side of the scope resolution operator (`::`)💡 
+    * 👀may refer to👀
+      * class member 
+        * _Examples:_ static and non-static functions, types, templates, etc 
+      * namespace member 
+        * EVEN another namespace
+      * enumerator
 
-[Object lifetime](lifetime.html "cpp/language/lifetime")  
-[Storage duration and linkage](storage_duration.html "cpp/language/storage duration")  
-[Definitions and ODR](definition.html "cpp/language/definition")  
-[Name lookup](lookup.html "cpp/language/lookup")  
-**Qualified name lookup**  
-[ Unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup")  
-[The as-if rule](as_if.html "cpp/language/as if")  
-[Undefined behavior](ub.html "cpp/language/ub")  
-[Memory model](memory_model.html "cpp/language/memory model")  
-[Multi-threaded executions and data races](multithread.html "cpp/language/multithread") (C++11)  
-[Character sets and encodings](charset.html "cpp/language/charset")  
-[Phases of translation](translation_phases.html "cpp/language/translation phases")  
-[The `main` function](main_function.html "cpp/language/main function")  
-[Modules](modules.html "cpp/language/modules") (C++20)  
-[Contracts](contracts.html "cpp/language/contracts") (C++26)  
-  
+* [qualified identifiers](name.md#qualified-identifiers)
 
-
-A _qualified_ name is a name that appears on the right hand side of the scope resolution operator `**::**` (see also [qualified identifiers](name.html#Qualified_identifiers "cpp/language/identifiers")). A qualified name may refer to a 
-
-  * class member (including static and non-static functions, types, templates, etc), 
-  * namespace member (including another namespace), 
-  * enumerator. 
-
-
-
-If there is nothing on the left hand side of the `**::**`, the lookup considers only declarations in [the global namespace scope](qualified_lookup.html#Namespace_members). This makes it possible to refer to such names even if they were hidden by a local declaration: 
+* TODO: If there is nothing on the left hand side of the `**::**`, 
+the lookup considers only declarations in [the global namespace scope](qualified_lookup.html#Namespace_members)
+This makes it possible to refer to such names even if they were hidden by a local declaration: 
     
     
     #include <iostream>
@@ -132,8 +118,6 @@ If `**::**` is followed by the character `**~**` that is in turn followed by an 
   * [4 Defect reports](qualified_lookup.html#Defect_reports)
   * [5 See also](qualified_lookup.html#See_also)
 
-  
----  
   
 ####  Enumerators
 

@@ -204,7 +204,7 @@ Miscellaneous
 [ Qualified name lookup](language/qualified_lookup.html "cpp/language/qualified lookup")  
 [ Unqualified name lookup](language/unqualified_lookup.html "cpp/language/unqualified lookup")  
 [The as-if rule](language/as_if.html "cpp/language/as if")  
-[Undefined behavior](language/ub.html "cpp/language/ub")  
+[Undefined behavior](language/ub.md)  
 [Memory model](language/memory_model.html "cpp/language/memory model")  
 [Multi-threaded executions and data races](language/multithread.html "cpp/language/multithread") (C++11)  
 [Character sets and encodings](language/charset.html "cpp/language/charset")  

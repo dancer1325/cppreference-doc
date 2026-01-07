@@ -1,6 +1,6 @@
 * allows
   * create & initialize objects / dynamic [storage duration](storage_duration.md)
-    * == objects' lifetime (can be) != scope | they were created 
+    * == ⚠️objects' lifetime (can be) != scope | they were created ⚠️
 
 ## Contents
 
@@ -41,22 +41,28 @@
   * `::`
     * OPTIONAL
   * `new-initializer`
-    * OPTIONAL   
-  
-1,2) Attempts to create an object of type, denoted by the [type-id](type-id.html#Type_naming "cpp/language/type") type, which may be array type, and
-may include a [placeholder type specifier](auto.html "cpp/language/auto")(since C++11), or include a class template name whose argument is to be deduced by [class template argument deduction](ctad.html "cpp/language/class template argument deduction")(since C++17).
-
-3,4) Same as (1,2), but provides additional arguments to the allocation function, see [placement new](new.html#Placement_new).
+    * OPTIONAL
 
 ### Explanation
 
-type |  \-  |  the target type-id   
----|---|---  
-new-initializer |  \-  |  a parentheses-enclosed expression list or a [brace-enclosed initializer list](initialization.html "cpp/language/initialization")(since C++11)  
-placement-args |  \-  |  additional placement arguments   
+* `type`
+  * == target type-id
+  * ALLOWED one
+    * [EXPLICITLY specified](incomplete_type.md#type-naming)
+    * deduced
+      * -- from -- [initializer](auto.md)
+        * | C++11
+      * -- from -- [class template's arguments](ctad.md)
+        * | C++17
+* `new-initializer`
+  * parentheses-enclosed expression list or a [brace-enclosed initializer list](initialization.html "cpp/language/initialization")(since C++11)
+* `placement-args`
+  * == [ADDITIONAL arguments -- to the -- allocation function](#placement-new)   
   
   
-The new expression attempts to allocate storage and then attempts to construct and initialize either a single unnamed object, or an unnamed array of objects in the allocated storage. The new expression returns a prvalue pointer to the constructed object or, if an array of objects was constructed, a pointer to the initial element of the array. 
+The new expression attempts to allocate storage and then attempts to construct and initialize either a single unnamed object, or
+an unnamed array of objects in the allocated storage
+* The new expression returns a prvalue pointer to the constructed object or, if an array of objects was constructed, a pointer to the initial element of the array. 
 
 Syntax (1) or (3) is required if type includes parentheses: 
     

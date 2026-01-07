@@ -125,10 +125,14 @@ contract-specs can only appear if declarator declares a function or function tem
   
 ### Specifiers
 
-**Declaration specifiers** (decl-specifier-seq) is a sequence of the following whitespace-separated specifiers, in any order: 
-
-  * the [`typedef`](typedef.html "cpp/language/typedef") specifier. If present, the entire declaration is a [typedef declaration](typedef.html "cpp/language/typedef") and each declarator introduces a new type name, not an object or a function. 
-  * function specifiers ([`inline`](inline.html "cpp/language/inline"), [`virtual`](virtual.html "cpp/language/virtual"), [`explicit`](explicit.html "cpp/language/explicit")), only allowed in [function declarations](function.html "cpp/language/function"). 
+* **Declaration specifiers** (`decl-specifier-seq`)
+  * == sequence of the following (in any order) whitespace-separated specifiers
+    * [`typedef`](typedef.md) specifier
+      * if present -> 
+        * the entire declaration == [typedef declaration](typedef.md)
+        * EACH declarator introduces a NEW type name (NOT an object OR function) 
+    * function specifiers ([`inline`](inline.md), [`virtual`](virtual.md), [`explicit`](explicit.md)
+      * ONLY ALLOWED | [function declarations](function.md) 
 
 
 
@@ -253,11 +257,19 @@ Repetitions of any specifier in a decl-specifier-seq, such as const static const
 
 ### Declarators
 
-Each init-declarator in an init-declarator-list S D1, D2, D3; is processed as if it were a standalone declaration with the same specifiers: S D1; S D2; S D3;. 
+* `init-declarator-list`
+  * == `init-declarator` / SAME specifiers
 
-Each declarator introduces exactly one object, reference, function, or (for typedef declarations) type alias, whose type is provided by decl-specifier-seq and optionally modified by operators such as & (reference to) or [] (array of) or () (function returning) in the declarator. These operators can be applied recursively, as shown below. 
+* EACH declarator
+  * introduces 1!
+    * object, OR
+    * reference, OR
+    * function, OR
+    * | typedef declarations, type alias, 
+    whose type is provided by decl-specifier-seq and optionally modified by operators such as & (reference to) or [] (array of) or () (function returning) in the declarator
+* These operators can be applied recursively, as shown below. 
 
-A declarator is one of the following:   
+* ALLOWED ones   
 
 unqualified-id attr ﻿(optional) |  (1)  |   
 qualified-id attr ﻿(optional) |  (2)  |   
@@ -270,7 +282,7 @@ noptr-declarator `**[**` constant-expression ﻿(optional) `**]**` attr ﻿(opti
 noptr-declarator `**(**` parameter-list `**)**` cv ﻿(optional) ref ﻿ ﻿(optional) except ﻿(optional) attr ﻿(optional) |  (9)  |   
 `**(**` declarator `**)**` |  (10)  |   
   
-1) The [name](name.html "cpp/language/name") that is declared.
+1) [name](name.md) / it's declared
 
 2) A declarator that uses a [qualified identifier](name.html#Qualified_identifiers "cpp/language/identifiers") (qualified-id) defines or redeclares a previously declared [namespace member](namespace.html#Namespaces "cpp/language/namespace") or [class member](classes.html "cpp/language/classes").
 

@@ -624,7 +624,7 @@
   
 #### `::`
 
-* == scope resolution operator |
+* scope resolution operator |
   * [qualified name](qualified_lookup.md)
   * [pointer-to-member declaration](pointer.md#pointers-to-members)
   * [`new`](new.md) OR [`delete`](delete.md) expression

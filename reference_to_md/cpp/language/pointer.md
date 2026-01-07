@@ -1,55 +1,6 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-
-  
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-**Pointer**  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-[asm declaration](asm.html "cpp/language/asm")  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-[Namespace definition](namespace.html "cpp/language/namespace")  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-[Function template declaration](function_template.html "cpp/language/function template")  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-[Linkage specification](language_linkage.html "cpp/language/language linkage")  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
-  
-  
-  
-
-
-Declares a variable of a pointer or pointer-to-member type. 
+* goal
+  * variable of a pointer
+  * pointer-to-member type 
 
 ## Contents
 
@@ -68,28 +19,41 @@ Declares a variable of a pointer or pointer-to-member type.
   * [8 Defect reports](pointer.html#Defect_reports)
   * [9 See also](pointer.html#See_also)
 
-  
----  
-  
 ### Syntax
 
-A pointer declaration is any simple declaration whose [declarator](declarations.html "cpp/language/declarations") has the form   
-  
----  
-`*****` attr ﻿(optional) cv ﻿(optional) declarator |  (1)  |   
-nested-name-specifier `*****` attr ﻿(optional) cv ﻿(optional) declarator |  (2)  |   
-  
-1) **Pointer declarator** : the declaration S* D; declares D as a pointer to the type determined by the [declaration specifier sequence](declarations.html#Specifiers "cpp/language/declarations") `S`.
+* pointer declaration
+  * == any simple declaration / 's [declarator](declarations.md#declarators) has the form   
 
-2) **Pointer to member declarator** : the declaration S C::* D; declares D as a pointer to non-static member of `C` of type determined by the declaration specifier sequence `S`.
+#### Pointer declarator
+* `* attr cv declarator`
+  * `attr`
+    * OPTIONAL
+  * `cv`
+    * OPTIONAL
 
-nested-name-specifier |  \-  |  a [sequence of names and scope resolution operators `**::**`](name.html#Qualified_identifiers "cpp/language/identifiers")  
+#### Pointer to member declarator
+* `* nested-name-specifier * attr cv declarator`   
+  * `attr`
+    * OPTIONAL
+  * `cv`
+    * OPTIONAL
+  * `nested-name-specifier`
+    * == [sequence of names & scope resolution operators (`::`)](name.md#qualified-identifiers)
+  
+
+
+2) **Pointer to member declarator** : the declaration S C::* D; declares D as a pointer to non-static member of `C` of type determined
+by the declaration specifier sequence `S`.
+
+  
 ---|---|---  
 attr |  \-  |  (since C++11) a list of [attributes](attributes.html "cpp/language/attributes")  
 cv |  \-  |  const/volatile qualification which apply to the pointer that is being declared (not to the pointed-to type, whose qualifications are part of declaration specifier sequence)   
 declarator |  \-  |  any [declarator](declarations.html "cpp/language/declarations")  
   
-There are no pointers to [references](reference.html "cpp/language/reference") and there are no pointers to [bit-fields](bit_field.html "cpp/language/bit field"). Typically, mentions of "pointers" without elaboration do not include pointers to (non-static) members. 
+There are no pointers to [references](reference.html "cpp/language/reference") and 
+there are no pointers to [bit-fields](bit_field.html "cpp/language/bit field")
+* Typically, mentions of "pointers" without elaboration do not include pointers to (non-static) members. 
 
 ### Pointers
 
