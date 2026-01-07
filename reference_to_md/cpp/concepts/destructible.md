@@ -23,21 +23,6 @@
 [copy_constructible](copy_constructible.html "cpp/concepts/copy constructible")(C++20)  
 [assignable_from](assignable_from.html "cpp/concepts/assignable from")(C++20)  
   
-| [Comparison concepts](../concepts.html#Comparison_concepts "cpp/concepts")  
----  
-[equality_comparableequality_comparable_with](equality_comparable.html "cpp/concepts/equality comparable")(C++20)(C++20)  
-[totally_orderedtotally_ordered_with](totally_ordered.html "cpp/concepts/totally ordered")(C++20)(C++20)  
-[Object concepts](../concepts.html#Object_concepts "cpp/concepts")  
-[movable](movable.html "cpp/concepts/movable")(C++20)  
-[copyable](copyable.html "cpp/concepts/copyable")(C++20)  
-[semiregular](semiregular.html "cpp/concepts/semiregular")(C++20)  
-[regular](regular.html "cpp/concepts/regular")(C++20)  
-[Callable concepts](../concepts.html#Callable_concepts "cpp/concepts")  
-[invocableregular_invocable](invocable.html "cpp/concepts/invocable")(C++20)(C++20)  
-[predicate](predicate.html "cpp/concepts/predicate")(C++20)  
-[relation](relation.html "cpp/concepts/relation")(C++20)  
-[equivalence_relation](equivalence_relation.html "cpp/concepts/equivalence relation")(C++20)  
-[strict_weak_order](strict_weak_order.html "cpp/concepts/strict weak order")(C++20)  
   
 | Exposition-only concepts  
 ---  

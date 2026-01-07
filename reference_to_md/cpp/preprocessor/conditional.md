@@ -1,39 +1,17 @@
-
-  
-
-
-
-  
-|   
-  
----  
-[`catch` handler](../language/catch.html "cpp/language/catch")  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-
-[Preprocessor](../preprocessor.html "cpp/preprocessor")
-
-**#if #ifdef#ifndef#else#elif#elifdef#elifndef#endif**(C++23)(C++23)  
----  
-[#define#undef#,## operators](replace.html "cpp/preprocessor/replace")  
-[#include__has_include](include.html "cpp/preprocessor/include")(C++17)  
-[#error#warning](warning.html "cpp/preprocessor/error")(C++23)  
-[#pragma_Pragma](impl.html "cpp/preprocessor/impl")(C++11)  
-[#line](line.html "cpp/preprocessor/line")  
-[#embed](embed.html "cpp/preprocessor/embed")(C++26)  
-  
-
-
-The preprocessor supports conditional compilation of parts of source file. This behavior is controlled by `#if`, `#else`, `#elif`, `#ifdef`, `#ifndef`, `#elifdef`, `#elifndef`(since C++23), and `#endif` directives. 
+* preprocessor 
+  * supports
+    * conditional compilation of parts of source file
+  * provided directives
+    * `#if`,
+    * `#else`,
+    * `#elif`,
+    * `#ifdef`,
+    * `#ifndef`,
+    * `#elifdef`,
+      * | C++23,
+    * `#elifndef`
+      * | C++23,
+    * `#endif`  
 
 ## Contents
 
@@ -46,13 +24,9 @@ The preprocessor supports conditional compilation of parts of source file. This 
   * [5 Example](conditional.html#Example)
   * [6 Defect reports](conditional.html#Defect_reports)
   * [7 See also](conditional.html#See_also)
-
-  
----  
   
 ### Syntax  
-  
----  
+   
 `**#if**` expression |  |   
 `**#ifdef**` identifier |  |   
 `**#ifndef**` identifier |  |   
@@ -116,92 +90,7 @@ Checks if the identifier was [defined as a macro name](replace.html "cpp/preproc
   
 ### Notes
 
-While `#elifdef` and `#elifndef` directives target C++23, implementations are encouraged to backport them to the older language modes as conforming extensions. 
-
-### Example
-
-Run this code
-    
-    
-    #define ABCD 2
-    #include <iostream>
-     
-    int main()
-    {
-     
-    #ifdef ABCD
-        [std::cout](../io/cout.html) << "1: yes\n";
-    #else
-        [std::cout](../io/cout.html) << "1: no\n";
-    #endif
-     
-    #ifndef ABCD
-        [std::cout](../io/cout.html) << "2: no1\n";
-    #elif ABCD == 2
-        [std::cout](../io/cout.html) << "2: yes\n";
-    #else
-        [std::cout](../io/cout.html) << "2: no2\n";
-    #endif
-     
-    #if !defined(DCBA) && (ABCD < 2*4-3)
-        [std::cout](../io/cout.html) << "3: yes\n";
-    #endif
-     
-     
-    // Note that if a compiler does not support C++23's #elifdef/#elifndef
-    // directives then the "unexpected" block (see below) will be selected.
-    #ifdef CPU
-        [std::cout](../io/cout.html) << "4: no1\n";
-    #elifdef GPU
-        [std::cout](../io/cout.html) << "4: no2\n";
-    #elifndef RAM
-        [std::cout](../io/cout.html) << "4: yes\n"; // expected block
-    #else
-        [std::cout](../io/cout.html) << "4: no!\n"; // unexpectedly selects this block by skipping
-                                 // unknown directives and "jumping" directly
-                                 // from "#ifdef CPU" to this "#else" block
-    #endif
-     
-    // To fix the problem above we may conditionally define the
-    // macro ELIFDEF_SUPPORTED only if the C++23 directives
-    // #elifdef/#elifndef are supported.
-    #if 0
-    #elifndef UNDEFINED_MACRO
-    #define ELIFDEF_SUPPORTED
-    #else
-    #endif
-     
-    #ifdef ELIFDEF_SUPPORTED
-        #ifdef CPU
-            [std::cout](../io/cout.html) << "4: no1\n";
-        #elifdef GPU
-            [std::cout](../io/cout.html) << "4: no2\n";
-        #elifndef RAM
-            [std::cout](../io/cout.html) << "4: yes\n"; // expected block
-        #else
-            [std::cout](../io/cout.html) << "4: no3\n";
-        #endif
-    #else // when #elifdef unsupported use old verbose “#elif defined”
-        #ifdef CPU
-            [std::cout](../io/cout.html) << "4: no1\n";
-        #elif defined GPU
-            [std::cout](../io/cout.html) << "4: no2\n";
-        #elif !defined RAM
-            [std::cout](../io/cout.html) << "4: yes\n"; // expected block
-        #else
-            [std::cout](../io/cout.html) << "4: no3\n";
-        #endif
-    #endif
-    }
-
-Possible output: 
-    
-    
-    1: yes
-    2: yes
-    3: yes
-    4: no!
-    4: yes
+While `#elifdef` and `#elifndef` directives target C++23, implementations are encouraged to backport them to the older language modes as conforming extensions.
 
 ### Defect reports
 
