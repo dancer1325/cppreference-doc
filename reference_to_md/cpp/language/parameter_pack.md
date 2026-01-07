@@ -1,140 +1,17 @@
+* pack
+  * := C++ entity / defines 1 of
+    * parameter pack 
+      * template parameter pack 
+      * function parameter pack 
+    * [lambda init-capture pack](lambda.md#lambda-capture)
+      * requirements
+        * C++20  
+    * [structured binding pack](structured_binding.md)
+      * requirements
+        * C++26
 
+* ONLY appears | [parameter declarations](function.md#parameter-list)
 
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-| [`delete` expression](delete.html "cpp/language/delete")  
----  
-  
-[Classes](classes.html "cpp/language/classes")  
-| [Class declaration](class.html "cpp/language/class")  
----  
-[Constructors](initializer_list.html "cpp/language/constructor")  
-[`this` pointer](this.html "cpp/language/this")  
-  
-| [Access specifiers](access.html "cpp/language/access")  
----  
-[`friend` specifier](friend.html "cpp/language/friend")  
-  
-  
-  
-Class-specific function properties  
-| [Virtual function](virtual.html "cpp/language/virtual")  
----  
-[`override` specifier](override.html "cpp/language/override") (C++11)` `  
-[`final` specifier](final.html "cpp/language/final") (C++11)  
-  
-| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
----  
-[`static`](static.html "cpp/language/static")  
-  
-  
-  
-Special member functions  
-| [Default constructor](default_constructor.html "cpp/language/default constructor")  
----  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-  
-| [Copy assignment](as_operator.html "cpp/language/as operator")  
----  
-[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-  
-[Templates](templates.html "cpp/language/templates")  
-| [Class template](class_template.html "cpp/language/class template")  
----  
-[Function template](function_template.html "cpp/language/function template")  
-  
-| [Template specialization](template_specialization.html "cpp/language/template specialization")  
----  
-**Parameter packs** (C++11)  
-  
-Miscellaneous  
-| [Inline assembly](asm.html "cpp/language/asm")  
----  
-  
-| [History of C++](history.html "cpp/language/history")  
----  
-  
-
-
-
-  
- 
-  
-  
-  
-
-
-  
-  
-
-  
-| [`const_cast`](const_cast.html "cpp/language/const cast")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-
-
-[ Templates](templates.html "cpp/language/templates")
-
-[Template parameters](template_parameters.html "cpp/language/template parameters")  
----  
-[Template arguments](template_arguments.html "cpp/language/template arguments")  
-[Class templates](class_template.html "cpp/language/class template")  
-[Function templates](function_template.html "cpp/language/function template")  
-[Class member templates](member_template.html "cpp/language/member template")  
-[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
-[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
-[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
-[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
-[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
-[Dependent names](dependent_name.html "cpp/language/dependent name")  
-**Packs** (C++11)  
-[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
-[SFINAE](sfinae.html "cpp/language/sfinae")  
-[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
-[requires expression](requires.html "cpp/language/requires") (C++20)  
-  
-
-
-A pack is a C++ entity that defines one of the following: 
-
-  * a parameter pack 
-
-
-
-    
-
-  * template parameter pack 
-  * function parameter pack 
-
-
-
-  * [lambda init-capture pack](lambda.html#Lambda_capture "cpp/language/lambda")
-
-| (since C++20)  
----|---  
-  
-  * [structured binding pack](structured_binding.html "cpp/language/structured binding")
-
-| (since C++26)  
----|---  
-  
 A template parameter pack is a template parameter that accepts zero or more template arguments (constants, types, or templates). A function parameter pack is a function parameter that accepts zero or more function arguments. 
 
 A lambda init-capture pack is a lambda capture that introduces an init-capture for each of the elements in the pack expansion of its initializer.  | (since C++20)  

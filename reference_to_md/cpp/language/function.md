@@ -1,82 +1,5 @@
-
-
-  
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
-  
-[Functions](functions.html "cpp/language/functions")  
-**Function declaration**  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-**Function types**  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[ Functions](functions.html "cpp/language/functions")
-
-Declarations  
----  
-**Function declaration**  
-[Function parameter list](function.html#Parameter_list "cpp/language/function")  
-[Function definition](function.html#Function_definition "cpp/language/function")  
-[Function contract specifiers](function.html#Function_contract_specifiers "cpp/language/function") (C++26)  
-[Default arguments](default_arguments.html "cpp/language/default arguments")  
-[Variadic arguments](variadic_arguments.html "cpp/language/variadic arguments")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
-[Coroutines](coroutines.html "cpp/language/coroutines") (C++20)  
-[Replacement functions](replacement_function.html "cpp/language/replacement function")  
-Function calls  
-[Argument-Dependent Lookup (ADL)](adl.html "cpp/language/adl")  
-[Function-call operator](operator_other.html#Built-in_function_call_operator "cpp/language/operator other")  
-[Function objects](../named_req/FunctionObject.html "cpp/named req/FunctionObject")  
-Overloading  
-[Overload resolution](overload_resolution.html "cpp/language/overload resolution")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
-  
-
-
-A function declaration introduces the function name and its type. A function definition associates the function name/type with the function body. 
+* function
+  * associates the function name/type -- with the -- function body 
 
 ## Contents
 
@@ -104,18 +27,39 @@ A function declaration introduces the function name and its type. A function def
   * [10 Example](function.html#Example)
   * [11 Defect reports](function.html#Defect_reports)
   * [12 See also](function.html#See_also)
-
-  
----  
   
 ### Function declaration
 
-Function declarations may appear in any scope. A function declaration at class scope introduces a class member function (unless the friend specifier is used), see [member functions](member_functions.html "cpp/language/member functions") and [friend functions](friend.html "cpp/language/friend") for details.   
-  
----  
-noptr-declarator `**(**` parameter-list `**)**` cv ﻿(optional) ref ﻿ ﻿(optional) except ﻿(optional) attr ﻿(optional) |  (1)  |   
-noptr-declarator `**(**` parameter-list `**)**` cv ﻿(optional) ref ﻿ ﻿(optional) except ﻿(optional) attr ﻿(optional)  
-`**- >**` trailing |  (2)  |  (since C++11)  
+* function declaration
+  * introduces the function name & its type
+  * uses
+    * | ⚠️any scope⚠️
+      * | class scope, introduces a [class member function](member_functions.md)
+        * EXCEPT TO: you use [`friend`](friend.md) specifier
+
+#### (1)
+* `noptr-declarator (parameter-list) cv ref except attr`
+  * `cv`
+    * OPTIONAL
+  * `ref`
+    * OPTIONAL
+  * `except`
+    * OPTIONAL
+  * `attr`
+    * OPTIONAL
+
+#### (2)
+* `noptr-declarator (parameter-list) cv ref except attr -> trailing`
+  * requirements
+    * C++11
+  * `cv`
+    * OPTIONAL
+  * `ref`
+    * OPTIONAL
+  * `except`
+    * OPTIONAL
+  * `attr`
+    * OPTIONAL
   
 (see [Declarations](declarations.html "cpp/language/declarations") for the other forms of the declarator syntax) 
 
@@ -286,7 +230,6 @@ Similarly, redeclarations or specializations of functions or function templates 
 
 The parameter list determines the arguments that can be specified when the function is called. It is a comma-separated list of _parameter declarations_ , each of which has the following syntax:   
   
----  
 attr ﻿(optional) decl-specifier-seq declarator |  (1)  |   
 attr ﻿(optional) `**this**` decl-specifier-seq declarator |  (2)  |  (since C++23)  
 attr ﻿(optional) decl-specifier-seq declarator `**=**` initializer |  (3)  |   
@@ -533,8 +476,7 @@ except and attr(since C++11) doesn't involve function signature, although [noexc
 ### Function definition
 
 A non-member function definition may appear at namespace scope only (there are no nested functions). A [member function](member_functions.html "cpp/language/member functions") definition may also appear in the body of a [class definition](class.html "cpp/language/class"). They have the following syntax:   
-  
----  
+
 attr ﻿(optional) decl-specifier-seq ﻿(optional) declarator  
 virt-specs ﻿(optional) contract-specs ﻿(optional) function-body |  (1)  |   
 attr ﻿(optional) decl-specifier-seq ﻿(optional) declarator  
@@ -555,8 +497,7 @@ function-body |  \-  |  the function body (see below)
   
   
 function-body is one of the following:   
-  
----  
+
 ctor-initializer ﻿(optional) compound-statement |  (1)  |   
 function-try-block |  (2)  |   
 `**=**` `**default**` `**;**` |  (3)  |  (since C++11)  
@@ -926,81 +867,6 @@ Feature-test macro  | Value | Std | Feature
 
 [`default`](../keyword/default.html "cpp/keyword/default"), [`delete`](../keyword/delete.html "cpp/keyword/delete"), [`pre`](../identifier_with_special_meaning/pre.html "cpp/identifier with special meaning/pre"), [`post`](../identifier_with_special_meaning/post.html "cpp/identifier with special meaning/post")
 
-### Example
-
-Run this code
-    
-    
-    #include <iostream>
-    #include <string>
-     
-    // simple function with a default argument, returning nothing
-    void f0(const [std::string](../string/basic_string.html)& arg = "world!")
-    {
-        [std::cout](../io/cout.html) << "Hello, " << arg << '\n';
-    }
-     
-    // the declaration is in namespace (file) scope
-    // (the definition is provided later)
-    int f1();
-     
-    // function returning a pointer to f0, pre-C++11 style
-    void (*fp03())(const [std::string](../string/basic_string.html)&)
-    {
-        return f0;
-    }
-     
-    // function returning a pointer to f0, with C++11 trailing return type
-    auto fp11() -> void(*)(const [std::string](../string/basic_string.html)&)
-    {
-        return f0;
-    }
-     
-    int main()
-    {
-        f0();
-        fp03()("test!");
-        fp11()("again!");
-        int f2([std::string](../string/basic_string.html)) noexcept; // declaration in function scope
-        [std::cout](../io/cout.html) << "f2(\"bad\"): " << f2("bad") << '\n';
-        [std::cout](../io/cout.html) << "f2(\"42\"): " << f2("42") << '\n';
-    }
-     
-    // simple non-member function returning int
-    int f1()
-    {
-        return 007;
-    }
-     
-    // function with an exception specification and a function try block
-    int f2([std::string](../string/basic_string.html) str) noexcept
-    try
-    {
-        return [std::stoi](../string/basic_string/stol.html)(str);
-    }
-    catch (const [std::exception](../error/exception.html)& e)
-    {
-        [std::cerr](../io/cerr.html) << "stoi() failed!\n";
-        return 0;
-    }
-     
-    // deleted function, an attempt to call it results in a compilation error
-    void bar() = delete
-    #   if __cpp_deleted_function
-        ("reason")
-    #   endif
-    ;
-
-Possible output: 
-    
-    
-    stoi() failed!
-    Hello, world!
-    Hello, test!
-    Hello, again!
-    f2("bad"): 0
-    f2("42"): 42
-
 ### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
@@ -1056,7 +922,6 @@ could define a non-templated function  | prohibited
   
 ### See also
 
-[C documentation](../../c/language/function_declaration.html "c/language/function declaration") for Declaring functions  
----
+[C documentation](../../c/language/function_declaration.html "c/language/function declaration") for Declaring functions
   *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
   *[Std]: Standard in which the feature is introduced; DR means defect report against that revision

@@ -60,11 +60,6 @@ Conversions
 [Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
 [User-defined conversion](cast_operator.html "cpp/language/cast operator")  
   
-| [`const_cast`](const_cast.html "cpp/language/const cast")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
 
 

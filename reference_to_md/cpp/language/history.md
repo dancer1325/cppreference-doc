@@ -12,30 +12,6 @@
 
 ---  
   
-| [`delete` expression](delete.html "cpp/language/delete")  
----  
-  
-[Classes](classes.html "cpp/language/classes")  
-| [Class declaration](class.html "cpp/language/class")  
----  
-[Constructors](initializer_list.html "cpp/language/constructor")  
-[`this` pointer](this.html "cpp/language/this")  
-  
-| [Access specifiers](access.html "cpp/language/access")  
----  
-[`friend` specifier](friend.html "cpp/language/friend")  
-  
-  
-  
-Class-specific function properties  
-| [Virtual function](virtual.html "cpp/language/virtual")  
----  
-[`override` specifier](override.html "cpp/language/override") (C++11)` `  
-[`final` specifier](final.html "cpp/language/final") (C++11)  
-  
-| [`explicit`](explicit.html "cpp/language/explicit") (C++11)  
----  
-[`static`](static.html "cpp/language/static")  
   
   
   

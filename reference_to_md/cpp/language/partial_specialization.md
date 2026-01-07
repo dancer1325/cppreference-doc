@@ -29,11 +29,6 @@
   
 
   
-| [`const_cast`](const_cast.html "cpp/language/const cast")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
   
 
 

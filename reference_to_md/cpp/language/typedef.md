@@ -1,5 +1,6 @@
 * `typedef`
-  * creates an alias / replace a type name 
+  * 💡creates an alias / replace a type name💡 
+    * == 👀add a NEW type name👀
 
 ## Contents
 

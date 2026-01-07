@@ -1,51 +1,3 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[ Basic Concepts](basics.html "cpp/language/basic concepts")
-
-[Comments](../comments.html "cpp/comment")  
----  
-[ASCII](ascii.html "cpp/language/ascii")  
-[Punctuation](punctuators.html "cpp/language/punctuators")  
-**Names and identifiers**  
-[Types](type-id.html "cpp/language/type")  
-[Fundamental types](types.html "cpp/language/types")  
-[Objects](objects.html "cpp/language/object")  
-[Scope](scope.html "cpp/language/scope")  
-[Object lifetime](lifetime.html "cpp/language/lifetime")  
-[Storage duration and linkage](storage_duration.html "cpp/language/storage duration")  
-[Definitions and ODR](definition.html "cpp/language/definition")  
-[Name lookup](lookup.html "cpp/language/lookup")  
-[ Qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup")  
-[ Unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup")  
-[The as-if rule](as_if.html "cpp/language/as if")  
-[Undefined behavior](ub.html "cpp/language/ub")  
-[Memory model](memory_model.html "cpp/language/memory model")  
-[Multi-threaded executions and data races](multithread.html "cpp/language/multithread") (C++11)  
-[Character sets and encodings](charset.html "cpp/language/charset")  
-[Phases of translation](translation_phases.html "cpp/language/translation phases")  
-[The `main` function](main_function.html "cpp/language/main function")  
-[Modules](modules.html "cpp/language/modules") (C++20)  
-[Contracts](contracts.html "cpp/language/contracts") (C++26)  
-  
-
-
 An _identifier_ is an arbitrarily long sequence of digits, underscores, lowercase and uppercase Latin letters, and most Unicode characters. 
 
 The first character of a valid identifier must be one of the following: 
@@ -86,8 +38,6 @@ Note: Support of Unicode identifiers is limited in most implementations, e.g. [g
   * [5 Defect reports](name.html#Defect_reports)
   * [6 See also](name.html#See_also)
 
-  
----  
   
 ### In declarations
 
@@ -258,10 +208,14 @@ Together with identifiers they are known as _unqualified identifier expressions_
 
 #### Qualified identifiers
 
-A _qualified identifier expression_ is an unqualified identifier expression prepended by a scope resolution operator ::, and optionally, a sequence of any of the following separated by scope resolution operators: 
+* allows
+  * defining OR redeclaring a PREVIOUSLY declared
+    * [namespace member](namespace.md#Namespaces) OR
+    * [class member](classes.md)
+    A _qualified identifier expression_ is an unqualified identifier expression prepended by a scope resolution operator ::, and optionally, a sequence of any of the following separated by scope resolution operators: 
 
-  * a namespace name; 
-  * a class name; 
+      * a namespace name; 
+      * a class name; 
 
 
 

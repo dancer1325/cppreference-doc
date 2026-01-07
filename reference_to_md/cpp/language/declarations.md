@@ -128,9 +128,6 @@ contract-specs can only appear if declarator declares a function or function tem
 * **Declaration specifiers** (`decl-specifier-seq`)
   * == 💡sequence of the following (⚠️in any order⚠️) whitespace-separated specifiers💡
     * [`typedef`](typedef.md) specifier
-      * if present -> 
-        * the entire declaration == [typedef declaration](typedef.md)
-        * EACH declarator introduces a NEW type name (NOT an object OR function) 
     * function specifiers ([`inline`](inline.md), [`virtual`](virtual.md), [`explicit`](explicit.md)
       * ONLY ALLOWED | [function declarations](function.md)
     * [`inline`](inline.md) specifier
@@ -192,62 +189,44 @@ contract-specs can only appear if declarator declares a function or function tem
   * **Type specifiers** (`type-specifier-seq`)
 
 * **Type specifiers** (`type-specifier-seq`)
-  * == 💡sequence of specifiers / names a type💡
-    * The type of every entity introduced by the declaration is this type, optionally modified by the declarator (see below)
-    * This sequence of specifiers is also used by [type-id](type-id.html#Type_naming "cpp/language/type")
-    * Only the following specifiers are part of type-specifier-seq, in any order: 
-
-
-
-    
-
-  * [class specifier](class.html "cpp/language/class")
-  * [enum specifier](enum.html "cpp/language/enum")
-  * simple type specifier 
-
-
-
-    
-
-  * [`char`](../keyword/char.html "cpp/keyword/char"), [`char8_t`](../keyword/char8_t.html "cpp/keyword/char8 t"), (since C++20) [`char16_t`](../keyword/char16_t.html "cpp/keyword/char16 t"), [`char32_t`](../keyword/char32_t.html "cpp/keyword/char32 t"), (since C++11) [`wchar_t`](../keyword/wchar_t.html "cpp/keyword/wchar t"), [`bool`](../keyword/bool.html "cpp/keyword/bool"), [`short`](../keyword/short.html "cpp/keyword/short"), [`int`](../keyword/int.html "cpp/keyword/int"), [`long`](../keyword/long.html "cpp/keyword/long"), [`signed`](../keyword/signed.html "cpp/keyword/signed"), [`unsigned`](../keyword/unsigned.html "cpp/keyword/unsigned"), [`float`](../keyword/float.html "cpp/keyword/float"), [`double`](../keyword/double.html "cpp/keyword/double"), [`void`](../keyword/void.html "cpp/keyword/void")
-
-
-
-    
-
-    
-
-  * [`auto`](auto.html "cpp/language/auto")
-  * [decltype specifier](decltype.html "cpp/language/decltype")
-
-
-| (since C++11)  
----|---  
-  
-    
-
-    
-
-  * [pack indexing specifier](pack_indexing.html "cpp/language/pack indexing")
-
-
-| (since C++26)  
-  
-    
-
-    
-
+  * == 💡sequence of specifiers / make the base type💡
+    * base type != final entity type
+      * Reason:🧠base type is modified -- by the -- [declarator](#declarators)🧠
+  * uses
+    * by [type](incomplete_type.md#type-naming)
+  * ALLOWED ones 
+    * [class specifier](class.md)
+    * [enum specifier](enum.md)
+    * simple type specifier
+      * are
+        * [`char`](../keyword/char.md)
+        * [`char8_t`](../keyword/char8_t.md)
+          * | C++20
+        * [`char16_t`](../keyword/char16_t.md), [`char32_t`](../keyword/char32_t.md)
+          * | C++11
+        * [`wchar_t`](../keyword/wchar_t.md)
+        * [`bool`](../keyword/bool.md)
+        * [`short`](../keyword/short.md)
+        * [`int`](../keyword/int.md)
+        * [`long`](../keyword/long.md)
+        * [`signed`](../keyword/signed.md)
+        * [`unsigned`](../keyword/unsigned.md)
+        * [`float`](../keyword/float.md)
+        * [`double`](../keyword/double.md)
+        * [`void`](../keyword/void.md)
+      * [`auto`](auto.md)
+        * requirements
+          * C++11
+      * [decltype specifier](decltype.html "cpp/language/decltype")
+        * requirements
+          * C++11  
+      * [pack indexing specifier](pack_indexing.html "cpp/language/pack indexing")
+        * requirements
+          * C++26  
   * previously declared class name (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")) 
   * previously declared enum name (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")) 
   * previously declared [typedef-name](typedef.html "cpp/language/typedef") or [type alias](type_alias.html "cpp/language/type alias")(since C++11) (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")) 
   * template name with template arguments (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers"), optionally using [template disambiguator](dependent_name.html "cpp/language/dependent name")) 
-
-
-
-    
-
-    
-
   * template name without template arguments (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")): see [class template argument deduction](ctad.html "cpp/language/class template argument deduction")
 
 
@@ -304,44 +283,96 @@ Repetitions of any specifier in a decl-specifier-seq, such as const static const
     * object, OR
     * reference, OR
     * function, OR
-    * | typedef declarations, type alias, 
+    * | typedef declarations, type alias, TODO:
     whose type is provided by decl-specifier-seq and optionally modified by operators such as & (reference to) or [] (array of) or () (function returning) in the declarator
 * These operators can be applied recursively, as shown below. 
 
-* ALLOWED ones   
+* `noptr-declarator`
+  * ANY valid declarator
+    * if it begins with `*`, `&,` or `&&` -> it has to be surrounded by `()` 
 
-unqualified-id attr ﻿(optional) |  (1)  |   
-qualified-id attr ﻿(optional) |  (2)  |   
-`**...**` identifier attr ﻿(optional) |  (3)  |  (since C++11)  
-`*****` attr ﻿(optional) cv ﻿(optional) declarator |  (4)  |   
-nested-name-specifier `*****` attr ﻿(optional) cv ﻿(optional) declarator |  (5)  |   
-`**&**` attr ﻿(optional) declarator |  (6)  |   
-`**& &**` attr ﻿(optional) declarator |  (7)  |  (since C++11)  
-noptr-declarator `**[**` constant-expression ﻿(optional) `**]**` attr ﻿(optional) |  (8)  |   
-noptr-declarator `**(**` parameter-list `**)**` cv ﻿(optional) ref ﻿ ﻿(optional) except ﻿(optional) attr ﻿(optional) |  (9)  |   
-`**(**` declarator `**)**` |  (10)  |   
-  
-1) [name](name.md) / it's declared
+* ALLOWED ones
+#### (1)
+* `unqualified-id attr`
+  * `attr`
+    * OPTIONAL
+* [name](name.md) / it's declared
 
-2) A declarator that uses a [qualified identifier](name.html#Qualified_identifiers "cpp/language/identifiers") (qualified-id) defines or redeclares a previously declared [namespace member](namespace.html#Namespaces "cpp/language/namespace") or [class member](classes.html "cpp/language/classes").
+#### (2)
+* `qualified-id attr`
+  * `attr`
+    * OPTIONAL
+  * `qualified-id`
+    * [qualified identifier](name.md#qualified-identifiers)
 
-3) [Parameter pack](parameter_pack.html "cpp/language/parameter pack"), only appears in [parameter declarations](function.html#Parameter_list "cpp/language/function").
+#### (3)
+* `... identifier attr` 
+  * requirements
+    * C++11
+  * `attr`
+    * OPTIONAL
+* [Parameter pack](parameter_pack.md)
 
-4) [Pointer declarator](pointer.html "cpp/language/pointer"): the declaration S * D; declares `D` as a pointer to the type determined by decl-specifier-seq `S`.
+#### (4)
+* `* attr cv declarator`
+  * `attr`
+    * OPTIONAL
+  * `cv`
+    * OPTIONAL
+* [pointer declarator](pointer.md)
 
-5) [Pointer to member declaration](pointer.html "cpp/language/pointer"): the declaration S C::* D; declares `D` as a pointer to member of `C` of type determined by decl-specifier-seq `S`. nested-name-specifier is a [sequence of names and scope resolution operators `**::**`](name.md#qualified-identifiers)
+#### (5)
+* `nested-name-specifier* attr cv declarator`
+  * `attr`
+    * OPTIONAL
+  * `cv`
+    * OPTIONAL 
+* [Pointer -- to -- member declaration](pointer.md)
+* `nested-name-specifier`
+  * == [sequence of names & `::`](name.md#qualified-identifiers)
 
-6) [Lvalue reference declarator](reference.html "cpp/language/reference"): the declaration S & D; declares `D` as an lvalue reference to the type determined by decl-specifier-seq `S`.
+#### (6)
+* `& attr declarator`
+  * `attr`
+    * OPTIONAL
+* [Lvalue reference declarator](reference.md)
 
-7) [Rvalue reference declarator](reference.html "cpp/language/reference"): the declaration S && D; declares `D` as an rvalue reference to the type determined by decl-specifier-seq `S`.
+#### (7)
+* `&& attr declarator`
+  * requirements
+    * C++11
+  * `attr`
+    * OPTIONAL
+* [Rvalue reference declarator](reference.md)
 
-8) [Array declarator](array.html "cpp/language/array"). noptr-declarator any valid declarator, but if it begins with *, &, or &&, it has to be surrounded by parentheses.
+#### (8)
+* `noptr-declarator [ constant-expression] attr`
+  * `attr`
+    * OPTIONAL
+  * `constant-expression`
+    * OPTIONAL
+* [Array declarator](array.md)
 
-9) [Function declarator](function.html "cpp/language/function"). noptr-declarator any valid declarator, but if it begins with *, &, or &&, it has to be surrounded by parentheses. It may end with the optional trailing return type.(since C++11)
+#### (9)
+* `noptr-declarator (parameter-list) cv ref except attr`
+  * `attr`
+    * OPTIONAL
+  * `cv`
+    * OPTIONAL
+  * `ref`
+    * OPTIONAL
+  * `except`
+    * OPTIONAL
+* [Function declarator](function.md)
+* | C++11,
+  * it may (== OPTIONAL) end with the optional trailing return type
 
-10) Parenthesized declarator.
+#### (10)
+* `(declarator)`   
+* Parenthesized declarator
 
-In all cases, attr is an optional sequence of [attributes](attributes.html "cpp/language/attributes"). When appearing immediately after the identifier, it applies to the object being declared.  | (since C++11)  
+In all cases, attr is an optional sequence of [attributes](attributes.html "cpp/language/attributes")
+When appearing immediately after the identifier, it applies to the object being declared.  | (since C++11)  
 ---|---  
   
 cv is a sequence of [const and volatile](cv.html "cpp/language/cv") qualifiers, where either qualifier may appear at most once in the sequence. 
