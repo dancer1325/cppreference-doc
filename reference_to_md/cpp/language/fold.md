@@ -17,34 +17,7 @@
   
 
 
-[ Expressions](expressions.html "cpp/language/expressions")
-
-General  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-[Constant expressions](constant_expression.html "cpp/language/constant expression")  
-[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
   
-| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
----  
-[Requires expressions](requires.html "cpp/language/requires") (C++20)  
-[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
-[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
-  
-Literals  
-| [Integer literals](integer_literal.html "cpp/language/integer literal")  
----  
-[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
-[Boolean literals](bool_literal.html "cpp/language/bool literal")  
-[Character literals](character_literal.html "cpp/language/character literal")  
-  
-| [Escape sequences](escape.html "cpp/language/escape")  
----  
-[String literals](string_literal.html "cpp/language/string literal")  
-[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
   
 Operators  
 | [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  

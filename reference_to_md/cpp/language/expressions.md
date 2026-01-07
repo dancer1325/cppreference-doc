@@ -30,6 +30,10 @@
 
 ### Operators
 
+* [operator precedence](operator_precedence.md)
+* [alternative representations](operator_alternative.md)
+* [operator overloading](operators.md)
+
 #### Common operators   
 ##### [assignment](operator_assignment.md)
 
@@ -106,7 +110,7 @@ a->*b
 a.*b 
 ```
 
-##### [other](operator_other.html "cpp/language/operator other")  
+##### [other](operator_other.md "cpp/language/operator other")  
 
 * function call
     ```c++
@@ -125,8 +129,8 @@ a.*b
 
 #### Special operators   
 * [`static_cast`](static_cast.md)  
-* [`dynamic_cast`](dynamic_cast.md) converts within inheritance hierarchies  
-* [`const_cast`](const_cast.html "cpp/language/const cast") adds or removes [cv](cv.html "cpp/language/cv")-qualifiers  
+* [`dynamic_cast`](dynamic_cast.md)  
+* [`const_cast`](const_cast.md)  
 * [`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast") converts type to unrelated type  
 * [C-style cast](explicit_cast.html "cpp/language/explicit cast") converts one type to another by a mix of static_cast, const_cast, and reinterpret_cast  
 * [`new`](new.html "cpp/language/new") creates objects with dynamic storage duration  
@@ -136,31 +140,21 @@ a.*b
 * [`typeid`](typeid.html "cpp/language/typeid") queries the type information of a type  
 * [`noexcept`](noexcept.html "cpp/language/noexcept") checks if an expression can throw an exception (since C++11)  
 * [`alignof`](alignof.html "cpp/language/alignof") queries alignment requirements of a type (since C++11)  
-  
-  * [operator precedence](operator_precedence.html "cpp/language/operator precedence") defines the order in which operators are bound to their arguments 
-  * [alternative representations](operator_alternative.html "cpp/language/operator alternative") are alternative spellings for some operators 
-  * [operator overloading](operators.html "cpp/language/operators") makes it possible to specify the behavior of the operators with user-defined classes. 
-
-
 
 #### Conversions
 
-  * [standard conversions](implicit_cast.html "cpp/language/implicit conversion") implicit conversions from one type to another 
-  * [`const_cast` conversion](const_cast.html "cpp/language/const cast")
-  * [`static_cast` conversion](static_cast.html "cpp/language/static cast")
-  * [`dynamic_cast` conversion](dynamic_cast.html "cpp/language/dynamic cast")
-  * [`reinterpret_cast` conversion](reinterpret_cast.html "cpp/language/reinterpret cast")
-  * [explicit cast](explicit_cast.html "cpp/language/explicit cast") conversion using C-style cast notation and function-style notation 
-  * [user-defined conversion](cast_operator.html "cpp/language/cast operator") makes it possible to specify conversion from user-defined classes 
-
-
+* [standard conversions](implicit_cast.md)
+* [`const_cast` conversion](const_cast.md)
+* [`static_cast` conversion](static_cast.html "cpp/language/static cast")
+* [`dynamic_cast` conversion](dynamic_cast.html "cpp/language/dynamic cast")
+* [`reinterpret_cast` conversion](reinterpret_cast.html "cpp/language/reinterpret cast")
+* [explicit cast](explicit_cast.html "cpp/language/explicit cast") conversion using C-style cast notation and function-style notation 
+* [user-defined conversion](cast_operator.html "cpp/language/cast operator") makes it possible to specify conversion from user-defined classes 
 
 #### Memory allocation
 
-  * [new expression](new.html "cpp/language/new") allocates memory dynamically 
-  * [delete expression](delete.html "cpp/language/delete") deallocates memory dynamically 
-
-
+* [`new` expression](new.md) 
+* [delete expression](delete.html "cpp/language/delete") deallocates memory dynamically 
 
 #### Other
 
@@ -174,15 +168,20 @@ a.*b
 
 ### Primary expressions
 
-The operands of any operator may be other expressions or primary expressions (e.g. in 1 + 2 * 3, the operands of operator+ are the [subexpression](expressions.html#Full-expressions) 2 * 3 and the primary expression 1). 
+The operands of any operator may be other expressions or primary expressions (e.g
+* in 1 + 2 * 3, the operands of operator+ are the [subexpression](expressions.html#Full-expressions) 2 * 3 and the primary expression 1)
+* 
 
 Primary expressions are any of the following: 
 
   * [`this`](this.html "cpp/language/this")
-  * literals (e.g. 2 or "Hello, world") 
+  * literals (e.g
+* 2 or "Hello, world") 
   * identifier expressions, including 
-    * suitably declared [unqualified identifiers](name.html#Unqualified_identifiers "cpp/language/identifiers") (e.g. n or cout), 
-    * suitably declared [qualified identifiers](name.html#Qualified_identifiers "cpp/language/identifiers") (e.g. [std::string::npos](../string/basic_string/npos.html "cpp/string/basic string/npos")), and 
+    * suitably declared [unqualified identifiers](name.html#Unqualified_identifiers "cpp/language/identifiers") (e.g
+* n or cout), 
+    * suitably declared [qualified identifiers](name.html#Qualified_identifiers "cpp/language/identifiers") (e.g
+* [std::string::npos](../string/basic_string/npos.html "cpp/string/basic string/npos")), and 
     * identifiers to be declared in [declarators](declarations.html#Declarators "cpp/language/declarations")
 
 
@@ -208,13 +207,17 @@ Primary expressions are any of the following:
 
 | (since C++20)  
   
-Any expression in parentheses is also classified as a primary expression: this guarantees that the parentheses have higher precedence than any operator. Parentheses preserve value, type, and value category. 
+Any expression in parentheses is also classified as a primary expression: this guarantees that the parentheses have higher precedence than any operator
+* Parentheses preserve value, type, and value category
+* 
 
 #### Literals
 
-Literals are the tokens of a C++ program that represent constant values embedded in the source code. 
+Literals are the tokens of a C++ program that represent constant values embedded in the source code
+* 
 
-  * [integer literals](integer_literal.html "cpp/language/integer literal") are decimal, octal, hexadecimal or binary numbers of integer type. 
+  * [integer literals](integer_literal.html "cpp/language/integer literal") are decimal, octal, hexadecimal or binary numbers of integer type
+* 
   * [character literals](character_literal.html "cpp/language/character literal") are individual characters of type 
 
 
@@ -280,9 +283,12 @@ Literals are the tokens of a C++ program that represent constant values embedded
 
 A _constituent expression_ is defined as follows: 
 
-  * The constituent expression of an expression is that expression. 
-  * The constituent expressions of a [brace-enclosed initializer list](initialization.html "cpp/language/initialization") or of a (possibly parenthesized) expression list are the constituent expressions of the elements of the respective list. 
-  * The constituent expressions of an [initializer](initialization.html "cpp/language/initialization") that begins with `**=**` are the constituent expressions of the initializer-clause. 
+  * The constituent expression of an expression is that expression
+* 
+  * The constituent expressions of a [brace-enclosed initializer list](initialization.html "cpp/language/initialization") or of a (possibly parenthesized) expression list are the constituent expressions of the elements of the respective list
+* 
+  * The constituent expressions of an [initializer](initialization.html "cpp/language/initialization") that begins with `**=**` are the constituent expressions of the initializer-clause
+* 
 
 
     
@@ -294,7 +300,8 @@ A _constituent expression_ is defined as follows:
                           //         of “{2, 22}” are “2” and “22”
                           // Case 3: the constituent expressions of “= {2, 22}”
                           //         are the constituent expressions of “{2, 22}”
-                          //         (i.e. also “2” and “22”)
+                          //         (i.e
+* also “2” and “22”)
 
 The _immediate subexpressions_ of an expression E are 
 
@@ -312,11 +319,13 @@ The _immediate subexpressions_ of an expression E are
 | (since C++11)  
   
   * any function call that E implicitly invokes, or 
-  * if E is a function call or implicitly invokes a function, the constituent expressions of each [default argument](default_arguments.html "cpp/language/default arguments") used in the call. 
+  * if E is a function call or implicitly invokes a function, the constituent expressions of each [default argument](default_arguments.html "cpp/language/default arguments") used in the call
+* 
 
 
 
-A _subexpression_ of an expression E is an immediate subexpression of E or a subexpression of an immediate subexpression of E. Note that expressions appearing in the “function body” of lambda expressions are not subexpressions of the lambda expression.(since C++11)
+A _subexpression_ of an expression E is an immediate subexpression of E or a subexpression of an immediate subexpression of E
+* Note that expressions appearing in the “function body” of lambda expressions are not subexpressions of the lambda expression.(since C++11)
 
 The following expressions are _full-expressions ﻿_ : 
 
@@ -344,16 +353,20 @@ The following expressions are _full-expressions ﻿_ :
 
 
 
-If a language construct is defined to produce an implicit call of a function, a use of the language construct is considered to be an expression for the purposes of this definition. Conversions applied to the result of an expression in order to satisfy the requirements of the language construct in which the expression appears are also considered to be part of the full-expression. 
+If a language construct is defined to produce an implicit call of a function, a use of the language construct is considered to be an expression for the purposes of this definition
+* Conversions applied to the result of an expression in order to satisfy the requirements of the language construct in which the expression appears are also considered to be part of the full-expression
+* 
 
-For an initializer, performing the initialization of the entity (including evaluating default member initializers of an aggregate)(since C++14) is also considered part of the full-expression. 
+For an initializer, performing the initialization of the entity (including evaluating default member initializers of an aggregate)(since C++14) is also considered part of the full-expression
+* 
 
 ### Potentially-evaluated expressions
 
 An expression is _potentially evaluated_ unless 
 
   * it is the operand of the [`sizeof`](sizeof.html "cpp/language/sizeof") operator, or 
-  * it is the operand of the [`typeid`](typeid.html "cpp/language/typeid") operator and does not designate an lvalue of [polymorphic](objects.html#Polymorphic_objects "cpp/language/object") class type. 
+  * it is the operand of the [`typeid`](typeid.html "cpp/language/typeid") operator and does not designate an lvalue of [polymorphic](objects.html#Polymorphic_objects "cpp/language/object") class type
+* 
 
 | (until C++11)  
 ---|---  
@@ -376,11 +389,13 @@ The following operands are _unevaluated operands_ , they are not evaluated:
 An expression is _potentially evaluated_ unless 
 
   * it is an unevaluated operand, or 
-  * it is a subexpression of an unevaluated operand. 
+  * it is a subexpression of an unevaluated operand
+* 
 
 (since C++11)  
   
-Potentially-evaluated expressions are [ODR-use](definition.html#ODR-use "cpp/language/definition"). 
+Potentially-evaluated expressions are [ODR-use](definition.html#ODR-use "cpp/language/definition")
+* 
 
 | This section is incomplete  
 Reason: example of unevaluated operands   
@@ -388,9 +403,19 @@ Reason: example of unevaluated operands
   
 ### Discarded-value expressions
 
-A _discarded-value expression_ is an expression that is used for its side-effects only. The value calculated from such expression is discarded. Such expressions include the full-expression of any [expression statement](statements.html#Expression_statements "cpp/language/statements"), the left-hand operand of the built-in comma operator, or the operand of a cast-expression that casts to the type void. 
+* _discarded-value expression_
+  * == expression / used 💡ONLY for side-effects💡
+    * == ⚠️calculated value is discarded ⚠️
+  * use cases
+    * full-expression of any [expression statement](statements.md#expression-statements)
+    * built-in comma operator's left-hand operand is discarded
+      * == ONLY use right-hand operand
+    * cast-expression's operand / casts -- to the -- type `void`
 
-Array-to-pointer and function-to-pointer conversions are never applied to the value calculated by a discarded-value expression. The lvalue-to-rvalue conversion is applied if and only if the expression is a [volatile-qualified](cv.html "cpp/language/cv") glvalue and has one of the following forms (built-in meaning required, possibly parenthesized): 
+* TODO:
+Array-to-pointer and function-to-pointer conversions are never applied to the value calculated by a discarded-value expression
+* The lvalue-to-rvalue conversion is applied if and only if the expression is a [volatile-qualified](cv.md) glvalue and
+has one of the following forms (built-in meaning required, possibly parenthesized): 
 
   * id-expression, 
   * array subscript expression, 
@@ -398,13 +423,15 @@ Array-to-pointer and function-to-pointer conversions are never applied to the va
   * indirection, 
   * pointer-to-member operation, 
   * conditional expression where both the second and the third operands are one of these expressions, 
-  * comma expression where the right operand is one of these expressions. 
+  * comma expression where the right operand is one of these expressions
 
 
+In addition, if the lvalue is of volatile-qualified class type, a volatile copy constructor is required to initialize the resulting rvalue temporary
+* 
 
-In addition, if the lvalue is of volatile-qualified class type, a volatile copy constructor is required to initialize the resulting rvalue temporary. 
-
-If the expression is a non-void prvalue (after any lvalue-to-rvalue conversion that might have taken place), [temporary materialization](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion") occurs. Compilers may issue warnings when an expression other than cast to void discards a value declared `[[[nodiscard](attributes/nodiscard.html "cpp/language/attributes/nodiscard")]]`.  | (since C++17)  
+If the expression is a non-void prvalue (after any lvalue-to-rvalue conversion that might have taken place), [temporary materialization](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion") occurs
+* Compilers may issue warnings when an expression other than cast to void discards a value declared `[[[nodiscard](attributes/nodiscard.html "cpp/language/attributes/nodiscard")]]`
+*  | (since C++17)  
 ---|---  
   
 
@@ -413,16 +440,24 @@ If the expression is a non-void prvalue (after any lvalue-to-rvalue conversion t
 
 A number of expressions e1, e2, ..., eN are _expression-equivalent_ if all following conditions are satisfied: 
 
-  1. They have the same effects. 
-  2. Either they are all [constant subexpressions](constant_expression.html#Constant_subexpression "cpp/language/constant expression") or neither is. 
-  3. Either they are all [noexcept](noexcept_spec.html "cpp/language/noexcept spec") or else neither is. 
+  1
+* They have the same effects
+* 
+  2
+* Either they are all [constant subexpressions](constant_expression.html#Constant_subexpression "cpp/language/constant expression") or neither is
+* 
+  3
+* Either they are all [noexcept](noexcept_spec.html "cpp/language/noexcept spec") or else neither is
+* 
 
-e1 is _expression-equivalent to_ e2 if and only if e1 and e2 are expression-equivalent (which means e2 is also expression-equivalent to e1).  | (since C++20)  
+e1 is _expression-equivalent to_ e2 if and only if e1 and e2 are expression-equivalent (which means e2 is also expression-equivalent to e1)
+*  | (since C++20)  
 ---|---  
   
 ### Defect reports
 
-The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
+The following behavior-changing defect reports were applied retroactively to previously published C++ standards
+* 
 
 DR  | Applied to  | Behavior as published  | Correct behavior   
 ---|---|---|---  

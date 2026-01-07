@@ -1,5 +1,5 @@
 * goal
-  * how to customize the C++ operators -- for -- operands of user-defined types 
+  * how to customize the C++ operators -- for -- operands of user-defined types
 
 ## Contents
 

@@ -1,125 +1,5 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-[Expressions](expressions.html "cpp/language/expressions")  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-  
-| [Operators](operators.html "cpp/language/operators")  
----  
-[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
-  
-[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
-[Literals](expressions.html#Literals "cpp/language/expressions")  
-[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
-[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
-Utilities  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-Types  
-[`typedef` declaration](typedef.html "cpp/language/typedef")  
-[Type alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-Casts  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-**`const_cast`**  
-  
-| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
----  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-Memory allocation  
-| [`new` expression](new.html "cpp/language/new")  
----  
-  
-
----  
-  
-
-
-[ Expressions](expressions.html "cpp/language/expressions")
-
-General  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-[Constant expressions](constant_expression.html "cpp/language/constant expression")  
-[Primary expressions](expressions.html#Primary_expressions "cpp/language/expressions")  
-  
-| [Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
----  
-[Requires expressions](requires.html "cpp/language/requires") (C++20)  
-[Pack indexing expression](pack_indexing.html#Pack_indexing_expression "cpp/language/pack indexing") (C++26)  
-[Potentially-evaluated expressions](expressions.html#Potentially-evaluated_expressions "cpp/language/expressions")  
-  
-Literals  
-| [Integer literals](integer_literal.html "cpp/language/integer literal")  
----  
-[Floating-point literals](floating_literal.html "cpp/language/floating literal")  
-[Boolean literals](bool_literal.html "cpp/language/bool literal")  
-[Character literals](character_literal.html "cpp/language/character literal")  
-  
-| [Escape sequences](escape.html "cpp/language/escape")  
----  
-[String literals](string_literal.html "cpp/language/string literal")  
-[Null pointer literal](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined literal](user_literal.html "cpp/language/user literal") (C++11)  
-  
-Operators  
-| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
----  
-[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
-[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
-[Logical operators](operator_logical.html "cpp/language/operator logical")  
-[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
-[Member access operators](operator_member_access.html "cpp/language/operator member access")  
-[Other operators](operator_other.html "cpp/language/operator other")  
-[`new`-expression](new.html "cpp/language/new")  
-[`delete`-expression](delete.html "cpp/language/delete")  
-[`throw`-expression](throw.html "cpp/language/throw")  
-  
-| [`alignof`](alignof.html "cpp/language/alignof")  
----  
-[`sizeof`](sizeof.html "cpp/language/sizeof")  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
-[`typeid`](typeid.html "cpp/language/typeid")  
-[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
-[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
-  
-Conversions  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
-[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
-[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
-  
-| **`const_cast`**  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-
-
-Converts between types with different cv-qualification. 
-
+* convert between types / have DIFFERENT cv-qualification 
+* adds OR removes [cv](cv.md)-qualifiers
 ## Contents
 
   * [1 Syntax](const_cast.html#Syntax)
@@ -131,16 +11,12 @@ Converts between types with different cv-qualification.
   * [7 Defect reports](const_cast.html#Defect_reports)
   * [8 References](const_cast.html#References)
   * [9 See also](const_cast.html#See_also)
-
-  
----  
   
 ### Syntax  
-  
----  
-`**const_cast <**` target-type `**>(**` expression `**)**` |  |   
-  
-Returns a value of type target-type. 
+
+`const_cast<target-type>(expression)`
+* 's return
+  * value / type == `target-type` 
 
 ### Explanation
 
@@ -206,54 +82,6 @@ const_cast makes it possible to form a reference or pointer to non-const type th
 ### Keywords
 
 [`const_cast`](../keyword/const_cast.html "cpp/keyword/const cast")
-
-### Example
-
-Run this code
-    
-    
-    #include <iostream>
-     
-    struct type
-    {
-        int i;
-     
-        type(): i(3) {}
-     
-        void f(int v) const
-        {
-            // this->i = v;                 // compile error: this is a pointer to const
-            const_cast<type*>(this)->i = v; // OK as long as the type object isn't const
-        }
-    };
-     
-    int main()
-    {
-        int i = 3;                 // i is not declared const
-        const int& rci = i;
-        const_cast<int&>(rci) = 4; // OK: modifies i
-        [std::cout](../io/cout.html) << "i = " << i << '\n';
-     
-        type t; // if this was const type t, then t.f(4) would be undefined behavior
-        t.f(4);
-        [std::cout](../io/cout.html) << "type::i = " << t.i << '\n';
-     
-        const int j = 3; // j is declared const
-        [[maybe_unused]]
-        int* pj = const_cast<int*>(&j);
-        // *pj = 4;      // undefined behavior
-     
-        [[maybe_unused]]
-        void (type::* pmf)(int) const = &type::f; // pointer to member function
-        // const_cast<void(type::*)(int)>(pmf);   // compile error: const_cast does
-                                                  // not work on function pointers
-    }
-
-Output: 
-    
-    
-    i = 4
-    type::i = 4
 
 ### Defect reports
 
