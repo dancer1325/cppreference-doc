@@ -1,29 +1,28 @@
-An _identifier_ is an arbitrarily long sequence of digits, underscores, lowercase and uppercase Latin letters, and most Unicode characters. 
-
-The first character of a valid identifier must be one of the following: 
-
-  * uppercase Latin letters A-Z 
-  * lowercase Latin letters a-z 
-  * underscore 
-  * any Unicode character with the Unicode property [XID_Start](https://www.unicode.org/reports/tr31/#Table_Lexical_Classes_for_Identifiers)
-
-
-
-Any other character of a valid identifier must be one of the following: 
-
-  * digits 0-9 
-  * uppercase Latin letters A-Z 
-  * lowercase Latin letters a-z 
-  * underscore 
-  * any Unicode character with the Unicode property [XID_Continue](https://www.unicode.org/reports/tr31/#Table_Lexical_Classes_for_Identifiers)
-
-
-
-The lists of characters with properties XID_Start and XID_Continue can be found in [DerivedCoreProperties.txt](https://www.unicode.org/Public/UCD/latest/ucd/DerivedCoreProperties.txt). 
-
-Identifiers are case-sensitive (lowercase and uppercase letters are distinct), and every character is significant. Every identifier must conform to [Normalization Form C](https://www.unicode.org/charts/normalization/). 
-
-Note: Support of Unicode identifiers is limited in most implementations, e.g. [gcc (until 10)](https://gcc.gnu.org/wiki/FAQ#What_is_the_status_of_adding_the_UTF-8_support_for_identifier_names_in_GCC.3F). 
+* _identifier_
+  * := 💡sequence of digits + underscores, lowercase and uppercase Latin letters + MOST Unicode characters💡
+    * arbitrarily long
+    * case-sensitive
+      * == lowercase letterS != uppercase letters
+    * every character is significant
+    * MOST Unicode characters
+      * ❌!= ALL Unicode characters❌
+      * == limited | MOST implementations
+        * _Example:_ [gcc 10-](https://gcc.gnu.org/wiki/FAQ#What_is_the_status_of_adding_the_UTF-8_support_for_identifier_names_in_GCC.3F)
+  * ⚠️requirements⚠️
+    * MUST conform to [Normalization Form C](https://www.unicode.org/charts/normalization/)
+    * first character MUST be one of
+      * uppercase Latin letters A-Z 
+      * lowercase Latin letters a-z 
+      * underscore 
+      * any Unicode character / 's property [XID_Start](https://www.unicode.org/reports/tr31/#Table_Lexical_Classes_for_Identifiers)
+        * _Example:_ [DerivedCoreProperties.txt](https://www.unicode.org/Public/UCD/latest/ucd/DerivedCoreProperties.txt)
+    * any other character MUST be one of
+      * digits 0-9 
+      * uppercase Latin letters A-Z 
+      * lowercase Latin letters a-z 
+      * underscore 
+      * any Unicode character / 's property [XID_Continue](https://www.unicode.org/reports/tr31/#Table_Lexical_Classes_for_Identifiers)
+        * _Example:_ [DerivedCoreProperties.txt](https://www.unicode.org/Public/UCD/latest/ucd/DerivedCoreProperties.txt)
 
 ## Contents
 
@@ -41,7 +40,7 @@ Note: Support of Unicode identifiers is limited in most implementations, e.g. [g
   
 ### In declarations
 
-An identifier can be used [to name](declarations.html "cpp/language/declarations") objects, references, functions, enumerators, types, class members, namespaces, templates, template specializations, parameter packs(since C++11), goto labels, and other entities, with the following exceptions: 
+An identifier can be used [to name](declarations.md) objects, references, functions, enumerators, types, class members, namespaces, templates, template specializations, parameter packs(since C++11), goto labels, and other entities, with the following exceptions: 
 
   * The identifiers that are [keywords](../keywords.html "cpp/keyword") cannot be used for other purposes. 
 

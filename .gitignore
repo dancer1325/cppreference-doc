@@ -11,3 +11,5 @@ venv
 /.idea/editor.xml
 /.idea/misc.xml
 /.idea/vcs.xml
+
+# TODO: how to ignore executables WITHOUT extension?

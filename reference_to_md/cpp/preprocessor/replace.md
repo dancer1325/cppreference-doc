@@ -1,7 +1,7 @@
 * preprocessor
   * supports
-    * text macro replacement
-    * function-like text macro replacement 
+    * [text macro replacement](#object-like-macros)
+    * [function-like text macro replacement ](#function-like-macros)
 
 ## Contents
 
@@ -22,6 +22,7 @@
   * [7 See also](replace.html#See_also)
 
 ### Syntax  
+* [`identifier`](../language/name.md)
 #### (1)
 * `#define identifier replacement-list`
   * `replacement-list`
@@ -120,20 +121,17 @@ Output:
 
 #### Reserved macro names
 
-A translation unit that [includes a standard library header](../standard_library.html#Including_headers "cpp/standard library") may not #define or #undef names declared in any [standard library header](../headers.html "cpp/header"). 
+* translation unit / 
+  * [includes a standard library header](../standard_library.md#including-headers) may NOT `#define` OR `#undef` names / declared | any [standard library header](../headers.md)
+  * uses ANY part of the standard library is NOT allowed to `#define` OR `#undef` names lexically identical to
+    * [keywords](../keywords.md)
+    * [identifiers / special meaning](../keywords.md)
+      * | C+11
+    * [any standard attribute token](../language/attributes.md#standard-attributes)
+      * | C+11
+      * EXCEPT TO: [`likely`](../language/attributes/likely.md) & [`unlikely`](../language/attributes/likely.md) defined -- as -- function-like macros
+        * | C++20
 
-A translation unit that uses any part of the standard library is not allowed to #define or #undef names lexically identical to: 
-
-  * [keywords](../keywords.html "cpp/keyword")
-
-
-
-  * [identifiers with special meaning](../keywords.html "cpp/keyword")
-  * [any standard attribute token](../language/attributes.html#Standard_attributes "cpp/language/attributes"), except that [`likely`](../language/attributes/likely.html "cpp/language/attributes/likely") and [`unlikely`](../language/attributes/likely.html "cpp/language/attributes/likely") may be defined as function-like macros(since C++20)
-
-| (since C++11)  
----|---  
-  
 Otherwise, the behavior is undefined. 
 
 #### # and ## operators
