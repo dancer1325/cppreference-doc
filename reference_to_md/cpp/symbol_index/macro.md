@@ -1,34 +1,8 @@
-[C++](../../cpp.html "cpp")
+* goal
+  * list ALL [standard library](../standard_library.md)'s [macro](../preprocessor/replace.md) symbols 
 
-[Symbol Index](../symbol_index.html "cpp/symbol index")
-
-[`std`](../symbol_index.html "cpp/symbol index")  
----  
-[std::chrono](chrono.html "cpp/symbol index/chrono")(C++11)  
-[std::contracts](contracts.html "cpp/symbol index/contracts")(C++26)  
-[std::execution](execution.html "cpp/symbol index/execution")(C++17)  
-[std::filesystem](filesystem.html "cpp/symbol index/filesystem")(C++17)  
-[std::linalg](linalg.html "cpp/symbol index/linalg")(C++26)  
-[std::literals](literals.html "cpp/symbol index/literals")(C++14)  
-[std::numbers](numbers.html "cpp/symbol index/numbers")(C++20)  
-[std::placeholders](placeholders.html "cpp/symbol index/placeholders")(C++11)  
-[std::pmr](pmr.html "cpp/symbol index/pmr")(C++17)  
-[std::ranges](ranges.html "cpp/symbol index/ranges")(C++20)  
-[std::regex_constants](regex_constants.html "cpp/symbol index/regex constants")(C++11)  
-[std::rel_ops](rel_ops.html "cpp/symbol index/rel ops")(deprecated in C++20)  
-[std::this_thread](this_thread.html "cpp/symbol index/this thread")(C++11)  
-**Macros**  
-[Removed symbols (Zombie names)](zombie_names.html "cpp/symbol index/zombie names")  
-[Exposition-only symbols](expos.html "cpp/symbol index/expos")  
-  
-
-
-  
-This page tries to list all the [macro](../preprocessor/replace.html "cpp/preprocessor/replace") symbols that are available from the [standard library](../standard_library.html "cpp/standard library"). The symbols are written as follows: 
-
-  * Function-like macros with `()`. 
-
-
+* function-like macros
+  * are written -- with -- `()` 
 
 ## Contents
 
@@ -54,16 +28,6 @@ This page tries to list all the [macro](../preprocessor/replace.html "cpp/prepro
     * [1.19 V](macro.html#V)
     * [1.20 W](macro.html#W)
     * [1.21 See also](macro.html#See_also)
-
-  
----  
-  
-## [[edit](https://en.cppreference.com/mwiki/index.php?title=cpp/symbol_index/macro&action=edit&section=1 "Edit section: A B C D E F H I K L M N O P R S T U V W")]
-
-> `[_](macro.html#.28underscore.29) [A](macro.html#A) [B](macro.html#B) [C](macro.html#C) [D](macro.html#D) [E](macro.html#E) [F](macro.html#F) [H](macro.html#H) [I](macro.html#I) [K](macro.html#K) [L](macro.html#L) [M](macro.html#M) [N](macro.html#N) [O](macro.html#O) [P](macro.html#P) [R](macro.html#R) [S](macro.html#S) [T](macro.html#T) [U](macro.html#U) [V](macro.html#V) [W](macro.html#W)`
-
-  
-
 
 ### _ (underscore)
 

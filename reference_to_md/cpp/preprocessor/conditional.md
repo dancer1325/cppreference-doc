@@ -37,7 +37,7 @@
   * | C++23
 * `#else`
 * `#endif`   
-  
+
 ### Explanation
 
 * conditional preprocessing block's directives
@@ -58,26 +58,23 @@ checks for condition, compiles or skips the controlled code block based on the r
 
 ### Condition evaluation
 
-#### #if, #elif
+#### `#if`, `#elif`
 
-expression may contain unary operators in form `**defined**` identifier or `**defined (**` identifier`**)**`
-* The result is 1 if the identifier was [defined as a macro name](replace.html "cpp/preprocessor/replace"), otherwise the result is ​0​. 
+* [`expression`](#syntax-)
+  * ALLOWED unary operators
+    * `defined identifier`
+    * `defined (identifier)`
+  * ALLOWED expressions
+    * [`__has_include`](include.html "cpp/preprocessor/include") expressions, which detects whether a header or source file exists.
+    * [`__has_cpp_attribute`](../experimental/feature_test.html#Attributes "cpp/feature test") expressions, which detects whether a given attribute token is supported and its supported version.
+      * | C++20
+    * [`__has_embed`](embed.html "cpp/preprocessor/embed") expressions, which detects whether a resource is available to be embedded.
+      * C++26
 
-expression may also contain the following expressions: 
+* if the identifier was defined -- as a -- [macro name](replace.md) -> result = 1
+  * otherwise, result = 0 
 
-  * [`__has_include`](include.html "cpp/preprocessor/include") expressions, which detects whether a header or source file exists. 
-
-| 
-
-  * [`__has_cpp_attribute`](../experimental/feature_test.html#Attributes "cpp/feature test") expressions, which detects whether a given attribute token is supported and its supported version. 
-
-| (since C++20)  
----|---  
-  
-  * [`__has_embed`](embed.html "cpp/preprocessor/embed") expressions, which detects whether a resource is available to be embedded. 
-
-| (since C++26)  
-  
+* TODO:  
 The identifiers mentioned above are treated as if they were the names of defined macros in this context. 
 
 (since C++17)  
@@ -92,14 +89,16 @@ Note: Until the resolution of [CWG issue 1955](https://cplusplus.github.io/CWG/i
 
 #### Combined directives
 
-Checks if the identifier was [defined as a macro name](replace.html "cpp/preprocessor/replace"). 
+* ⚠️requirements⚠️
+  * identifier is defined -- as a -- [macro name](replace.md) 
 
-`#ifdef` identifier is essentially equivalent to `#if defined` identifier. 
+* `#ifdef` identifier == `#if defined` identifier
+* `#ifndef` identifier == `#if !defined` identifier 
 
-`#ifndef` identifier is essentially equivalent to `#if !defined` identifier. 
-
-`#elifdef` identifier is essentially equivalent to `#elif defined` identifier. `#elifndef` identifier is essentially equivalent to `#elif !defined` identifier.  | (since C++23)  
----|---  
+* `#elifdef` identifier == `#elif defined` identifier
+  * | C++23
+* `#elifndef` identifier == `#elif !defined` identifier
+  * | C++23
   
 ### Notes
 
