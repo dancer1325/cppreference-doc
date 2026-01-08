@@ -37,33 +37,19 @@
   * [5 Defect reports](name.html#Defect_reports)
   * [6 See also](name.html#See_also)
 
-  
 ### In declarations
 
-An identifier can be used [to name](declarations.md) objects, references, functions, enumerators, types, class members, namespaces, templates, template specializations, parameter packs(since C++11), goto labels, and other entities, with the following exceptions: 
-
-  * The identifiers that are [keywords](../keywords.html "cpp/keyword") cannot be used for other purposes. 
-
-
-
-    
-
-  * The only place they can be used as non-keywords is in an attribute-token (e.g. [[private]] is a valid [attribute](attributes.html "cpp/language/attributes")). 
-
-
-| (since C++11)  
----|---  
-  
-  * The identifiers that are [alternative representations](operator_alternative.html "cpp/language/operator alternative") for certain operators and punctuators cannot be used for other purposes. 
-
-
-
-  * The identifiers with special meaning (final, import, module(since C++20) and override) are used explicitly in a certain context rather than being regular identifiers. 
-    * Unless otherwise specified, any ambiguity as to whether a given identifier has a special meaning is resolved to interpret the token as a regular identifier. 
-
-| (since C++11)  
----|---  
-  
+* identifiers | declarations
+  * == 👀[name](declarations.md): objects, references, functions, enumerators, types, class members, namespaces, templates, template specializations, parameter packs(| C++11), goto labels, ...👀
+    * ⚠️EXCEPTIONS⚠️
+      * identifiers / are [keywords](../keywords.md) 
+        * ⚠️EXCEPT TO: non-keywords == keyword | attribute-token⚠️
+          * | C++11
+      * identifiers / are [alternative representations](operator_alternative.md) -- for -- certain operators & punctuators
+      * identifiers / special meaning (`final`, `import`, `module`(| C++20) and `override`) 
+        * | C+11
+        * Reason:🧠 they are used EXPLICITLY | certain context (!= being regular identifiers)🧠 
+        * TODO: Unless otherwise specified, any ambiguity as to whether a given identifier has a special meaning is resolved to interpret the token as a regular identifier.
   * Identifiers that appear as a token or preprocessing token (i.e., not in user-defined-string-literal like operator ""id)(since C++11) of one of the following forms are reserved: 
     * in the global namespace, identifiers that begin with an underscore 
     * identifiers that contain a double underscore or begin with an underscore followed by an uppercase letter, except the following identifiers: 
