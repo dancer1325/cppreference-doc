@@ -1,95 +1,22 @@
-[C++](../cpp.html "cpp")
-
-[Compiler support](compiler_support.html "cpp/compiler support")  
----  
-[Freestanding and hosted](freestanding.html "cpp/freestanding")  
-[Language](language.html "cpp/language")  
-[Standard library](standard_library.html "cpp/standard library")  
-[Standard library headers](headers.html "cpp/header")  
-[Named requirements](iterator/concepts.html "cpp/named req")  
-[Feature test macros](experimental/feature_test.html "cpp/feature test") (C++20)  
-[Language support library](utility.html#Language_support "cpp/utility")  
-[Concepts library](concepts.html "cpp/concepts") (C++20)  
-[Diagnostics library](error.html "cpp/error")  
-[Memory management library](memory.html "cpp/memory")  
-[Metaprogramming library](meta.html "cpp/meta") (C++11)  
-[General utilities library](utility.html "cpp/utility")  
-**Containers library**  
-[Iterators library](iterator.html "cpp/iterator")  
-[Ranges library](ranges.html "cpp/ranges") (C++20)  
-[Algorithms library](algorithm.html "cpp/algorithm")  
-[Strings library](string.html "cpp/string")  
-[Text processing library](text.html "cpp/text")  
-[Numerics library](numeric.html "cpp/numeric")  
-[Date and time library](chrono.html "cpp/chrono")  
-[Input/output library](io.html "cpp/io")  
-[Filesystem library](filesystem.html "cpp/filesystem") (C++17)  
-[Concurrency support library](atomic.html "cpp/thread") (C++11)  
-[Execution control library](experimental/execution.html "cpp/execution") (C++26)  
-[Technical specifications](experimental.html "cpp/experimental")  
-[Symbols index](symbol_index.html "cpp/symbol index")  
-[External libraries](links/libs.html "cpp/links/libs")  
-  
-
-
-**Containers library**
-
-[_node-handle_](container/node_handle.html "cpp/container/node handle")(C++17)  
----  
-[Sequence](container.html#Sequence_containers "cpp/container")  
-[array](container/array.html "cpp/container/array")(C++11)  
-[vector](container/vector.html "cpp/container/vector")  
-[vector<bool>](container/vector_bool.html "cpp/container/vector bool")  
-[inplace_vector](container/inplace_vector.html "cpp/container/inplace vector")(C++26)  
-[hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1 "cpp/container/hive \(page does not exist\)")(C++26)  
-[deque](container/deque.html "cpp/container/deque")  
-[forward_list](container/forward_list.html "cpp/container/forward list")(C++11)  
-[list](container/list.html "cpp/container/list")  
-[Associative](container.html#Associative_containers "cpp/container")  
-[set](container/set.html "cpp/container/set")  
-[multiset](container/multiset.html "cpp/container/multiset")  
-[map](container/map.html "cpp/container/map")  
-[multimap](container/multimap.html "cpp/container/multimap")  
-[Unordered associative](container.html#Unordered_associative_containers "cpp/container")  
-[unordered_set](container/unordered_set.html "cpp/container/unordered set")(C++11)  
-[unordered_multiset](container/unordered_multiset.html "cpp/container/unordered multiset")(C++11)  
-[unordered_map](container/unordered_map.html "cpp/container/unordered map")(C++11)  
-[unordered_multimap](container/unordered_multimap.html "cpp/container/unordered multimap")(C++11)  
-[Adaptors](container.html#Container_adaptors "cpp/container")  
-[stack](container/stack.html "cpp/container/stack")  
-[queue](container/queue.html "cpp/container/queue")  
-[priority_queue](container/priority_queue.html "cpp/container/priority queue")  
-[flat_set](container/flat_set.html "cpp/container/flat set")(C++23)  
-[flat_multiset](container/flat_multiset.html "cpp/container/flat multiset")(C++23)  
-[flat_map](container/flat_map.html "cpp/container/flat map")(C++23)  
-[flat_multimap](container/flat_multimap.html "cpp/container/flat multimap")(C++23)  
-[Views](container.html#Views "cpp/container")  
-[span](container/span.html "cpp/container/span")(C++20)  
-[mdspan](container/mdspan.html "cpp/container/mdspan")(C++23)  
-Tables  
-[Iterator invalidation](container.html#Iterator_invalidation "cpp/container")  
-[Member function table](container.html#Member_function_table "cpp/container")  
-[Non-member function table](container.html#Non-member_function_table "cpp/container")  
-  
-
-
-The Containers library is a generic collection of class templates and algorithms that allow programmers to easily implement common data structures like queues, lists and stacks. There are two(until C++11)three(since C++11) classes of containers: 
-
-  * sequence containers, 
-  * associative containers, 
-
-
-
-  * unordered associative containers, 
-
-| (since C++11)  
----|---  
-  
-each of which is designed to support a different set of operations. 
-
-The container manages the storage space that is allocated for its elements and provides member functions to access them, either directly or through iterators (objects with properties similar to pointers). 
-
-Most containers have at least several member functions in common, and share functionalities. Which container is the best for the particular application depends not only on the offered functionality, but also on its efficiency for different workloads. 
+* Containers library
+  * == generic collection of class templates + algorithms /
+    * enable programmers -- to -- easily implement common data structures (_Examples:_ queues, lists and stacks)
+    * manages the storage space / allocated -- for -- its elements
+    * provides member functions -- to -- access its elements
+      * directly, OR
+      * through iterators (objects with properties similar to pointers)
+    * MOST of them
+      * have COMMON MULTIPLE member functions
+      * share functionalities
+  * classes of containers
+    * are
+      * [sequence containers](#sequence-containers), 
+      * [associative containers](#associative-containers),
+      * [unordered associative containers](#unordered-associative-containers-since-c11)
+        * |C++11
+    * choose -- based on -- 
+      * offered functionality
+      * efficiency / different workloads
 
 ## Contents
 
@@ -105,29 +32,29 @@ Most containers have at least several member functions in common, and share func
     * [8.2 Non-member function table](container.html#Non-member_function_table)
   * [9 Defect reports](container.html#Defect_reports)
   * [10 See also](container.html#See_also)
-
-  
----  
   
 ### Sequence containers
 
-Sequence containers implement data structures which can be accessed sequentially. 
+* implement data structures / can be accessed sequentially 
 
-[ array](container/array.html "cpp/container/array")(C++11) |  fixed-sized inplace contiguous array   
-(class template)   
----|---  
-[ vector](container/vector.html "cpp/container/vector") |  resizable contiguous array   
-(class template)   
-[ inplace_vector](container/inplace_vector.html "cpp/container/inplace vector")(C++26) |  resizable, fixed capacity, inplace contiguous array   
-(class template)   
-[ hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1 "cpp/container/hive \(page does not exist\)")(C++26) |  collection that reuses erased elements' memory   
-(class template)   
-[ deque](container/deque.html "cpp/container/deque") |  double-ended queue   
-(class template)   
-[ forward_list](container/forward_list.html "cpp/container/forward list")(C++11) |  singly-linked list   
-(class template)   
-[ list](container/list.html "cpp/container/list") |  doubly-linked list   
-(class template)   
+* [array](container/array.md)
+  * C++11
+  * == class template / fixed-sized inplace contiguous array   
+* [vector](container/vector.md)
+  * == class template / resizable contiguous array   
+* [inplace_vector](container/inplace_vector.md)
+  * | C++26
+  * == class template / resizable, fixed capacity, inplace contiguous array   
+* [hive](https://en.cppreference.com/mwiki/index.php?title=cpp/container/hive&action=edit&redlink=1)
+  * | C++26
+  * == class template / reuses erased elements' memory
+* [deque](container/deque.md)
+  * == class template / double-ended queue
+* [ forward_list](container/forward_list.md)
+  * | C++11
+  * class template / singly-linked list   
+* [ list](container/list.md)
+  * == class template / doubly-linked list
   
 ### Associative containers
 
