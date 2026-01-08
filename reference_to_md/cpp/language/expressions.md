@@ -281,75 +281,38 @@ Literals are the tokens of a C++ program that represent constant values embedded
   
 ### Full-expressions
 
-A _constituent expression_ is defined as follows: 
+* _constituent expression_
+  * expression's constituent expression == that expression
+  * The constituent expressions of a [brace-enclosed initializer list](initialization.md) or of a (possibly parenthesized) expression list are the constituent expressions of the elements of the respective list
+  * of an [initializer](initialization.md) / begins with `=`
+    * == constituent expressions of the `initializer-clause`
 
-  * The constituent expression of an expression is that expression
-* 
-  * The constituent expressions of a [brace-enclosed initializer list](initialization.html "cpp/language/initialization") or of a (possibly parenthesized) expression list are the constituent expressions of the elements of the respective list
-* 
-  * The constituent expressions of an [initializer](initialization.html "cpp/language/initialization") that begins with `**=**` are the constituent expressions of the initializer-clause
-* 
-
-
-    
-    
-    int num1 = 0;
-    num1 += 1; // Case 1: the constituent expression of “num += 1” is “num += 1”
-     
-    int arr2[2] = {2, 22} // Case 2: the constituent expressions
-                          //         of “{2, 22}” are “2” and “22”
-                          // Case 3: the constituent expressions of “= {2, 22}”
-                          //         are the constituent expressions of “{2, 22}”
-                          //         (i.e
-* also “2” and “22”)
-
-The _immediate subexpressions_ of an expression E are 
-
-  * the constituent expressions of E’s operands, 
-
-
-
-  * if E creates an [aggregate](aggregate_initialization.html#Definitions "cpp/language/aggregate initialization") object, the constituent expressions of each [default member initializer](data_members.html#Member_initialization "cpp/language/data members") used in the initialization, 
-
-| (since C++14)  
----|---  
-  
-  * if E is a [lambda expression](lambda.html "cpp/language/lambda"), the initialization of the entities captured by copy and the constituent expressions of the initializer of the captures, 
-
-| (since C++11)  
+* expression's (E) _immediate subexpressions_
+  * constituent expressions of E’s operands
+  * if E creates an [aggregate](aggregate_initialization.md#definitions) object -> the constituent expressions of each [default member initializer](data_members.html#Member_initialization "cpp/language/data members") used in the initialization
+    * | C++14
+  * if E is a [lambda expression](lambda.md) -> the initialization of the entities captured by copy and the constituent expressions of the initializer of the captures,
+    * | C++11  
   
   * any function call that E implicitly invokes, or 
   * if E is a function call or implicitly invokes a function, the constituent expressions of each [default argument](default_arguments.html "cpp/language/default arguments") used in the call
-* 
 
-
-
-A _subexpression_ of an expression E is an immediate subexpression of E or a subexpression of an immediate subexpression of E
+* expression's (E) _subexpression_
+  * == immediate subexpression of E or a subexpression of an immediate subexpression of E
 * Note that expressions appearing in the “function body” of lambda expressions are not subexpressions of the lambda expression.(since C++11)
 
-The following expressions are _full-expressions ﻿_ : 
-
-  * [unevaluated operands](expressions.html#Potentially-evaluated_expressions)
-  * [constant expressions](constant_expression.html "cpp/language/constant expression")
-
-
-
-  * [immediate invocations](consteval.html "cpp/language/consteval")
-
-| (since C++20)  
----|---  
-  
-  * declarators of [simple declarations](declarations.html#Simple_declaration "cpp/language/declarations") or [member initializers](initializer_list.html "cpp/language/constructor"), including the constituent expressions of the initializers 
-  * invocations of [destructors](destructor.html "cpp/language/destructor") generated at the end of the [lifetime](lifetime.html "cpp/language/lifetime") of objects other than temporary objects whose lifetime have not been extended 
-
-
-
-  * the predicates of [contract assertions](contracts.html "cpp/language/contracts")
-
-| (since C++26)  
----|---  
-  
-  * expressions that are not a subexpression of any another expression and that are not otherwise part of any full-expression 
+* _full-expressions_
+  * == following expressions
+    * [unevaluated operands](expressions.md#potentially-evaluated-expressions)
+    * [constant expressions](constant_expression.md)
+    * [immediate invocations](consteval.md)
+      * requirements
+        * C++20
+    * declarators of [simple declarations](declarations.md#simple-declaration) OR [member initializers](initializer_list.html "cpp/language/constructor"), including the constituent expressions of the initializers 
+    * invocations of [destructors](destructor.html "cpp/language/destructor") generated at the end of the [lifetime](lifetime.html "cpp/language/lifetime") of objects other than temporary objects whose lifetime have not been extended 
+    * the predicates of [contract assertions](contracts.html "cpp/language/contracts")
+      * | C++26
+    * expressions / are not a subexpression of any another expression and that are not otherwise part of any full-expression 
 
 
 

@@ -54,35 +54,30 @@
 
 ### Preprocessing tokens
 
-A _preprocessing token_ is the minimal lexical element of the language in translation phases 3 through 6. 
-
-The categories of preprocessing token are: 
-
-  * [header names](../preprocessor/include.html "cpp/preprocessor/include") (such as <iostream> or "myfile.h") 
-
-
-
-  * placeholder tokens produced by preprocessing [import and module directives](modules.html "cpp/language/modules") (i.e. import XXX; and module XXX;) 
-
-| (since C++20)  
----|---  
-  
-  * [identifiers](name.html "cpp/language/identifiers")
-  * preprocessing numbers (see below) 
-  * [character literals](character_literal.html "cpp/language/character literal"), including [user-defined](user_literal.html "cpp/language/user literal") character literals(since C++11)
-  * [string literals](string_literal.html "cpp/language/string literal"), including [user-defined](user_literal.html "cpp/language/user literal") string literals(since C++11)
-  * [operators and punctuators](punctuators.html "cpp/language/punctuators"), including [alternative tokens](operator_alternative.html "cpp/language/operator alternative")
-  * individual non-whitespace characters that do not fit in any other category 
-
-
-
-     The program is ill-formed if the character matching this category is 
-
-  * apostrophe (', U+0027), 
-  * quotation mark (", U+0022), or 
-  * a character not in the [basic character set](charset.html "cpp/language/charset"). 
-
-
+* _preprocessing token_
+  * == minimal lexical element of the language | translation phases [3, 6]
+  * categories
+    * [header names](../preprocessor/include.md)
+      * (such as <iostream> or "myfile.h")
+    * placeholder tokens / produced -- by -- [preprocessing import & module directives](modules.md)
+      * (i.e. import XXX; and module XXX;)
+      * C++20
+    * [identifiers](name.md)
+    * [preprocessing numbers](#preprocessing-numbers) 
+    * [character literals](character_literal.md)
+      * EVEN [user-defined](user_literal.md)
+        * | C++11
+    * [string literals](string_literal.md)
+      * EVEN [user-defined](user_literal.md)
+        * | C++11
+    * [operators and punctuators](punctuators.md)
+      * EVEN [alternative tokens](operator_alternative.md)
+    * individual NON-whitespace characters / NOT fit | any other category
+      * use cases / program is ill-formed
+        * characters
+          * apostrophe (', U+0027), 
+          * quotation mark (", U+0022), or 
+          * character / NOT part of [basic character set](charset.md) 
 
 #### Preprocessing numbers
 
@@ -229,7 +224,8 @@ The maximal munch rule has the following exceptions:
   
 ### Tokens
 
-A _token_ is the minimal lexical element of the language in translation phase 7. 
+* _token_
+  * := minimal lexical element of the language | translation phase 7 
 
 The categories of token are: 
 
@@ -238,11 +234,11 @@ The categories of token are:
   * [literals](expressions.html#Literals "cpp/language/expressions")
   * [operators and punctuators](punctuators.html "cpp/language/punctuators") (except preprocessing operators) 
 
-
-
 ### Translation phases
 
-Translation is performed [as if](as_if.html "cpp/language/as if") in the order from phase 1 to phase 9. Implementations behave as if these separate phases occur, although in practice different phases can be folded together. 
+* translation is performed [as if](as_if.md)
+  * following phase 1 -- to -- phase 9
+* Implementations behave as if these separate phases occur, although in practice different phases can be folded together. 
 
 #### Phase 1: Mapping source characters
 
@@ -331,11 +327,15 @@ For a sequence of two or more adjacent [string literal](string_literal.html "cpp
   
 #### Phase 6: Concatenating string literals
 
-Adjacent [string literals](string_literal.html "cpp/language/string literal") are concatenated. 
+* adjacent [string literals](string_literal.md) are concatenated 
 
 #### Phase 7: Compiling
 
-Compilation takes place: each preprocessing token is converted to a [token](translation_phases.html#Tokens). The tokens are syntactically and semantically analyzed and translated as a [translation unit](translation_phases.html#Translation_process). 
+* EACH preprocessing token is converted -- to a -- [token](#Tokens) /
+  * are analyzed
+    * syntactically
+    * semantically
+  * are translated -- as a -- [translation unit](#translation-process) 
 
 #### Phase 8: Instantiating templates
 

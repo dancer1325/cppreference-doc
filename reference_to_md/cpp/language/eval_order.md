@@ -1,37 +1,10 @@
-* == order | intermediate results are obtained
-
-Order of evaluation of any part of any expression, including order of evaluation of function arguments is _unspecified_ (with some exceptions listed below)
-* The compiler can evaluate operands and other subexpressions in any order, and may choose another order when the same expression is evaluated again. 
-
-There is no concept of left-to-right or right-to-left evaluation in C++
-* This is not to be confused with left-to-right and right-to-left associativity of operators: the expression a() + b() + c() is parsed as (a() + b()) + c() due to left-to-right associativity of operator+, but c() may be evaluated first, last, or between a() or b() at runtime: 
-
-Run this code
-    
-    
-    #include <cstdio>
-     
-    int a() { return [std::puts](../io/c/puts.html)("a"); }
-    int b() { return [std::puts](../io/c/puts.html)("b"); }
-    int c() { return [std::puts](../io/c/puts.html)("c"); }
-     
-    void z(int, int, int) {}
-     
-    int main()
-    {
-        z(a(), b(), c());       // all 6 permutations of output are allowed
-        return a() + b() + c(); // all 6 permutations of output are allowed
-    }
-
-Possible output: 
-    
-    
-    b
-    c
-    a
-    c
-    a 
-    b
+* evaluation order
+  * := order | intermediate results are obtained -- by the -- compiler
+    * == | any part of any expression (EVEN function arguments)
+  * ⚠️_unspecified_⚠️ 
+    * can change / EACH evaluation 
+    * == ❌NOT exist "left-to-right" nor "right-to-left" evaluation❌
+      * ⚠️!= "left-to-right" & "right-to-left" associativity of operators⚠️
 
 ## Contents
 
@@ -48,7 +21,7 @@ Possible output:
   * [4 References](eval_order.html#References)
   * [5 See also](eval_order.html#See_also)
   
-### "Sequenced before" rules (since C++11)
+### "Sequenced before" rules (| C++11)
 
 #### Evaluation of Expressions
 
@@ -57,8 +30,6 @@ Evaluation of each expression includes:
   * _Value computations_ : calculation of the value that is returned by the expression
 * This may involve determination of the identity of the object (glvalue evaluation, e.g. if the expression returns a reference to some object) or reading the value previously assigned to an object (prvalue evaluation, e.g. if the expression returns a number, or some other value). 
   * Initiation of _side effects_ : access (read or write) to an object designated by a volatile glvalue, modification (writing) to an object, calling a library I/O function, or calling a function that does any of those operations. 
-
-
 
 #### Ordering
 
@@ -69,8 +40,6 @@ _Sequenced before_ is an asymmetric, transitive, pair-wise relationship between 
   * If `A` is not sequenced before `B` and `B` is not sequenced before `A`, then two possibilities exist: 
     * Evaluations of `A` and `B` are _unsequenced ﻿_ : they may be performed in any order and may overlap (within a single thread of execution, the compiler may interleave the CPU instructions that comprise `A` and `B`). 
     * Evaluations of `A` and B are _indeterminately sequenced ﻿_ : they may be performed in any order but may not overlap: either `A` will be complete before `B`, or `B` will be complete before `A`. The order may be the opposite the next time the same expression is evaluated. 
-
-
 
 An expression X is said to be _sequenced before_ an expression Y if every value computation and every side effect associated with X is sequenced before every value computation and every side effect associated with the expression Y. 
 
@@ -154,17 +123,26 @@ The behavior is [undefined](ub.html "cpp/language/ub") in the following cases:
     union U { int x, y; } u;
     (u.x = 1, 0) + (u.y = 2, 0); // undefined behavior
 
-### Sequence point rules (until C++11)
+### Sequence point rules (| C++11-)
+
+* _sequence point_
+  * := point | execution sequence /
+    * ALL side effects FROM previous evaluations | sequence: are complete
+    * NO side effects of the subsequent evaluations started
 
 #### Pre-C++11 Definitions
 
-Evaluation of an expression might produce side effects, which are: accessing an object designated by a volatile lvalue, modifying an object, calling a library I/O function, or calling a function that does any of those operations. 
-
-A _sequence point_ is a point in the execution sequence where all side effects from the previous evaluations in the sequence are complete, and no side effects of the subsequent evaluations started. 
+* side effects / evaluate an expression, might produce
+  * accessing an object / designated -- by a -- volatile lvalue,
+  * modifying an object,
+  * calling a library I/O function, or
+  * calling a function / does any of those operations  
 
 #### Pre-C++11 Rules
 
-1) There is a sequence point at the end of each [full-expression](expressions.html#Full-expressions "cpp/language/expressions") (typically, at the semicolon).
+1) | end of EACH [full-expression](expressions.md#full-expressions),
+    * _Example:_ AFTER `;`
+    * there is a sequence point 
 
 2) When calling a function (whether or not the function is inline and whether or not function call syntax was used), there is a sequence point after the evaluation of all function arguments (if any) which takes place before execution of any expressions or statements in the function body.
 
