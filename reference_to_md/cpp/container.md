@@ -38,8 +38,6 @@
 * implement data structures / can be accessed sequentially 
 
 * [array](container/array.md)
-  * C++11
-  * == class template / fixed-sized inplace contiguous array   
 * [vector](container/vector.md)
   * == class template / resizable contiguous array   
 * [inplace_vector](container/inplace_vector.md)

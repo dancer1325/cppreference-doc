@@ -1,12 +1,19 @@
-Defined in header `[<array>](../header/array.html "cpp/header/array")` |  |   
----|---|---  
+* defined | header [`<array>`](../header/array.md)   
+
+```c++
 template<  
-class T,  
-[std::size_t](../types/size_t.html) N  
-> struct array; |  |  (since C++11)  
-| |   
-  
-`std::array` is a container that encapsulates fixed size arrays. 
+    class T,  
+    std::size_t N  
+> struct array;
+```
+
+* requirements
+  * C++11  
+* == class template / array
+  * fixed-sized
+  * inplace
+  * contiguous 
+
 
 This container is an aggregate type with the same semantics as a struct holding a [C-style array](../language/array.html "cpp/language/array") T[N] as its only non-static data member. Unlike a C-style array, it doesn't decay to T* automatically. As an aggregate type, it can be initialized with [aggregate-initialization](../language/aggregate_initialization.html "cpp/language/aggregate initialization") given at most `N` initializers that are convertible to `T`: std::array<int, 3> a = {1, 2, 3};. 
 
