@@ -3,39 +3,45 @@
 using namespace std;
 
 // ============================================================================
-// (1) Object-like macros: #define identifier replacement-list
+// (1) Object-like macros:          #define identifier replacement-list
 // ============================================================================
 
+// 1.1  ALL specified
 #define PI 3.14159
 #define MAX_SIZE 100
 #define VERSION "1.0.0"
-#define EMPTY              // replacement-list is optional (empty)
+// 1.2  replacement-list        NOT specified
+#define EMPTY
 
 void example1_object_like() {
     cout << "\n=== (1) Object-like macros ===\n";
     cout << "PI = " << PI << "\n";
     cout << "MAX_SIZE = " << MAX_SIZE << "\n";
     cout << "VERSION = " << VERSION << "\n";
-    // EMPTY expands to nothing
+    // cout << "EMPTY = " << EMPTY << "\n";             // uncomment to see the error       Reason: replace by NOTHING
 }
 
 // ============================================================================
-// (2) Function-like macros: #define identifier(parameters) replacement-list
+// (2) Function-like macros:        #define identifier(parameters) replacement-list
 // ============================================================================
 
+// 2.1 ALL specified
 #define SQUARE(x) ((x) * (x))
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
+// 2.2  replacement-list        NOT specified
+#define EMPTY(x)
 
 void example2_function_like() {
     cout << "\n=== (2) Function-like macros ===\n";
     cout << "SQUARE(5) = " << SQUARE(5) << "\n";           // 25
     cout << "MAX(10, 20) = " << MAX(10, 20) << "\n";       // 20
     cout << "MIN(10, 20) = " << MIN(10, 20) << "\n";       // 10
+    // cout << "EMPTY(2) = " << EMPTY(2) << "\n";             // uncomment to see the error       Reason: replace by NOTHING
 }
 
 // ============================================================================
-// (3) Variadic macros: #define identifier(parameters, ...) replacement-list
+// (3) Variadic macros:             #define identifier(parameters, ...) replacement-list
 //     C++11 - variable number of arguments
 // ============================================================================
 

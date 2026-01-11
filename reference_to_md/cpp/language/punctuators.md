@@ -607,20 +607,20 @@
 
 #### ...
 
-  * In the [parameter list](function.html#Parameter_list "cpp/language/function") of a function declaratoror lambda expression(since C++11)or user-defined deduction guide(since C++17), signify a [variadic function](variadic_arguments.html "cpp/language/variadic arguments"). 
+* use cases 
+  * [variadic function](variadic_arguments.md)
+    * == [parameter list](function.md#parameter-list) of a 
+      * function declarator 
+      * lambda expression
+        * | C++11
+      * user-defined deduction guide
+        * | C++17
   * In a [handler](catch.html "cpp/language/catch"), signify catch-all handler. 
-
-
-
   * In a [macro definition](../preprocessor/replace.html "cpp/preprocessor/replace"), signify a variadic macro. 
-  * Indicate [pack](parameter_pack.html "cpp/language/parameter pack") declaration and expansion. 
-
-| (since C++11)  
----|---  
-  
-  * In [pack indexing](pack_indexing.html#Syntax "cpp/language/pack indexing") expression and specifier. 
-
-| (since C++26)  
+  * Indicate [pack](parameter_pack.html "cpp/language/parameter pack") declaration and expansion
+    * |C++11
+  * In [pack indexing](pack_indexing.html#Syntax "cpp/language/pack indexing") expression and specifier
+    * | C++26  
   
 #### `::`
 

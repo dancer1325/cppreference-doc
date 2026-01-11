@@ -1,67 +1,18 @@
+* variadic function
+  * := function / 's last parameter == `...`
 
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[ Functions](functions.html "cpp/language/functions")
-
-Declarations  
----  
-[Function declaration](function.html "cpp/language/function")  
-[Function parameter list](function.html#Parameter_list "cpp/language/function")  
-[Function definition](function.html#Function_definition "cpp/language/function")  
-[Function contract specifiers](function.html#Function_contract_specifiers "cpp/language/function") (C++26)  
-[Default arguments](default_arguments.html "cpp/language/default arguments")  
-**Variadic arguments**  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
-[Coroutines](coroutines.html "cpp/language/coroutines") (C++20)  
-[Replacement functions](replacement_function.html "cpp/language/replacement function")  
-Function calls  
-[Argument-Dependent Lookup (ADL)](adl.html "cpp/language/adl")  
-[Function-call operator](operator_other.html#Built-in_function_call_operator "cpp/language/operator other")  
-[Function objects](../named_req/FunctionObject.html "cpp/named req/FunctionObject")  
-Overloading  
-[Overload resolution](overload_resolution.html "cpp/language/overload resolution")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
-  
-
-
-Allows a function to accept any number of extra arguments. 
-
-A function is a variadic if the last parameter of its [parameter list](function.html#Parameter_list "cpp/language/function") is an ellipsis (...). 
-
-The comma preceding the ellipsis can be omitted. | (deprecated in C++26)  
----|---  
-      
+* `...` OR `,...`
+  * | C++26,
+    * ⚠️preceding `,` is deprecated⚠️
+  * allows
+    * a function can accept ANY number of extra arguments
     
-    // the function declared as follows
-    int printx(const char* fmt, ...);
-    int printx(const char* fmt...); // same as above, but deprecated since C++26
-     
-    // may be called with one or more arguments:
-    printx("hello world");
-    printx("a=%d b=%d", a, b);
-     
-    int printy(..., const char* fmt); // error: ... can only be the last parameter
-    int printz(...); // valid, but the arguments cannot be accessed portably
 
-This is different from a function [parameter pack](parameter_pack.html "cpp/language/parameter pack") expansion, which is indicated by an ellipsis that is a part of a parameter declarator, rather than an ellipsis being a parameter alone. Both parameter pack expansion and the “variadic” ellipsis may appear in the declaration of a function template, as in the case of [std::is_function](../types/is_function.html "cpp/types/is function").  | (since C++11)  
+
+This is different from a function [parameter pack](parameter_pack.md) expansion, 
+which is indicated by an ellipsis that is a part of a parameter declarator, rather than an ellipsis being a parameter alone
+* Both parameter pack expansion and the “variadic” ellipsis may appear in the declaration of a function template, as in the case of [std::is_function](../types/is_function.html "cpp/types/is function")
+*  | (since C++11)  
 ---|---  
   
 ## Contents
@@ -71,9 +22,6 @@ This is different from a function [parameter pack](parameter_pack.html "cpp/lang
   * [3 Notes](variadic_arguments.html#Notes)
   * [4 Defect reports](variadic_arguments.html#Defect_reports)
   * [5 See also](variadic_arguments.html#See_also)
-
-  
----  
   
 ### Default argument promotions
 

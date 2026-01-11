@@ -1,39 +1,58 @@
-* pack
+* parameter pack OR pack (| C++11) 
   * := C++ entity / defines 1 of
     * parameter pack 
       * template parameter pack 
       * function parameter pack 
-    * [lambda init-capture pack](lambda.md#lambda-capture)
+    * lambda init-capture pack
       * requirements
         * C++20  
-    * [structured binding pack](structured_binding.md)
+    * structured binding pack
       * requirements
         * C++26
 
 * ONLY appears | [parameter declarations](function.md#parameter-list)
 
-A template parameter pack is a template parameter that accepts zero or more template arguments (constants, types, or templates). A function parameter pack is a function parameter that accepts zero or more function arguments. 
+* template parameter pack
+  * == template parameter / accepts >=0 template arguments (constants, types, or templates)
+  * uses | 
+    * [alias template](type_alias.md)
+    * [class template](class_template.md)
+    * [variable template](variable_template.md)
+      * | C++14
+    * [concept](constraints.md)
+      * | C++20
+    * [function template](function_template.md)
+  * syntax
+    * `type ... pack-name`
+      * `pack-name`
+        * OPTIONAL
 
-A lambda init-capture pack is a lambda capture that introduces an init-capture for each of the elements in the pack expansion of its initializer.  | (since C++20)  
----|---  
-A structured binding pack is an identifier in the structured binding declaration that introduces zero or more structured bindings.  | (since C++26)  
----|---  
+
+`**typename**``**|**``**class**` `**...**` pack-name ﻿(optional) |  (2)  |   
+type-constraint `**...**` pack-name ﻿(optional) |  (3)  |  (since C++20)  
+`**template**` `**<**` parameter-list `**>**` `**class**` `**...**` pack-name ﻿(optional) |  (4)  |  (until C++17)  
+`**template**` `**<**` parameter-list `**>**` `**typename**``**|**``**class**` `**...**` pack-name ﻿(optional) |  (4)  |  (since C++17)
+
+
+* function parameter pack
+  * == function parameter / accepts >=0 function arguments 
+
+* lambda init-capture pack
+  * == [lambda capture](lambda.md#lambda-capture) / 
+    * introduces an init-capture / initializer's pack expansion's EACH element  
+  * [syntax](lambda.md#lambda-capture)
+
+* structured binding pack
+  * == identifier | [structured binding](structured_binding.md) declaration /
+    * introduces >=0 structured bindings
+  * [syntax](structured_binding.md#bin)
   
-The number of elements of a pack is equal to: 
-
+* pack's number of elements
   * the number of arguments provided for the parameter pack, if the pack is a template or function parameter pack, 
-
-
-
-  * the number of elements in the pack expansion of its initializer, if the pack is a lambda init-capture pack, 
-
-| (since C++20)  
----|---  
-  
-  * structured binding size of the initializer less the number of non-pack elements in the structured binding declaration, if the pack is a structured binding pack. 
-
-| (since C++26)  
----|---  
+  * the number of elements in the pack expansion of its initializer, if the pack is a lambda init-capture pack
+    * | C++20
+  * structured binding size of the initializer less the number of non-pack elements in the structured binding declaration, if the pack is a structured binding pack
+    * | C++26
   
 A template with at least one parameter pack is called a _variadic template_. 
 
@@ -65,30 +84,21 @@ A template with at least one parameter pack is called a _variadic template_.
   * [7 Defect reports](parameter_pack.html#Defect_reports)
   * [8 See also](parameter_pack.html#See_also)
 
-  
----  
-  
+
 ### Syntax
 
-Template parameter pack (appears in [alias template](type_alias.html "cpp/language/type alias"), [class template](class_template.html "cpp/language/class template"), [variable template](variable_template.html "cpp/language/variable template")(since C++14), [concept](constraints.html "cpp/language/constraints")(since C++20) and [function template](function_template.html "cpp/language/function template") parameter lists)   
-  
----  
-type `**...**` pack-name ﻿(optional) |  (1)  |   
-`**typename**``**|**``**class**` `**...**` pack-name ﻿(optional) |  (2)  |   
-type-constraint `**...**` pack-name ﻿(optional) |  (3)  |  (since C++20)  
-`**template**` `**<**` parameter-list `**>**` `**class**` `**...**` pack-name ﻿(optional) |  (4)  |  (until C++17)  
-`**template**` `**<**` parameter-list `**>**` `**typename**``**|**``**class**` `**...**` pack-name ﻿(optional) |  (4)  |  (since C++17)  
+ 
+
   
 Function parameter pack (a form of [declarator](declarations.html "cpp/language/declarations"), appears in a function parameter list of a variadic function template)   
-  
----  
+
 pack-name `**...**` pack-param-name ﻿(optional) |  (5)  |   
-For the syntax of non-parameter packs, see [lambda init-capture pack](lambda.html#Lambda_capture "cpp/language/lambda") and [structured binding pack](structured_binding.html "cpp/language/structured binding")(since C++26).  | (since C++20)  
----|---  
   
+
+
 Pack expansion (appears in a body of a template)   
   
----  
+
 pattern `**...**` |  (6)  |   
   
 1) A constant template parameter pack with an optional name
@@ -470,37 +480,7 @@ The first overload is called when only the format string is passed and there is 
 
 The second overload contains a separate template parameter for the head of the arguments and a parameter pack, this allows the recursive call to pass only the tail of the parameters until it becomes empty. 
 
-`**Targs**` is the template parameter pack and `**Fargs**` is the function parameter pack. 
-
-Run this code
-    
-    
-    #include <iostream>
-     
-    void tprintf(const char* format) // base function
-    {
-        [std::cout](../io/cout.html) << format;
-    }
-     
-    template<typename T, typename... Targs>
-    void tprintf(const char* format, T value, Targs... Fargs) // recursive variadic function
-    {
-        for (; *format != '\0'; format++)
-        {
-            if (*format == '%')
-            {
-                [std::cout](../io/cout.html) << value;
-                tprintf(format + 1, Fargs...); // recursive call
-                return;
-            }
-            [std::cout](../io/cout.html) << *format;
-        }
-    }
-     
-    int main()
-    {
-        tprintf("% world% %\n", "Hello", '!', 123);
-    }
+`**Targs**` is the template parameter pack and `**Fargs**` is the function parameter pack.
 
 Output: 
     
