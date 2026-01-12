@@ -1,33 +1,9 @@
-[C++](../cpp.html "cpp")
+* goal
+  * symbols / AVAILABLE | [standard library's `std` namespace](standard_library.md)
+  * The symbols are written as follows: 
 
-**Symbol Index**
-
-**`std`**  
----  
-[std::chrono](symbol_index/chrono.html "cpp/symbol index/chrono")(C++11)  
-[std::contracts](symbol_index/contracts.html "cpp/symbol index/contracts")(C++26)  
-[std::execution](symbol_index/execution.html "cpp/symbol index/execution")(C++17)  
-[std::filesystem](symbol_index/filesystem.html "cpp/symbol index/filesystem")(C++17)  
-[std::linalg](symbol_index/linalg.html "cpp/symbol index/linalg")(C++26)  
-[std::literals](symbol_index/literals.html "cpp/symbol index/literals")(C++14)  
-[std::numbers](symbol_index/numbers.html "cpp/symbol index/numbers")(C++20)  
-[std::placeholders](symbol_index/placeholders.html "cpp/symbol index/placeholders")(C++11)  
-[std::pmr](symbol_index/pmr.html "cpp/symbol index/pmr")(C++17)  
-[std::ranges](symbol_index/ranges.html "cpp/symbol index/ranges")(C++20)  
-[std::regex_constants](symbol_index/regex_constants.html "cpp/symbol index/regex constants")(C++11)  
-[std::rel_ops](symbol_index/rel_ops.html "cpp/symbol index/rel ops")(deprecated in C++20)  
-[std::this_thread](symbol_index/this_thread.html "cpp/symbol index/this thread")(C++11)  
-[Macros](symbol_index/macro.html "cpp/symbol index/macro")  
-[Removed symbols (Zombie names)](symbol_index/zombie_names.html "cpp/symbol index/zombie names")  
-[Exposition-only symbols](symbol_index/expos.html "cpp/symbol index/expos")  
-  
-
-
-  
-This page tries to list all the symbols that are available from the [standard library](standard_library.html "cpp/standard library") in the namespace std. The symbols are written as follows: 
-
-  * Function names with `()`. 
-  * Templates with `<>`. 
+    * Function names with `()`. 
+    * Templates with `<>`. 
 
 
 

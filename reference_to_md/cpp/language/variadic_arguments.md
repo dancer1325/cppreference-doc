@@ -1,17 +1,16 @@
 * variadic function
   * := function / 's last parameter == `...`
+  * ❌!= function [parameter pack](parameter_pack.md) expansion❌
 
 * `...` OR `,...`
   * | C++26,
     * ⚠️preceding `,` is deprecated⚠️
   * allows
     * a function can accept ANY number of extra arguments
-    
+ 
 
-
-This is different from a function [parameter pack](parameter_pack.md) expansion, 
-which is indicated by an ellipsis that is a part of a parameter declarator, rather than an ellipsis being a parameter alone
-* Both parameter pack expansion and the “variadic” ellipsis may appear in the declaration of a function template, as in the case of [std::is_function](../types/is_function.html "cpp/types/is function")
+* TODO: Both parameter pack expansion and the “variadic” ellipsis may appear in the declaration of a 
+function template, as in the case of [std::is_function](../types/is_function.html "cpp/types/is function")
 *  | (since C++11)  
 ---|---  
   

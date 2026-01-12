@@ -10,7 +10,7 @@
       * requirements
         * C++26
 
-* ONLY appears | [parameter declarations](function.md#parameter-list)
+* ⚠️ONLY appears | [parameter declarations](function.md#parameter-list)⚠️
 
 * template parameter pack
   * == template parameter / accepts >=0 template arguments (constants, types, or templates)
@@ -24,18 +24,32 @@
     * [function template](function_template.md)
   * syntax
     * `type ... pack-name`
+      * constant
       * `pack-name`
         * OPTIONAL
+    * `typename|class ... pack-name`
+      * `pack-name`
+        * OPTIONAL
+    * `type-constraint ... pack-name`
+      * [constrained](constraints.md) type
+      * `pack-name`
+        * OPTIONAL
+      * | C++20
+    * `template<parameter-list> typename|class ... pack-name`
+      * `pack-name`
+        * OPTIONAL
+      * | C++17-
 
-
-`**typename**``**|**``**class**` `**...**` pack-name ﻿(optional) |  (2)  |   
-type-constraint `**...**` pack-name ﻿(optional) |  (3)  |  (since C++20)  
-`**template**` `**<**` parameter-list `**>**` `**class**` `**...**` pack-name ﻿(optional) |  (4)  |  (until C++17)  
-`**template**` `**<**` parameter-list `**>**` `**typename**``**|**``**class**` `**...**` pack-name ﻿(optional) |  (4)  |  (since C++17)
-
+which is indicated by an ellipsis that is a part of a parameter declarator,
+rather than an ellipsis being a parameter alone
 
 * function parameter pack
-  * == function parameter / accepts >=0 function arguments 
+  * == function parameter / accepts >=0 function arguments
+  * == form of [declarator](declarations.md)
+  * syntax
+    * `pack-name ... pack-param-name` 
+  * uses
+    * variadic function template' parameterS 
 
 * lambda init-capture pack
   * == [lambda capture](lambda.md#lambda-capture) / 
@@ -87,28 +101,18 @@ A template with at least one parameter pack is called a _variadic template_.
 
 ### Syntax
 
- 
-
-  
-Function parameter pack (a form of [declarator](declarations.html "cpp/language/declarations"), appears in a function parameter list of a variadic function template)   
-
-pack-name `**...**` pack-param-name ﻿(optional) |  (5)  |   
-  
-
-
 Pack expansion (appears in a body of a template)   
   
 
 pattern `**...**` |  (6)  |   
   
-1) A constant template parameter pack with an optional name
 
-2) A type template parameter pack with an optional name
 
-3) A [constrained](constraints.html "cpp/language/constraints") type template parameter pack with an optional name  | (since C++20)  
----|---  
+
+
+
   
-4) A template template parameter pack with an optional name
+
 
 5) A function parameter pack with an optional name
 

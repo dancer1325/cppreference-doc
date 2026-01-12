@@ -1,39 +1,5 @@
-
-  
-
-
-
-  
-|   
-  
----  
-[`catch` handler](../language/catch.html "cpp/language/catch")  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-
-[Preprocessor](../preprocessor.html "cpp/preprocessor")
-
-[#if#ifdef#ifndef#else#elif#elifdef#elifndef#endif](conditional.html "cpp/preprocessor/conditional")(C++23)(C++23)  
----  
-[#define#undef#,## operators](replace.html "cpp/preprocessor/replace")  
-**#include __has_include**(C++17)  
-[#error#warning](warning.html "cpp/preprocessor/error")(C++23)  
-[#pragma_Pragma](impl.html "cpp/preprocessor/impl")(C++11)  
-[#line](line.html "cpp/preprocessor/line")  
-[#embed](embed.html "cpp/preprocessor/embed")(C++26)  
-  
-
-
-Includes other source file into current source file at the line immediately after the directive. 
+* goal
+  * includes other source file | CURRENT source file's immediately line  
 
 ## Contents
 
@@ -44,29 +10,38 @@ Includes other source file into current source file at the line immediately afte
   * [5 Defect reports](include.html#Defect_reports)
   * [6 See also](include.html#See_also)
 
-  
----  
-  
 ### Syntax  
-  
----  
-`**#include <**` h-char-sequence `**>**` new-line |  (1)  |   
-`**#include "**` q-char-sequence `**"**` new-line |  (2)  |   
-`**#include**` pp-tokens new-line |  (3)  |   
-`**__has_include**` `**(**` `**"**` q-char-sequence `**"**` `**)**`  
-`**__has_include**` `**(**` `**<**` h-char-sequence `**>**` `**)**` |  (4)  |  (since C++17)  
-`**__has_include**` `**(**` string-literal `**)**`  
-`**__has_include**` `**(**` `**<**` h-pp-tokens `**>**` `**)**` |  (5)  |  (since C++17)  
-  
-1) Searches for a header identified uniquely by h-char-sequence and replaces the directive by the entire contents of the header.
 
-2) Searches for a source file identified by q-char-sequence and replaces the directive by the entire contents of the source file. It may fallback to (1) and treat q-char-sequence as a header identifier.
+* `#include < h-char-sequence > new-line`
+  * `h-char-sequence`
+    * identify uniquely the header
+  * steps
+    * searches the header file
+    * replaces the directive -- by the -- entire contents of the header 
+* `#include " q-char-sequence " new-line`
+  * `q-char-sequence`
+    * identify uniquely the source file
+  * steps
+    * searches for a source file
+    * replaces the directive -- by the -- entire contents of the source file
+  * It may fallback to (1) and treat q-char-sequence as a header identifier   
+* `**#include**` pp-tokens new-line |  (3)  |   
+    `**__has_include**` `**(**` `**"**` q-char-sequence `**"**` `**)**`  
+    `**__has_include**` `**(**` `**<**` h-char-sequence `**>**` `**)**` |  (4)  |  (since C++17)  
+    `**__has_include**` `**(**` string-literal `**)**`  
+    `**__has_include**` `**(**` `**<**` h-pp-tokens `**>**` `**)**` |  (5)  |  (since C++17)  
+  
 
-3) If neither (1) nor (2) is matched, pp-tokens will undergo macro replacement. The directive after replacement will be tried to match with (1) or (2) again.
+
+2) 
+
+3) If neither (1) nor (2) is matched, pp-tokens will undergo macro replacement
+* The directive after replacement will be tried to match with (1) or (2) again.
 
 4) Checks whether a header or source file is available for inclusion.
 
-5) If (4) is not matched, h-pp-tokens will undergo macro replacement. The directive after replacement will be tried to match with (4) again.
+5) If (4) is not matched, h-pp-tokens will undergo macro replacement
+* The directive after replacement will be tried to match with (4) again.
 
 new-line |  \-  |  The new-line character   
 ---|---|---  
@@ -139,65 +114,7 @@ Many compilers also implement the non-standard [`pragma`](impl.html "cpp/preproc
 
 A sequence of characters that resembles an escape sequence in q-char-sequence or h-char-sequence might result in an error, be interpreted as the character corresponding to the escape sequence, or have a completely different meaning, depending on the implementation. 
 
-A `__has_include` result of 1 only means that a header or source file with the specified name exists. It does not mean that the header or source file, when included, would not cause an error or would contain anything useful. For example, on a C++ implementation that supports both C++14 and C++17 modes (and provides __has_include in its C++14 mode as a conforming extension), __has_include(<optional>) may be 1 in C++14 mode, but actually #include <optional> may cause an error. 
-
-### Example
-
-Run this code
-    
-    
-    #if __has_include(<optional>)
-        #include <optional>
-        #define has_optional 1
-        template<class T>
-        using optional_t = [std::optional](../utility/optional.html)<T>;
-    #elif __has_include(<experimental/optional>)
-        #include <experimental/optional>
-        #define has_optional -1
-        template<class T>
-        using optional_t = [std::experimental::optional](../experimental/optional.html)<T>;
-    #else
-        #define has_optional 0
-        template<class V>
-        class optional_t
-        {
-            V v{};
-            bool has{};
-     
-        public:
-            optional_t() = default;
-            optional_t(V&& v) : v(v), has{true} {}
-            V value_or(V&& alt) const&
-            {
-                return has ? v : alt;
-            }
-            // etc.
-        };
-    #endif
-     
-    #include <iostream>
-     
-    int main()
-    {
-        if (has_optional > 0)
-            [std::cout](../io/cout.html) << "<optional> is present\n";
-        else if (has_optional < 0)
-            [std::cout](../io/cout.html) << "<experimental/optional> is present\n";
-        else
-            [std::cout](../io/cout.html) << "<optional> is not present\n";
-     
-        optional_t<int> op;
-        [std::cout](../io/cout.html) << "op = " << op.value_or(-1) << '\n';
-        op = 42;
-        [std::cout](../io/cout.html) << "op = " << op.value_or(-1) << '\n';
-    }
-
-Output: 
-    
-    
-    <optional> is present
-    op = -1
-    op = 42
+A `__has_include` result of 1 only means that a header or source file with the specified name exists. It does not mean that the header or source file, when included, would not cause an error or would contain anything useful. For example, on a C++ implementation that supports both C++14 and C++17 modes (and provides __has_include in its C++14 mode as a conforming extension), __has_include(<optional>) may be 1 in C++14 mode, but actually #include <optional> may cause an error.
 
 ### Defect reports
 

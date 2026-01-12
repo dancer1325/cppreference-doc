@@ -608,14 +608,15 @@
 #### ...
 
 * use cases 
-  * [variadic function](variadic_arguments.md)
+  * | [variadic function](variadic_arguments.md)
     * == [parameter list](function.md#parameter-list) of a 
       * function declarator 
       * lambda expression
         * | C++11
       * user-defined deduction guide
         * | C++17
-  * In a [handler](catch.html "cpp/language/catch"), signify catch-all handler. 
+  * | [handler](catch.md),
+    * catch-ALL handler 
   * In a [macro definition](../preprocessor/replace.html "cpp/preprocessor/replace"), signify a variadic macro. 
   * Indicate [pack](parameter_pack.html "cpp/language/parameter pack") declaration and expansion
     * |C++11
