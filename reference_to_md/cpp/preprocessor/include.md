@@ -23,20 +23,20 @@
     * identify uniquely the source file
   * steps
     * searches for a source file
+      * ⚠️if it's NOT found -> search -- as a -- header file⚠️
     * replaces the directive -- by the -- entire contents of the source file
-  * It may fallback to (1) and treat q-char-sequence as a header identifier   
-* `**#include**` pp-tokens new-line |  (3)  |   
-    `**__has_include**` `**(**` `**"**` q-char-sequence `**"**` `**)**`  
-    `**__has_include**` `**(**` `**<**` h-char-sequence `**>**` `**)**` |  (4)  |  (since C++17)  
-    `**__has_include**` `**(**` string-literal `**)**`  
-    `**__has_include**` `**(**` `**<**` h-pp-tokens `**>**` `**)**` |  (5)  |  (since C++17)  
-  
+* `#include pp-tokens new-line`
+  * ⚠️preprocessor FIRSTLY checks if PREVIOUS syntax is used⚠️ 
+  * If neither previous ones is matched, pp-tokens will undergo macro replacement
+  * The directive after replacement will be tried to match with (1) or (2) again.
+* `__has_include ( "q-char-sequence")`
+  * 
+      `**__has_include**` `**(**` `**<**` h-char-sequence `**>**` `**)**` |  (4)  |  (since C++17)  
+      `**__has_include**` `**(**` string-literal `**)**`  
+      `**__has_include**` `**(**` `**<**` h-pp-tokens `**>**` `**)**` |  (5)  |  (since C++17)  
 
 
-2) 
-
-3) If neither (1) nor (2) is matched, pp-tokens will undergo macro replacement
-* The directive after replacement will be tried to match with (1) or (2) again.
+3) 
 
 4) Checks whether a header or source file is available for inclusion.
 
@@ -63,10 +63,26 @@ q-char-sequence |  \-  |  A sequence of one or more q-char ﻿s, where the appea
   * the character sequence /*
 
   
-q-char |  \-  |  Any member of the [source character set](../language/translation_phases.html#Phase_5 "cpp/language/translation phases")(until C++23)[translation character set](../language/charset.html#Translation_character_set "cpp/language/charset")(since C++23) except new-line and "  
-pp-tokens |  \-  |  A sequence of one or more [preprocessing tokens](../language/translation_phases.html#Preprocessing_tokens "cpp/language/translation phases")  
-string-literal |  \-  |  A [string literal](../language/string_literal.html "cpp/language/string literal")  
-h-pp-tokens |  \-  |  A sequence of one or more [preprocessing tokens](../language/translation_phases.html#Preprocessing_tokens "cpp/language/translation phases") except >  
+* `q-char`
+  * ==  
+    * | C++23-,
+      * ANY [source character set's member](../language/translation_phases.md#phase-5-determining-common-string-literal-encodings)
+        * EXCEPT TO, 
+          * new-line `\n`
+          * `"`
+    * | C++23,
+      * ANY [translation character set's member](../language/charset.md#translation-character-set)
+        * EXCEPT TO,
+          * new-line `\n`
+          * `"`
+    * except new-line and "  
+* `pp-tokens`
+  * == sequence of >=1 [preprocessing tokens](../language/translation_phases.md#preprocessing-tokens) 
+* `string-literal`
+  * == [string literal](../language/string_literal.md)
+* `h-pp-tokens`
+  * == sequence of >=1 [preprocessing tokens](../language/translation_phases.md#preprocessing-tokens)
+    * ⚠️EXCEPT TO `>`⚠️  
   
 ### Explanation
 

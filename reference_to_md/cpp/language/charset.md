@@ -1,25 +1,5 @@
-
-[Object lifetime](lifetime.html "cpp/language/lifetime")  
-[Storage duration and linkage](storage_duration.html "cpp/language/storage duration")  
-[Definitions and ODR](definition.html "cpp/language/definition")  
-[Name lookup](lookup.html "cpp/language/lookup")  
-[ Qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup")  
-[ Unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup")  
-[The as-if rule](as_if.html "cpp/language/as if")  
-[Undefined behavior](ub.html "cpp/language/ub")  
-[Memory model](memory_model.html "cpp/language/memory model")  
-[Multi-threaded executions and data races](multithread.html "cpp/language/multithread") (C++11)  
-**Character sets and encodings**  
-[Phases of translation](translation_phases.html "cpp/language/translation phases")  
-[The `main` function](main_function.html "cpp/language/main function")  
-[Modules](modules.html "cpp/language/modules") (C++20)  
-[Contracts](contracts.html "cpp/language/contracts") (C++26)  
-  
-
-
-This page describes several character sets specified by the C++ standard. 
-
-| 
+* goal
+  * character sets / specified -- by the -- C++ standard
 
 ## Contents
 
