@@ -102,47 +102,40 @@
     * | introduce an attribute-specifier
     * | attribute argument 
 
-
-An attribute without attribute-namespace and an attribute-namespace whose name is either `std` or `std` followed 
-by one or more digits is reserved for future standardization
-* That is, every non-standard attribute is in the attribute-namespace provided by the implementation, e.g. `[[gnu::may_alias]]`, `[[clang::trivial_abi]]`, and `[[msvc::noop_dtor]]`
-*  | (since C++20)
-  
 ### Standard attributes
 
 * == defined -- by the -- C++ standard
-
-Standard attributes cannot be syntactically ignored: they cannot contain syntax errors, must be applied to the correct target,
-and entities in the arguments must be [ODR-use](definition.html#ODR-use "cpp/language/definition"). 
-
-Standard attributes cannot be semantically ignored either: the behavior with all instances of a particular standard attribute removed 
-would have been a conforming behavior for the original program with the attribute present. 
+* | C++20,
+  * == attribute / reserved ones
+    * attribute WITHOUT `attribute-namespace`
+    * attribute / `attribute-namespace` == `std` OR `std + OneOrMoreDigits`
+* ❌can NOT be 
+  * syntactically ignored❌
+    * == ❌can NOT contain syntax errors❌
+  * semantically ignored❌
+    * TODO: the behavior with all instances of a particular standard attribute removed would have been a conforming behavior for the original program with the attribute present. 
+* MUST be applied | correct target
+* entities | arguments MUST be [ODR-use](definition.md#odr-use-formal-definition)
 
 * [`[[noreturn]]`](attributes/noreturn.md)
-  * (C++11) |  indicates that the function does not return  
-  (attribute specifier)  
-  ---|---  
-  `[[[carries_dependency](attributes/carries_dependency.html "cpp/language/attributes/carries dependency")]]`(C++11)(removed in C++26) |  indicates that dependency chain in release-consume [std::memory_order](../atomic/memory_order.html "cpp/atomic/memory order") propagates in and out of the function  
-  (attribute specifier)  
-  `[[[deprecated](attributes/deprecated.html "cpp/language/attributes/deprecated")]]``[[[deprecated](attributes/deprecated.html "cpp/language/attributes/deprecated")("_reason_ ")]]`(C++14)(C++14) |  indicates that the use of the name or entity declared with this attribute is allowed, but discouraged for some reason  
-  (attribute specifier)  
-  `[[[fallthrough](attributes/fallthrough.html "cpp/language/attributes/fallthrough")]]`(C++17) |  indicates that the fall through from the previous case label is intentional and should not be diagnosed by a compiler that warns on fall-through  
-  (attribute specifier)  
-  `[[[maybe_unused](attributes/maybe_unused.html "cpp/language/attributes/maybe unused")]]`(C++17) |  suppresses compiler warnings on unused entities, if any  
-  (attribute specifier)  
-  `[[[nodiscard](attributes/nodiscard.html "cpp/language/attributes/nodiscard")]]``[[[nodiscard](attributes/nodiscard.html "cpp/language/attributes/nodiscard")("_reason_ ")]]`(C++17)(C++20) |  encourages the compiler to issue a warning if the return value is discarded  
-  (attribute specifier)  
-  `[[[likely](attributes/likely.html "cpp/language/attributes/likely")]]``[[[unlikely](attributes/likely.html "cpp/language/attributes/likely")]]`(C++20)(C++20) |  indicates that the compiler should optimize for the case where a path of execution through a statement is more or less likely than any other path of execution  
-  (attribute specifier)  
-  `[[[no_unique_address](attributes/no_unique_address.html "cpp/language/attributes/no unique address")]]`(C++20) |  indicates that a non-static data member need not have an address distinct from all other non-static data members of its class  
-  (attribute specifier)  
-  `[[[assume](attributes/assume.html "cpp/language/attributes/assume")(_expression_)]]`(C++23) |  specifies that the _expression_ will always evaluate to true at a given point  
-  (attribute specifier)  
-  `[[[indeterminate](attributes/indeterminate.html "cpp/language/attributes/indeterminate")]]`(C++26) |  specifies that an object has an indeterminate value if it is not initialized  
-  (attribute specifier)  
-  `[[[optimize_for_synchronized](attributes/optimize_for_synchronized.html "cpp/language/attributes/optimize for synchronized")]]`(TM TS) |  indicates that the function definition should be optimized for invocation from a [synchronized statement](transactional_memory.html "cpp/language/transactional memory")  
-  (attribute specifier)  
-  
+* [`[[carries_dependency]]`](attributes/carries_dependency.md)
+* [`[[deprecated]]`](attributes/deprecated.md) OR `[[deprecated("reason")]]`
+* [`[[fallthrough]]`](attributes/fallthrough.md)
+* [`[[maybe_unused]]`](attributes/maybe_unused.md)
+* [`[[nodiscard]]`](attributes/nodiscard.md) OR `[[nodiscard("reason")]]`
+* [`[[likely]]`](attributes/likely.md) OR `[[unlikely]]`
+* [`[[no_unique_address]]`](attributes/no_unique_address.md)
+* [`[[assume(expression)]]`](attributes/assume.md)
+* [`[[indeterminate]]`](attributes/indeterminate.md)
+* [`[[optimize_for_synchronized]]`](attributes/optimize_for_synchronized.md)
+
+### Non-standard attribute
+
+* | C++20,
+  * == attribute / 
+    * `attribute-namespace` == C++ implementation
+      * _Examples:_ `[[gnu::may_alias]]`, `[[clang::trivial_abi]]`, `[[msvc::noop_dtor]]`, ...
+
 ### Notes
 
 The presence of each individual attribute on a given platform can be checked with [`__has_cpp_attribute`](../experimental/feature_test.html#Attributes "cpp/feature test") preprocessor macro. 

@@ -2,74 +2,7 @@
   
 
 
-[C++ language](../../language.html "cpp/language")
-
-General topics  
----  
-| [Preprocessor](../../preprocessor.html "cpp/preprocessor")  
----  
-[Comments](../../comments.html "cpp/comment")  
-  
-| [Keywords](../../keywords.html "cpp/keyword")  
----  
-[Escape sequences](../escape.html "cpp/language/escape")  
-  
-[Flow control](../statements.html "cpp/language/statements")  
-Conditional execution statements  
-| [`if`](../if.html "cpp/language/if")  
----  
-  
-| [`switch`](../switch.html "cpp/language/switch")  
----  
-  
-Iteration statements (loops)  
-| [`for`](../for.html "cpp/language/for")  
----  
-[range-`for`](../range-for.html "cpp/language/range-for") (C++11)  
-  
-| [`while`](../while.html "cpp/language/while")  
----  
-[`do-while`](../do.html "cpp/language/do")  
-  
-Jump statements  
-| [`continue`](../continue.html "cpp/language/continue") \- [`break`](../break.html "cpp/language/break")  
----  
-  
-| [`goto`](../goto.html "cpp/language/goto") \- [`return`](../return.html "cpp/language/return")  
----  
-  
-[Functions](../functions.html "cpp/language/functions")  
-[Function declaration](../function.html "cpp/language/function")  
-[Lambda function expression](../lambda.html "cpp/language/lambda")  
-[`inline` specifier](../inline.html "cpp/language/inline")  
-[Dynamic exception specifications](../except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](../noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](../throw.html "cpp/language/throw")  
----  
-[`try` block](../try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](../catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](../namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](../namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](../types.html "cpp/language/types")  
----  
-[Enumeration types](../enum.html "cpp/language/enum")  
-[Function types](../function.html "cpp/language/function")  
-  
-| [Class/struct types](../class.html "cpp/language/class")  
----  
-[Union types](../union.html "cpp/language/union")  
+ 
   
   
   
