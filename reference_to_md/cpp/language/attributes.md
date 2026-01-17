@@ -1,11 +1,3 @@
-* attributes
-  * implementation-defined
-  * uses | 
-    * types,
-    * objects,
-    * code,
-    * etc. 
-
 ## Contents
 
   * [1 Syntax](attributes.html#Syntax)
@@ -61,14 +53,12 @@
 ### Explanation
 
 * Attributes
-  * provide
-    * unified standard syntax -- for -- language extensions
-      * implementation-defined
-  * _Examples:_ 
-    * GNU & IBM language extensions `__attribute__((...))`
-    * Microsoft extension `__declspec()` 
+  * allows
+    * extending the base language (== fundamental entities) / syntax
+      * unified 
+      * standard 
   * uses
-    * | any part of C++ program: types, variables, functions, names, code blocks, translation units,
+    * | any part of C++ program: types, variables, functions, names, code blocks, translation units, control flow
       * ⚠️ALTHOUGH it depends on the implementation⚠️
         * _Examples:_
           * `[[expect_true]]`  
@@ -88,7 +78,10 @@
       * arbitrary == implementation-dependant
         * | C++17,
           * 👀if an implementation does NOT know an attribute -> implementation ignores it WITHOUT causing an error👀
-      * implementation-defined behavior
+        * == implementation-defined behavior
+        * _Examples:_
+          * GNU & IBM language extensions `__attribute__((...))`
+          * Microsoft extension `__declspec()`
 
 * [alignas specifier](alignas.md)
   * == part of the attribute specifier sequence
