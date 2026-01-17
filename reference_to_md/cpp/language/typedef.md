@@ -16,7 +16,9 @@
 
 * _typedef declaration_
   * == `typedef` | [declaration](declarations.md)
+    * may declare: array and function types, pointers and references, class types, etc
   * != variable OR function declaration 
+  * 👀\>= 1 identifiers / EACH line👀
 
 * uses 
   * |
@@ -29,31 +31,36 @@
   * /+ other [specifier](declarations.md#specifiers)
     * ⚠️EXCEPT for: type specifiers ⚠️
 
-A typedef declaration may declare one or many identifiers on the same line (e.g. int and a pointer to int), it may declare array and function types, pointers and references, class types, etc
-* Every identifier introduced in this declaration becomes a _typedef name_ , which is a synonym for the type of the object or function that it would become if the keyword typedef were removed. 
+* _typedef name_
+  * == _typedef declaration_'s EACH identifier
+  * == type of the object OR function 
+  * == aliases for existing types
+  * != declarations of new types
+  * | being declared,
+    * `typedef name` can be redeclared / refer -- to the -- SAME type AGAIN 
+  * impact | scope / they are visible
+    * DIFFERENT functions OR class declarations may define identically-named types / 
+      * DIFFERENT meaning
 
-The typedef names are aliases for existing types, and are not declarations of new types
-* typedef cannot be used to change the meaning of an existing type name (including a typedef name)
-* Once declared, a typedef name may only be redeclared to refer to the same type again
-* Typedef names are only in effect in the scope where they are visible: different functions or class declarations may define identically-named types with different meaning. 
+* `typedef`
+  * ❌NOT uses❌
+    * change the meaning of an EXISTING type name
+  * may NOT appear | 
+    * declaration of a function parameter
+    * [function definition's](function.md#function-definition) `decl-specifier-seq`
+    * declaration / does NOT contain a declarator 
 
-The typedef specifier may not appear in the declaration of a function parameter nor in the decl-specifier-seq of a [function definition](function.html#Function_definition "cpp/language/function"): 
-    
-    
-    void f1(typedef int param); // ill-formed
-    typedef int f2() {}         // ill-formed
+### typedef name -- for -- linkage purposes
 
-The typedef specifier may not appear in a declaration that does not contain a declarator: 
-    
-    
-    typedef struct X {}; // ill-formed
-
-### typedef name for linkage purposes
-
-If a typedef declaration defines an unnamed [class](classes.html "cpp/language/classes") or [enumeration](enum.html "cpp/language/enum"), the first typedef name of the class type or enumeration type declared by the declaration is the _typedef name for linkage purposes_ of that type. 
+* _typedef name for linkage purposes_
+  * := the first _typedef name_ of the class type OR enumeration type declared 
+  * requirements
+    * typedef declaration / defines an unnamed [class](classes.md) OR [enumeration](enum.md)   
+     
 
 For example, in typedef struct { /* ... */ } S;, `S` is a typedef name for linkage purposes
-* The class or enumeration type defined in this way has [external linkage](storage_duration.html#Linkage "cpp/language/storage duration") (unless it is in an unnamed namespace). 
+* The class or enumeration type defined in this way has [external linkage](storage_duration.md#Linkage) 
+(unless it is in an unnamed namespace). 
 
 An unnamed class defined in this way should only contain C-compatible constructs
 * In particular, it must not 
@@ -67,12 +74,13 @@ and all member classes must also satisfy these requirements (recursively).  | (s
   
 ### Notes
 
-[Type aliases](type_alias.html "cpp/language/type alias") provide the same functionality as typedef declarations using a different syntax, and are also applicable to template names.  | (since C++11)  
----|---  
+* [Type aliases](type_alias.md) 
+  * | C++11
+  * provide the same functionality as typedef declarations using a different syntax, and are also applicable to template names  
   
 ### Keywords
 
-[`typedef`](../keyword/typedef.html "cpp/keyword/typedef")
+* [`typedef`](../keyword/typedef.md)
 
 ### Defect reports
 
@@ -85,8 +93,6 @@ DR  | Applied to  | Behavior as published  | Correct behavior
   
 ### See also
 
-  * [Type alias](type_alias.html "cpp/language/type alias")
-  * [Alias template](type_alias.html "cpp/language/type alias")
-
-[C documentation](../../c/language/typedef.html "c/language/typedef") for Typedef declaration  
----
+* [Type alias](type_alias.md)
+* [Alias template](type_alias.md)
+* [C's `typedef`](../../c/language/typedef.md)

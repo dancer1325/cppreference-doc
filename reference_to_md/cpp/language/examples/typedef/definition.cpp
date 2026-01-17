@@ -52,5 +52,33 @@ int main() {
                                     // 'FunctionPtr' is used as a TYPE
     func(100);                      // Calling through the function pointer
 
+    // ---
+
+    // 1.5 Class type alias
+    class Point {
+    public:
+        int x, y;
+        Point(int x_, int y_) : x(x_), y(y_) {}
+    };
+
+    typedef Point Point2D;          // Point2D is a TYPE NAME (alias for Point)
+                                    // You cannot do: Point2D.x = 10; (error!)
+    // 2. != variable declaration
+    Point p1(1, 2);                 // Using original class name
+    Point2D p2(3, 4);               // Using typedef alias
+                                    // p1 and p2 have THE SAME type (Point)
+
+    std::cout << "p1: (" << p1.x << ", " << p1.y << ")" << std::endl;
+    std::cout << "p2: (" << p2.x << ", " << p2.y << ")" << std::endl;
+
+    // 3. MULTIPLE identifiers | SAME line
+    typedef int Integer, *IntegerPtr, IntegerArray[10];
+    //          ^^^^^^^   ^^^^^^^^^^  ^^^^^^^^^^^^^^^
+    //          alias 1   alias 2     alias 3
+    // ==
+    // typedef int Integer;
+    // typedef int* IntegerPtr;
+    // typedef int IntegerArray[10];
+
     return 0;
 }
