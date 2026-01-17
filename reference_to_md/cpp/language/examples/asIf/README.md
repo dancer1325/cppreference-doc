@@ -1,3 +1,8 @@
+# allows: making any optimization / program's observable behavior does NOT change
+* [definition.cpp](definition.cpp)
+* `clang++ -S -O2 -fverbose-asm definition.cpp -o definition.s`
+  * [definition.s](definition.s) contains DIRECTLY 16
+
 # TODO:
 * TODO:
 

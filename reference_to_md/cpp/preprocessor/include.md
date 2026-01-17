@@ -27,7 +27,7 @@
     * replaces the directive -- by the -- entire contents of the source file
 * `#include pp-tokens new-line`
   * ⚠️preprocessor FIRSTLY checks if PREVIOUS syntax is used⚠️ 
-  * If neither previous ones is matched, pp-tokens will undergo macro replacement
+  * TODO: If neither previous ones is matched, pp-tokens will undergo macro replacement
   * The directive after replacement will be tried to match with (1) or (2) again.
 * `__has_include ( "q-char-sequence")`
   * 

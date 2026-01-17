@@ -238,7 +238,8 @@ The categories of token are:
 
 * translation is performed [as if](as_if.md)
   * following phase 1 -- to -- phase 9
-* Implementations behave as if these separate phases occur, although in practice different phases can be folded together. 
+  * == implementations behave -- as if -- these separate phases occur
+    * ⚠️ALTHOUGH, in practice DIFFERENT phases can be folded together⚠️ 
 
 #### Phase 1: Mapping source characters
 

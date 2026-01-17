@@ -1,82 +1,11 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-  
-  
-  
-Special member functions  
-| [Default constructor](default_constructor.html "cpp/language/default constructor")  
----  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-  
-| [Copy assignment](as_operator.html "cpp/language/as operator")  
----  
-[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-  
-[Templates](templates.html "cpp/language/templates")  
-| [Class template](class_template.html "cpp/language/class template")  
----  
-[Function template](function_template.html "cpp/language/function template")  
-  
-| [Template specialization](template_specialization.html "cpp/language/template specialization")  
----  
-[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
-  
-Miscellaneous  
-| **Inline assembly**  
----  
-  
-| [History of C++](history.html "cpp/language/history")  
----  
-  
-
-
-
-  
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-[Pointer](pointer.html "cpp/language/pointer")  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-**asm declaration**  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-[Namespace definition](namespace.html "cpp/language/namespace")  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-[Function template declaration](function_template.html "cpp/language/function template")  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-[Linkage specification](language_linkage.html "cpp/language/language linkage")  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
-  
-  
-  
-
-
-_asm-declaration_ gives the ability to embed assembly language source code within a C++ program. This declaration is conditionally-supported and (since C++11)implementation defined, meaning that it may not be present and, even when provided by the implementation, (since C++11)it does not have a fixed meaning. 
+* _asm-declaration_ 
+  * enable to
+    * 👀embed assembly language source code | C++ program👀
+  * conditionally-supported
+  * implementation defined
+    * | C++11
+    * ⚠️== may NOT be present⚠️
+      * ❌ALTHOUGH the implementation is provided -> NOT have a fixed meaning❌ 
 
 ## Contents
 
@@ -90,18 +19,27 @@ _asm-declaration_ gives the ability to embed assembly language source code withi
   * [8 See also](asm.html#See_also)
   * [9 External links](asm.html#External_links)
 
-  
----  
-  
 ### Syntax  
-  
----  
-attr ﻿(optional) `**asm (**` string-literal `**)**` `**;**` |  |  (until C++26)  
-attr ﻿(optional) `**asm (**` balanced-token-seq `**)**` `**;**` |  |  (since C++26)  
-attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/language/attributes")  
----|---|---  
-string-literal |  \-  |  same as in [string literal](string_literal.html "cpp/language/string literal"), including raw string literals   
-balanced-token-seq |  \-  |  a sequence of tokens where parentheses, brackets and braces are balanced; any restrictions on the balanced-token-seq and its meaning are implementation-defined   
+
+* `attr asm ( string-literal ) ;`
+  * `attr`
+    * OPTIONAL
+  * | C++26-  
+* `attr asm ( balanced-token-seq ) ;`
+  * `attr`
+    * OPTIONAL
+  * | C++26
+
+* `attr`
+  * == sequence of [attributes](attributes.md)
+  * | C++11 
+* `string-literal`
+  * == [string literal](string_literal.md)
+    * ⚠️include ALSO raw string literals⚠️
+* `balanced-token-seq`
+  * == sequence of tokens / parentheses, brackets and braces are balanced
+  * 's restrictions & its meaning
+    * are implementation-defined   
   
 ### Explanation
 
@@ -122,49 +60,6 @@ Feature-test macro | Value | Std | Feature
 ### Keywords
 
 [`asm`](../keyword/asm.html "cpp/keyword/asm")
-
-### Example
-
-Demonstrates two kinds of inline assembly syntax offered by the GCC/Clang compilers. This program works correctly only on the x86_64 platform under Linux.
-
-Run this code
-    
-    
-    #include <iostream>
-     
-    extern "C" int func(int x);
-    // the definition of func is written in assembly language
-    // raw string literal could be very useful
-    asm(R"(
-    .globl func
-        .type func, @function
-        func:
-        .cfi_startproc
-        movl %edi, %eax /* x is in RDI, see x86-64 calling convention */
-        addl $1, %eax
-        ret
-        .cfi_endproc
-    )");
-     
-    int main()
-    {
-        int n = func(0110);
-        // formerly non-standard inline assembly, made comforming by P2361R6
-        asm ("leal (%0,%0,4),%0"
-             : "=r" (n)
-             : "0" (n));
-        [std::cout](../io/cout.html) << "73*5 = " << n << [std::endl](../io/manip/endl.html); // flush is intentional
-     
-        // standard inline assembly
-        asm ("movq $60, %rax\n" // the exit syscall number on Linux
-             "movq $2,  %rdi\n" // this program returns 2
-             "syscall");
-    }
-
-Output: 
-    
-    
-    73*5 = 365
 
 ### Defect reports
 
@@ -259,10 +154,8 @@ DR  | Applied to  | Behavior as published  | Correct behavior
 
 ### See also
 
-  * [C++ ABIs](../resources.html#C.2B.2B_ABIs "cpp/links")
-
-[C documentation](../../c/language/asm.html "c/language/asm") for Inline assembly  
----  
+* [C++ ABIs](../resources.md#c-abis)
+* [C's Inline assembly](../../c/language/asm.md)
   
 ### External links
 

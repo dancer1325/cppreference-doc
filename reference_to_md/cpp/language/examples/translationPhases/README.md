@@ -1,6 +1,6 @@
 # compiler processes C++ source files -- to -- produce C++ programs
 
-## Las 9 Fases de Traducción
+## TODO: Las 9 Fases de Traducción
 
 1. **Physical source → basic character set** - Conversión de caracteres
 2. **Line splicing** - Unir líneas con backslash (`phase2_line_splicing.cpp`)
@@ -36,3 +36,8 @@ g++ -c complete_process.cpp -o object.o
 # Compilar y linkear completamente (todas las fases)
 g++ complete_process.cpp -o executable
 ```
+
+# Translation phases
+## translation is performed as if
+* TODO:
+## TODO:
