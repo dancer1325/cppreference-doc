@@ -4,7 +4,7 @@
 #### pointer declarator
 * [syntax.cpp](syntax.cpp)
 #### pointer to member declarator
-
+* [syntax.cpp](syntax.cpp)
 ### cv: apply  
 #### | pointer /  it's being declared
 * TODO:

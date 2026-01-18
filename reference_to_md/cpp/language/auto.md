@@ -1,83 +1,6 @@
-
-
-  
-  
-  
-  
-  
-Specifiers  
-| [`const`/`volatile`](cv.html "cpp/language/cv")  
----  
-[`decltype`](decltype.html "cpp/language/decltype") (C++11)  
-**`auto`** (C++11)  
-  
-| [`constexpr`](constexpr.html "cpp/language/constexpr") (C++11)  
----  
-[`consteval`](consteval.html "cpp/language/consteval") (C++20)  
-[`constinit`](constinit.html "cpp/language/constinit") (C++20)  
-  
-[Storage duration specifiers](storage_duration.html "cpp/language/storage duration")  
-[Initialization](initialization.html "cpp/language/initialization")  
-| [Default-initialization](default_initialization.html "cpp/language/default initialization")  
----  
-[Value-initialization](value_initialization.html "cpp/language/value initialization")  
-[Zero-initialization](zero_initialization.html "cpp/language/zero initialization")  
-[Copy-initialization](copy_initialization.html "cpp/language/copy initialization")  
-[Direct-initialization](direct_initialization.html "cpp/language/direct initialization")  
-  
-| [Aggregate initialization](aggregate_initialization.html "cpp/language/aggregate initialization")  
----  
-[List-initialization](list_initialization.html "cpp/language/list initialization") (C++11)` `  
-[Constant initialization](constant_initialization.html "cpp/language/constant initialization")  
-[Reference initialization](reference_initialization.html "cpp/language/reference initialization")  
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[Declarations](declarations.html "cpp/language/declarations")
-
-| Overview  
----  
-[Declaration syntax](declarations.html "cpp/language/declarations")  
-[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
-[Declarator](declarations.html#Declarators "cpp/language/declarations")  
-[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
-Specifiers  
-[typedef](typedef.html "cpp/language/typedef")  
-[inline](inline.html "cpp/language/inline")  
-[virtual function specifier](virtual.html "cpp/language/virtual")  
-[explicit function specifier](explicit.html "cpp/language/explicit")  
-[friend](friend.html "cpp/language/friend")  
-[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
-[consteval](consteval.html "cpp/language/consteval")(C++20)  
-[constinit](constinit.html "cpp/language/constinit")(C++20)  
-[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
-[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
-[class/struct](class.html "cpp/language/class")  
-[union](union.html "cpp/language/union")  
-[enum](enum.html "cpp/language/enum")  
-[decltype](decltype.html "cpp/language/decltype")(C++11)  
-**auto**(C++11)  
-[alignas](alignas.html "cpp/language/alignas")(C++11)  
-[constvolatile](cv.html "cpp/language/cv")  
-[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
-[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-  
- 
-  
-  
-  
-
-
-A placeholder type specifier designates a _placeholder type_ that will be replaced later, typically by deduction from an [initializer](initialization.html "cpp/language/initialization"). 
+* == placeholder type specifier 
+  * == _placeholder type_ / will be replaced later
+    * _Example:_ deduct -- from an -- [initializer](initialization.md) 
 
 ## Contents
 
@@ -95,18 +18,23 @@ A placeholder type specifier designates a _placeholder type_ that will be replac
   * [6 Defect reports](auto.html#Defect_reports)
   * [7 References](auto.html#References)
 
-  
----  
-  
 ### Syntax  
-  
----  
-type-constraint ﻿(optional) `**auto**` |  (1)  |   
-type-constraint ﻿(optional) `**decltype(auto)**` |  (2)  |  (since C++14)  
-type-constraint |  \-  |  (since C++20) a [concept](constraints.html#Concepts "cpp/language/constraints") name, optionally qualified, optionally followed by a template argument list enclosed in `**< >**`  
----|---|---  
-  
-1) Type is deduced using the rules for [template argument deduction](template_argument_deduction.html#Other_contexts "cpp/language/template argument deduction").
+   
+* `type-constraint auto`
+  * `type-constraint`
+    * OPTIONAL
+* `type-constraint decltype(auto)`
+  * `type-constraint`
+    * OPTIONAL
+  * | C++14
+
+
+* `type-constraint`
+  * | C++20
+  * == [concept](constraints.md#Concepts) name /
+    * OPTIONALLY qualified,
+    * OPTIONALLY followed -- by -- `<templateArgumentList>`
+* Type is deduced -- via -- rules for [template argument deduction](template_argument_deduction.md#other-contexts)
 
 2) Type is [`decltype(expr)`](decltype.html "cpp/language/decltype"), where expr is the initializer or the operands used in [return statements](return.html "cpp/language/return").
 
@@ -224,68 +152,6 @@ Feature-test macro | Value | Std | Feature
 ### Keywords
 
 [`auto`](../keyword/auto.html "cpp/keyword/auto"), [`decltype`](../keywords/decltype.html "cpp/keyword/decltype")
-
-### Example
-
-Run this code
-    
-    
-    #include <iostream>
-    #include <utility>
-     
-    template<class T, class U>
-    auto add(T t, U u) { return t + u; } // the return type is the type of operator+(T, U)
-     
-    // perfect forwarding of a function call must use decltype(auto)
-    // in case the function it calls returns by reference
-    template<class F, class... Args>
-    decltype(auto) PerfectForward(F fun, Args&&... args) 
-    { 
-        return fun([std::forward](../utility/forward.html)<Args>(args)...); 
-    }
-     
-    template<auto n> // C++17 auto parameter declaration
-    auto f() -> [std::pair](../utility/pair.html)<decltype(n), decltype(n)> // auto can't deduce from brace-init-list
-    {
-        return {n, n};
-    }
-     
-    int main()
-    {
-        auto a = 1 + 2;          // type of a is int
-        auto b = add(1, 1.2);    // type of b is double
-        static_assert([std::is_same_v](../types/is_same.html)<decltype(a), int>);
-        static_assert([std::is_same_v](../types/is_same.html)<decltype(b), double>);
-     
-        auto c0 = a;             // type of c0 is int, holding a copy of a
-        decltype(auto) c1 = a;   // type of c1 is int, holding a copy of a
-        decltype(auto) c2 = (a); // type of c2 is int&, an alias of a
-        [std::cout](../io/cout.html) << "before modification through c2, a = " << a << '\n';
-        ++c2;
-        [std::cout](../io/cout.html) << " after modification through c2, a = " << a << '\n';
-     
-        auto [v, w] = f<0>(); //structured binding declaration
-     
-        auto d = {1, 2}; // OK: type of d is std::initializer_list<int>
-        auto n = {5};    // OK: type of n is std::initializer_list<int>
-    //  auto e{1, 2};    // Error as of DR n3922, std::initializer_list<int> before
-        auto m{5};       // OK: type of m is int as of DR n3922, initializer_list<int> before
-    //  decltype(auto) z = { 1, 2 } // Error: {1, 2} is not an expression
-     
-        // auto is commonly used for unnamed types such as the types of lambda expressions
-        auto lambda = [](int x) { return x + 3; };
-     
-    //  auto int x; // valid C++98, error as of C++11
-    //  auto x;     // valid C, error in C++
-     
-        [](...){}(c0, c1, v, w, d, n, m, lambda); // suppresses "unused variable" warnings
-    }
-
-Possible output: 
-    
-    
-    before modification through c2, a = 3
-     after modification through c2, a = 4
 
 ### Defect reports
 

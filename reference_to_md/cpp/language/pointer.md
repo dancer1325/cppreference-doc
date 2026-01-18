@@ -26,12 +26,23 @@
     * [pointer declarator](#pointer-declarator)
     * [pointer -- to -- member declarator](#pointer-to-member-declarator)💡
 
+* NOT exist
+  * pointers -- to -- [references](reference.md)
+  * pointers -- to -- [bit-fields](bit_field.md)
+
+* "pointers" WITHOUT elaboration
+  * ❌do NOT include pointers -- to -- (non-static) members❌
+
 * `attr`
   * requirements
     * C++11
   * == list of [attributes](attributes.md)
 * [cv](cv.md)
   * apply | pointer / it's being declared (❌NOT to the pointed-to type❌)
+* `declarator`
+  * == ANY [declarator](declarations.md)
+* `nested-name-specifier`
+  * == sequence of names & [`::`](punctuators.md) / MUST end with `::`
 
 #### Pointer declarator
 * `* attr cv declarator`
@@ -41,25 +52,13 @@
     * OPTIONAL
 
 #### Pointer to member declarator
-* `* nested-name-specifier * attr cv declarator`   
+* `nested-name-specifier * attr cv declarator`   
   * `attr`
     * OPTIONAL
   * `cv`
     * OPTIONAL
   * `nested-name-specifier`
-    * == [sequence of names & scope resolution operators (`::`)](name.md#qualified-identifiers)
-  
-
-
-2) **Pointer to member declarator** : the declaration S C::* D; declares D as a pointer to non-static member of `C` of type determined
-by the declaration specifier sequence `S`.
-
-   
-declarator |  \-  |  any [declarator](declarations.html "cpp/language/declarations")  
-  
-There are no pointers to [references](reference.html "cpp/language/reference") and 
-there are no pointers to [bit-fields](bit_field.html "cpp/language/bit field")
-* Typically, mentions of "pointers" without elaboration do not include pointers to (non-static) members. 
+    * == [sequence of names & scope resolution operators (`::`)](name.md#qualified-identifiers) 
 
 ### Pointers
 
@@ -72,7 +71,8 @@ Every value of pointer type is one of the following:
 
 
 
-A pointer that points to an object _represents the address_ of the first byte in memory occupied by the object. A pointer past the end of an object _represents the address_ of the first byte in memory after the end of the storage occupied by the object. 
+A pointer that points to an object _represents the address_ of the first byte in memory occupied by the object
+* A pointer past the end of an object _represents the address_ of the first byte in memory after the end of the storage occupied by the object. 
 
 Note that two pointers that represent the same address may nonetheless have different values. 
     

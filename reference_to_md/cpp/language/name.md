@@ -197,15 +197,16 @@ Together with identifiers they are known as _unqualified identifier expressions_
   * defining OR redeclaring a PREVIOUSLY declared
     * [namespace member](namespace.md#Namespaces) OR
     * [class member](classes.md)
-    A _qualified identifier expression_ is an unqualified identifier expression prepended by a scope resolution operator ::, and optionally, a sequence of any of the following separated by scope resolution operators: 
+* _qualified identifier expression_
+  * is an unqualified identifier expression prepended by a scope resolution operator ::, and optionally, a sequence of any of the following separated by scope resolution operators: 
 
-      * a namespace name; 
-      * a class name; 
+        * a namespace name; 
+        * a class name; 
 
 
 
   * an enumeration name; 
-  * a [`decltype` specifier](decltype.html "cpp/language/decltype") denoting a class or enumeration type. 
+  * [`decltype` specifier](decltype.md) denoting a class or enumeration type. 
 
 | (since C++11)  
 ---|---  
@@ -220,6 +221,9 @@ For example, the expression [std::string::npos](../string/basic_string/npos.html
 The keyword [`template`](../keyword/template.html "cpp/keyword/template") may appear in qualified identifiers as necessary to disambiguate [dependent template names](dependent_name.html "cpp/language/dependent name"). 
 
 See [qualified lookup](qualified_lookup.html "cpp/language/qualified lookup") for the details of the name lookup for qualified identifiers. 
+
+* `nested-name-specifier`
+  * == sequence of names & [`::`](punctuators.md) / MUST end with `::`
 
 ### Implicit member access transformation
 
