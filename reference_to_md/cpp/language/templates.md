@@ -1,5 +1,5 @@
 * template
-  * := C++ entity / can define
+  * := 💡[C++ entity](basics.md) 💡/ 👀can define👀
     * a family of
       * [classes](class_template.md)
         * may be [nested classes](member_template.md)

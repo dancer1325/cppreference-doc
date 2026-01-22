@@ -1,113 +1,5 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-  
-  
-  
-Special member functions  
-| [Default constructor](default_constructor.html "cpp/language/default constructor")  
----  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-  
-| [Copy assignment](as_operator.html "cpp/language/as operator")  
----  
-[Move assignment](move_operator.html "cpp/language/move operator") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-  
-[Templates](templates.html "cpp/language/templates")  
-| [Class template](class_template.html "cpp/language/class template")  
----  
-**Function template**  
-  
-| [Template specialization](template_specialization.html "cpp/language/template specialization")  
----  
-[Parameter packs](parameter_pack.html "cpp/language/pack") (C++11)  
-  
-Miscellaneous  
-| [Inline assembly](asm.html "cpp/language/asm")  
----  
-  
-| [History of C++](history.html "cpp/language/history")  
----  
-  
-
-
-
-  
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-[Pointer](pointer.html "cpp/language/pointer")  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-[asm declaration](asm.html "cpp/language/asm")  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-[Namespace definition](namespace.html "cpp/language/namespace")  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-**Function template declaration**  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-[Linkage specification](language_linkage.html "cpp/language/language linkage")  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
-  
-  
-  
-
-
-  
-  
-
-  
-  
-
-
-[ Templates](templates.html "cpp/language/templates")
-
-[Template parameters](template_parameters.html "cpp/language/template parameters")  
----  
-[Template arguments](template_arguments.html "cpp/language/template arguments")  
-[Class templates](class_template.html "cpp/language/class template")  
-**Function templates**  
-[Class member templates](member_template.html "cpp/language/member template")  
-[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
-[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
-[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
-[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
-[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
-[Dependent names](dependent_name.html "cpp/language/dependent name")  
-[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
-[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
-[SFINAE](sfinae.html "cpp/language/sfinae")  
-[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
-[requires expression](requires.html "cpp/language/requires") (C++20)  
-  
-
-
-A function template defines a family of functions. 
+* function template
+  * defines a family of functions 
 
 ## Contents
 
@@ -128,12 +20,8 @@ A function template defines a family of functions.
   * [13 Defect reports](function_template.html#Defect_reports)
   * [14 See also](function_template.html#See_also)
 
-  
----  
-  
 ### Syntax  
-  
----  
+
 `**template**` `**<**` parameter-list `**>**` function-declaration |  (1)  |   
 `**template**` `**<**` parameter-list `**>**` `**requires**` constraint function-declaration |  (2)  |  (since C++20)  
 function-declaration-with-placeholders |  (3)  |  (since C++20)  
@@ -191,8 +79,7 @@ If the function template is a [friend](friend.html "cpp/language/friend") with c
 A function template by itself is not a type, or a function. No code is generated from a source file that contains only template definitions. In order for any code to appear, a template must be instantiated: the template arguments must be determined so that the compiler can generate an actual function (or class, from a class template). 
 
 #### Explicit instantiation  
-  
----  
+
 `**template**` return-type name `**<**` argument-list `**>**` `**(**` parameter-list `**)**` `**;**` |  (1)  |   
 `**template**` return-type name `**(**` parameter-list `**)**` `**;**` |  (2)  |   
 `**extern**` `**template**` return-type name `**<**` argument-list `**>**` `**(**` parameter-list `**)**` `**;**` |  (3)  |  (since C++11)  
@@ -943,36 +830,15 @@ It is important to remember this rule while ordering the header files of a trans
 
 Examples  
 ---  
-Consider first some scenarios where the argument-dependent lookup is not employed. For that, we use the call (f)(t). As described in [ADL](adl.html "cpp/language/adl"), wrapping the function name in parentheses is suppressing the argument-dependent lookup. 
+
+* TODO: Consider first some scenarios where the argument-dependent lookup is not employed
 
   * Multiple overloads of f() declared before the _point-of-reference_ (POR) in g(). 
 
 Run this code
     
     
-    #include <iostream>
-     
-    struct A {};
-     
-    template<class T>
-    void f(T)  { [std::cout](../io/cout.html) << "#1\n"; } // overload #1 before f() POR
-    template<class T>
-    void f(T*) { [std::cout](../io/cout.html) << "#2\n"; } // overload #2 before f() POR
-     
-    template<class T>
-    void g(T* t) 
-    {
-        (f)(t); // f() POR
-    }
-     
-    int main()
-    {
-        A* p = nullptr;
-        g(p); // POR of g() and f()
-    }
-     
-    // Both #1 and #2 are added to the candidate list;
-    // #2 is selected because it is a better match.
+
 
 Output: 
     

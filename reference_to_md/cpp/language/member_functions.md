@@ -1,88 +1,26 @@
+* non-static member function
+  * == function / declared | class' [member specification](class.md) /
+    * WITHOUT a [`static`](static.md) OR [`friend`](friend.md) specifier
 
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[ Classes](classes.html "cpp/language/classes")
-
-General  
----  
-[Overview](classes.html "cpp/language/classes")  
-[`class`/`struct` types](class.html "cpp/language/class")  
-[`union` types](union.html "cpp/language/union")  
-[Injected-class-name](injected-class-name.html "cpp/language/injected-class-name")  
-[Class property specifiers](class_property_specifiers.html "cpp/language/class property specifiers") (C++26)  
-Members  
-[Data members](data_members.html "cpp/language/data members")  
-[Static members](static.html "cpp/language/static")  
-[The `this` pointer](this.html "cpp/language/this")  
-[Nested classes](nested_classes.html "cpp/language/nested types")  
-[Member templates](member_template.html "cpp/language/member template")  
-[Bit-fields](bit_field.html "cpp/language/bit field")  
-[`using`-declarations](using_declaration.html "cpp/language/using declaration")  
-**Member functions**  
-[Member access specifiers](access.html "cpp/language/access")  
-[Constructors and member initializer lists](initializer_list.html "cpp/language/constructor")  
-[Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
-[`friend` specifier](friend.html "cpp/language/friend")  
-[`explicit` specifier](explicit.html "cpp/language/explicit")  
-[Converting constructor](converting_constructor.html "cpp/language/converting constructor")  
-Special member functions  
-[Default constructor](default_constructor.html "cpp/language/default constructor")  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-[Copy assignment operator](as_operator.html "cpp/language/copy assignment")  
-[Move assignment operator](move_operator.html "cpp/language/move assignment") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-Inheritance  
-[Base and derived classes](derived_class.html "cpp/language/derived class")  
-[Empty base optimization (EBO)](ebo.html "cpp/language/ebo")  
-[Virtual member functions](virtual.html "cpp/language/virtual")  
-[Pure virtual functions and abstract classes](abstract_class.html "cpp/language/abstract class")  
-[`override` specifier](override.html "cpp/language/override") (C++11)  
-[`final` specifier](final.html "cpp/language/final") (C++11)  
-  
-
-
-A non-static member function is a function that is declared in a [member specification](class.html "cpp/language/class") of a class without a [`static`](static.html "cpp/language/static") or [`friend`](friend.html "cpp/language/friend") specifier (see [static member functions](static.html#Static_member_functions "cpp/language/static") and [friend declaration](friend.html "cpp/language/friend") for the effect of those keywords). 
+* [static member functions](static.md#static-member-functions)
+* [friend declaration](friend.md)
     
-    
-    class S
-    {
-        int mf1(); // non-static member function declaration
-        void mf2() volatile, mf3() &&; // can have cv-qualifiers and/or a reference-qualifier
-            // the declaration above is equivalent to two separate declarations:
-            // void mf2() volatile;
-            // void mf3() &&;
-     
-        int mf4() const { return data; } // can be defined inline
-        virtual void mf5() final; // can be virtual, can use final/override
-        S() : data(12) {} // constructors are member functions too
-        int data;
-    };
-     
-    int S::mf1() { return 7; } // if not defined inline, has to be defined at namespace
+* member functions
+  * requirements
+    * some rules
+      * ❌NOT apply | 
+        * [constructors](initializer_list.md)
+        * [destructors](destructor.md)
+        * [conversion functions](cast_operator.md)❌
 
-[Constructors](initializer_list.html "cpp/language/constructor"), [destructors](destructor.html "cpp/language/destructor"), and [conversion functions](cast_operator.html "cpp/language/cast operator") use special syntaxes for their declarations. The rules described in this page may not apply to these functions. See their respective pages for details. 
-
-An _explicit object member function_ is a non-static member function with an [explicit object parameter](function.html#Parameter_list "cpp/language/function").  | (since C++23)  
----|---  
+* _explicit object member function_
+  * | C++23
+  * == non-static member function / has an [explicit object parameter](function.md#parameter-list)
   
-An _implicit object member function_ is a non-static member function without an explicit object parameter (prior to C++23, this was the only kind of non-static member function, and hence referred to as "non-static member function" in the literature). 
+* _implicit object member function_
+  * | C++23-
+    * ⚠️ONLY kind of non-static member function⚠️ 
+  * == non-static member function / WITHOUT an explicit object parameter
 
 ## Contents
 
@@ -96,9 +34,6 @@ An _implicit object member function_ is a non-static member function without an 
   * [3 Example](member_functions.html#Example)
   * [4 Defect reports](member_functions.html#Defect_reports)
   * [5 See also](member_functions.html#See_also)
-
-  
----  
   
 ### Explanation
 
@@ -327,93 +262,7 @@ Special member functions along with the [comparison operators](default_compariso
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_ref_qualifiers`](../experimental/feature_test.html#cpp_ref_qualifiers "cpp/feature test") | [`200710L`](../compiler_support/11.html#cpp_ref_qualifiers_200710L "cpp/compiler support/11") | (C++11) | [ref-qualifiers](function.html#Function_declaration "cpp/language/function")  
-[`__cpp_explicit_this_parameter`](../experimental/feature_test.html#cpp_explicit_this_parameter "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_explicit_this_parameter_202110L "cpp/compiler support/23") | (C++23) | [explicit object parameter](function.html#explicit_object_parameter "cpp/language/function") ([deducing `this`](member_functions.html#Explicit_object_member_functions))   
-  
-### Example
-
-Run this code
-    
-    
-    #include <exception>
-    #include <iostream>
-    #include <string>
-    #include <utility>
-     
-    struct S
-    {
-        int data;
-     
-        // simple converting constructor (declaration)
-        S(int val);
-     
-        // simple explicit constructor (declaration)
-        explicit S([std::string](../string/basic_string.html) str);
-     
-        // const member function (definition)
-        virtual int getData() const { return data; }
-    };
-     
-    // definition of the constructor
-    S::S(int val) : data(val)
-    {
-        [std::cout](../io/cout.html) << "ctor1 called, data = " << data << '\n';
-    }
-     
-    // this constructor has a catch clause
-    S::S([std::string](../string/basic_string.html) str) try : data([std::stoi](../string/basic_string/stol.html)(str))
-    {
-        [std::cout](../io/cout.html) << "ctor2 called, data = " << data << '\n';
-    }
-    catch(const [std::exception](../error/exception.html)&)
-    {
-        [std::cout](../io/cout.html) << "ctor2 failed, string was '" << str << "'\n";
-        throw; // ctor's catch clause should always rethrow
-    }
-     
-    struct D : S
-    {
-        int data2;
-        // constructor with a default argument
-        D(int v1, int v2 = 11) : S(v1), data2(v2) {}
-     
-        // virtual member function
-        int getData() const override { return data * data2; }
-     
-        // lvalue-only assignment operator
-        D& operator=(D other) &
-        {
-            [std::swap](../algorithm/swap.html)(other.data, data);
-            [std::swap](../algorithm/swap.html)(other.data2, data2);
-            return *this;
-        }
-    };
-     
-    int main()
-    {
-        D d1 = 1;
-        S s2("2");
-     
-        try
-        {
-            S s3("not a number");
-        }
-        catch(const [std::exception](../error/exception.html)&) {}
-     
-        [std::cout](../io/cout.html) << s2.getData() << '\n';
-     
-        D d2(3, 4);
-        d2 = d1;   // OK: assignment to lvalue
-    //  D(5) = d1; // ERROR: no suitable overload of operator=
-    }
-
-Output: 
-    
-    
-    ctor1 called, data = 1
-    ctor2 called, data = 2
-    ctor2 failed, string was 'not a number'
-    2
-    ctor1 called, data = 3
+[`__cpp_explicit_this_parameter`](../experimental/feature_test.html#cpp_explicit_this_parameter "cpp/feature test") | [`202110L`](../compiler_support/23.html#cpp_explicit_this_parameter_202110L "cpp/compiler support/23") | (C++23) | [explicit object parameter](function.html#explicit_object_parameter "cpp/language/function") ([deducing `this`](member_functions.html#Explicit_object_member_functions))
 
 ### Defect reports
 

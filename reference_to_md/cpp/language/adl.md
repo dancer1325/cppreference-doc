@@ -1,73 +1,10 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[ Functions](functions.html "cpp/language/functions")
-
-Declarations  
----  
-[Function declaration](function.html "cpp/language/function")  
-[Function parameter list](function.html#Parameter_list "cpp/language/function")  
-[Function definition](function.html#Function_definition "cpp/language/function")  
-[Function contract specifiers](function.html#Function_contract_specifiers "cpp/language/function") (C++26)  
-[Default arguments](default_arguments.html "cpp/language/default arguments")  
-[Variadic arguments](variadic_arguments.html "cpp/language/variadic arguments")  
-[`inline` specifier](inline.html "cpp/language/inline")  
-[Lambda expressions](lambda.html "cpp/language/lambda") (C++11)  
-[Coroutines](coroutines.html "cpp/language/coroutines") (C++20)  
-[Replacement functions](replacement_function.html "cpp/language/replacement function")  
-Function calls  
-**Argument-Dependent Lookup (ADL)**  
-[Function-call operator](operator_other.html#Built-in_function_call_operator "cpp/language/operator other")  
-[Function objects](../named_req/FunctionObject.html "cpp/named req/FunctionObject")  
-Overloading  
-[Overload resolution](overload_resolution.html "cpp/language/overload resolution")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Address of an overload set](overloaded_address.html "cpp/language/overloaded address")  
-  
-
-
-Argument-dependent lookup (ADL), also known as Koenig lookup[[1]](adl.html#cite_note-1), is the set of rules for looking up the unqualified function names in [function-call expressions](operator_other.html "cpp/language/operator other"), including implicit function calls to [overloaded operators](operators.html "cpp/language/operators"). These function names are looked up in the namespaces of their arguments in addition to the scopes and namespaces considered by the usual [unqualified name lookup](lookup.html "cpp/language/lookup"). 
+* [Argument-dependent lookup (ADL) OR Koenig lookup](#external-links)
+  * == rules / look up the unqualified function names | [function-call expressions](operator_other.md)
+including implicit function calls to [overloaded operators](operators.md)
+* These function names are looked up in the namespaces of their arguments in addition to the scopes and namespaces considered
+by the usual [unqualified name lookup](lookup.md) 
 
 Argument-dependent lookup makes it possible to use operators defined in a different namespace. Example:
-
-Run this code
-    
-    
-    #include <iostream>
-     
-    int main()
-    {
-        [std::cout](../io/cout.html) << "Test\n"; // There is no operator<< in global namespace, but ADL
-                               // examines std namespace because the left argument is in
-                               // std and finds std::operator<<(std::ostream&, const char*)
-        operator<<([std::cout](../io/cout.html), "Test\n"); // Same, using function call notation
-     
-        // However,
-        [std::cout](../io/cout.html) << endl; // Error: “endl” is not declared in this namespace.
-                           // This is not a function call to endl(), so ADL does not apply
-     
-        endl([std::cout](../io/cout.html)); // OK: this is a function call: ADL examines std namespace
-                         // because the argument of endl is in std, and finds std::endl
-     
-        (endl)([std::cout](../io/cout.html)); // Error: “endl” is not declared in this namespace.
-                           // The sub-expression (endl) is not an unqualified-id
-    }
 
 ## Contents
 
@@ -78,8 +15,6 @@ Run this code
   * [5 See also](adl.html#See_also)
   * [6 External links](adl.html#External_links)
 
-  
----  
   
 ### Details
 
@@ -221,46 +156,6 @@ In the following contexts ADL-only lookup (that is, lookup in associated namespa
 | (since C++17)  
 ---|---  
   
-### Examples
-
-| This section is incomplete  
-Reason: more examples   
----|---  
-  
-Example from <http://www.gotw.ca/gotw/030.htm>
-
-Run this code
-    
-    
-    namespace A
-    {
-        struct X;
-        struct Y;
-     
-        void f(int);
-        void g(X);
-    }
-     
-    namespace B
-    {
-        void f(int i)
-        {
-            f(i); // Calls B::f (endless recursion)
-        }
-     
-        void g(A::X x)
-        {
-            g(x); // Error: ambiguous between B::g (ordinary lookup)
-                  //        and A::g (argument-dependent lookup)
-        }
-     
-        void h(A::Y y)
-        {
-            h(y); // Calls B::h (endless recursion): ADL examines the A namespace
-                  // but finds no A::h, so only B::h from ordinary lookup is used
-        }
-    }
-
 ### Defect reports
 
 The following behavior-changing defect reports were applied retroactively to previously published C++ standards. 
@@ -296,12 +191,7 @@ class type included its base classes  | not included
   * [Template argument deduction](function_template.html "cpp/language/function template")
   * [Overload resolution](overload_resolution.html "cpp/language/overload resolution")
 
-
-
 ### External links
 
-  1. [↑](adl.html#cite_ref-1) Andrew Koenig: ["A Personal Note About Argument-Dependent Lookup"](https://www.drdobbs.com/cpp/a-personal-note-about-argument-dependent/232901443)
-  2. [↑](adl.html#cite_ref-2) H. Sutter (1998) ["What's In a Class? - The Interface Principle"](http://www.gotw.ca/publications/mill02.htm) in C++ Report, 10(3)
-
-  
----
+1. [↑](adl.html#cite_ref-1) Andrew Koenig: ["A Personal Note About Argument-Dependent Lookup"](https://www.drdobbs.com/cpp/a-personal-note-about-argument-dependent/232901443)
+2. [↑](adl.html#cite_ref-2) H. Sutter (1998) ["What's In a Class? - The Interface Principle"](http://www.gotw.ca/publications/mill02.htm) in C++ Report, 10(3)

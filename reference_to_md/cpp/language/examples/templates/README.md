@@ -1,7 +1,8 @@
 # := C++ entity / can define 
-## a family of classes
+## a family of 
+### classes
 * [here](../classTemplate)
-## a family of functions
-* TODO:
-## a family of variables
+### functions
+* [here](../function_template)
+### variables
 * TODO:

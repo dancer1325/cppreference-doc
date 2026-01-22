@@ -1,70 +1,24 @@
 
+| Operator name        | Syntax      | [Overloadable](operators.md) | Inside class definition                         | Outside class definition            |
+|----------------------|-------------|-----------------------------|-------------------------------------------------|-------------------------------------|
+| function call        | `a(a1, a2)` | Yes                         | `R T::operatorName()(Arg1 &a1, Arg2 &a2, ...);` | N/A                                 |
+| comma                | `a, b`      | Yes                         | `T2& T::operatorName,(T2 &b);`                  | `T2& operatorName,(const T &a, T2 &b);` |
+| conditional operator | `a ? b : c` | No                          | N/A                                             | N/A                                 |
 
-  
-  
-  
-  
-  
+* `T`
+  * := className
+* `R`
+  * := returned type
+* `T2`
+    * := second operand's type
+* _function call_ operator
+  * provides 
+    * function semantics / any object
+  * | outside class,
+    * ⚠️N/A⚠️
+      * == ❌can NOT be defined -- as -- free function❌
 
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-  
-  
-Operators  
-| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
----  
-[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
-[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
-[Logical operators](operator_logical.html "cpp/language/operator logical")  
-[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
-[Member access operators](operator_member_access.html "cpp/language/operator member access")  
-**Other operators**  
-[`new`-expression](new.html "cpp/language/new")  
-[`delete`-expression](delete.html "cpp/language/delete")  
-[`throw`-expression](throw.html "cpp/language/throw")  
-  
-| [`alignof`](alignof.html "cpp/language/alignof")  
----  
-[`sizeof`](sizeof.html "cpp/language/sizeof")  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
-[`typeid`](typeid.html "cpp/language/typeid")  
-[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
-[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
-  
-Conversions  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
-[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
-[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
-  
-  
-
-
-Operator  
-name  | Syntax  | [Over​load​able](operators.html "cpp/language/operators") | Prototype examples (for class T)   
----|---|---|---  
-Inside class definition  | Outside class definition   
-function call  | `a(a1, a2)` | Yes  | R T::operator()(Arg1 &a1, Arg2 &a2, ...); |  N/A  
-comma  | `a, b` | Yes  | T2& T::operator,(T2 &b); | T2& operator,(const T &a, T2 &b);  
-conditional operator  | `a ? b : c` |  No  |  N/A |  N/A  
-  
-The _function call_ operator provides function semantics for any object. 
-
-The _conditional operator_ (colloquially referred to as _ternary conditional_ ﻿) checks the boolean value of the first expression and, depending on the resulting value, evaluates and returns either the second or the third expression. 
+* _conditional operator_ OR _ternary conditional_  
 
 ## Contents
 
@@ -83,13 +37,10 @@ The _conditional operator_ (colloquially referred to as _ternary conditional_ �
   * [6 See also](operator_other.html#See_also)
 
   
----  
-  
 ### Built-in function call operator
 
-Function call expressions have the following form:   
-  
----  
+* TODO: Function call expressions have the following form:   
+
 function ﻿`**(**` arg1`**,**` arg2`**,**` arg3`**,**`...`**)**` |  |   
 function |  \-  |  an expression function type or function pointer type   
 ---|---|---  
@@ -128,50 +79,12 @@ When the called function exits normally, all [postcondition assertions](function
 | (since C++26)  
 ---|---  
   
-Function call expression is similar in syntax to value initialization T(), to [function-style cast](explicit_cast.html "cpp/language/explicit cast") expression T(A1), and to direct initialization of a temporary T(A1, A2, A3, ...), where `T` is the name of a type. 
-
-Run this code
-    
-    
-    #include <cstdio>
-     
-    struct S
-    {
-        int f1(double d)
-        {
-            return printf("%f \n", d); // variable argument function call
-        }
-     
-        int f2()
-        {
-            return f1(7); // member function call, same as this->f1()
-                          // integer argument converted to double
-        }
-    };
-     
-    void f()
-    {
-        puts("function called"); // function call
-    }
-     
-    int main()
-    {
-        f();    // function call
-        S s;
-        s.f2(); // member function call
-    }
-
-Output: 
-    
-    
-    function called
-    7.000000
+Function call expression is similar in syntax to value initialization T(), to [function-style cast](explicit_cast.html "cpp/language/explicit cast") expression T(A1), and to direct initialization of a temporary T(A1, A2, A3, ...), where `T` is the name of a type.
 
 ### Built-in comma operator
 
 Comma expressions have the following form:   
-  
----  
+
 E1 `**,**` E2 |  |   
   
 In a comma expression E1, E2, the expression E1 is evaluated, its result is [discarded](expressions.html#Discarded-value_expressions "cpp/language/expressions") (although if it has class type, it won't be destroyed [until the end of the containing full expression](lifetime.html#Temporary_object_lifetime "cpp/language/lifetime")), and its side effects are completed before evaluation of the expression E2 begins (note that a user-defined `operator,` cannot guarantee sequencing)(until C++17). 
@@ -183,58 +96,12 @@ The comma in various comma-separated lists, such as function argument lists (f(a
 Using an unparenthesized comma expression as second (right) argument of a [subscript operator](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access") is deprecated. For example, a[b, c] is deprecated and a[(b, c)] is not.  | (since C++20)  
 (until C++23)  
 ---|---  
-An unparenthesized comma expression cannot be second (right) argument of a [subscript operator](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access"). For example, a[b, c] is either ill-formed or equivalent to a.operator[](b, c). Parentheses are needed when using a comma expression as the subscript, e.g., a[(b, c)].  | (since C++23)  
-  
-Run this code
-    
-    
-    #include <iostream>
-     
-    int main()
-    {
-        // comma is often used to execute more than one expression
-        // where the language grammar allows only one expression:
-     
-        // * in the third component of the for loop
-        for (int i = 0, j = 10; i <= j; ++i, --j)
-        //            ^list separator      ^comma operator
-            [std::cout](../io/cout.html) << "i = " << i << " j = " << j << '\n';
-     
-        // * in a return statement
-        // return log("an error!"), -1;
-     
-        // * in an initializer expression
-        // MyClass(const Arg& arg)
-        // : member{ throws_if_bad(arg), arg }
-     
-        // etc.
-     
-        // comma operators can be chained; the result of the last
-        // (rightmost) expression is the result of the whole chain:
-        int n = 1;
-        int m = (++n, [std::cout](../io/cout.html) << "n = " << n << '\n', ++n, 2 * n);
-     
-        // m is now 6
-        [std::cout](../io/cout.html) << "m = " << (++m, m) << '\n';
-    }
-
-Output: 
-    
-    
-    i = 0 j = 10
-    i = 1 j = 9
-    i = 2 j = 8
-    i = 3 j = 7
-    i = 4 j = 6
-    i = 5 j = 5
-    n = 2
-    m = 7
+An unparenthesized comma expression cannot be second (right) argument of a [subscript operator](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access"). For example, a[b, c] is either ill-formed or equivalent to a.operator[](b, c). Parentheses are needed when using a comma expression as the subscript, e.g., a[(b, c)].  | (since C++23)
 
 ### Conditional operator
 
 The conditional operator expressions have the form   
-  
----  
+
 E1 `**?**` E2 `**:**` E3 |  |   
   
 E1 is evaluated and [contextually converted](implicit_cast.html "cpp/language/implicit conversion") to bool, if the result is true, the result of the conditional expression is the value of E2 ﻿; otherwise the result of the conditional expression is the value of E3 ﻿. 

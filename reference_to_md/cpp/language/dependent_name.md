@@ -1,61 +1,3 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-
-  
- 
-  
-  
-  
-
-
-  
-  
-
-  
-  
-
-
-[ Templates](templates.html "cpp/language/templates")
-
-[Template parameters](template_parameters.html "cpp/language/template parameters")  
----  
-[Template arguments](template_arguments.html "cpp/language/template arguments")  
-[Class templates](class_template.html "cpp/language/class template")  
-[Function templates](function_template.html "cpp/language/function template")  
-[Class member templates](member_template.html "cpp/language/member template")  
-[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
-[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
-[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
-[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
-[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
-**Dependent names**  
-[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
-[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
-[SFINAE](sfinae.html "cpp/language/sfinae")  
-[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
-[requires expression](requires.html "cpp/language/requires") (C++20)  
-  
-
-
 Inside the definition of a [template](templates.html "cpp/language/templates") (both [class template](class_template.html "cpp/language/class template") and [function template](function_template.html "cpp/language/function template")), the meaning of some constructs may differ from one instantiation to another. In particular, types and expressions may depend on types of type template parameters and values of constant template parameters. 
     
     
@@ -89,9 +31,6 @@ Name [lookup](lookup.html "cpp/language/lookup") and binding are different for d
   * [11 Keywords](dependent_name.html#Keywords)
   * [12 Defect reports](dependent_name.html#Defect_reports)
 
-  
----  
-  
 ### Binding rules
 
 Non-dependent names are looked up and bound at the point of template definition. This binding holds even if at the point of template instantiation there is a better match: 

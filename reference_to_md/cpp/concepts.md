@@ -92,9 +92,6 @@ In general, only the syntactic requirements can be checked by the compiler. If t
     * [3.4 Callable concepts](concepts.html#Callable_concepts)
   * [4 See also](concepts.html#See_also)
 
-  
----  
-  
 ### Equality preservation
 
 An expression is _equality-preserving_ if it results in equal outputs given equal inputs, where 
