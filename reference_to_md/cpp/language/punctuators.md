@@ -402,19 +402,17 @@
 
 
 
-#### & (including bitand)
+#### `&` (including bitand)
 
-  * [Address-of operator](operator_member_access.html#Built-in_address-of_operator "cpp/language/operator member access"); part of operator& in [operator overloading](operators.html#Rarely_overloaded_operators "cpp/language/operators"). 
-  * [Bitwise and operator](operator_arithmetic.html#Bitwise_logic_operators "cpp/language/operator arithmetic"); part of operator& in [operator overloading](operators.html "cpp/language/operators"). 
-  * Lvalue-reference operator in a [declarator](declarations.html#Declarators "cpp/language/declarations") or in a [type-id](type-id.html#Type_naming "cpp/language/type"). 
-
-
-
-  * In a [lambda capture](lambda.html#Lambda_capture "cpp/language/lambda"), indicate by-reference capture. 
-  * [Ref-qualifier](member_functions.html#ref-qualified_member_functions "cpp/language/member functions") in [member function declaration](member_functions.html "cpp/language/member functions"). 
-
-| (since C++11)  
----|---  
+* [Address-of operator](operator_member_access.md#built-in-address-of-operator)
+  * == part of `operator&` | [operator overloading](operators.md#rarely-overloaded-operators) 
+* [Bitwise and operator](operator_arithmetic.md#bitwise-logic-operators)
+  * == part of `operator&` | [operator overloading](operators.md) 
+* Lvalue-reference operator | [declarator](declarations.md#declarators) OR [type-id](incomplete_type.md#type-naming) 
+* In a [lambda capture](lambda.md#lambda-capture), indicate by-reference capture
+  * | C++11
+* [Ref-qualifier](member_functions.md#member-functions-with-ref-qualifier) in [member function declaration](member_functions.md)
+  * | C++11
   
 #### | (including bitor)
 

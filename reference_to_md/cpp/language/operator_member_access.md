@@ -1,77 +1,22 @@
+* accesses a operand's member
 
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-  
-  
-Operators  
-| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
----  
-[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
-[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
-[Logical operators](operator_logical.html "cpp/language/operator logical")  
-[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
-**Member access operators**  
-[Other operators](operator_other.html "cpp/language/operator other")  
-[`new`-expression](new.html "cpp/language/new")  
-[`delete`-expression](delete.html "cpp/language/delete")  
-[`throw`-expression](throw.html "cpp/language/throw")  
-  
-| [`alignof`](alignof.html "cpp/language/alignof")  
----  
-[`sizeof`](sizeof.html "cpp/language/sizeof")  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
-[`typeid`](typeid.html "cpp/language/typeid")  
-[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
-[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
-  
-Conversions  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
-[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
-[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
-  
-  
-
-
-Accesses a member of its operand. 
-
-Operator name  |  Syntax  | [Overloadable](operators.html "cpp/language/operators") | Prototype examples (for class T)   
----|---|---|---  
-Inside class definition  | Outside class definition   
-subscript  | a[b] | Yes  | R& T::operator[](S b); |  N/A  
-a[...] (since C++23) | R& T::operator[](...);  
-indirection  | *a | Yes  | R& T::operator*(); | R& operator*(T a);  
-address-of  | &a | Yes  | R* T::operator&(); | R* operator&(T a);  
-member of object  | a.b |  No  |  N/A |  N/A  
-member of pointer  | a->b | Yes  | R* T::operator->(); |  N/A  
-pointer to member of object  | a.*b |  No  |  N/A |  N/A  
-pointer to member of pointer  | a->*b | Yes  | R& T::operator->*(S b); | R& operator->*(T a, S b);  
+| Operator name                | Syntax   | [Overloadable](operators.md) | Inside class definition   | Outside class definition    |
+|------------------------------|----------|------------------------------------------------------|---------------------------|-----------------------------|
+| subscript                    | `a[b]`   | Yes                                                  | `R& T::operator[](S b);`  | N/A                         |
+| subscript (multidimensional) | `a[...]` | Yes (since C++23)                                    | `R& T::operator[](...);`  | N/A                         |
+| indirection                  | `*a`     | Yes                                                  | `R& T::operator*();`      | `R& operator*(T a);`        |
+| address-of                   | `&a`     | Yes                                                  | `R* T::operator&();`      | `R* operator&(T a);`        |
+| member of object             | `a.b`    | No                                                   | N/A                       | N/A                         |
+| member of pointer            | `a->b`   | Yes                                                  | `R* T::operator->();`     | N/A                         |
+| pointer to member of object  | `a.*b`   | No                                                   | N/A                       | N/A                         |
+| pointer to member of pointer | `a->*b`  | Yes                                                  | `R& T::operator->*(S b);` | `R& operator->*(T a, S b);` |  
   
     **Notes**  
 
 
-  * As with most user-defined overloads, return types should match return types provided by the built-in operators so that [the user-defined operators](operators.html "cpp/language/operators") can be used in the same manner as the built-ins. However, in a user-defined operator overload, any type can be used as return type (including void). One exception is operator->, which must return a pointer or another class with overloaded operator-> to be realistically usable. 
+  * As with most user-defined overloads, return types should match return types provided by the built-in operators so that [the user-defined operators](operators.html "cpp/language/operators") can be used in the same manner as the built-ins
+* However, in a user-defined operator overload, any type can be used as return type (including void)
+* One exception is operator->, which must return a pointer or another class with overloaded operator-> to be realistically usable. 
 
   
   
@@ -88,9 +33,6 @@ pointer to member of pointer  | a->*b | Yes  | R& T::operator->*(S b); | R& oper
   * [4 Defect reports](operator_member_access.html#Defect_reports)
   * [5 See also](operator_member_access.html#See_also)
 
-  
----  
-  
 ### Explanation
 
 Built-in _subscript_ operator provides access to an object pointed-to by the [pointer](pointer.html "cpp/language/pointer") or [array](array.html "cpp/language/array") operand. 
@@ -106,8 +48,7 @@ Built-in _member of pointer_ and _pointer to member of pointer_ operators provid
 #### Built-in subscript operator
 
 The subscript operator expressions have the form   
-  
----  
+
 expr1 ﻿`**[**` expr2 ﻿`**]**` |  (1)  |   
 expr1 ﻿`**[{**` expr ﻿`, ...``**}]**` |  (2)  |  (since C++11)  
 expr1 ﻿`**[**` expr2 ﻿`,` expr ﻿`, ...``**]**` |  (3)  |  (since C++23)  
@@ -163,8 +104,7 @@ Output:
 #### Built-in indirection operator
 
 The indirection operator expressions have the form   
-  
----  
+
 `*****` expr |  |   
   
 The operand of the built-in indirection operator must be pointer to object or a pointer to function, and the result is the lvalue referring to the object or function to which expr points. If expr does not actually points to an object or function, the behavior is undefined (except for the case specified by [`typeid`](typeid.html "cpp/language/typeid")). 
@@ -201,8 +141,7 @@ Run this code
 #### Built-in address-of operator
 
 The address-of operator expressions have the form   
-  
----  
+
 `**&**` expr |  (1)  |   
 `**&**` class ﻿`**::**` member |  (2)  |   
   
@@ -241,8 +180,7 @@ Run this code
 #### Built-in member access operators
 
 The member access operator expressions have the form   
-  
----  
+
 expr ﻿`**.template**`(optional) id-expr |  (1)  |   
 expr ﻿`**- >template**`(optional) id-expr |  (2)  |   
 expr ﻿`**.**` pseudo-destructor |  (3)  |   
@@ -385,8 +323,7 @@ If E2 is a non-static member and the result of E1 is an object whose type is not
 #### Built-in pointer-to-member access operators
 
 The member access operator expressions through pointers to members have the form   
-  
----  
+
 lhs ﻿`**.***` rhs |  (1)  |   
 lhs ﻿`**- >***`rhs |  (2)  |   
   

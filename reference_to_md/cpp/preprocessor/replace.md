@@ -91,7 +91,8 @@
         * if `__VA_ARGS__` is non-empty -> replaced by `content`
 
 * TODO: 
-Note: if an argument of a function-like macro includes commas that are not protected by matched pairs of left and right parentheses (most commonly found in template argument lists, as in [assert](../error/assert.html)([std::is_same_v](../types/is_same.html)<int, int>); or BOOST_FOREACH([std::pair](../utility/pair.html)<int, int> p, m)), the comma is interpreted as macro argument separator, causing a compilation failure due to argument count mismatch. 
+Note: if an argument of a function-like macro includes commas that are not protected by matched pairs of left and right parentheses (most commonly found in template argument lists, as in [assert](../error/assert.html)([std::is_same_v](../types/is_same.html)<int, int>); 
+or BOOST_FOREACH([std::pair](../utility/pair.html)<int, int> p, m)), the comma is interpreted as macro argument separator, causing a compilation failure due to argument count mismatch. 
 
 ##### Scanning and Replacement
 

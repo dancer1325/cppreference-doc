@@ -62,12 +62,13 @@
 
 ### Pointers
 
-Every value of pointer type is one of the following: 
-
-  * a _pointer to an object or function_ (in which case the pointer is said to _point to_ the object or function), or 
-  * a _pointer past the end of an object_ , or 
-  * the _[null pointer value](pointer.html#Null_pointers)_ for that type, or 
-  * an _[invalid pointer value](pointer.html#Invalid_pointers)_. 
+* pointer type's value
+  * ALLOWED
+    * _pointer -- to an -- object OR function_
+      * == pointer points -- to the -- object OR function 
+    * _pointer pasts the end of an object_
+    * _[null pointer value](pointer.md#null-pointers)_ for that type, or 
+    * _[invalid pointer value](pointer.md#invalid-pointers)_ 
 
 
 
@@ -91,7 +92,9 @@ Note that two pointers that represent the same address may nonetheless have diff
      
     *pxe = 1; // undefined behavior even if the assertion does not fire
 
-Indirection through an invalid pointer value and passing an invalid pointer value to a deallocation function have undefined behavior. Any other use of an invalid pointer value has implementation-defined behavior. Some implementations might define that copying an invalid pointer value causes a system-generated runtime fault. 
+Indirection through an invalid pointer value and passing an invalid pointer value to a deallocation function have undefined behavior
+* Any other use of an invalid pointer value has implementation-defined behavior
+* Some implementations might define that copying an invalid pointer value causes a system-generated runtime fault. 
 
 #### Pointers to objects
 
@@ -662,8 +665,7 @@ when determining the composite pointer type  | allowed
 of storage could invalidate pointer values  | pointer validity is based  
 on the evaluation context   
 [CWG 2933](https://cplusplus.github.io/CWG/issues/2933.html) | C++98  | pointers to functions were always invalid  | they are always valid   
-  
+
 ### See also
 
-[C documentation](../../c/language/pointer.html "c/language/pointer") for Pointer declaration  
----
+* [C's pointer](../../c/language/pointer.md)

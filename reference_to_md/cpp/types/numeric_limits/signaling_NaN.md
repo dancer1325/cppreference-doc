@@ -39,59 +39,6 @@
   
   
   
-| General utilities  
----  
-| [Function objects](../../functional.html "cpp/utility/functional")  
----  
-[Bit manipulation](../../utility/bit.html "cpp/utility/bit") (C++20)  
-[C-style bit manipulation](https://en.cppreference.com/mwiki/index.php?title=cpp/utility/stdbit&action=edit&redlink=1 "cpp/utility/stdbit \(page does not exist\)") (C++26)  
-[bitset](../../utility/bitset.html "cpp/utility/bitset")  
-[hash](../../utility/hash.html "cpp/utility/hash")(C++11)  
-  
-[Relational operators](../../utility.html#Relational_operators "cpp/utility") (deprecated in C++20)  
-|  | [rel_ops::operator!=rel_ops::operator>](../../utility/rel_ops/operator_cmp.html "cpp/utility/rel ops/operator cmp")` `  
----  
-  
-| [rel_ops::operator<=rel_ops::operator>=](../../utility/rel_ops/operator_cmp.html "cpp/utility/rel ops/operator cmp")  
----  
-  
-[Integer comparison functions](../../utility.html#Integer_comparison_functions "cpp/utility")  
-| [cmp_equalcmp_lesscmp_less_than](../../utility/intcmp.html "cpp/utility/intcmp")(C++20)(C++20)(C++20)` `  
----  
-  
-| [cmp_not_equalcmp_greatercmp_greater_than](../../utility/intcmp.html "cpp/utility/intcmp")(C++20)(C++20)(C++20)  
----  
-  
-[in_range](../../utility/in_range.html "cpp/utility/in range")(C++20)  
-[Swap](../../utility.html#Swap "cpp/utility") and [type operations](../../utility.html#Type_operations "cpp/utility")  
-| [swap](../../utility/swap.html "cpp/algorithm/swap")  
----  
-[ranges::swap](../../utility/ranges/swap.html "cpp/utility/ranges/swap")(C++20)  
-[exchange](../../utility/exchange.html "cpp/utility/exchange")(C++14)  
-[declval](../../utility/declval.html "cpp/utility/declval")(C++11)  
-[to_underlying](../../utility/to_underlying.html "cpp/utility/to underlying")(C++23)  
-  
-| [forward](../../utility/forward.html "cpp/utility/forward")(C++11)  
----  
-[forward_like](../../utility/forward_like.html "cpp/utility/forward like")(C++23)  
-[move](../../utility/move.html "cpp/utility/move")(C++11)  
-[move_if_noexcept](../../utility/move_if_noexcept.html "cpp/utility/move if noexcept")(C++11)  
-[as_const](../../utility/as_const.html "cpp/utility/as const")(C++17)  
-  
-Common vocabulary types  
-| [pair](../../utility/pair.html "cpp/utility/pair")  
----  
-[tuple](../../utility/tuple.html "cpp/utility/tuple")(C++11)  
-[optional](../../utility/optional.html "cpp/utility/optional")(C++17)  
-[any](../../utility/any.html "cpp/utility/any")(C++17)  
-[variant](../../utility/variant.html "cpp/utility/variant")(C++17)  
-  
-| [tuple_size](../../utility/tuple_size.html "cpp/utility/tuple size")(C++11)  
----  
-[tuple_element](../../utility/tuple_element.html "cpp/utility/tuple element")(C++11)  
-[apply](../../utility/apply.html "cpp/utility/apply")(C++17)  
-[make_from_tuple](../../utility/make_from_tuple.html "cpp/utility/make from tuple")(C++17)  
-[expected](../../utility/expected.html "cpp/utility/expected")(C++23)  
   
   
   

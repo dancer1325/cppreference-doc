@@ -1,5 +1,5 @@
 * goal
-  * how to customize the C++ operators -- for -- operands of user-defined types
+  * how to 👀customize👀 the C++ operators -- for -- operands of user-defined types
 
 ## Contents
 
@@ -25,46 +25,51 @@
   * [9 See also](operators.html#See_also)
   * [10 External links](operators.html#External_links)
   
----  
-  
 ### Syntax
 
 * Operator functions
-  * == functions / special function names   
+  * := 💡functions / special function names💡   
 
-* (1)
-    ```
-    operator op
-    ```
-  * `op`
-    * ALLOWED ones: `+ - * / % ^ & | ~ ! = < > += -= *= /= %= ^= &= |= << >> >>= <<= == != <= >= <=>(since C++20) && || ++ \-- , ->* -> () []`
+#### (1)
+```
+operator op
+```
+* `op`
+  * ALLOWED ones: `+ - * / % ^ & | ~ ! = < > += -= *= /= %= ^= &= |= << >> >>= <<= == != <= >= <=>(| C++20) && || ++ \-- , ->* -> () []`
+* == overloaded punctuation operator
+  * overloaded
+    * Reason:🧠ALREADY exist🧠
+  * punctuation 
+    * == keyboard
 
-* (2)
-    ```
-    operator new
-    operator new []
-    ```
-* (3)
-    ```
-    operator delete
-    operator delete []	
-    ```
-* (4)
-  * | C++20
-    ```
-    operator co_await
-    ```
-  
-* TODO: 
-1) An overloaded punctuation operator.
+#### (2)
+```
+operator new
+operator new []
+```
+* [allocation function](../memory/new/operator_new.md)
 
-2) An [allocation function](../memory/new/operator_new.html "cpp/memory/new/operator new").
+#### (3)
+```
+operator delete
+operator delete []	
+```
+* [deallocation function](../memory/new/operator_delete.md)
 
-3) A [deallocation function](../memory/new/operator_delete.html "cpp/memory/new/operator delete").
+#### (4)
+* | C++20
+  ```
+  operator co_await
+  ```
+* uses
+  * [co_await expressions](coroutines.md#co_await)
 
-4) An overloaded co_await operator for use in [co_await expressions](coroutines.html#co_await "cpp/language/coroutines").
 
-The behaviors of non-punctuation operators are described in their own respective pages. Unless otherwise specified, the remaining description in this page does not apply to these functions. 
+* TODO:
+
+
+The behaviors of non-punctuation operators are described in their own respective pages
+* Unless otherwise specified, the remaining description in this page does not apply to these functions. 
 
 ### Explanation
 
@@ -459,7 +464,7 @@ The following operators are rarely overloaded:
   
 ### Keywords
 
-[`operator`](../keyword/operator.html "cpp/keyword/operator")
+* [`operator`](../keyword/operator.md)
 
 ### Defect reports
 

@@ -75,40 +75,6 @@
   
   
   
-| [Explicit lifetime management](../../memory.html#Explicit_lifetime_management "cpp/memory")  
----  
-[start_lifetime_as](../start_lifetime_as.html "cpp/memory/start lifetime as")(C++23)  
-[start_lifetime_as_array](../start_lifetime_as.html "cpp/memory/start lifetime as")(C++23)  
-  
-| [Types for composite class design](../../memory.html#Types_for_composite_class_design "cpp/memory")  
----  
-[indirect](../indirect.html "cpp/memory/indirect")(C++26)  
-[polymorphic](../polymorphic.html "cpp/memory/polymorphic")(C++26)  
-  
-[Uninitialized storage](../../memory.html#Uninitialized_storage "cpp/memory") (until C++20)  
-| [raw_storage_iterator](../raw_storage_iterator.html "cpp/memory/raw storage iterator")(until C++20*)  
----  
-[get_temporary_buffer](../get_temporary_buffer.html "cpp/memory/get temporary buffer")(until C++20*)  
-  
-| [return_temporary_buffer](../return_temporary_buffer.html "cpp/memory/return temporary buffer")(until C++20*)  
----  
-  
-  
-  
-[Garbage collector support](../../memory.html#Garbage_collector_support "cpp/memory") (until C++23)  
-| [declare_reachable](../gc/declare_reachable.html "cpp/memory/gc/declare reachable")(C++11)(until C++23)  
----  
-[declare_no_pointers](../gc/declare_no_pointers.html "cpp/memory/gc/declare no pointers")(C++11)(until C++23)  
-[pointer_safety](../gc/pointer_safety.html "cpp/memory/gc/pointer safety")(C++11)(until C++23)  
-  
-| [undeclare_reachable](../gc/undeclare_reachable.html "cpp/memory/gc/undeclare reachable")(C++11)(until C++23)  
----  
-[undeclare_no_pointers](../gc/undeclare_no_pointers.html "cpp/memory/gc/undeclare no pointers")(C++11)(until C++23)  
-[get_pointer_safety](../gc/get_pointer_safety.html "cpp/memory/gc/get pointer safety")(C++11)(until C++23)  
-  
-| [Low level memory  
-management](../new.html#Low_level_memory_management "cpp/memory/new")  
----  
 [operator newoperator new[]](../new/operator_new.html "cpp/memory/new/operator new")  
 [operator deleteoperator delete[]](../new/operator_delete.html "cpp/memory/new/operator delete")  
 [nothrow_t](../new/nothrow_t.html "cpp/memory/new/nothrow t")  
