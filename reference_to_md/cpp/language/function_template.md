@@ -1,5 +1,6 @@
 * function template
   * defines a family of functions 
+    * == 👀1 template generates MULTIPLE functions👀
 
 ## Contents
 
@@ -22,22 +23,51 @@
 
 ### Syntax  
 
-`**template**` `**<**` parameter-list `**>**` function-declaration |  (1)  |   
-`**template**` `**<**` parameter-list `**>**` `**requires**` constraint function-declaration |  (2)  |  (since C++20)  
-function-declaration-with-placeholders |  (3)  |  (since C++20)  
-`**export**` `**template**` `**<**` parameter-list `**>**` function-declaration |  (4)  |  (removed in C++11)  
-  
-### Explanation
+* `template<parameter-list> function-declaration`
+* `template<parameter-list> requires constraint function-declaration`
+  * | C++20
+* `function-declaration-with-placeholders`
+  * | C++20
+* `export template <parameter-list> function-declaration`
+  * | C++11, removed
 
-parameter-list |  \-  |  a non-empty comma-separated list of the [template parameters](template_parameters.html "cpp/language/template parameters"), each of which is either [constant parameter](template_parameters.html#Constant_template_parameter "cpp/language/template parameters"), a [type parameter](template_parameters.html#Type_template_parameter "cpp/language/template parameters"), a [template parameter](template_parameters.html#Template_template_parameter "cpp/language/template parameters"), or a [parameter pack](parameter_pack.html "cpp/language/parameter pack") of any of those(since C++11). As with any template, parameters may be [constrained](template_parameters.html#Constrained_template_parameter "cpp/language/template parameters")(since C++20)  
----|---|---  
-function-declaration |  \-  |  a [function declaration](function.html "cpp/language/function"). The function name declared becomes a template name.   
-constraint |  \-  |  a [constraint expression](constraints.html "cpp/language/constraints") which restricts the template parameters accepted by this function template   
-function-declaration-  
-with-placeholders |  \-  |  a [function declaration](function.html "cpp/language/function") where the type of at least one parameter uses the placeholder [auto](auto.html "cpp/language/auto") or [Concept auto](constraints.html "cpp/language/constraints"): the template parameter list will have one invented parameter for each placeholder (see Abbreviated function templates below)   
-`export` was an optional modifier which declared the template as _exported_ (when used with a class template, it declared all of its members exported as well). Files that instantiated exported templates did not need to include their definitions: the declaration was sufficient. Implementations of `export` were rare and disagreed with each other on details.  | (until C++11)  
----|---  
-  
+
+#### Notes
+
+* `parameter-list`
+    * == list of [template parameters](template_parameters.md) /
+        * non-empty
+        * comma-separated
+        * EACH one can be
+            * [constant parameter](template_parameters.md#constant-template-parameter-or-non-type-template-parameter-) OR
+            * [type parameter](template_parameters.md#type-template-parameter-) OR
+            * [template parameter](template_parameters.md#template-template-parameter-) OR
+            * [parameter pack](parameter_pack.md)
+                * | C++11
+        * can be [constrained](template_parameters.md#type-template-parameter-)
+            * | C++20
+
+* `function-declaration`
+    * [function declaration](function.md)
+    * template name
+        * == function name
+
+* `constraint`
+    * == [constraint expression](constraints.md) /
+        * restricts the template parameters accepted -- by -- this function template
+
+* `function-declaration-with-placeholders`
+    * == [function declaration](function.md) /
+        * \>= 1 parameter's type uses the placeholder [auto](auto.md) OR [Concept auto](constraints.md):
+            * -> | template parameter list, 1 invented parameter / EACH placeholder
+
+* `export`
+    * | C++11
+    * OPTIONAL modifier /
+        * declared the template -- as -- _exported_
+    * files / instantiated exported templates did NOT need to include their definitions
+        * == declaration was sufficient
+
 ###  Abbreviated function template
 
 When placeholder types (either [auto](auto.html "cpp/language/auto") or [Concept auto](constraints.html "cpp/language/constraints")) appear in the parameter list of a function declaration or of a function template declaration, the declaration declares a function template, and one invented template parameter for each placeholder is appended to the template parameter list: 

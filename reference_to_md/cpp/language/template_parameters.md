@@ -1,5 +1,6 @@
-* EACH [template](templates.md)
-  * 👀is parameterized -- by -- >=1 template parameters👀 
+* template parameters
+  * uses
+    * parameterize [templates](templates.md) 
 
 * template parameter categories
   * constant template parameter 
@@ -116,67 +117,70 @@ after it has been converted to the type of the template parameter. No two templa
 ---|---  
   
 ### Type template parameter  
+
+* `type-parameter-key`
+  *  ALLOWED values
+    * are
+      * `typename` OR
+      * `class`
+    * | type template parameter declaration, 
+      * NO difference   
   
+* `type-constraint`
+  * ALLOWED values
+    * name of a [concept](constraints.md) OR
+      * OPTIONAL
+    * name of a concept + <list of template arguments>
+      * name of a concept
+        * OPTIONAL 
 
-type-parameter-key name ﻿(optional) |  (1)  |   
-type-parameter-key name ﻿(optional) `**=**` default |  (2)  |   
-type-parameter-key `**...**` name ﻿(optional) |  (3)  |  (since C++11)  
-type-constraint name ﻿(optional) |  (4)  |  (since C++20)  
-type-constraint name ﻿(optional) `**=**` default |  (5)  |  (since C++20)  
-type-constraint `**...**` name ﻿(optional) |  (6)  |  (since C++20)  
-type-parameter-key |  \-  |  either `**typename**` or `**class**`. There is no difference between these keywords in a type template parameter declaration   
----|---|---  
-type-constraint |  \-  |  either the name of a [concept](constraints.html "cpp/language/constraints") or the name of a concept followed by a list of template arguments (in angle brackets). Either way, the concept name may be optionally qualified   
-name |  \-  |  the name of the type template parameter   
-default |  \-  |  the [default template argument](template_parameters.html#Default_template_arguments)  
+* `name` 
+  * == type template parameter name
   
-1) A type template parameter without a default. 
-    
-    
-    template<class T>
-    class My_vector { /* ... */ };
+* `default`
+  * == [default template argument](#default-template-arguments)  
 
-2) A type template parameter with a default. 
-    
-    
-    template<class T = void>
-    struct My_op_functor { /* ... */ };
+#### `type-parameter-key name`
+* `name`
+  * OPTIONAL
+* == WITHOUT default
 
-3) A type template [parameter pack](parameter_pack.html "cpp/language/parameter pack"). 
-    
-    
-    template<typename... Ts>
-    class My_tuple { /* ... */ };
+#### `type-parameter-key name = default`
+* `name`
+  * OPTIONAL
 
-4) A constrained type template parameter without a default. 
-    
-    
-    template<My_concept T>
-    class My_constrained_vector { /* ... */ };
+#### `type-parameter-key ... name`
+* `name`
+  * OPTIONAL
+* | C++11
+* == type template [parameter pack](parameter_pack.md)
 
-5) A constrained type template parameter with a default. 
-    
-    
-    template<My_concept T = void>
-    class My_constrained_op_functor { /* ... */ };
+#### `type-constraint name`
+* `name`
+  * OPTIONAL
+* | C++20
+* == constrained type template parameter /
+  * NO default
 
-6) A constrained type template [parameter pack](parameter_pack.html "cpp/language/parameter pack"). 
-    
-    
-    template<My_concept... Ts>
-    class My_constrained_tuple { /* ... */ };
+#### `type-constraint name = default`
+* `name`
+  * OPTIONAL
+* | C++20
+* == constrained type template parameter /
+  * has a default
 
-  
-The name of the parameter is optional: 
-    
-    
-    // Declarations of the templates shown above:
-    template<class>
-    class My_vector;
-    template<class = void>
-    struct My_op_functor;
-    template<typename...>
-    class My_tuple;
+#### `type-constraint ... name`
+* `name`
+  * OPTIONAL
+* | C++20
+* == constrained type template [parameter pack](parameter_pack.md)
+
+
+
+
+
+
+
 
 In the body of the template declaration, the name of a type parameter is a typedef-name which aliases the type supplied when the template is instantiated. 
 
@@ -246,7 +250,8 @@ In the body of the template declaration, the name of this parameter is a templat
 
 ### Name resolution for template parameters
 
-The name of a template parameter is not allowed to be redeclared within its scope (including nested scopes). A template parameter is not allowed to have the same name as the template name. 
+The name of a template parameter is not allowed to be redeclared within its scope (including nested scopes)
+* A template parameter is not allowed to have the same name as the template name. 
     
     
     template<class T, int N>

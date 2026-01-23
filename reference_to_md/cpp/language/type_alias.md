@@ -1,89 +1,11 @@
+* Type alias 
+  * == name / refers -- to a -- PREVIOUSLY defined type
+    * == 👀[`typedef`](typedef.md) 👀
+    * ❌!= create a NEW type❌
+    * ❌!= change the meaning of an EXISTING type❌
 
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-[Expressions](expressions.html "cpp/language/expressions")  
----  
-| [Value categories](value_category.html "cpp/language/value category")  
----  
-[Order of evaluation](eval_order.html "cpp/language/eval order")  
-  
-| [Operators](operators.html "cpp/language/operators")  
----  
-[Operator precedence](operator_precedence.html "cpp/language/operator precedence")  
-  
-[Alternative representations](operator_alternative.html "cpp/language/operator alternative")  
-[Literals](expressions.html#Literals "cpp/language/expressions")  
-[Boolean](bool_literal.html "cpp/language/bool literal") \- [Integer](integer_literal.html "cpp/language/integer literal") \- [Floating-point](floating_literal.html "cpp/language/floating literal")  
-[Character](character_literal.html "cpp/language/character literal") \- [String](string_literal.html "cpp/language/string literal") \- [`nullptr`](nullptr.html "cpp/language/nullptr") (C++11)  
-[User-defined](user_literal.html "cpp/language/user literal") (C++11)  
-Utilities  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-Types  
-[`typedef` declaration](typedef.html "cpp/language/typedef")  
-**Type alias declaration** (C++11)  
-Casts  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[`static_cast`](static_cast.html "cpp/language/static cast")  
-[`const_cast`](const_cast.html "cpp/language/const cast")  
-  
-| [Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
----  
-[`dynamic_cast`](dynamic_cast.html "cpp/language/dynamic cast")  
-[`reinterpret_cast`](reinterpret_cast.html "cpp/language/reinterpret cast")  
-  
-Memory allocation  
-| [`new` expression](new.html "cpp/language/new")  
----  
-  
-
----  
-  
-
-
-
-  
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-[Pointer](pointer.html "cpp/language/pointer")  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-**Alias declaration** (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-[asm declaration](asm.html "cpp/language/asm")  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-[Namespace definition](namespace.html "cpp/language/namespace")  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-[Function template declaration](function_template.html "cpp/language/function template")  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-[Linkage specification](language_linkage.html "cpp/language/language linkage")  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
-  
-  
-  
-
-
-Type alias is a name that refers to a previously defined type (similar to [`typedef`](typedef.html "cpp/language/typedef")). 
-
-Alias template is a name that refers to a family of types. 
+* Alias template
+  * == name / refers -- to a -- family of types 
 
 ## Contents
 
@@ -95,38 +17,66 @@ Alias template is a name that refers to a family of types.
   * [6 Defect reports](type_alias.html#Defect_reports)
   * [7 See also](type_alias.html#See_also)
 
-  
----  
-  
-### Syntax
+### Syntax 
 
-Alias declarations are [declarations](declarations.html "cpp/language/declarations") with the following syntax:   
+#### (1)
+```c++
+using identifier attr = type-id
+```
+* `attr`
+  * OPTIONAL
+* `identifier`
+  * refers -- to -- `type-id`
+
+* used |
+  * block scope
+  * class scope
+  * namespace scope
+
+#### (2)
+```c++
+template < template-parameter-list >
+using identifier attr = type-id ;
+```
+* `attr`
+  * OPTIONAL
+
+* == alias template
+  * | specialize it,
+    * == substitute the alias template's template arguments -- for the -- template parameters | type-id
+
+
+#### (3)
+
+```c++
+template < template-parameter-list > requires constraint
+using identifier attr = type-id ;
+```
+
+* `attr`
+  * OPTIONAL
+* | C++20
   
----  
-`**using**` identifier attr ﻿(optional) `**=**` type-id `**;**` |  (1)  |   
-`**template**` `**<**` template-parameter-list `**>**` `**using**` identifier attr ﻿(optional) `**=**` type-id `**;**` |  (2)  |   
-`**template**` `**<**` template-parameter-list `**>**` `**requires**` constraint `**using**` identifier attr ﻿(optional) `**=**` type-id `**;**` |  (3)  |  (since C++20)  
-attr |  \-  |  optional sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
----|---|---  
-identifier |  \-  |  the name that is introduced by this declaration, which becomes either a type name (1) or a template name (2)  
-template-parameter-list |  \-  |  [template parameter list](template_parameters.html "cpp/language/template parameters"), as in [template declaration](templates.html "cpp/language/templates")  
-constraint |  \-  |  a [constraint expression](constraints.html "cpp/language/constraints") which restricts the template parameters accepted by this alias template   
-type-id |  \-  |  abstract declarator or any other valid type-id (which may introduce a new type, as noted in [type-id](type-id.html#Type_naming "cpp/language/type")). The type-id cannot directly or indirectly refer to identifier. Note that the [point of declaration](scope.html#Point_of_declaration "cpp/language/scope") of the identifier is at the semicolon following type-id.   
-  
+* == alias template
+
+
 ### Explanation
 
-1) A type alias declaration introduces a name which can be used as a synonym for the type denoted by type-id. It does not introduce a new type and it cannot change the meaning of an existing type name. There is no difference between a type alias declaration and [typedef](typedef.html "cpp/language/typedef") declaration. This declaration may appear in block scope, class scope, or namespace scope.
+* `attr`
+  * optional sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
+* `identifier`
+  * name that is introduced by this declaration, which becomes either a type name (1) or a template name (2)  
+* `template-parameter-list`
+  * [template parameter list](template_parameters.html "cpp/language/template parameters"), as in [template declaration](templates.html "cpp/language/templates")  
+* `constraint`
+  * [constraint expression](constraints.html "cpp/language/constraints") which restricts the template parameters accepted by this alias template
+* `type-id`
+  * abstract declarator or any other valid type-id (which may introduce a new type, as noted in [type-id](type-id.html#Type_naming "cpp/language/type"))
+  * The type-id cannot directly or indirectly refer to identifier
+  * Note that the [point of declaration](scope.html#Point_of_declaration "cpp/language/scope") of the identifier is at the semicolon following type-id.
 
-2) An alias template is a template which, when specialized, is equivalent to the result of substituting the template arguments of the alias template for the template parameters in the type-id. 
-    
-    
-    template<class T>
-    struct Alloc {};
-     
-    template<class T>
-    using Vec = vector<T, Alloc<T>>; // type-id is vector<T, Alloc<T>>
-     
-    Vec<int> v; // Vec<int> is the same as vector<int, Alloc<int>>
+
+2) 
 
 When the result of specializing an alias template is a dependent [template-id](templates.html#template-id "cpp/language/templates"), subsequent substitutions apply to that template-id: 
     
@@ -176,83 +126,7 @@ Feature-test macro | Value | Std | Feature
   
 ### Keywords
 
-[`using`](../keyword/using.html "cpp/keyword/using")
-
-### Example
-
-Run this code
-    
-    
-    #include <iostream>
-    #include <string>
-    #include <type_traits>
-    #include <typeinfo>
-     
-    // type alias, identical to
-    // typedef std::ios_base::fmtflags flags;
-    using flags = [std::ios_base::fmtflags](../io/ios_base/fmtflags.html);
-    // the name 'flags' now denotes a type:
-    flags fl = [std::ios_base::dec](../io/ios_base/fmtflags.html);
-     
-    // type alias, identical to
-    // typedef void (*func)(int, int);
-    using func = void (*) (int, int);
-     
-    // the name 'func' now denotes a pointer to function:
-    void example(int, int) {}
-    func f = example;
-     
-    // alias template
-    template<class T>
-    using ptr = T*;
-    // the name 'ptr<T>' is now an alias for pointer to T
-    ptr<int> x;
-     
-    // type alias used to hide a template parameter
-    template<class CharT>
-    using mystring = [std::basic_string](../string/basic_string.html)<CharT, [std::char_traits](../string/char_traits.html)<CharT>>;
-     
-    mystring<char> str;
-     
-    // type alias can introduce a member typedef name
-    template<typename T>
-    struct Container { using value_type = T; };
-     
-    // which can be used in generic programming
-    template<typename ContainerT>
-    void info(const ContainerT& c)
-    {
-        typename ContainerT::value_type T;
-        [std::cout](../io/cout.html) << "ContainerT is `" << typeid(decltype(c)).name() << "`\n"
-                     "value_type is `" << typeid(T).name() << "`\n";
-    }
-     
-    // type alias used to simplify the syntax of std::enable_if
-    template<typename T>
-    using Invoke = typename T::type;
-     
-    template<typename Condition>
-    using EnableIf = Invoke<[std::enable_if](../types/enable_if.html)<Condition::value>>;
-     
-    template<typename T, typename = EnableIf<[std::is_polymorphic](../types/is_polymorphic.html)<T>>>
-    int fpoly_only(T) { return 1; }
-     
-    struct S { virtual ~S() {} };
-     
-    int main()
-    {
-        Container<int> c;
-        info(c); // Container::value_type will be int in this function
-    //  fpoly_only(c); // error: enable_if prohibits this
-        S s;
-        fpoly_only(s); // okay: enable_if allows this
-    }
-
-Possible output: 
-    
-    
-    ContainerT is `struct Container<int>`
-    value_type is `int`
+* [`using`](../keyword/using.md)
 
 ### Defect reports
 

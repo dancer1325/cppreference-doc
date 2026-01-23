@@ -1,62 +1,6 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-
-  
- 
-  
-  
-  
-
-
-  
-  
-
-  
-  
-
-
-[ Templates](templates.html "cpp/language/templates")
-
-[Template parameters](template_parameters.html "cpp/language/template parameters")  
----  
-[Template arguments](template_arguments.html "cpp/language/template arguments")  
-[Class templates](class_template.html "cpp/language/class template")  
-[Function templates](function_template.html "cpp/language/function template")  
-[Class member templates](member_template.html "cpp/language/member template")  
-**Variable templates** (C++14)  
-[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
-[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
-[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
-[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
-[Dependent names](dependent_name.html "cpp/language/dependent name")  
-[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
-[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Pack indexing](pack_indexing.html "cpp/language/pack indexing") (C++26)  
-[SFINAE](sfinae.html "cpp/language/sfinae")  
-[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
-[requires expression](requires.html "cpp/language/requires") (C++20)  
-  
-
-
-A variable template defines a family of variables or static data members. 
+* variable template
+  * allows
+    * defining a 👀family of variables OR static data members👀 
 
 ## Contents
 
@@ -65,22 +9,38 @@ A variable template defines a family of variables or static data members.
   * [3 Notes](variable_template.html#Notes)
   * [4 Defect reports](variable_template.html#Defect_reports)
 
-  
----  
-  
 ### Syntax  
   
----  
-`**template**` `**<**` parameter-list `**>**` variable-declaration |  (1)  |   
-`**template**` `**<**` parameter-list `**>**` `**requires**` constraint variable-declaration |  (2)  |  (since C++20)  
-variable-declaration |  \-  |  a [declaration](declarations.html "cpp/language/declarations") of a variable. The declared variable name becomes a template name.   
----|---|---  
-parameter-list |  \-  |  a non-empty comma-separated list of the [template parameters](template_parameters.html "cpp/language/template parameters"), each of which is either [constant parameter](template_parameters.html#Constant_template_parameter "cpp/language/template parameters"), a [type parameter](template_parameters.html#Type_template_parameter "cpp/language/template parameters"), a [template parameter](template_parameters.html#Template_template_parameter "cpp/language/template parameters"), or a [parameter pack](parameter_pack.html "cpp/language/parameter pack") of any of those.   
-constraint |  \-  |  a [constraint expression](constraints.html "cpp/language/constraints") which restricts the template parameters accepted by this variable template   
-  
+* `template < parameter-list > variable-declaration`
+* `template < parameter-list > requires constraint variable-declaration`
+  * | C++20
+
 ### Explanation
 
-A variable instantiated from a variable template is called an _instantiated variable_. A static data member instantiated from a static data member template is called an _instantiated static data member_. 
+* `variable-declaration`
+  * == [declaration](declarations.md) of a variable
+  * template name
+    * == variable name
+
+* `parameter-list`
+  * == list of [template parameters](template_parameters.md) /
+    * non-empty
+    * comma-separated
+    * EACH one can be
+      * [constant parameter](template_parameters.md#constant-template-parameter-or-non-type-template-parameter-) OR
+      * [type parameter](template_parameters.md#type-template-parameter-) OR
+      * [template parameter](template_parameters.md#template-template-parameter-) OR
+      * [parameter pack](parameter_pack.md)
+        * | C++11
+    * can be [constrained](template_parameters.md#type-template-parameter-)
+      * | C++20
+
+* `constraint`
+  * == [constraint expression](constraints.md) /
+    * restricts the template parameters accepted -- by -- this function template
+
+A variable instantiated from a variable template is called an _instantiated variable_
+* A static data member instantiated from a static data member template is called an _instantiated static data member_. 
 
 A variable template may be introduced by a template declaration at namespace scope, where variable-declaration declares a variable. 
     

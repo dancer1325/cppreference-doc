@@ -15,31 +15,50 @@
   
 ### Syntax
 
-The class specifier has the following syntax:   
+* `class-key`
+  * ALLOWED values
+    * [`class`](../keyword/class.md),
+    * [`struct`](../keyword/struct.md)
+    * [`union`](../keyword/union.md)
+  * 
+  * If it is union, the declaration introduces a [union type](union.html "cpp/language/union").   
+  ---|---|---  
+  attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/language/attributes"), may include [`alignas`](alignas.html "cpp/language/alignas") specifier   
+  class-head-name |  \-  |  the name of the class that's being defined, optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")  
+  class-property-specs |  \-  |  A list of the following specifiers, each specifier is allowed at most once in each sequence.  | Specifier  | Effect   
+  ---|---  
+  final  
+  (since C++11) | Specifies that the class [cannot be derived](final.html "cpp/language/final")  
+  trivially_relocatable_if_eligible   
+  (since C++26) | Marks the class to be trivially relocatable if eligible   
+  replaceable_if_eligible   
+  (since C++26) | Marks the class to be replaceable if eligible   
+  base-clause |  \-  |  list of one or more base classes and the model of inheritance used for each (see [derived class](derived_class.html "cpp/language/derived class"))   
+  member-specification |  \-  |  list of access specifiers, member object and member function declarations and definitions ([see below](class.html#Member_specification))
 
-class-key attr ﻿(optional) class-head-name class-property-specs ﻿(optional) base-clause ﻿(optional)  
-`**{**` member-specification `**}**` |  (1)  |   
-class-key attr ﻿(optional) base-clause ﻿(optional)  
-`**{**` member-specification `**}**` |  (2)  |   
-  
-1) Named class definition
+#### (1)
+```c++
+class-key attr class-head-name class-property-specs base-clause
+{ member-specification }
+```
+* == Named class definition
+* `attr`
+  * OPTIONAL
+* `class-property-specs`
+  * OPTIONAL
+* `base-clause`
+  * OPTIONAL
 
-2) Unnamed class definition
-
-class-key |  \-  |  one of [`class`](../keyword/class.html "cpp/keyword/class"), [`struct`](../keyword/struct.html "cpp/keyword/struct") and [`union`](../keyword/union.html "cpp/keyword/union"). The keywords class and struct are identical except for the default [member access](access.html "cpp/language/access") and the default [base class access](derived_class.html "cpp/language/derived class"). If it is union, the declaration introduces a [union type](union.html "cpp/language/union").   
----|---|---  
-attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/language/attributes"), may include [`alignas`](alignas.html "cpp/language/alignas") specifier   
-class-head-name |  \-  |  the name of the class that's being defined, optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")  
-class-property-specs |  \-  |  A list of the following specifiers, each specifier is allowed at most once in each sequence.  | Specifier  | Effect   
----|---  
-final  
-(since C++11) | Specifies that the class [cannot be derived](final.html "cpp/language/final")  
-trivially_relocatable_if_eligible   
-(since C++26) | Marks the class to be trivially relocatable if eligible   
-replaceable_if_eligible   
-(since C++26) | Marks the class to be replaceable if eligible   
-base-clause |  \-  |  list of one or more base classes and the model of inheritance used for each (see [derived class](derived_class.html "cpp/language/derived class"))   
-member-specification |  \-  |  list of access specifiers, member object and member function declarations and definitions ([see below](class.html#Member_specification))   
+#### (2)
+```c++
+class-key attr base-clause
+{ member-specification }
+```
+* == unnamed class definition 
+* `attr`
+  * OPTIONAL
+* `base-clause`
+  * OPTIONAL
   
 ### Forward declaration
 

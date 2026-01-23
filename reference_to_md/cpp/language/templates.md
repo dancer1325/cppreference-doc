@@ -11,7 +11,7 @@
     * an alias -- to a -- [family of types](type_alias.md)
       * requirements
         * C++11
-    * [constraints and concepts](constraints.md) 
+    * [constraints & concepts](constraints.md) 
       * requirements
         * C++20
   * 's [parameters](template_parameters.md)

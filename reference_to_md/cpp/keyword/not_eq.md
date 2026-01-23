@@ -7,19 +7,6 @@
 |   
   
 ---  
-[`catch` handler](../language/catch.html "cpp/language/catch")  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-
 [Keywords](../keywords.html "cpp/keyword")
 
 | [alignas](alignas.html "cpp/keyword/alignas")(C++11)  

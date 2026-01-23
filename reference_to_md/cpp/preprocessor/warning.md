@@ -7,19 +7,6 @@
 |   
   
 ---  
-[`catch` handler](../language/catch.html "cpp/language/catch")  
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-
-
 [Preprocessor](../preprocessor.html "cpp/preprocessor")
 
 [#if#ifdef#ifndef#else#elif#elifdef#elifndef#endif](conditional.html "cpp/preprocessor/conditional")(C++23)(C++23)  
