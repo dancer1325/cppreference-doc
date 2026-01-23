@@ -1,6 +1,6 @@
 * [Argument-dependent lookup (ADL) OR Koenig lookup](#external-links)
   * == rules / look up the unqualified function names | [function-call expressions](operator_other.md)
-including implicit function calls to [overloaded operators](operators.md)
+    * ⚠️ALSO implicit function calls -- to -- [overloaded operators](operators.md)⚠️
 * These function names are looked up in the namespaces of their arguments in addition to the scopes and namespaces considered
 by the usual [unqualified name lookup](lookup.md) 
 
@@ -193,5 +193,5 @@ class type included its base classes  | not included
 
 ### External links
 
-1. [↑](adl.html#cite_ref-1) Andrew Koenig: ["A Personal Note About Argument-Dependent Lookup"](https://www.drdobbs.com/cpp/a-personal-note-about-argument-dependent/232901443)
+1. [↑](adl.html#cite_ref-1) Andrew Koenig: ["A Personal Note About Argument-Dependent Lookup"](https://web.archive.org/web/20180317070215/http://www.drdobbs.com/cpp/a-personal-note-about-argument-dependent/232901443)
 2. [↑](adl.html#cite_ref-2) H. Sutter (1998) ["What's In a Class? - The Interface Principle"](http://www.gotw.ca/publications/mill02.htm) in C++ Report, 10(3)

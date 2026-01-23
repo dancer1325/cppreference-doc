@@ -346,27 +346,14 @@ The last parameter in the parameter list can be an ellipsis (...); this declares
 
 #### Parameter-type-list
 
-A function’s _parameter-type-list_ is determined as follows: 
-
-  1. The type of each parameter (including function [parameter packs](parameter_pack.html "cpp/language/pack"))(since C++11) is determined from its own [parameter declaration](function.html#Parameter_list). 
-  2. After determining the type of each parameter, any parameter of type “array of `T`” or of function type `T` is adjusted to be “pointer to `T`”. 
+* way to determine a function’s _parameter-type-list_
+  1. determine EACH parameter's type
+     * ALSO valid | [function parameter packs](parameter_pack.md)
+       * | C++11 
+     * determined -- from -- its own [parameter declaration](function.md#parameter-list) 
+  2. any parameter of type “array of `T`” or of function type `T` is adjusted to be “pointer to `T`” 
   3. After producing the list of parameter types, any top-level [cv-qualifiers](cv.html "cpp/language/cv") modifying a parameter type are deleted when forming the function type. 
   4. The resulting list of transformed parameter types and the presence or absence of the [ellipsis](function.html#Using_an_ellipsis) or a function [parameter pack](parameter_pack.html "cpp/language/pack")(since C++11) is the function’s parameter-type-list. 
-
-
-    
-    
-    void f(char*);         // #1
-    void f(char[]) {}      // defines #1
-    void f(const char*) {} // OK, another overload
-    void f(char* const) {} // Error: redefines #1
-     
-    void g(char(*)[2]);   // #2
-    void g(char[3][2]) {} // defines #2
-    void g(char[3][3]) {} // OK, another overload
-     
-    void h(int x(const int)); // #3
-    void h(int (*)(int)) {}   // defines #3
 
 #### Determining function type
 

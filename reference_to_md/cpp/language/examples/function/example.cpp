@@ -1,6 +1,16 @@
 #include <iostream>
 #include <string>
 
+// 1. function associates the function name/type -- with the -- function body
+// 1.1 declaration: name is associated -- with -- type
+double calculate(double, double);
+// 1.2 definition: signature is associated -- with -- body
+double calculate(double a, double b) {
+    // Este es el CUERPO (body)
+    double result = a + b;
+    return result;
+}
+
 // simple function with a default argument, returning nothing
 void f0(const std::string& arg = "world!")
 {

@@ -39,10 +39,10 @@
   
 ### Built-in function call operator
 
-* TODO: Function call expressions have the following form:   
-
-function ﻿`**(**` arg1`**,**` arg2`**,**` arg3`**,**`...`**)**` |  |   
-function |  \-  |  an expression function type or function pointer type   
+* `function (arg1,arg2,arg3,...)`
+  * function call expression
+  * `function`
+    * == expression function type OR function pointer type   
 ---|---|---  
 arg1`**,**` arg2`**,**` arg3`**,**`...  |  \-  |  a possibly empty list of arbitrary expressions or [brace-enclosed initializer lists](initialization.html "cpp/language/initialization")(since C++11), except the comma operator is not allowed at the top level to avoid ambiguity   
   
