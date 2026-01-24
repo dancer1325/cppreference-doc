@@ -217,7 +217,7 @@ Given the object to which the lvalue(until C++11)glvalue(since C++11) refers as 
 
     
 
-  * The conversion [copy-initializes](copy_initialization.html "cpp/language/copy initialization") the [result object](implicit_cast.html#Temporary_materialization) from the glvalue. 
+  * The conversion [copy-initializes](copy_initialization.html "cpp/language/copy initialization") the [result object](implicit_cast.md#temporary-materialization) from the glvalue. 
 
 
 | (since C++17)  
@@ -243,7 +243,9 @@ An [lvalue](value_category.html#lvalue "cpp/language/value category") of functio
 
 ####  Temporary materialization
 
-A [prvalue](value_category.html#prvalue "cpp/language/value category") of any complete type `T` can be converted to an xvalue of the same type `T`. This conversion initializes a [temporary object](lifetime.html#Temporary_object_lifetime "cpp/language/lifetime") of type T from the prvalue by evaluating the prvalue with the temporary object as its result object, and produces an xvalue denoting the temporary object. If `T` is a class or array of class type, it must have an accessible and non-deleted destructor. 
+A [prvalue](value_category.html#prvalue "cpp/language/value category") of any complete type `T` can be converted to an xvalue of the same type `T`
+* This conversion initializes a [temporary object](lifetime.html#Temporary_object_lifetime "cpp/language/lifetime") of type T from the prvalue by evaluating the prvalue with the temporary object as its result object, and produces an xvalue denoting the temporary object
+* If `T` is a class or array of class type, it must have an accessible and non-deleted destructor. 
     
     
     struct S { int m; };
@@ -259,8 +261,9 @@ Temporary materialization occurs in the following situations:
   * when initializing an object of type [std::initializer_list](../utility/initializer_list.html)<T> from a [braced-enclosed initializer list](initialization.html "cpp/language/initialization"); 
   * when a prvalue appears as a [discarded-value expression](expressions.html#Discarded-value_expressions "cpp/language/expressions"). 
 
-Note that temporary materialization does **not** occur when initializing an object from a prvalue of the same type (by [direct-initialization](direct_initialization.html "cpp/language/direct initialization") or [copy-initialization](copy_initialization.html "cpp/language/copy initialization")): such object is initialized directly from the initializer. This ensures “guaranteed copy elision”.  | (since C++17)  
----|---  
+Note that temporary materialization does **not** occur when initializing an object from a prvalue of the same type (by [direct-initialization](direct_initialization.html "cpp/language/direct initialization") or [copy-initialization](copy_initialization.html "cpp/language/copy initialization")): such object is initialized directly from the initializer
+This ensures “guaranteed copy elision”
+ C++17
   
 ### Integral promotion
 

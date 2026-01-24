@@ -7,7 +7,7 @@
 ### variables
 * [here](../variable_template)
 ## an alias -- to a -- family of types
-* TODO:
+* [here](../type_alias)
 ## constraints & concepts
 * TODO:
 

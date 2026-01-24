@@ -131,7 +131,9 @@
 
 ### Notes
 
-The presence of each individual attribute on a given platform can be checked with [`__has_cpp_attribute`](../experimental/feature_test.html#Attributes "cpp/feature test") preprocessor macro. 
+* [`__has_cpp_attribute`](../experimental/feature_test.md#attributes-)
+  * == preprocessor macro /
+    * check the presence of individual attribute | given platform  
 
 Feature-test macro  | Value | Std | Feature   
 ---|---|---|---  

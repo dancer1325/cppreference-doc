@@ -1,101 +1,24 @@
 * value categories 
   * allows
-    * classify expressions -- by -- their values
-  * are
-    * [_prvalue_](#prvalue),
-      * == “pure” rvalue
-      * == expression /
-        * | evaluate,
-          * computes the built-in operator's operand's value
-            * == NO _result object_
-          * initializes an object 
-            * -> _result object_
+    * 👀classify expressions (!= values) -- by -- their values👀
+  * ALLOWED ones
+    * [_prvalue_](#prvalue)
     * [_xvalue_](#xvalue)
-      * == “eXpiring” value
-      * == glvalue / 
-        * object's resources can be reused
-      * requirements
-        * C++11
-    * [_lvalue_](#lvalue) 
-      * := glvalue / is NOT a xvalue 
-      * ⚠️ORIGINALLY⚠️
-        * == assignment expression's left-hand (_l_) side
-          * ❌RIGHT now, NOT ALWAYS❌
-      * [glvalue](#glvalue)
-        * == “generalized” lvalue / 
-          * | evaluate, 
-            * determines the identity of an object or function 
-    * [rvalue](#rvalue) 
-      * == [prvalue](#prvalue) OR [xvalue](#xvalue)
-      * ⚠️ORIGINALLY⚠️
-        * == assignment expression's right-hand (_l_) side
-          * ❌RIGHT now, NOT ALWAYS❌
+    * [_lvalue_](#lvalue)
+    * [rvalue](#rvalue)
+  * == result object's properties
+    * ALLOWED ones
+      * variable
+      * object / created -- by -- [new-expression](new.md)
+      * temporary / created -- by -- [temporary materialization](implicit_cast.md#temporary-materialization)
+      * member thereof
+    * uses | 
+      * non-void [discarded](expressions.md#discarded-value-expressions) expressions
+      * every class
+        * EXCEPT to, == operand of [`decltype`](decltype.md) 
+      * array prvalue  
+        * EXCEPT to, == operand of [`decltype`](decltype.md)
 
-* result object
-  * may be a
-    * variable
-    * object / created -- by -- [new-expression](new.md)
-    * temporary / created -- by -- [temporary materialization](implicit_cast.md#temporary-materialization)
-    * member thereof
-  * exist | 
-    * non-void [discarded](expressions.md#discarded-value-expressions) expressions
-    * every class
-      * EXCEPT to, == operand of [`decltype`](decltype.md) 
-    * array prvalue  
-      * EXCEPT to, == operand of [`decltype`](decltype.md)
- 
-  
-Note: this taxonomy went through significant changes with past C++ standard revisions, 
-see [History](value_category.html#History) below for details. 
-
-Extended content  
----  
-Despite their names, these terms classify expressions, not values.  Run this code
-    
-    
-    #include <type_traits>
-    #include <utility>
-     
-    template <class T> struct is_prvalue : [std::true_type](../types/integral_constant.html) {};
-    template <class T> struct is_prvalue<T&> : [std::false_type](../types/integral_constant.html) {};
-    template <class T> struct is_prvalue<T&&> : [std::false_type](../types/integral_constant.html) {};
-     
-    template <class T> struct is_lvalue : [std::false_type](../types/integral_constant.html) {};
-    template <class T> struct is_lvalue<T&> : [std::true_type](../types/integral_constant.html) {};
-    template <class T> struct is_lvalue<T&&> : [std::false_type](../types/integral_constant.html) {};
-     
-    template <class T> struct is_xvalue : [std::false_type](../types/integral_constant.html) {};
-    template <class T> struct is_xvalue<T&> : [std::false_type](../types/integral_constant.html) {};
-    template <class T> struct is_xvalue<T&&> : [std::true_type](../types/integral_constant.html) {};
-     
-    int main()
-    {
-        int a{42};
-        int& b{a};
-        int&& r{std::move(a)};
-     
-        // Expression `42` is prvalue
-        static_assert(is_prvalue<decltype((42))>::value);
-     
-        // Expression `a` is lvalue
-        static_assert(is_lvalue<decltype((a))>::value);
-     
-        // Expression `b` is lvalue
-        static_assert(is_lvalue<decltype((b))>::value);
-     
-        // Expression `std::move(a)` is xvalue
-        static_assert(is_xvalue<decltype((std::move(a)))>::value);
-     
-        // Type of variable `r` is rvalue reference
-        static_assert([std::is_rvalue_reference](../types/is_rvalue_reference.html)<decltype(r)>::value);
-     
-        // Type of variable `b` is lvalue reference
-        static_assert([std::is_lvalue_reference](../types/is_lvalue_reference.html)<decltype(b)>::value);
-     
-        // Expression `r` is lvalue
-        static_assert(is_lvalue<decltype((r))>::value);
-    }  
-  
 ## Contents
 
   * [1 Primary categories](value_category.html#Primary_categories)
@@ -127,37 +50,23 @@ Despite their names, these terms classify expressions, not values.  Run this cod
 
 #### lvalue
 
-The following expressions are _lvalue expressions_ : 
+* := glvalue / is NOT a xvalue 
+* ⚠️ORIGINALLY⚠️
+  * == assignment expression's left-hand (_l_) side
+* ❌RIGHT now, NOT ALWAYS❌ 
 
-  * the name of a variable, a function, a [template parameter object](template_parameters.html#Constant_template_parameter "cpp/language/template parameters")(since C++20), or a data member, regardless of type, such as [std::cin](../io/cin.html) or [std::hex](../io/manip/hex.html). Even if the variable's type is rvalue reference, the expression consisting of its name is an lvalue expression (but see [Move-eligible expressions](value_category.html#Move-eligible_expressions)); 
-
-
-
-Extended content  
----  
-      
-    
-    void foo() {}
-     
-    void baz()
-    {
-        // `foo` is lvalue
-        // address may be taken by built-in address-of operator
-        void (*p)() = &foo;
-    }
-    
-    
-    struct foo {};
-     
-    template <foo a>
-    void baz()
-    {
-        const foo* obj = &a;  // `a` is an lvalue, template parameter object
-    }  
-  
-  * a function call or an overloaded operator expression, whose return type is lvalue reference, such as [std::getline](../string/basic_string/getline.html)([std::cin](../io/cin.html), str), [std::cout](../io/cout.html) << 1, str1 = str2, or ++it; 
-
-
+* _lvalue expressions_
+  * ALLOWED ones
+    * name of a 
+      * variable,
+      * function,
+      * [template parameter object](template_parameters.md#constant-template-parameter-or-non-type-template-parameter-)
+        * | C++20
+      * data member
+  * ⚠️regardless of type⚠️
+    * _Examples:_ [std::cin](../io/cin.md) OR [std::hex](../io/manip/hex.md)
+    * ⚠️if the variable's type == rvalue reference -> expression / consist of its name == lvalue expression⚠️
+      * [Move-eligible expressions](#move-eligible-expressions)
 
 Extended content  
 ---  
@@ -272,6 +181,14 @@ Properties:
 
 #### prvalue
 
+* == “pure” rvalue
+* == expression /
+  * | evaluate,
+    * computes the built-in operator's operand's value
+      * == NO _result object_
+    * initializes an object 
+      * -> _result object_
+
 The following expressions are _prvalue expressions_ : 
 
   * a [literal](expressions.html#Literals "cpp/language/expressions") (except for [string literal](string_literal.html "cpp/language/string literal")), such as 42, true or nullptr; 
@@ -325,6 +242,12 @@ Properties:
 
 
 #### xvalue
+
+* == “eXpiring” value
+* == glvalue / 
+  * object's resources can be reused
+* requirements
+  * C++11
 
 The following expressions are _xvalue expressions_ : 
 
@@ -413,6 +336,11 @@ Run this code
 
 #### glvalue
 
+* [glvalue](#glvalue)
+  * == “generalized” lvalue /
+    * | evaluate,
+      * determines the identity of an object or function
+
 A _glvalue expression_ is either lvalue or xvalue. 
 
 Properties: 
@@ -425,18 +353,27 @@ Properties:
 
 #### rvalue
 
-An _rvalue expression_ is either prvalue or xvalue. 
-
-Properties: 
-
-  * Address of an rvalue cannot be taken by built-in address-of operator: &int(), &i++[[3]](value_category.html#cite_note-3), &42, and &std::move(x) are invalid. 
-  * An rvalue can't be used as the left-hand operand of the built-in assignment or compound assignment operators. 
-  * An rvalue may be used to [initialize a const lvalue reference](reference_initialization.html "cpp/language/reference initialization"), in which case the lifetime of the temporary object identified by the rvalue is [extended](reference_initialization.html#Lifetime_of_a_temporary "cpp/language/reference initialization") until the scope of the reference ends. 
-
-
-
-  * An rvalue may be used to [initialize an rvalue reference](reference_initialization.html "cpp/language/reference initialization"), in which case the lifetime of the temporary object identified by the rvalue is [extended](reference_initialization.html#Lifetime_of_a_temporary "cpp/language/reference initialization") until the scope of the reference ends. 
-  * When used as a function argument and when [two overloads](overload_resolution.html "cpp/language/overload resolution") of the function are available, one taking rvalue reference parameter and the other taking lvalue reference to const parameter, an rvalue binds to the rvalue reference overload (thus, if both copy and move constructors are available, an rvalue argument invokes the [move constructor](move_constructor.html "cpp/language/move constructor"), and likewise with copy and move assignment operators). 
+* == [prvalue](#prvalue) OR [xvalue](#xvalue)
+* ⚠️ORIGINALLY⚠️
+  * == assignment expression's right-hand (_l_) side
+    * ❌RIGHT now, NOT ALWAYS❌
+* == right-hand value
+* 's properties
+  * 's address can NOT be taken -- by -- built-in address-of operator
+    * _Example of invalid ones:_ `&int()`, `&i++`, `&42`, `&std::move(x)` 
+* ❌NOT uses❌
+  * built-in assignment`s left-hand operand 
+  * compound assignment operators 
+* uses
+  * [initialize a const lvalue reference](reference_initialization.md) /
+    * rvalue's temporary object's [lifetime](reference_initialization.md#lifetime-of-a-temporary) == [, reference's scope ends] 
+  * [initialize an rvalue reference](reference_initialization.md) /
+    * rvalue's temporary object's [lifetime](reference_initialization.md#lifetime-of-a-temporary) == [, reference's scope ends] 
+  * When used as a function argument and when [two overloads](overload_resolution.html "cpp/language/overload resolution") of the function are available,
+  one taking rvalue reference parameter and the other taking lvalue reference to const parameter, 
+  an rvalue binds to the rvalue reference overload 
+  (thus, if both copy and move constructors are available, an rvalue argument invokes the [move constructor](move_constructor.html "cpp/language/move constructor"),
+  and likewise with copy and move assignment operators). 
 
 | (since C++11)  
 ---|---  
@@ -445,14 +382,22 @@ Properties:
 
 #### Pending member function call
 
-The expressions a.mf and p->mf, where `mf` is a [non-static member function](member_functions.html "cpp/language/member functions"), and the expressions a.*pmf and p->*pmf, where `pmf` is a [pointer to member function](pointer.html#Pointers_to_member_functions "cpp/language/pointer"), are classified as prvalue expressions, but they cannot be used to initialize references, as function arguments, or for any purpose at all, except as the left-hand argument of the function call operator, e.g. (p->*pmf)(args). 
+The expressions a.mf and p->mf, where `mf` is a [non-static member function](member_functions.html "cpp/language/member functions"),
+and the expressions a.*pmf and p->*pmf, where `pmf` is a [pointer to member function](pointer.html#Pointers_to_member_functions "cpp/language/pointer"), 
+are classified as prvalue expressions, but they cannot be used to initialize references, as function arguments, 
+or for any purpose at all, except as the left-hand argument of the function call operator, e.g. (p->*pmf)(args). 
 
 #### Void expressions
 
-Function call expressions returning void, cast expressions to void, and [throw-expressions](throw.html "cpp/language/throw") are classified as prvalue expressions, but they cannot be used to initialize references or as function arguments. They can be used in discarded-value contexts (e.g. on a line of its own, as the left-hand operand of the comma operator, etc.) and in the return statement in a function returning void. In addition, throw-expressions may be used as the second and the third operands of the [conditional operator ?:](operator_other.html "cpp/language/operator other"). 
+Function call expressions returning void, cast expressions to void, and [throw-expressions](throw.html "cpp/language/throw") are classified as prvalue expressions, 
+but they cannot be used to initialize references or as function arguments
+* They can be used in discarded-value contexts (e.g. on a line of its own, as the left-hand operand of the comma operator, etc.) and
+in the return statement in a function returning void
+* In addition, throw-expressions may be used as the second and the third operands of the [conditional operator ?:](operator_other.html "cpp/language/operator other"). 
 
-Void expressions have no _result object_.  | (since C++17)  
----|---  
+* Void expressions
+  * | C++17,
+    * ❌have NO _result object_❌    
   
 #### Bit-fields
 
@@ -471,9 +416,20 @@ If an expression is move-eligible, it is treated either as an rvalue or as an lv
   
 ### History
 
-#### CPL
+#### [CPL](https://en.wikipedia.org/wiki/CPL_\(programming_language\)
 
-The programming language [CPL](https://en.wikipedia.org/wiki/CPL_\(programming_language\) "enwiki:CPL \(programming language\)") was first to introduce value categories for expressions: all CPL expressions can be evaluated in "right-hand mode", but only certain kinds of expression are meaningful in "left-hand mode". When evaluated in right-hand mode, an expression is regarded as being a rule for the computation of a value (the right-hand value, or _rvalue_). When evaluated in left-hand mode an expression effectively gives an address (the left-hand value, or _lvalue_). "Left" and "Right" here stood for "left of assignment" and "right of assignment". 
+* == programming language
+  * ⚠️FIRST / introduced value categories for expressions⚠️
+    * | "right-hand mode",
+      * ALL CPL expressions can be evaluated 
+        * expression == rule for the computation of a value (_rvalue_) 
+    * | "left-hand mode"
+      * ONLY certain kinds of expression can be evaluated (== are meaningful)
+        * expression gives an address (_lvalue_)
+    * "Left"
+      * == "left of assignment"
+    * "Right"
+      * == "right of assignment" 
 
 #### C
 

@@ -1,5 +1,7 @@
 #include <iostream>
 
+// 1. == prvalue OR xvalue
+//  TODO:
 struct S
 {
     S() : m{42} {}

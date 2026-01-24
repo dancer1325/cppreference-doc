@@ -45,7 +45,6 @@ using identifier attr = type-id ;
   * | specialize it,
     * == substitute the alias template's template arguments -- for the -- template parameters | type-id
 
-
 #### (3)
 
 ```c++
@@ -63,7 +62,7 @@ using identifier attr = type-id ;
 ### Explanation
 
 * `attr`
-  * optional sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
+  * sequence of random number of [attributeS](attributes.md)  
 * `identifier`
   * name that is introduced by this declaration, which becomes either a type name (1) or a template name (2)  
 * `template-parameter-list`

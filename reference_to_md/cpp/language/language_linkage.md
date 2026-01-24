@@ -1,70 +1,11 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-
-  
-| Declarators  
----  
-[Reference](reference.html "cpp/language/reference")  
-[Pointer](pointer.html "cpp/language/pointer")  
-[Array](array.html "cpp/language/array")  
-Block declarations  
-[Simple-declaration](declarations.html "cpp/language/declarations")  
-→[Structured binding declaration](structured_binding.html "cpp/language/structured binding") (C++17)  
-[Alias declaration](type_alias.html "cpp/language/type alias") (C++11)  
-[Namespace alias definition](namespace_alias.html "cpp/language/namespace alias")  
-[using declaration](using_declaration.html "cpp/language/using declaration")  
-[`using` directive](namespace.html#Using-directives "cpp/language/namespace")  
-[static_assert declaration](static_assert.html "cpp/language/static assert") (C++11)  
-[asm declaration](asm.html "cpp/language/asm")  
-[Opaque enum declaration](enum.html "cpp/language/enum") (C++11)  
-Other declarations  
-[Namespace definition](namespace.html "cpp/language/namespace")  
-[Function declaration](function.html "cpp/language/function")  
-[Class template declaration](class_template.html "cpp/language/class template")  
-[Function template declaration](function_template.html "cpp/language/function template")  
-[Explicit template instantiation](class_template.html#Explicit_instantiation "cpp/language/class template") (C++11)  
-[Explicit template specialization](template_specialization.html "cpp/language/template specialization")  
-**Linkage specification**  
-[Attribute declaration](declarations.html "cpp/language/declarations") (C++11)  
-[Empty declaration](declarations.html "cpp/language/declarations")  
-  
-  
-  
-
-
-Provides for linkage between program units written in different programming languages. 
-
-This can also be used to detach a declaration from its module. See [Module ownership](modules.html#Module_ownership "cpp/language/modules").  | (since C++20)  
----|---  
----  
-`**extern**` string-literal `**{**` declaration-seq ﻿(optional) `**}**` |  (1)  |   
-`**extern**` string-literal declaration |  (2)  |   
-  
-1) Applies the language specification string-literal to all function types, function names with external linkage and variables with external linkage declared in declaration-seq.
-
-2) Applies the language specification string-literal to a single declaration or definition.
-
-string-literal |  \-  |  an [unevaluated string literal](string_literal.html#Unevaluated_strings "cpp/language/string literal") that names the required language linkage   
----|---|---  
-declaration-seq |  \-  |  a sequence of declarations, which may include nested linkage specifications   
-declaration |  \-  |  a declaration   
+* == requirements / 
+  * allows
+    * link BETWEEN program units / written | DIFFERENT programming languages
+      * [calling convention](https://en.wikipedia.org/wiki/calling_convention)
+      * [name mangling](https://en.wikipedia.org/wiki/name_mangling) (name decoration) 
+      * algorithm,
+      * etc.
+    * detach a declaration -- from -- its module
   
 ## Contents
 
@@ -74,21 +15,39 @@ declaration |  \-  |  a declaration
   * [3 Keywords](language_linkage.html#Keywords)
   * [4 Defect reports](language_linkage.html#Defect_reports)
   * [5 References](language_linkage.html#References)
+  
+### Syntax
 
-  
----  
-  
+* TODO:
+  `**extern**` string-literal `**{**` declaration-seq ﻿(optional) `**}**` |  (1)  |   
+  `**extern**` string-literal declaration |  (2)  |
+
+1) Applies the language specification string-literal to all function types, function names with external linkage and variables with external linkage declared in declaration-seq.
+
+2) Applies the language specification string-literal to a single declaration or definition.
+
+string-literal |  \-  |  an [unevaluated string literal](string_literal.html#Unevaluated_strings "cpp/language/string literal") that names the required language linkage   
+---|---|---  
+declaration-seq |  \-  |  a sequence of declarations, which may include nested linkage specifications   
+declaration |  \-  |  a declaration   
+
 ### Explanation
 
-Every function type, every function name with [external linkage](storage_duration.html "cpp/language/storage duration"), and every variable name with [external linkage](storage_duration.html "cpp/language/storage duration"), has a property called _language linkage_. Language linkage encapsulates the set of requirements necessary to link with a program unit written in another programming language: [calling convention](https://en.wikipedia.org/wiki/calling_convention "enwiki:calling convention"), [name mangling](https://en.wikipedia.org/wiki/name_mangling "enwiki:name mangling") (name decoration) algorithm, etc. 
+* _language linkage_
+  * == property / exists |
+    * every function type,
+    * every function name / has [external linkage](storage_duration.md) 
+    * every variable name / has [external linkage](storage_duration.md)
 
-Only two language linkages are guaranteed to be supported: 
+* UNIQUE language linkages / guaranteed to be supported
+  1. "C++"
+     * == default language linkage 
+  2. "C"
+     * allows
+       * link with functions / written | C
+       * | C++ program,
+         * define functions / can be called -- from -- units written | C 
 
-  1. "C++", the default language linkage. 
-  2. "C", which makes it possible to link with functions written in the C programming language, and to define, in a C++ program, functions that can be called from the units written in C. 
-
-
-    
     
     extern "C"
     {
@@ -215,6 +174,9 @@ However, the [restrictions](conflicting_declarations.html#Restrictions "cpp/lang
     }
 
 ### Notes
+
+* [Module ownership](modules.md#module-ownership)
+  * | C++20
 
 Language specifications can only appear in [namespace scope](scope.html#Namespace_scope "cpp/language/scope"). 
 

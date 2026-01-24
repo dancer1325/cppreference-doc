@@ -1,8 +1,8 @@
 * ⚠️requirements⚠️
   * C++20  
   
-* yields a `prvalue` expression /
-  * type == `bool`
+* yields a `prvalue` expression (!= declaration) /
+  * returns `bool`
   * describes the constraints 
 
 ## Contents
@@ -22,26 +22,35 @@
 
 ### Syntax  
 
-`**requires**` `**{**` requirement-seq `**}**` |  (1)  |   
-`**requires**` `**(**` parameter-list ﻿(optional) `**)**` `**{**` requirement-seq `**}**` |  (2)  |   
-parameter-list |  \-  |  a [parameter list](function.html#Parameter_list "cpp/language/function")  
----|---|---  
-requirement-seq |  \-  |  sequence of _requirements_ , each requirement is one of the following: 
-
-  * [simple requirement](requires.html#Simple_requirements)
-  * [type requirement](requires.html#Type_requirements)
-  * [compound requirement](requires.html#Compound_requirements)
-  * [nested requirement](requires.html#Nested_requirements)
-
-  
+* `requires { requirement-seq }`
+* `requires ( parameter-list ) { requirement-seq }`
+  * `parameter-list`
+    * OPTIONAL
+    * [here](function.md#parameter-list)
   
 ### Explanation
 
-Requirements may refer to the template parameters that are in scope, to the parameters of parameter-list, and to any other declarations that are visible from the enclosing context. 
+* `requirement-seq`
+  * == sequence of _requirements_ /
+    * ALLOWED requirements
+      * [simple requirement](#simple-requirements-)
+      * [type requirement](#type-requirements-)
+      * [compound requirement](#compound-requirements-)
+      * [nested requirement](#nested-requirements-)
 
-The substitution of template arguments into a requires expression used in a declaration of a [templated entity](templates.html#Templated_entity "cpp/language/templates") may result in the formation of invalid types or expressions in its requirements, or the violation of semantic constraints of those requirements. In such cases, the requires expression evaluates to false and does not cause the program to be ill-formed. The substitution and semantic constraint checking proceeds in lexical order and stops when a condition that determines the result of the requires expression is encountered. If substitution (if any) and semantic constraint checking succeed, the requires expression evaluates to true. 
+Requirements may refer to the template parameters that are in scope, 
+to the parameters of parameter-list, and to any other declarations that are visible from the enclosing context. 
 
-If a substitution failure would occur in a requires expression for every possible template argument, the program is ill-formed, no diagnostic required: 
+The substitution of template arguments into a requires expression used in a declaration of a 
+[templated entity](templates.html#Templated_entity "cpp/language/templates") may result in the formation of invalid types or expressions in its requirements,
+or the violation of semantic constraints of those requirements
+In such cases, the requires expression evaluates to false and does not cause the program to be ill-formed
+* The substitution and semantic constraint checking proceeds in lexical order and stops when a condition that 
+determines the result of the requires expression is encountered
+* If substitution (if any) and semantic constraint checking succeed, the requires expression evaluates to true. 
+
+If a substitution failure would occur in a requires expression for every possible template argument,
+the program is ill-formed, no diagnostic required: 
     
     
     template<class T>
@@ -50,11 +59,14 @@ If a substitution failure would occur in a requires expression for every possibl
         new int[-(int)sizeof(T)]; // invalid for every T: ill-formed, no diagnostic required
     };
 
-If a requires expression contains invalid types or expressions in its requirements, and it does not appear within the declaration of a [templated entity](templates.html#Templated_entity "cpp/language/templates"), then the program is ill-formed. 
+If a requires expression contains invalid types or expressions in its requirements,
+and it does not appear within the declaration of a [templated entity](templates.html#Templated_entity "cpp/language/templates"), 
+then the program is ill-formed. 
 
 ### Local parameters
 
-A requires expression can introduce local parameters using a [parameter list](function.html#Parameter_list "cpp/language/function"). These parameters have no linkage, storage, or lifetime; they are only used as notation for the purpose of defining requirements. 
+A requires expression can introduce local parameters using a [parameter list](function.html#Parameter_list "cpp/language/function")
+* These parameters have no linkage, storage, or lifetime; they are only used as notation for the purpose of defining requirements. 
 
 The type of each parameter is determined by the same way as [determining the actual type](function.html#Function_type "cpp/language/function") of function parameters: 
     
@@ -226,7 +238,7 @@ The keyword requires is also used to introduce [requires clauses](constraints.ht
 
 ### Keywords
 
-[`requires`](../keyword/requires.html "cpp/keyword/requires")
+[`requires`](../keyword/requires.md)
 
 ### Defect reports
 
