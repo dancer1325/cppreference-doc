@@ -1,7 +1,7 @@
 * ⚠️requirements⚠️
   * C++20  
   
-* yields a `prvalue` expression (!= declaration) /
+* yields a [`prvalue`](value_category.md) expression (!= declaration) /
   * returns `bool`
   * describes the constraints 
 
