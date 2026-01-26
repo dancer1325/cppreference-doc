@@ -3,20 +3,11 @@
 
 # ALLOWED ones
 ## `_prvalue_`
-### == “pure” rvalue
-
-### 
+* [here](#_prvalue_-1)
 ## `_xvalue_`
 
 ## `_lvalue_`
-### == glvalue / is NOT a xvalue
-* [here](lValueIsGlValueThatItsNotXValue.cpp)
-### ️ORIGINALLY, == assignment expression's left-hand (_l_) side
-* TODO:
-### ❌RIGHT now, NOT ALWAYS❌
-* TODO:
-
-### TODO:
+* [here](#_lvalue_-1)
 ## `_rvalue_`
 * TODO:
 
@@ -37,12 +28,25 @@
 * TODO:
 
 
-
-
-
-
-## TODO:
+# `_prvalue_`
+## == “pure” rvalue
 * TODO:
+## == expression /
+
+### ALLOWED ones
+* [prvalue.cpp](prvalue.cpp)
+
+# `_lvalue_`
+## == glvalue / is NOT a xvalue
+* [here](lValueIsGlValueThatItsNotXValue.cpp)
+## ️ORIGINALLY, == assignment expression's left-hand (_l_) side
+* TODO:
+## ❌RIGHT now, NOT ALWAYS❌
+* TODO:
+## lvalue expressions
+* [lValueExpressions.cpp](lValueExpressions.cpp)
+## TODO:
+
 
 # TODO:
 * TODO:

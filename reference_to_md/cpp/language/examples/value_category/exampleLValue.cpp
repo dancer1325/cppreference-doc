@@ -1,4 +1,4 @@
-// TODO: function call or an overloaded operator expression, whose return type is lvalue reference, such as [std::getline](../string/basic_string/getline.html)([std::cin](../io/cin.html), str), [std::cout](../io/cout.html) << 1, str1 = str2, or ++it;
+
 
 void foo() {}
 

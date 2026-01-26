@@ -63,81 +63,17 @@
       * [template parameter object](template_parameters.md#constant-template-parameter-or-non-type-template-parameter-)
         * | C++20
       * data member
+    * function call OR overloaded operator expression / 's return type == lvalue reference
+    * [assignment & compound assignment expressions](operator_assignment.md) 
+    * [pre-increment & pre-decrement expressions](operator_incdec.md#built-in-prefix-operators) 
+    * [indirection expression](operator_member_access.md#built-in-indirection-operator)
+    * [subscript expression](operator_member_access.md#built-in-subscript-operator)
+    * [member of object expression](operator_member_access.md#built-in-member-access-operators)
   * ⚠️regardless of type⚠️
     * _Examples:_ [std::cin](../io/cin.md) OR [std::hex](../io/manip/hex.md)
     * ⚠️if the variable's type == rvalue reference -> expression / consist of its name == lvalue expression⚠️
       * [Move-eligible expressions](#move-eligible-expressions)
 
-Extended content  
----  
-      
-    
-    int& a_ref()
-    {
-        static int a{3};
-        return a;
-    }
-     
-    void foo()
-    {
-        a_ref() = 5;  // `a_ref()` is lvalue, function call whose return type is lvalue reference
-    }  
-  
-  * a = b, a += b, a %= b, and all other built-in [assignment and compound assignment](operator_assignment.html "cpp/language/operator assignment") expressions; 
-  * ++a and \--a, the built-in [pre-increment and pre-decrement](operator_incdec.html#Built-in_prefix_operators "cpp/language/operator incdec") expressions; 
-  * *p, the built-in [indirection](operator_member_access.html#Built-in_indirection_operator "cpp/language/operator member access") expression; 
-  * a[n] and p[n], the built-in [subscript](operator_member_access.html#Built-in_subscript_operator "cpp/language/operator member access") expressions, where one operand in a[n] is an array lvalue(since C++11); 
-  * a.m, the [member of object](operator_member_access.html#Built-in_member_access_operators "cpp/language/operator member access") expression, except where `m` is a member enumerator or a non-static member function, or where a is an rvalue and `m` is a non-static data member of object type; 
-
-
-
-Extended content  
----  
-      
-    
-    struct foo
-    {
-        enum bar
-        {
-            m // member enumerator
-        };
-    };
-     
-    void baz()
-    {
-        foo a;
-        a.m = 42; // ill-formed, lvalue required as left operand of assignment
-    }
-    
-    
-    struct foo
-    {
-        void m() {} // non-static member function
-    };
-     
-    void baz()
-    {
-        foo a;
-     
-        // `a.m` is a prvalue, hence the address cannot be taken by built-in
-        // address-of operator
-        void (foo::*p1)() = &a.m; // ill-formed
-     
-        void (foo::*p2)() = &foo::m; // OK: pointer to member function
-    }
-    
-    
-    struct foo
-    {
-        static void m() {} // static member function
-    };
-     
-    void baz()
-    {
-        foo a;
-        void (*p1)() = &a.m;     // `a.m` is an lvalue
-        void (*p2)() = &foo::m;  // the same
-    }  
   
   * p->m, the built-in [member of pointer](operator_member_access.html#Built-in_member_access_operators "cpp/language/operator member access") expression, except where `m` is a member enumerator or a non-static member function; 
   * a.*mp, the [pointer to member of object](operator_member_access.html#Built-in_pointer-to-member_access_operators "cpp/language/operator member access") expression, where a is an lvalue and `mp` is a pointer to data member; 
@@ -188,58 +124,50 @@ Properties:
       * == NO _result object_
     * initializes an object 
       * -> _result object_
-
-The following expressions are _prvalue expressions_ : 
-
-  * a [literal](expressions.html#Literals "cpp/language/expressions") (except for [string literal](string_literal.html "cpp/language/string literal")), such as 42, true or nullptr; 
-  * a function call or an overloaded operator expression, whose return type is non-reference, such as str.substr(1, 2), str1 + str2, or it++; 
-  * a++ and a\--, the built-in [post-increment and post-decrement](operator_incdec.html#Built-in_postfix_operators "cpp/language/operator incdec") expressions; 
-  * a + b, a % b, a & b, a << b, and all other built-in [arithmetic](operator_arithmetic.html "cpp/language/operator arithmetic") expressions; 
-  * a && b, a || b, !a, the built-in [logical](operator_logical.html "cpp/language/operator logical") expressions; 
-  * a < b, a == b, a >= b, and all other built-in [comparison](operator_comparison.html "cpp/language/operator comparison") expressions; 
-  * &a, the built-in [address-of](operator_member_access.html#Built-in_address-of_operator "cpp/language/operator member access") expression; 
-  * a.m, the [member of object](operator_member_access.html#Built-in_member_access_operators "cpp/language/operator member access") expression, where `m` is a member enumerator or a non-static member function[[2]](value_category.html#cite_note-pmfc-2); 
-  * p->m, the built-in [member of pointer](operator_member_access.html#Built-in_member_access_operators "cpp/language/operator member access") expression, where `m` is a member enumerator or a non-static member function[[2]](value_category.html#cite_note-pmfc-2); 
-  * a.*mp, the [pointer to member of object](operator_member_access.html#Built-in_pointer-to-member_access_operators "cpp/language/operator member access") expression, where `mp` is a pointer to member function[[2]](value_category.html#cite_note-pmfc-2); 
-  * p->*mp, the built-in [pointer to member of pointer](operator_member_access.html#Built-in_pointer-to-member_access_operators "cpp/language/operator member access") expression, where `mp` is a pointer to member function[[2]](value_category.html#cite_note-pmfc-2); 
-  * a, b, the built-in [comma](operator_other.html#Built-in_comma_operator "cpp/language/operator other") expression, where b is an prvalue; 
-  * a ? b : c, the [ternary conditional](operator_other.html#Conditional_operator "cpp/language/operator other") expression for certain b and c (see [definition](operator_other.html#Conditional_operator "cpp/language/operator other") for detail); 
-  * a cast expression to non-reference type, such as static_cast<double>(x), [std::string](../string/basic_string.html){}, or (int)42; 
-  * the [`this`](this.html "cpp/language/this") pointer; 
-  * an [enumerator](enum.html "cpp/language/enum"); 
-  * a constant [template parameter](template_parameters.html "cpp/language/template parameters") of a scalar type; 
-
-
-    
-    
-    template <int v>
-    void foo()
-    {
-        // not an lvalue, `v` is a template parameter of scalar type int
-        const int* a = &v; // ill-formed
-     
-        v = 3; // ill-formed: lvalue required as left operand of assignment
-    }
-
-  * a [lambda expression](lambda.html "cpp/language/lambda"), such as [](int x){ return x * x; }; 
-
-| (since C++11)  
----|---  
-  
-  * a [requires-expression](constraints.html "cpp/language/constraints"), such as requires (T i) { typename T::type; }; 
-  * a specialization of a [concept](constraints.html "cpp/language/constraints"), such as [std::equality_comparable](../concepts/equality_comparable.html)<int>. 
-
-| (since C++20)  
-  
-Properties: 
-
-  * Same as [rvalue](value_category.html#rvalue) (below). 
-  * A prvalue cannot be [polymorphic](objects.html#Polymorphic_objects "cpp/language/object"): the [dynamic type](type-id.html#Dynamic_type "cpp/language/type") of the object it denotes is always the type of the expression. 
-  * A non-class non-array prvalue cannot be [cv-qualified](cv.html "cpp/language/cv"), unless it is [materialized](implicit_cast.html#Temporary_materialization "cpp/language/implicit conversion") in order to be [bound to a reference](reference_initialization.html "cpp/language/reference initialization") to a cv-qualified type(since C++17). (Note: a function call or cast expression may result in a prvalue of non-class cv-qualified type, but the cv-qualifier is generally immediately stripped out.) 
-  * A prvalue cannot have [incomplete type](type-id.html#Incomplete_type "cpp/language/type") (except for type void, see below, or when used in [`decltype`](decltype.html "cpp/language/decltype") specifier). 
-  * A prvalue cannot have [abstract class type](abstract_class.html "cpp/language/abstract class") or an array thereof. 
-
-
+  * ALLOWED ones
+    * [literal](expressions.md#literals) 
+      * ⚠️EXCEPT for [string literal](string_literal.md)⚠️
+    * function call OR overloaded operator expression / 
+      * 's return type == non-reference
+    * [post-increment & post-decrement expressions](operator_incdec.md#built-in-postfix-operators)
+    * [arithmetic expressions](operator_arithmetic.md) 
+    * [logical expressions](operator_logical.md)
+    * [comparison expressions](operator_comparison.md)
+    * [address-of expression](operator_member_access.md#built-in-address-of-operator)
+    * [member of object expression](operator_member_access.md#built-in-member-access-operators)
+    * [member of pointer expression](operator_member_access.md#built-in-member-access-operators)
+    * [pointer to member of object expression](operator_member_access.md#built-in-pointer-to-member-access-operators)
+    * [pointer to member of pointer expression](operator_member_access.md#built-in-pointer-to-member-access-operators)
+    * [comma expression](operator_other.md#built-in-comma-operator)
+    * [ternary conditional expression](operator_other.md#conditional-operator)
+    * cast expression -- to -- non-reference type
+    * [`this` pointer](this.md) 
+    * [enumerator](enum.md) 
+    * [template parameter](template_parameters.md) /
+      * constant
+      * scalar type 
+    * [lambda expression](lambda.md)
+      * | C++11
+    * [requires-expression](constraints.md) 
+    * specialization of a [concept](constraints.md) 
+      * | C++20  
+  * ❌NOT ALLOWED❌
+    * [polymorphic](objects.md#polymorphic-objects)
+      * object's [dynamic type](incomplete_type.md#dynamic-type) == expression's type
+    * if non-class non-array prvalue -> NOT ALLOWED [cv-qualified](cv.md)
+      * EXCEPT FOR: it is [materialized](implicit_cast.md#temporary-materialization)
+        * Reason:🧠[bound to a reference](reference_initialization.md) -- to a -- cv-qualified type
+          * | C++17
+      * (Note: a function call or cast expression may result in a prvalue of non-class cv-qualified type, but the cv-qualifier is generally immediately stripped out.)
+  * 's properties
+    * == [rvalue's properties](#rvalue)  
+    * ❌NOT ALLOWED❌
+      * [incomplete type](incomplete_type.md#incomplete-type)
+        * EXCEPT for
+          * `type void`
+          * using | [`decltype`](decltype.md) specifier 
+      * [abstract class type](abstract_class.md)
+      * array thereof 
 
 #### xvalue
 
@@ -433,37 +361,68 @@ If an expression is move-eligible, it is treated either as an rvalue or as an lv
 
 #### C
 
-The C programming language followed a similar taxonomy, except that the role of assignment was no longer significant: C expressions are categorized between "lvalue expressions" and others (functions and non-object values), where "lvalue" means an expression that identifies an object, a "locator value"[[4]](value_category.html#cite_note-4). 
+* followed a similar taxonomy
+  * EXCEPT that: ❌role of assignment was NO longer significant❌
+* C expressions categories
+  * "lvalue expressions"
+    * "lvalue" == expression / identifies an object
+      * == ["locator value"](#external-links) 
+  * others (functions and non-object values)
 
-#### C++98
+#### C++98 (== pre-2011 C++)
 
-Pre-2011 C++ followed the C model, but restored the name "rvalue" to non-lvalue expressions, made functions into lvalues, and added the rule that references can bind to lvalues, but only references to const can bind to rvalues. Several non-lvalue C expressions became lvalue expressions in C++. 
+* vs C model  
+  * restored "rvalue"
+    * == non-lvalue expressions / functions were made into lvalues
+  * rule / references
+    * can bind -- to -- lvalues
+    * to const can bind -- to -- rvalues
+  * several non-lvalue C expressions became -- lvalue expressions | C++ 
 
 #### C++11
 
-With the introduction of move semantics in C++11, value categories were redefined to characterize two independent properties of expressions[[5]](value_category.html#cite_note-5): 
+* ⭐️move semantics ⭐️
+  * 💡NEW feature💡
+  * allows
+    * 👀redefining value categories -- based on -- [2 expressions' properties / are independent](#footnotes)👀
+      * `_has identity_`
+        * enable you to, determine whether the expression refers -- to -- same entity OR another expression
+          * _Example:_ compare objects' addresses OR functions / they identify 
+      * `_can be moved from_`
+        * [move constructor](move_constructor.md)
+        * [move assignment operator](move_operator.md)
+        * another function overload / implements move semantics can bind -- to the -- expression
 
-  * _has identity_ : it's possible to determine whether the expression refers to the same entity as another expression, such as by comparing addresses of the objects or the functions they identify (obtained directly or indirectly); 
-  * _can be moved from_ : [move constructor](move_constructor.html "cpp/language/move constructor"), [move assignment operator](move_operator.html "cpp/language/move assignment"), or another function overload that implements move semantics can bind to the expression. 
-
-
-
-In C++11, expressions that: 
-
-  * have identity and cannot be moved from are called _lvalue_ expressions; 
-  * have identity and can be moved from are called _xvalue_ expressions; 
-  * do not have identity and can be moved from are called _prvalue_ ("pure rvalue") expressions; 
-  * do not have identity and cannot be moved from are not used[[6]](value_category.html#cite_note-6). 
-
-
-
-The expressions that have identity are called "glvalue expressions" (glvalue stands for "generalized lvalue"). Both lvalues and xvalues are glvalue expressions. 
-
-The expressions that can be moved from are called "rvalue expressions". Both prvalues and xvalues are rvalue expressions. 
+* C++11 expressions
+  * 👀_lvalue_ expressions👀
+    * have identity
+    * can NOT be moved from  
+  * 👀_xvalue_ expressions👀
+    * have identity
+    * can be moved from  
+  * 👀_prvalue_ expressions👀
+    * do NOT have identity
+    * can be moved from  
+  * ⚠️[NOT used](#external-links) expressions⚠️
+    * do NOT have identity
+    * can NOT be moved from
+  * 👀"glvalue expressions"👀
+    * := expressions / have identity
+      * _Example:_ lvalues and xvalues
+  * 👀"rvalue expressions"👀
+    * := expressions / can be moved from
+      * _Example:_ prvalues and xvalues
 
 #### C++17
 
-In C++17, [copy elision](copy_elision.html "cpp/language/copy elision") was made mandatory in some situations, and that required separation of prvalue expressions from the temporary objects initialized by them, resulting in the system we have today. Note that, in contrast with the C++11 scheme, prvalues are no longer moved from. 
+* [copy elision](copy_elision.md)
+  * | some situations,
+    * made mandatory
+  * requirements
+    * separate `prvalue` expressions -- from the -- temporary objects / initialized by them
+* vs C++11 scheme,
+  * `prvalues` 
+    * NO longer moved from 
 
 ### Footnotes
 
