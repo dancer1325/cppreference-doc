@@ -1,20 +1,11 @@
-Inside the definition of a [template](templates.html "cpp/language/templates") (both [class template](class_template.html "cpp/language/class template") and [function template](function_template.html "cpp/language/function template")), the meaning of some constructs may differ from one instantiation to another. In particular, types and expressions may depend on types of type template parameters and values of constant template parameters. 
-    
-    
-    template<typename T>
-    struct X : B<T> // “B<T>” is dependent on T
-    {
-        typename T::A* pa; // “T::A” is dependent on T
-                           // (see below for the meaning of this use of “typename”)
-     
-        void f(B<T>* pb)
-        {
-            static int i = B<T>::i; // “B<T>::i” is dependent on T
-            pb->j++; // “pb->j” is dependent on T
-        }
-    };
+* | [template](templates.md)'s definition,
+  * meaning of some constructs may differ BETWEEN instantiations 
+  * _Examples:_ [class template](class_template.md) & [function template](function_template.md))
+  * types & expressions may -- depend on --
+    * types of type template parameters
+    * values of constant template parameters
 
-Name [lookup](lookup.html "cpp/language/lookup") and binding are different for dependent names and non-dependent names. 
+* name [lookup](lookup.md) & binding | dependent names != name [lookup](lookup.md) & binding | non-dependent names
 
 ## Contents
 
@@ -33,35 +24,11 @@ Name [lookup](lookup.html "cpp/language/lookup") and binding are different for d
 
 ### Binding rules
 
-Non-dependent names are looked up and bound at the point of template definition. This binding holds even if at the point of template instantiation there is a better match: 
+Non-dependent names are looked up and bound at the point of template definition
+* This binding holds even if at the point of template instantiation there is a better match:
 
-Run this code
-    
-    
-    #include <iostream>
-     
-    void g(double) { [std::cout](../io/cout.html) << "g(double)\n"; }
-     
-    template<class T>
-    struct S
-    {
-        void f() const
-        {
-            g(1); // “g” is a non-dependent name, bound now
-        }
-    };
-     
-    void g(int) { [std::cout](../io/cout.html) << "g(int)\n"; }
-     
-    int main()
-    {
-        g(1);  // calls g(int)
-     
-        S<int> s;
-        s.f(); // calls g(double)
-    }
-
-If the meaning of a non-dependent name changes between the definition context and the point of instantiation of a specialization of the template, the program is ill-formed, no diagnostic required. This is possible in the following situations: 
+If the meaning of a non-dependent name changes between the definition context and the point of instantiation of a specialization of the template, the program is ill-formed, no diagnostic required
+* This is possible in the following situations: 
 
   * a type used in a non-dependent name is [incomplete](incomplete_type.html "cpp/language/incomplete type") at the point of definition but complete at the point of instantiation 
 
@@ -831,10 +798,11 @@ Due to the special rules for [unqualified name lookup](unqualified_lookup.html "
 
 | (until C++23)  
 ---|---  
-  
+
 ### Keywords
 
-[`template`](../keyword/template.html "cpp/keyword/template"), [`typename`](../keyword/typename.html "cpp/keyword/typename")
+* [`template`](../keyword/template.md)
+* [`typename`](../keyword/typename.md)
 
 ### Defect reports
 

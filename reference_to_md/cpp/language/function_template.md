@@ -31,7 +31,6 @@
 * `export template <parameter-list> function-declaration`
   * | C++11, removed
 
-
 #### Notes
 
 * `parameter-list`

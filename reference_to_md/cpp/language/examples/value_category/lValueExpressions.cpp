@@ -90,7 +90,54 @@ void baz()
     void (*p2)() = &foo::m;  // the same
 }  
 
+// 1.11 member of pointer expression
+p->m
+// EXCEPT TO, `m` == member enumerator OR non-static member function
 
+// 1.12 pointer to member of object expression
+a.*mp
+// a    == lvalue 
+// mp   == pointer -- to -- data member
 
+// 1.13 pointer to member of pointer expression
+p->*mp
+// mp   == pointer -- to -- data member
+
+// 1.14 pointer to member of pointer expression
+p->*mp
+// mp   == pointer -- to -- data member
+
+// 1.15 comma expression
+a, b
+// b == lvalue
+
+// 1.16 ternary conditional expression
+a ? b : c
+
+// 1.17 string literal
+"Hello, world!";
+
+// 1.18 cast expression -- to -- lvalue reference type
+static_cast<int&>(x);
+static_cast<void(&)(int)>(x);
+
+// 1.19 lvalue reference type's template parameter
+template <int& v>
+void set()
+{
+    v = 5; // template parameter is lvalue
+}
+
+int a{3}; // static variable, fixed address is known at compile-time
+
+void foo()
+{
+    set<a>();
+}
+
+// 1.20 function call OR overloaded operator expression / 's return type == rvalue reference -- to -- function
+
+// 1.21 cast expression -- to -- rvalue reference -- to -- function type
+static_cast<void(&&)(int)>(x)
 
 // 2. regardless of type

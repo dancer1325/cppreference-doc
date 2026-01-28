@@ -2,7 +2,7 @@
 #include <utility>
 #include <type_traits>
 
-// Helper / show the category
+// function template / show the category
 template<typename T>
 void print_category(T&& expr) {
   using U = decltype(expr);

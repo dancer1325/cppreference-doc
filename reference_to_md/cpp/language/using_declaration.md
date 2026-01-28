@@ -1,73 +1,10 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[ Classes](classes.html "cpp/language/classes")
-
-General  
----  
-[Overview](classes.html "cpp/language/classes")  
-[`class`/`struct` types](class.html "cpp/language/class")  
-[`union` types](union.html "cpp/language/union")  
-[Injected-class-name](injected-class-name.html "cpp/language/injected-class-name")  
-[Class property specifiers](class_property_specifiers.html "cpp/language/class property specifiers") (C++26)  
-Members  
-[Data members](data_members.html "cpp/language/data members")  
-[Static members](static.html "cpp/language/static")  
-[The `this` pointer](this.html "cpp/language/this")  
-[Nested classes](nested_classes.html "cpp/language/nested types")  
-[Member templates](member_template.html "cpp/language/member template")  
-[Bit-fields](bit_field.html "cpp/language/bit field")  
-**`using`-declarations**  
-[Member functions](member_functions.html "cpp/language/member functions")  
-[Member access specifiers](access.html "cpp/language/access")  
-[Constructors and member initializer lists](initializer_list.html "cpp/language/constructor")  
-[Default member initializer](data_members.html#Member_initialization "cpp/language/data members") (C++11)  
-[`friend` specifier](friend.html "cpp/language/friend")  
-[`explicit` specifier](explicit.html "cpp/language/explicit")  
-[Converting constructor](converting_constructor.html "cpp/language/converting constructor")  
-Special member functions  
-[Default constructor](default_constructor.html "cpp/language/default constructor")  
-[Copy constructor](copy_constructor.html "cpp/language/copy constructor")  
-[Move constructor](move_constructor.html "cpp/language/move constructor") (C++11)  
-[Copy assignment operator](as_operator.html "cpp/language/copy assignment")  
-[Move assignment operator](move_operator.html "cpp/language/move assignment") (C++11)  
-[Destructor](destructor.html "cpp/language/destructor")  
-Inheritance  
-[Base and derived classes](derived_class.html "cpp/language/derived class")  
-[Empty base optimization (EBO)](ebo.html "cpp/language/ebo")  
-[Virtual member functions](virtual.html "cpp/language/virtual")  
-[Pure virtual functions and abstract classes](abstract_class.html "cpp/language/abstract class")  
-[`override` specifier](override.html "cpp/language/override") (C++11)  
-[`final` specifier](final.html "cpp/language/final") (C++11)  
-  
-
-
-Introduces a name that is defined elsewhere into the declarative region where this using-declaration appears. See [using enum](enum.html#Using-enum-declaration "cpp/language/enum") and (since C++20)[using namespace](namespace.html#Using-directives "cpp/language/namespace") for other related declarations.   
-  
----  
-`**using**` `**typename**`(optional) nested-name-specifier unqualified-id `**;**` |  |  (until C++17)  
-`**using**` declarator-list `**;**` |  |  (since C++17)  
-`**typename**` |  \-  |  the keyword typename may be used as necessary to resolve [dependent names](dependent_name.html "cpp/language/dependent name"), when the using-declaration introduces a member type from a base class into a class template   
----|---|---  
-nested-name-specifier |  \-  |  a sequence of names and scope resolution operators `::`, ending with a scope resolution operator. A single `::` refers to the global namespace.   
-unqualified-id |  \-  |  an [id-expression](name.html "cpp/language/identifiers")  
-declarator-list |  \-  |  comma-separated list of one or more declarators of the `**typename**`(optional) nested-name-specifier unqualified-id. Some or all of the declarators may be followed by an ellipsis ... to indicate [pack expansion](parameter_pack.html "cpp/language/parameter pack")  
+* 👀introduces a name | declarative region (== current scope)👀
+  * name
+    * is defined elsewhere (_Example:_ namespace, base class, etc.)
+* see
+  * [using enum](enum.md#using-enum-declaration)
+  * [using namespace](namespace.md#using-directives)
+    * | C++20 
   
 ## Contents
 
@@ -81,32 +18,52 @@ declarator-list |  \-  |  comma-separated list of one or more declarators of the
   * [4 Defect reports](using_declaration.html#Defect_reports)
   * [5 References](using_declaration.html#References)
 
-  
----  
-  
+### Syntax
+
+* `using typename nested-name-specifier unqualified-id`
+  * `typename`
+    * OPTIONAL
+  * | C++17
+* `using declarator-list`
+  * | C++17  
+  * allows
+    * declaring MULTIPLE using-declarations | 1! line
+
 ### Explanation
 
-Using-declarations can be used to introduce namespace members into other namespaces and block scopes, or to introduce base class members into derived class definitions, or to introduce [enumerators](enum.html "cpp/language/enum") into namespaces, block, and class scopes(since C++20). 
-
-A using-declaration with more than one using-declarator is equivalent to a corresponding sequence of using-declarations with one using-declarator.  | (since C++17)  
----|---  
+* `typename`
+  * == ⚠️keyword typename ⚠️
+  * uses
+    * resolve [dependent names](dependent_name.md)
+    * using-declaration introduces a member type 
+      * -- from a -- base class
+      * | class template
+* `nested-name-specifier`
+  * == names + `::` /
+    * ⚠️end with `::`⚠️
+  * 1! `::`
+    * == global namespace
+* `unqualified-id`
+  * == [id-expression](name.md)
+* `declarator-list`
+  * \>= 1 `typename nested-name-specifier unqualified-id` /
+    * comma-separated
+    * some OR ALL may be followed by `...` ( == [pack expansion](parameter_pack.md))
+    * if there >1 == corresponding sequence of using-declarations / 1 using-declarator
+      * | C++17
+  * uses
+    * introduce 
+      * namespace members | other namespaces & block scopes
+      * base class members | derived class definitions
+      * [enumerators](enum.md) | namespaces, block, and class scopes
+        * | C++20
   
-#### In namespace and block scope
+#### | namespace & block scope
 
 [Using-declarations](namespace.html#Using-declarations "cpp/language/namespace") introduce a member of another namespace into the current namespace or block scope. 
     
     
-    #include <iostream>
-    #include <string>
-     
-    using [std::string](../string/basic_string.html);
-     
-    int main()
-    {
-        string str = "Example";
-        using [std::cout](../io/cout.html);
-        cout << str;
-    }
+
 
 See [namespace](namespace.html "cpp/language/namespace") for details. 
 

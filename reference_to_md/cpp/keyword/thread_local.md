@@ -41,20 +41,6 @@
 [xor](xor.html "cpp/keyword/xor")  
 [xor_eq](xor_eq.html "cpp/keyword/xor eq")  
   
-Identifiers with special meaning  
-| [final](../identifier_with_special_meaning/final.html "cpp/identifier with special meaning/final")(C++11)  
----  
-[import](../identifier_with_special_meaning/import.html "cpp/identifier with special meaning/import")(C++20)  
-[module](../identifier_with_special_meaning/module.html "cpp/identifier with special meaning/module")(C++20)  
-  
-| [override](../identifier_with_special_meaning/override.html "cpp/identifier with special meaning/override")(C++11)  
----  
-[post](../identifier_with_special_meaning/post.html "cpp/identifier with special meaning/post")(C++26)  
-[pre](../identifier_with_special_meaning/pre.html "cpp/identifier with special meaning/pre")(C++26)  
-  
-| [replaceable_if_eligible](../identifier_with_special_meaning/replaceable_if_eligible.html "cpp/identifier with special meaning/replaceable if eligible")(C++26)  
----  
-[trivially_relocatable_if_eligible](../identifier_with_special_meaning/trivially_relocatable_if_eligible.html "cpp/identifier with special meaning/trivially relocatable if eligible")(C++26)  
   
   
   

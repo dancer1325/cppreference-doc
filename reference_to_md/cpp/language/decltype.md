@@ -39,9 +39,13 @@
 ### Explanation
 
 
-Note that if the name of an object is parenthesized, it is treated as an ordinary lvalue expression, thus decltype(x) and decltype((x)) are often different types. 
+* `decltype(x)` (normally)!= `decltype((x))`
+  * Reason:🧠if object's name is parenthesized -> treated as an ordinary lvalue expression🧠
 
-`decltype` is useful when declaring types that are difficult or impossible to declare using standard notation, like lambda-related types or types that depend on template parameters. 
+* `decltype`
+  * uses
+    * | declare types / difficult OR impossible to declare -- via -- standard notation
+      * _Examples:_ lambda-related types OR types / depend on template parameters 
 
 ### Notes
 
