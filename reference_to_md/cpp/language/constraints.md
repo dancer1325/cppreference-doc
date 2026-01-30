@@ -2,7 +2,8 @@
   * C++20
 
 * _constraint_
-  * == [requirements](requires.md) | template arguments
+  * := [requirements](requires.md) | template arguments
+    * == sequence of logical operations & operands / specifies requirements | template arguments
   * use cases
     * [Class templates](class_template.md)
     * [function templates](function_template.md) 
@@ -12,31 +13,17 @@
           * _Example:= class templates' members
   * allows
     * select the MOST appropriate function overloads & template specializations 
+  * if there are violations -> detected | compile time
 
 * _concepts_
   * == named sets of such [requirements](requires.md) 
   * == predicate /
     * evaluated | compile time
-    * | being used as a constraint, part of the interface of a template  
-
-Violations of constraints are detected at compile time, early in the template instantiation process,
-which leads to easy to follow error messages: 
-    
-    
-    [std::list](../container/list.html)<int> l = {3, -1, 10};
-    [std::sort](../algorithm/sort.html)(l.begin(), l.end()); 
-    // Typical compiler diagnostic without concepts:
-    // invalid operands to binary expression ('std::_List_iterator<int>' and
-    // 'std::_List_iterator<int>')
-    //                           std::__lg(__last - __first) * 2);
-    //                                     ~~~~~~ ^ ~~~~~~~
-    // ... 50 lines of output ...
-    //
-    // Typical compiler diagnostic with concepts:
-    // error: cannot call std::sort with std::_List_iterator<int>
-    // note:  concept RandomAccessIterator<std::_List_iterator<int>> was not satisfied
-
-The intent of concepts is to model semantic categories (Number, Range, RegularFunction) rather than syntactic restrictions (HasPlus, Array). According to [ISO C++ core guideline T.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#t20-avoid-concepts-without-meaningful-semantics), “The ability to specify meaningful semantics is a defining characteristic of a true concept, as opposed to a syntactic constraint.” 
+    * | being used as a constraint, == part of the interface of a template  
+  * uses
+    * model semantic categories (_Examples:_ Number, Range, RegularFunction) 
+      * != model syntactic restrictions (_Examples:_ HasPlus, Array)
+      * [ISO C++ core guideline T.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#t20-avoid-concepts-without-meaningful-semantics) 
 
 ## Contents
 
@@ -57,45 +44,41 @@ The intent of concepts is to model semantic categories (Number, Range, RegularFu
 
 ### Concepts
 
-A concept is a named set of [requirements](requires.html "cpp/language/requires"). The definition of a concept must appear at namespace scope. 
+* concept definition
+  * appear | namespace scope
+  * syntax
+    ```c++
+    template < template-parameter-list >
+    concept concept-name attr = constraint-expression;
+    ```
+    * `attr`
+      * OPTIONAL
+      * sequence of any number of [attributes](attributes.md)
 
-The definition of a concept has the form   
+* ❌can NOT ❌
+  * recursively refer -- to -- themselves
+  * be constrained
 
-`**template <**` template-parameter-list `**>**` `**concept**` concept-name attr ﻿(optional) `**=**` constraint-expression`**;**` |  |   
-attr |  \-  |  sequence of any number of [attributes](attributes.html "cpp/language/attributes")  
----|---|---  
-      
-    
-    // concept
-    template<class T, class U>
-    concept Derived = [std::is_base_of](../types/is_base_of.html)<U, T>::value;
+* ❌NOT ALLOWED ❌
+  * explicit instantiations of concepts
+  * explicit specializations of concepts
+  * partial specializations of concepts
 
-Concepts cannot recursively refer to themselves and cannot be constrained: 
-    
-    
-    template<typename T>
-    concept V = V<T*>; // error: recursive concept
-     
-    template<class T>
-    concept C1 = true;
-    template<C1 T>
-    concept Error1 = true; // Error: C1 T attempts to constrain a concept definition
-    template<class T> requires C1<T>
-    concept Error2 = true; // Error: the requires clause attempts to constrain a concept
+// TODO: (the meaning of the original definition of a constraint cannot be changed). 
 
-Explicit instantiations, explicit specializations, or partial specializations of concepts are not allowed (the meaning of the original definition of a constraint cannot be changed). 
-
-Concepts can be named in an id-expression. The value of the id-expression is true if the constraint expression is satisfied, and false otherwise. 
+Concepts can be named in an id-expression
+* The value of the id-expression is true if the constraint expression is satisfied, and false otherwise. 
 
 Concepts can also be named in a type-constraint, as part of 
 
-  * [type template parameter declaration](template_parameters.html#Type_template_parameter "cpp/language/template parameters"), 
-  * [placeholder type specifier](auto.html "cpp/language/auto"), 
-  * [compound requirement](requires.html#Compound_Requirements "cpp/language/requires"). 
+  * [type template parameter declaration](template_parameters.md#type-template-parameter-), 
+  * [placeholder type specifier](auto.md), 
+  * [compound requirement](requires.md#compound-requirements-) 
 
 
 
-In a type-constraint, a concept takes one less template argument than its parameter list demands, because the contextually deduced type is implicitly used as the first argument of the concept. 
+In a type-constraint, a concept takes one less template argument than its parameter list demands,
+because the contextually deduced type is implicitly used as the first argument of the concept. 
     
     
     template<class T, class U>
@@ -106,33 +89,30 @@ In a type-constraint, a concept takes one less template argument than its parame
 
 ### Constraints
 
-A constraint is a sequence of logical operations and operands that specifies requirements on template arguments. They can appear within [requires expressions](requires.html "cpp/language/requires") or directly as bodies of concepts. 
+* uses
+  * | [requires expressions](requires.md)
+  * concepts bodies  
 
-There are three(until C++26)four(since C++26) types of constraints: 
-
-1) conjunctions
-
-2) disjunctions
-
-3) atomic constraints
-
-4) fold expanded constraints | (since C++26)  
----|---  
+* types
+  1) conjunctions
+  2) disjunctions
+  3) atomic constraints
+  4) fold expanded constraints
+     * | C++26
   
-The constraint associated with a declaration is determined by [normalizing](constraints.html#Constraint_normalization) a logical AND expression whose operands are in the following order: 
+* TODO: The constraint associated with a declaration is determined by [normalizing](constraints.html#Constraint_normalization) a logical AND expression whose operands are in the following order: 
 
   1. the constraint expression introduced for each constrained [type template parameter](template_parameters.html#Type_template_parameter "cpp/language/template parameters") or constant template parameter declared with a constrained [placeholder type](auto.html "cpp/language/auto"), in order of appearance; 
   2. the constraint expression in the [requires clause](constraints.html#Requires_clauses "cpp/language/constraints") after the template parameter list; 
   3. the constraint expression introduced for each parameter with constrained [placeholder type](auto.html "cpp/language/auto") in an [abbreviated function template](function_template.html#Abbreviated_function_template "cpp/language/function template") declaration; 
   4. the constraint expression in the trailing [requires clause](constraints.html#Requires_clauses "cpp/language/constraints"). 
 
-
-
 This order determines the order in which constraints are instantiated when checking for satisfaction. 
 
 #### Redeclarations
 
-A constrained declaration may only be redeclared using the same syntactic form. No diagnostic is required: 
+A constrained declaration may only be redeclared using the same syntactic form
+* No diagnostic is required: 
     
     
     // These first two declarations of f are fine
@@ -171,7 +151,8 @@ The conjunction of two constraints is formed by using the `&&` operator in the c
     template<class T>
     concept UnsignedIntegral = Integral<T> && !SignedIntegral<T>;
 
-A conjunction of two constraints is satisfied only if both constraints are satisfied. Conjunctions are evaluated left to right and short-circuited (if the left constraint is not satisfied, template argument substitution into the right constraint is not attempted: this prevents failures due to substitution outside of immediate context). 
+A conjunction of two constraints is satisfied only if both constraints are satisfied
+* Conjunctions are evaluated left to right and short-circuited (if the left constraint is not satisfied, template argument substitution into the right constraint is not attempted: this prevents failures due to substitution outside of immediate context). 
     
     
     template<typename T>
