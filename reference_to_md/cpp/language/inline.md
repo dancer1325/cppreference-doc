@@ -1,99 +1,32 @@
+* inline function
+  * := function / `inline` specifier appears | function's [decl-specifier-seq](declarations.md#Specifiers)
 
+* implicit inline function
+  * == ❌NOT require mark -- via -- `inline`❌
+    * ALTHOUGH you can STILL mark it
+  * POSSIBLE cases
+    * function defined entirely | [class/struct/union definition](classes.md), OR
+      * INDEPENDENTLY whether it's a member function OR non-member friend function
+      * ⚠️EXCEPTION⚠️
+        * attached | [named module](modules.md#module-declarations)
+          * | C++20
+    * function / its first declaration is declared 
+      * `constexpr` OR
+      * `consteval`
+        * | C++20 
+    * deleted function
+      * its (deleted) definition can appear | >=1 translation unit
+      * | C++11  
 
-  
-| [`goto`](goto.html "cpp/language/goto") \- [`return`](return.html "cpp/language/return")  
----  
-  
-[Functions](functions.html "cpp/language/functions")  
-[Function declaration](function.html "cpp/language/function")  
-[Lambda function expression](lambda.html "cpp/language/lambda")  
-**`inline` specifier**  
-[Dynamic exception specifications](except_spec.html "cpp/language/except spec") (until C++17*)  
-[`noexcept` specifier](noexcept_spec.html "cpp/language/noexcept spec") (C++11)  
-Exceptions  
-| [`throw`-expression](throw.html "cpp/language/throw")  
----  
-[`try` block](try.html "cpp/language/try")  
-  
-|   
-  
----  
-[`catch` handler](catch.html "cpp/language/catch")  
-  
-Namespaces  
-| [Namespace declaration](namespace.html "cpp/language/namespace")` `  
----  
-  
-| [Namespace aliases](namespace_alias.html "cpp/language/namespace alias")  
----  
-  
-Types  
-| [Fundamental types](types.html "cpp/language/types")  
----  
-[Enumeration types](enum.html "cpp/language/enum")  
-[Function types](function.html "cpp/language/function")  
-  
-| [Class/struct types](class.html "cpp/language/class")  
----  
-[Union types](union.html "cpp/language/union")  
-  
-  
-  
+* inline variable
+  * := variable / 
+    * `inline` specifier appears | variable's [decl-specifier-seq](declarations.md#specifiers)
+    * static storage duration (static class member OR namespace-scope variable) 
 
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[Declarations](declarations.html "cpp/language/declarations")
-
-| Overview  
----  
-[Declaration syntax](declarations.html "cpp/language/declarations")  
-[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
-[Declarator](declarations.html#Declarators "cpp/language/declarations")  
-[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
-Specifiers  
-[typedef](typedef.html "cpp/language/typedef")  
-**inline**  
-[virtual function specifier](virtual.html "cpp/language/virtual")  
-[explicit function specifier](explicit.html "cpp/language/explicit")  
-[friend](friend.html "cpp/language/friend")  
-[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
-[consteval](consteval.html "cpp/language/consteval")(C++20)  
-[constinit](constinit.html "cpp/language/constinit")(C++20)  
-[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
-[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
-[class/struct](class.html "cpp/language/class")  
-[union](union.html "cpp/language/union")  
-[enum](enum.html "cpp/language/enum")  
-[decltype](decltype.html "cpp/language/decltype")(C++11)  
-[auto](auto.html "cpp/language/auto")(C++11)  
-[alignas](alignas.html "cpp/language/alignas")(C++11)  
-[constvolatile](cv.html "cpp/language/cv")  
-[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
-[Elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-  
- 
-  
-  
-  
-
-
-The inline specifier, when used in a function's [decl-specifier-seq](declarations.html#Specifiers "cpp/language/declarations"), declares the function to be an _inline function_. 
-
-A function defined entirely inside a [class/struct/union definition](classes.html "cpp/language/classes"), whether it's a member function or a non-member friend function, is implicitly an inline function unless it is attached to a [named module](modules.html#Module_declarations "cpp/language/modules")(since C++20). 
-
-A function declared constexpr or consteval(since C++20) on its first declaration is implicitly an inline function. A deleted function is implicitly an inline function: its (deleted) definition can appear in more than one translation unit.  | (since C++11)  
----|---  
-The inline specifier, when used in a [decl-specifier-seq](declarations.html#Specifiers "cpp/language/declarations") of a variable with static storage duration (static class member or namespace-scope variable), declares the variable to be an _inline variable_. A static data member declared constexpr on its first declaration is implicitly an inline variable.  | (since C++17)  
+* implicit inline variable
+  * static data member /
+    * | first declaration, declared `constexpr`  
+  * | C++17  
   
 ## Contents
 
@@ -104,28 +37,20 @@ The inline specifier, when used in a [decl-specifier-seq](declarations.html#Spec
   * [5 Defect reports](inline.html#Defect_reports)
   * [6 See also](inline.html#See_also)
 
-  
----  
-  
 ### Explanation
 
-An inline function or inline variable(since C++17) has the following properties: 
+* inline function OR inline variable (| C++17) 's properties
+  * definition of the inline function OR variable(| C++17) MUST be reachable | translation unit | it is accessed 
+    * NOT NECESSARILY BEFORE the point of access 
+  * if it has [external linkage](storage_duration.md#external-linkage) 
+    * there may be [>1 definition](definition.md#one-definition-rule) of an inline function OR variable | program
+      * requirements
+        * 1 definition / EACH DIFFERENT translation unit
+        * ALL definitions are IDENTICAL 
+    * MUST be declared `inline` | every translation unit. 
+    * SAME address | every translation unit 
 
-  * The definition of an inline function or variable(since C++17) must be reachable in the translation unit where it is accessed (not necessarily before the point of access). 
-  * An inline function or variable(since C++17) with [external linkage](storage_duration.html#external_linkage "cpp/language/storage duration") (e.g. not declared static) has the following additional properties: 
-
-
-
-    
-
-  * There may be [more than one definition](definition.html#One_Definition_Rule "cpp/language/definition") of an inline function or variable(since C++17) in the program as long as each definition appears in a different translation unit and (for non-static inline functions and variables(since C++17)) all definitions are identical. For example, an inline function or an inline variable(since C++17) may be defined in a header file that is included in multiple source files. 
-  * It must be declared inline in every translation unit. 
-  * It has the same address in every translation unit. 
-
-
-
-In an inline function, 
-
+* | inline function,
   * Function-local static objects in all function definitions are shared across all translation units (they all refer to the same object defined in one translation unit). 
   * Types defined in all function definitions are also the same in all translation units. 
 
@@ -158,53 +83,10 @@ See [static data members](static.html "cpp/language/static") for additional rule
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_inline_variables`](../experimental/feature_test.html#cpp_inline_variables "cpp/feature test") | [`201606L`](../compiler_support/17.html#cpp_inline_variables_201606L "cpp/compiler support/17") | (C++17) | Inline variables   
-  
+
 ### Keywords
 
-[`inline`](../keyword/inline.html "cpp/keyword/inline")
-
-### Example
-
-Header "example.h": 
-    
-    
-    #ifndef EXAMPLE_H
-    #define EXAMPLE_H
-     
-    #include <atomic>
-     
-    // function included in multiple source files must be inline
-    inline int sum(int a, int b)
-    {
-        return a + b;
-    }
-     
-    // variable with external linkage included in multiple source files must be inline
-    inline [std::atomic](../atomic/atomic.html)<int> counter(0);
-     
-    #endif
-
-Source file #1: 
-    
-    
-    #include "example.h"
-     
-    int a()
-    {
-        ++counter;
-        return sum(1, 2);
-    }
-
-Source file #2: 
-    
-    
-    #include "example.h"
-     
-    int b()
-    {
-        ++counter;
-        return sum(3, 4);
-    }
+* [`inline`](../keyword/inline.md)
 
 ### Defect reports
 

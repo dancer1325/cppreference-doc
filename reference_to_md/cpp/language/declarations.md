@@ -224,7 +224,7 @@ contract-specs can only appear if declarator declares a function or function tem
       * [pack indexing specifier](pack_indexing.html "cpp/language/pack indexing")
         * requirements
           * C++26  
-  * previously declared class name (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")) 
+  * TODO: previously declared class name (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")) 
   * previously declared enum name (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")) 
   * previously declared [typedef-name](typedef.html "cpp/language/typedef") or [type alias](type_alias.html "cpp/language/type alias")(since C++11) (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")) 
   * template name with template arguments (optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers"), optionally using [template disambiguator](dependent_name.html "cpp/language/dependent name")) 
