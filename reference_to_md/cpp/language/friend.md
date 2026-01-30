@@ -1,4 +1,12 @@
-The friend declaration appears in a [class body](class.html "cpp/language/class") and grants a function or another class access to private and protected members of the class where the friend declaration appears. 
+* friend declaration
+  * uses 
+    * | [class body](class.md)
+  * allows
+    * granting access -- to -- class members private & protected 
+      * -> can modify them
+  * ALLOWED |
+    * function OR
+    * another class  
 
 ## Contents
 
@@ -13,31 +21,56 @@ The friend declaration appears in a [class body](class.html "cpp/language/class"
   * [9 Defect reports](friend.html#Defect_reports)
   * [10 References](friend.html#References)
   * [11 See also](friend.html#See_also)
-
-  
----  
   
 ### Syntax  
   
----  
-`**friend**` function-declaration |  (1)  |   
-`**friend**` function-definition |  (2)  |   
-`**friend**` elaborated-type-specifier `**;**` |  (3)  |  (until C++26)  
-`**friend**` simple-type-specifier `**;**` `**friend**` typename-specifier `**;**` |  (4)  |  (since C++11)  
-(until C++26)  
-`**friend**` friend-type-specifier-list `**;**` |  (5)  |  (since C++26)  
-  
-1,2) A function friend declaration.
+#### (1)
 
-3-5) A class friend declaration.
+* `friend function-declaration`
+  * [`function-declaration`](function.md)
+    * == function declaration
+  * function friend declaration
 
-function-declaration |  \-  |  a [function declaration](function.html "cpp/language/function")  
----|---|---  
-function-definition |  \-  |  a [function definition](function.html#Function_definition "cpp/language/function")  
-elaborated-type-specifier |  \-  |  an [elaborated type specifier](elaborated_type_specifier.html "cpp/language/elaborated type specifier")  
-simple-type-specifier |  \-  |  a [simple type specifier](declarations.html#Specifiers "cpp/language/declarations")  
-typename-specifier |  \-  |  the keyword typename followed by a qualified identifier or qualified [simple template identifier](templates.html#Template_identifiers "cpp/language/templates")  
-friend-type-specifier-list |  \-  |  a non-empty comma-separated list of simple-type-specifier, elaborated-type-specifier, and typename-specifier ﻿s, each specifier can be followed by an ellipsis (`...`)   
+#### (2)
+
+* `friend function-definition`
+  * [`function-definition`](function.md#function-definition)
+    * == function definition
+  * function friend definition
+
+#### (3)
+
+* `friend elaborated-type-specifier` 
+  * | C++26-
+  * [`elaborated-type-specifier`](elaborated_type_specifier.md)
+  * class friend declaration
+
+#### (4)
+
+* `friend simple-type-specifier`
+  * | C+11
+  * [`simple-type-specifier`](declarations.md#specifiers)
+  * class friend declaration
+* `friend typename-specifier`
+  * | C++26-
+  * `typename-specifier`
+    * == [`typename`](../keyword/typename.md) + qualified identifier OR qualified [simple template identifier](templates.md#template-identifiers)
+  * class friend declaration
+
+#### (5)
+
+* `friend friend-type-specifier-list`
+  * | C++26  
+  * `friend-type-specifier-list`
+    * non-empty
+    * comma-separated list of
+      * `simple-type-specifier` /
+        * can be followed -- by -- `...`
+      * `elaborated-type-specifier`
+        * can be followed -- by -- `...`
+      * `typename-specifier` 
+        * can be followed -- by -- `...`
+  * class friend declaration
   
 ### Description
 
@@ -361,63 +394,10 @@ A name first declared in a friend declaration within a class or class template `
 Feature-test macro | Value | Std | Feature   
 ---|---|---|---  
 [`__cpp_variadic_friend`](../experimental/feature_test.html#cpp_variadic_friend "cpp/feature test") | [`202403L`](../compiler_support/26.html#cpp_variadic_friend_202403L "cpp/compiler support/26") | (C++26) | Variadic friend declarations   
-  
+
 ### Keywords
 
-[`friend`](../keyword/friend.html "cpp/keyword/friend")
-
-### Example
-
-Stream insertion and extraction operators are often declared as non-member friends:
-
-Run this code
-    
-    
-    #include <iostream>
-    #include <sstream>
-     
-    class MyClass
-    {
-        int i;                   // friends have access to non-public, non-static
-        static inline int id{6}; // and static (possibly inline) members
-     
-        friend [std::ostream](../io/basic_ostream.html)& operator<<([std::ostream](../io/basic_ostream.html)& out, const MyClass&);
-        friend [std::istream](../io/basic_istream.html)& operator>>([std::istream](../io/basic_istream.html)& in, MyClass&);
-        friend void change_id(int);
-    public:
-        MyClass(int i = 0) : i(i) {}
-    };
-     
-    [std::ostream](../io/basic_ostream.html)& operator<<([std::ostream](../io/basic_ostream.html)& out, const MyClass& mc)
-    {
-        return out << "MyClass::id = " << MyClass::id << "; i = " << mc.i;
-    }
-     
-    [std::istream](../io/basic_istream.html)& operator>>([std::istream](../io/basic_istream.html)& in, MyClass& mc)
-    {
-        return in >> mc.i;
-    }
-     
-    void change_id(int id) { MyClass::id = id; }
-     
-    int main()
-    {
-        MyClass mc(7);
-        [std::cout](../io/cout.html) << mc << '\n';
-    //  mc.i = 333*2;  // error: i is a private member
-        [std::istringstream](../io/basic_istringstream.html)("100") >> mc;
-        [std::cout](../io/cout.html) << mc << '\n';
-    //  MyClass::id = 222*3;  // error: id is a private member
-        change_id(9);
-        [std::cout](../io/cout.html) << mc << '\n';
-    }
-
-Output: 
-    
-    
-    MyClass::id = 6; i = 7
-    MyClass::id = 6; i = 100
-    MyClass::id = 9; i = 100
+* [`friend`](../keyword/friend.md)
 
 ### Defect reports
 
