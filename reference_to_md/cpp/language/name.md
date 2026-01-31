@@ -197,33 +197,24 @@ Together with identifiers they are known as _unqualified identifier expressions_
   * defining OR redeclaring a PREVIOUSLY declared
     * [namespace member](namespace.md#Namespaces) OR
     * [class member](classes.md)
+
 * _qualified identifier expression_
-  * is an unqualified identifier expression prepended by a scope resolution operator ::, and optionally, a sequence of any of the following separated by scope resolution operators: 
+  * `optionalSequenceOfSeparatedByScopeResolutionOperators::unqualifiedIdentifierExpression`
+    * `optionalSequenceOfSeparatedByScopeResolutionOperators`
+      * ALLOWED ones
+        * namespace name
+        * class name;
+        * enumeration name;
+          * | C++11 
+        * [`decltype` specifier](decltype.md) / denote a class OR enumeration type
+          * | C++11
+        * [pack indexing specifier](pack_indexing.md#pack-indexing-specifier-) / denote a class OR enumeration type
+          * | C++26
+  * POSSIBLE to use
+    * keyword [`template`](../keyword/template.md)
+      * Reason:🧠disambiguate [dependent template names](dependent_name.md)🧠 
 
-        * a namespace name; 
-        * a class name; 
-
-
-
-  * an enumeration name; 
-  * [`decltype` specifier](decltype.md) denoting a class or enumeration type. 
-
-| (since C++11)  
----|---  
-  
-  * a [pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") denoting a class or enumeration type. 
-
-| (since C++26)  
----|---  
-  
-For example, the expression [std::string::npos](../string/basic_string/npos.html) is an expression that names the static member npos in the class string in namespace std. The expression ::tolower names the function tolower in the global namespace. The expression ::[std::cout](../io/cout.html) names the global variable cout in namespace std, which is a top-level namespace. The expression boost::signals2::connection names the type connection declared in namespace signals2, which is declared in namespace boost. 
-
-The keyword [`template`](../keyword/template.html "cpp/keyword/template") may appear in qualified identifiers as necessary to disambiguate [dependent template names](dependent_name.html "cpp/language/dependent name"). 
-
-See [qualified lookup](qualified_lookup.html "cpp/language/qualified lookup") for the details of the name lookup for qualified identifiers. 
-
-* `nested-name-specifier`
-  * == sequence of names & [`::`](punctuators.md) / MUST end with `::`
+* [name lookup](qualified_lookup.md)
 
 ### Implicit member access transformation
 

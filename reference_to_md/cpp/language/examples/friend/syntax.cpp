@@ -5,7 +5,7 @@
 // Friend: 5 Possible Syntaxes
 // ============================================
 
-// forward declarations for examples
+// forward declarations
 class Printer;
 class Logger;
 template<typename T> class Container;
@@ -40,13 +40,13 @@ class Box2
 public:
     Box2(int h) : height(h) {}
 
-    // friend function-definition (defined inside class body)
+    // friend function-definition (defined | class body)
     friend void display_box(const Box2& box)
     {
         std::cout << "Box height: " << box.height << std::endl;
     }
 
-    // Another friend function-definition
+    // another friend function-definition
     friend std::ostream& operator<<(std::ostream& os, const Box2& box)
     {
         os << "Box2{height=" << box.height << "}";

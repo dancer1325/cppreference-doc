@@ -1,59 +1,10 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-[Declarations](declarations.html "cpp/language/declarations")
-
-| Overview  
----  
-[Declaration syntax](declarations.html "cpp/language/declarations")  
-[_decl-specifier-seq_](declarations.html#Specifiers "cpp/language/declarations")  
-[Declarator](declarations.html#Declarators "cpp/language/declarations")  
-[Conflicting declarations](conflicting_declarations.html "cpp/language/conflicting declarations")  
-Specifiers  
-[typedef](typedef.html "cpp/language/typedef")  
-[inline](inline.html "cpp/language/inline")  
-[virtual function specifier](virtual.html "cpp/language/virtual")  
-[explicit function specifier](explicit.html "cpp/language/explicit")  
-[friend](friend.html "cpp/language/friend")  
-[constexpr](constexpr.html "cpp/language/constexpr")(C++11)  
-[consteval](consteval.html "cpp/language/consteval")(C++20)  
-[constinit](constinit.html "cpp/language/constinit")(C++20)  
-[Storage class specifiers](storage_duration.html "cpp/language/storage duration")  
-[Translation-unit-local](tu_local.html "cpp/language/tu local") (C++20)  
-[class/struct](class.html "cpp/language/class")  
-[union](union.html "cpp/language/union")  
-[enum](enum.html "cpp/language/enum")  
-[decltype](decltype.html "cpp/language/decltype")(C++11)  
-[auto](auto.html "cpp/language/auto")(C++11)  
-[alignas](alignas.html "cpp/language/alignas")(C++11)  
-[constvolatile](cv.html "cpp/language/cv")  
-[Pack indexing specifier](pack_indexing.html#Pack_indexing_specifier "cpp/language/pack indexing") (C++26)  
-**Elaborated type specifier**  
-[Attributes](attributes.html "cpp/language/attributes") (C++11)  
-  
- 
-  
-  
-  
-
-
-Elaborated type specifiers may be used to refer to a previously-declared class name (class, struct, or union) or to a previously-declared enum name even if the name was [hidden by a non-type declaration](lookup.html "cpp/language/lookup"). They may also be used to declare new class names. 
+* Elaborated type specifiers
+  * uses
+    * refer -- to a -- 
+      * PREVIOUSLY-declared class name (class, struct, or union)
+      * PREVIOUSLY-declared enum name
+        * EVEN if the name was [hidden -- by a -- non-type declaration](lookup.md)
+    * declare new class names 
 
 ## Contents
 
@@ -62,55 +13,72 @@ Elaborated type specifiers may be used to refer to a previously-declared class n
   * [3 Keywords](elaborated_type_specifier.html#Keywords)
   * [4 References](elaborated_type_specifier.html#References)
 
-  
----  
-  
 ### Syntax  
-  
----  
-class-key class-name |  (1)  |   
-`**enum**` enum-name |  (2)  |   
-class-key attr ﻿(optional) identifier `**;**` |  (3)  |   
-class-key |  \-  |  one of [class](../keyword/class.html "cpp/keyword/class"), [struct](../keyword/struct.html "cpp/keyword/struct"), [union](../keyword/union.html "cpp/keyword/union")  
----|---|---  
-class-name |  \-  |  the name of a previously-declared class type, optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers"), or an identifier not previously declared as a type name   
-enum-name |  \-  |  the name of a previously-declared enumeration type, optionally [qualified](name.html#Qualified_identifiers "cpp/language/identifiers")  
-attr |  \-  |  (since C++11) any number of [attributes](attributes.html "cpp/language/attributes")  
-  
-1) Elaborated type specifier for a class type.
 
-2) Elaborated type specifier for an enumeration type.
+* `class-key`
+  * one of
+    * [class](../keyword/class.md)
+    * [struct](../keyword/struct.md)
+    * [union](../keyword/union.md)
 
-3) A declaration that consists solely of an elaborated type specifier always declares a class type named by identifier in the [scope](scope.html "cpp/language/scope") that contains the declaration.
+* `class-name`
+  * one of
+    * name of a previously-declared class type /
+      * optionally [qualified](name.md#qualified-identifiers)
+    * identifier / NOT previously declared -- as a -- type name
+  * ALLOWED values
+    * simple identifier
+    * [qualified-id](name.md#qualified-identifiers)
+  * is looked up , depending on their appearance, -- via --
+    * [unqualified name lookup](unqualified_lookup.md) OR
+    * [qualified name lookup](qualified_lookup.md) 
+  * ❌NOT ALLOWED ❌
+    * non-type names
 
-[Opaque enum declaration](enum.html "cpp/language/enum") resembles form (3), but the enum type is a complete type after an opaque enum declaration. 
+* `enum-name`
+  * name of a previously-declared enumeration type /
+    * optionally [qualified](name.md#qualified-identifiers)
+  * ALLOWED values
+    * simple identifier
+    * [qualified-id](name.md#qualified-identifiers)
+  * is looked up , depending on their appearance, -- via --
+    * [unqualified name lookup](unqualified_lookup.md) OR
+    * [qualified name lookup](qualified_lookup.md)
+  * ❌NOT ALLOWED ❌
+    * non-type names
+
+* `attr`
+  * | C++11
+  * any number of [attributes](attributes.md)
+
+#### (1)
+
+* `class-key class-name`       
+  * elaborated type specifier -- for a -- class type    
+
+#### (2)
+
+* `enum enum-name`
+  * elaborated type specifier -- for an -- enumeration type
+
+#### (3)
+
+* `class-key attr identifier`
+  * `attr`
+    * OPTIONAL
+  * declaration / consists SOLELY of an elaborated type specifier -> ALWAYS declares a class type / named by identifier in the [scope](scope.md) / contains the declaration
+  * vs [Opaque enum declaration](enum.md)
+    * enum type / AFTER opaque enum declaration: complete type  
+  * special case / named -- as -- [_forward declaration_ of classes](class.md#forward-declaration)
 
 ### Explanation
-
-Form (3) is a special case of elaborated type specifier, usually referred to as _forward declaration_ of classes, for the description of form (3), see [Forward declaration](class.html#Forward_declaration "cpp/language/class"). The following only apply to form (1) and (2). 
-
-The class-name or enum-name in the elaborated type specifier may either be a simple identifier or be a [qualified-id](name.html#Qualified_identifiers "cpp/language/identifiers"). The name is looked up using [unqualified name lookup](unqualified_lookup.html "cpp/language/unqualified lookup") or [qualified name lookup](qualified_lookup.html "cpp/language/qualified lookup"), depending on their appearance. But in either case, non-type names are not considered. 
     
-    
-    class T
-    {
-    public:
-        class U;
-    private:
-        int U;
-    };
-     
-    int main()
-    {
-        int T;
-        T t; // error: the local variable T is found
-        class T t; // OK: finds ::T, the local variable T is ignored
-        T::U* u; // error: lookup of T::U finds the private data member
-        class T::U* u; // OK: the data member is ignored
-    }
 
-If the name lookup does not find a previously declared type name, the elaborated-type-specifier is introduced by `**class**`, `**struct**`, or `**union**` (i.e. not by `**enum**`), and class-name is an unqualified identifier, then the elaborated-type-specifier is a class declaration of the class-name, and the target scope is the nearest enclosing namespace or block scope. 
-    
+TODO: 
+If the name lookup does not find a previously declared type name, 
+the elaborated-type-specifier is introduced by `**class**`, `**struct**`, or `**union**` (i.e. not by `**enum**`), and 
+class-name is an unqualified identifier, then the elaborated-type-specifier is a class declaration of the class-name, and
+the target scope is the nearest enclosing namespace or block scope.  
     
     template<typename T>
     struct Node
@@ -124,7 +92,13 @@ If the name lookup does not find a previously declared type name, the elaborated
      
     Data* p; // OK: struct Data has been declared
 
-If the name refers to a [typedef name](typedef.html "cpp/language/typedef"), a [type alias](type_alias.html "cpp/language/type alias"), a [template type parameter](template_parameters.html#Type_template_parameter "cpp/language/template parameters"), or an [alias template specialization](type_alias.html "cpp/language/type alias"), the program is ill-formed, otherwise the elaborated type specifier introduces the name into the declaration the same way a [simple type specifier](declarations.html#Specifiers "cpp/language/declarations") introduces its type-name. 
+If the name refers to a [typedef name](typedef.html "cpp/language/typedef"), 
+a [type alias](type_alias.html "cpp/language/type alias"), 
+a [template type parameter](template_parameters.html#Type_template_parameter "cpp/language/template parameters"), or
+an [alias template specialization](type_alias.html "cpp/language/type alias"), 
+the program is ill-formed, 
+otherwise the elaborated type specifier introduces the name into the declaration the same way a [simple type specifier](declarations.html#Specifiers "cpp/language/declarations") 
+introduces its type-name. 
     
     
     template<typename T>
@@ -147,10 +121,7 @@ The class-key or `**enum**` keyword present in the elaborated-type-specifier mus
 
   * the `**enum**` keyword must be used to refer to an [enumeration type](enum.html "cpp/language/enum") (whether scoped or unscoped) 
   * the `**union**` class-key must be used to refer to a [union](union.html "cpp/language/union")
-  * either the `**class**` or `**struct**` class-key must be used to refer to a non-union class type (the keywords `**class**` and `**struct**` are interchangeable here). 
-
-
-    
+  * either the `**class**` or `**struct**` class-key must be used to refer to a non-union class type (the keywords `**class**` and `**struct**` are interchangeable here).
     
     enum class E { a, b };
     enum E x = E::a; // OK
@@ -159,11 +130,15 @@ The class-key or `**enum**` keyword present in the elaborated-type-specifier mus
     struct A {};
     class A a; // OK
 
-When used as a [template argument](template_parameters.html#Template_arguments "cpp/language/template parameters"), class T is a type template parameter named `T`, not an unnamed constant parameter whose type `T` is introduced by elaborated type specifier. 
+When used as a [template argument](template_parameters.html#Template_arguments "cpp/language/template parameters"), class T is a type template parameter named `T`,
+not an unnamed constant parameter whose type `T` is introduced by elaborated type specifier. 
 
 ### Keywords
 
-[`class`](../keyword/class.html "cpp/keyword/class"), [`struct`](../keyword/struct.html "cpp/keyword/struct"), [`union`](../keyword/union.html "cpp/keyword/union"), [`enum`](../keyword/enum.html "cpp/keyword/enum")
+* [`class`](../keyword/class.md)
+* [`struct`](../keyword/struct.md)
+* [`union`](../keyword/union.md)
+* [`enum`](../keyword/enum.md)
 
 ### References
 

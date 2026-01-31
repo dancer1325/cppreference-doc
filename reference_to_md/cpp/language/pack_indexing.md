@@ -1,62 +1,5 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-
-  
- 
-  
-  
-  
-
-
-  
-  
-
-  
-  
-
-
-[ Templates](templates.html "cpp/language/templates")
-
-[Template parameters](template_parameters.html "cpp/language/template parameters")  
----  
-[Template arguments](template_arguments.html "cpp/language/template arguments")  
-[Class templates](class_template.html "cpp/language/class template")  
-[Function templates](function_template.html "cpp/language/function template")  
-[Class member templates](member_template.html "cpp/language/member template")  
-[Variable templates](variable_template.html "cpp/language/variable template") (C++14)  
-[Template argument deduction](template_argument_deduction.html "cpp/language/template argument deduction")  
-[Class template argument deduction](ctad.html "cpp/language/class template argument deduction") (C++17)  
-[Explicit (full) specialization](template_specialization.html "cpp/language/template specialization")  
-[Partial specialization](partial_specialization.html "cpp/language/partial specialization")  
-[Dependent names](dependent_name.html "cpp/language/dependent name")  
-[Packs](parameter_pack.html "cpp/language/pack") (C++11)  
-[sizeof...](sizeof....html "cpp/language/sizeof...") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-**Pack indexing** (C++26)  
-[SFINAE](sfinae.html "cpp/language/sfinae")  
-[Constraints and concepts](constraints.html "cpp/language/constraints") (C++20)  
-[requires expression](requires.html "cpp/language/requires") (C++20)  
-  
-
-
-Accesses the element of a [pack](parameter_pack.html "cpp/language/pack") at a specified index. 
+* allows
+  * accesses a [pack](parameter_pack.md)'s element | specified index
 
 ## Contents
 
@@ -67,27 +10,31 @@ Accesses the element of a [pack](parameter_pack.html "cpp/language/pack") at a s
   * [5 Notes](pack_indexing.html#Notes)
   * [6 Example](pack_indexing.html#Example)
 
-  
----  
-  
 ### Syntax  
   
----  
-id-expression `**...[**` expression `**]**` |  (1)  |   
-typedef-name `**...[**` expression `**]**` |  (2)  |   
-  
-1) Pack indexing expression
+* `expression`
+  * [converted constant expression](constant_expression.md) `I` / 
+    * type [std::size_t](../types/size_t.md) designated -- as -- index 
+    * I is | `[0, sizeof...(P))` / some pack P in pack indexing
 
-2) Pack indexing specifier
+#### (1)
 
-typedef-name |  \-  |  an [identifier](name.html "cpp/language/identifiers") or a [simple-template-id](templates.html#template-id "cpp/language/templates") that names a pack   
----|---|---  
-id-expression |  \-  |  an [id-expression](expressions.html#Primary_expressions "cpp/language/expressions") that names a pack   
-expression |  \-  |  a [converted constant expression](constant_expression.html "cpp/language/constant expression") I of type [std::size_t](../types/size_t.html) designated as index where I is within the range `[`​0​`, `sizeof...(P)`)` for some pack P in pack indexing   
+* `id-expression ...[ expression ]`
+  * Pack indexing expression
+  * `id-expression`
+    * == [id-expression](expressions.md#primary-expressions) / names a pack 
+
+#### (2)
+
+* `typedef-name ...[ expression ]`
+  * Pack indexing specifier
+  * `typedef-name`
+    * == [identifier](name.md) OR [simple-template-id](templates.md#template-identifiers) / names a pack    
   
 ### Explanation
 
-Pack indexing is a _pack expansion_ of the unexpanded pack followed by an ellipsis and index inside the subscript. There are two kinds of pack indexing: pack indexing expression and pack indexing specifier. 
+Pack indexing is a _pack expansion_ of the unexpanded pack followed by an ellipsis and index inside the subscript
+* There are two kinds of pack indexing: pack indexing expression and pack indexing specifier. 
 
 Let `P` be a non-empty pack containing `P0, P1, ..., Pn-1` and `I` be a valid index, the instantiation of the expansion `P...[I]` yields the pack element `PI` of `P`. 
 
@@ -280,32 +227,8 @@ Feature-test macro | Value | Std | Feature
 ---|---|---|---  
 [`__cpp_pack_indexing`](../experimental/feature_test.html#cpp_pack_indexing "cpp/feature test") | [`202311L`](../compiler_support/26.html#cpp_pack_indexing_202311L "cpp/compiler support/26") | (C++26) | [Pack indexing](pack_indexing.html#top)  
   
-### Example
 
-Run this code
-    
-    
-    #include <tuple>
-     
-    template <[std::size_t](../types/size_t.html)... Indices, typename Decomposable>
-    constexpr auto splice(Decomposable d)
-    {
-        auto [...elems] = d;
-        return [std::make_tuple](../utility/tuple/make_tuple.html)(elems...[Indices]...);
-    }
-     
-    struct Point
-    {
-        int x;
-        int y;
-        int z;
-    };
-     
-    int main() 
-    {
-        constexpr Point p { .x = 1, .y = 4, .z = 3 };
-        static_assert(splice<2, 1, 0>(p) == [std::make_tuple](../utility/tuple/make_tuple.html)(3, 4, 1));
-        static_assert(splice<1, 1, 0, 0>(p) == [std::make_tuple](../utility/tuple/make_tuple.html)(4, 4, 1, 1));
-    }
-  *[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
-  *[Std]: Standard in which the feature is introduced; DR means defect report against that revision
+
+
+*[Value]: The year/month in which the feature was adopted. The hyperlink under each value opens a compiler support page with entry for given feature.
+*[Std]: Standard in which the feature is introduced; DR means defect report against that revision

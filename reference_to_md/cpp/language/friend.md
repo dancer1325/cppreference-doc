@@ -23,7 +23,7 @@
   * [11 See also](friend.html#See_also)
   
 ### Syntax  
-  
+
 #### (1)
 
 * `friend function-declaration`

@@ -48,6 +48,8 @@ rather than an ellipsis being a parameter alone
   * == form of [declarator](declarations.md)
   * syntax
     * `pack-name ... pack-param-name` 
+      * `pack-param-name`
+        * OPTIONAL
   * uses
     * variadic function template' parameterS 
 
@@ -98,25 +100,11 @@ A template with at least one parameter pack is called a _variadic template_.
   * [7 Defect reports](parameter_pack.html#Defect_reports)
   * [8 See also](parameter_pack.html#See_also)
 
-
-### Syntax
-
-Pack expansion (appears in a body of a template)   
+### General Syntax 
   
-
-pattern `**...**` |  (6)  |   
-  
-
-
-
-
-
-  
-
-
-5) A function parameter pack with an optional name
-
-6) Pack expansion: expands to a list of zero or more `pattern`s. The pattern must include at least one pack.
+* `pattern ...`
+  * expands -- to a -- list of >= 0 `pattern`s / 
+    * pattern MUST include > 1 pack
 
 ### Explanation
 
