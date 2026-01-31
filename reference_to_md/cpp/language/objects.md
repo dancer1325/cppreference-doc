@@ -4,7 +4,7 @@
     * destroy,
     * refer to,
     * access,
-    * and manipulate  
+    * manipulate  
 
 * object's
   * size
@@ -12,14 +12,32 @@
   * alignment requirement
     * can be determined -- via -- [`alignof`](alignof.md) 
   * [storage duration](storage_duration.md) (automatic, static, dynamic, thread-local); 
-  * [lifetime](lifetime.html "cpp/language/lifetime") (bounded by storage duration or temporary); 
-  * [type](type-id.html "cpp/language/type"); 
-  * value (which may be indeterminate, e.g. for [default-initialized](default_initialization.html "cpp/language/default initialization") non-class types); 
-  * optionally, a [name](name.html "cpp/language/name"). 
+  * [lifetime](lifetime.md) (bounded by storage duration or temporary); 
+  * [type](type-id.md); 
+  * value
+    * may be indeterminate
+      * _Example:_ [default-initialized](default_initialization.md) non-class types 
+  * [name](name.md)
+    * OPTIONAL  
 
-The following entities are not objects: value, reference, function, enumerator, type, non-static class member, template, class or function template specialization, namespace, parameter pack, and this. 
+* C++ entities /
+  * ❌are NOT objects❌
+    * value
+    * reference
+    * function
+    * enumerator
+    * type
+    * non-static class member
+    * template
+    * class or function template specialization
+    * namespace
+    * parameter pack
+    * this
 
-A _variable_ is an object or a reference that is not a non-static data member, that is introduced by a [declaration](declarations.html "cpp/language/declarations"). 
+* _variable_
+  * == object OR reference /
+    * != non-static data member
+    * introduced -- by a -- [declaration](declarations.md) 
 
 ## Contents
 

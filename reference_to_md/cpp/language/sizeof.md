@@ -1,62 +1,9 @@
-
-
-  
-  
-  
-  
-  
-
-  
-  
-  
-
----  
-  
-
----  
-  
-
-
-  
-  
-Operators  
-| [Assignment operators](operator_assignment.html "cpp/language/operator assignment")  
----  
-[Increment and decrement](operator_incdec.html "cpp/language/operator incdec")  
-[Arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic")  
-[Logical operators](operator_logical.html "cpp/language/operator logical")  
-[Comparison operators](operator_comparison.html "cpp/language/operator comparison")  
-[Member access operators](operator_member_access.html "cpp/language/operator member access")  
-[Other operators](operator_other.html "cpp/language/operator other")  
-[`new`-expression](new.html "cpp/language/new")  
-[`delete`-expression](delete.html "cpp/language/delete")  
-[`throw`-expression](throw.html "cpp/language/throw")  
-  
-| [`alignof`](alignof.html "cpp/language/alignof")  
----  
-**`sizeof`**  
-[`sizeof...`](sizeof....html "cpp/language/sizeof...") (C++11)  
-[`typeid`](typeid.html "cpp/language/typeid")  
-[`noexcept`](noexcept.html "cpp/language/noexcept") (C++11)  
-[Fold expressions](fold.html "cpp/language/fold") (C++17)  
-[Alternative representations of operators](operator_alternative.html "cpp/language/operator alternative")  
-[Precedence and associativity](operator_precedence.html "cpp/language/operator precedence")  
-[Operator overloading](operators.html "cpp/language/operators")  
-[Default comparisons](default_comparisons.html "cpp/language/default comparisons") (C++20)  
-  
-Conversions  
-| [Implicit conversions](implicit_cast.html "cpp/language/implicit conversion")  
----  
-[Explicit conversions](explicit_cast.html "cpp/language/explicit cast")  
-[Usual arithmetic conversions](usual_arithmetic_conversions.html "cpp/language/usual arithmetic conversions")  
-[User-defined conversion](cast_operator.html "cpp/language/cast operator")  
-  
-  
-
-
-Queries size of the object or type. 
-
-Used when actual size of the object must be known. 
+* allows
+  * query
+    * object's size
+    * type's size 
+* uses
+  * know the object's actual size  
 
 ## Contents
 
@@ -67,24 +14,28 @@ Used when actual size of the object must be known.
   * [5 Defect reports](sizeof.html#Defect_reports)
   * [6 See also](sizeof.html#See_also)
 
-  
----  
-  
 ### Syntax  
   
----  
-`**sizeof(**` type `**)**` |  (1)  |   
-`**sizeof**` expression `` |  (2)  |   
-  
-1) Yields the size in bytes of the [object representation](objects.html "cpp/language/object") of type.
+#### (1)
 
-2) Yields the size in bytes of the object representation of the type of expression, if that expression is evaluated.
+* `sizeof( type )`
+  * `type`  
+    * == [`type-id`](incomplete_type.md#type-naming)
+  * 's output
+    * [type's object representation](objects.md)'s size / 
+      * | bytes
 
-type |  \-  |  a type-id (see [type naming](type-id.html#Type_naming "cpp/language/type"))   
----|---|---  
-expression |  \-  |  an expression whose [operator precedence](operator_precedence.html "cpp/language/operator precedence") is not lower than `sizeof` (e.g. sizeof a + b is parsed as (sizeof a) + b instead of sizeof (a + b))   
-  
-The result of a `sizeof` expression is a [constant expression](constant_expression.html "cpp/language/constant expression") of type [std::size_t](../types/size_t.html "cpp/types/size t"). 
+#### (2)
+   
+* `sizeof expression`
+  * `expression`
+    * == expression whose [operator precedence](operator_precedence.html "cpp/language/operator precedence") is not lower than `sizeof`
+      (e.g. sizeof a + b is parsed as (sizeof a) + b instead of sizeof (a + b))
+  * 's output
+    * == [constant expression](constant_expression.md) /
+      * type [std::size_t](../types/size_t.md)
+    * | evaluate the expression, expression's type's object representation/ 
+      * | bytes
 
 ### Notes
 
@@ -119,90 +70,7 @@ When applied to an expression, `sizeof` does [not evaluate the expression](expre
 
 ### Keywords
 
-[`sizeof`](../keyword/sizeof.html "cpp/keyword/sizeof")
-
-### Example
-
-The example output corresponds to a system with 64-bit pointers and 32-bit int (a.k.a. [**LP64** or **LLP64**](types.html#Data_models "cpp/language/types")).
-
-Run this code
-    
-    
-    #include <cstdlib>
-    #include <iostream>
-     
-    struct Empty          { };
-    struct Base           { int a; };
-    struct Derived : Base { int b; };
-    struct Bit            { unsigned bit: 1; };
-    struct CharChar       { char c; char c2; };
-    struct CharCharInt    { char c; char c2; int i; };
-    struct IntCharChar    { int i;  char c;  char c2; };
-    struct CharIntChar    { char c; int i;   char c2; };
-    struct CharShortChar  { char c; short s; char c2; };
-     
-    int main()
-    {
-        Empty e;
-        Derived d;
-        Base& b = d;
-        [[maybe_unused]] Bit bit;
-        int a[10];
-     
-        auto f = [&]() { return sizeof(int[10]) == sizeof a ? throw 1 : e; };
-    //  f(); // the return type is Empty, but always throws 1
-     
-        auto println = [](auto rem, [std::size_t](../types/size_t.html) size) { [std::cout](../io/cout.html) << rem << size << '\n'; };
-     
-        println( "1) sizeof empty class:              ", sizeof e                     );
-        println( "2) sizeof pointer:                  ", sizeof &e                    );
-        println( "3) sizeof(Bit) class:               ", sizeof(Bit)                  );
-        println( "4) sizeof(int[10]) array of 10 int: ", sizeof(int[10])              );
-        println( "5) sizeof a        array of 10 int: ", sizeof a                     );
-        println( "6) length of array of 10 int:       ", ((sizeof a) / (sizeof *a))   );
-        println( "7) length of array of 10 int (2):   ", ((sizeof a) / (sizeof a[0])) );
-        println( "8) sizeof the Derived class:        ", sizeof d                     );
-        println( "9) sizeof the Derived through Base: ", sizeof b                     );
-        println( "A) sizeof(unsigned):                ", sizeof(unsigned)             );
-        println( "B) sizeof(int):                     ", sizeof(int)                  );
-        println( "C) sizeof(short):                   ", sizeof(short)                );
-        println( "D) sizeof(char):                    ", sizeof(char)                 );
-        println( "E) sizeof(CharChar):                ", sizeof(CharChar)             );
-        println( "F) sizeof(CharCharInt):             ", sizeof(CharCharInt)          );
-        println( "G) sizeof(IntCharChar):             ", sizeof(IntCharChar)          );
-        println( "H) sizeof(CharIntChar):             ", sizeof(CharIntChar)          );
-        println( "I) sizeof(CharShortChar):           ", sizeof(CharShortChar)        );
-        println( "J) sizeof f():                      ", sizeof f()                   );
-        println( "K) sizeof Base::a:                  ", sizeof Base::a               );
-     
-    //  println( "sizeof function:        ", sizeof(void()) ); // error
-    //  println( "sizeof incomplete type: ", sizeof(int[])  ); // error
-    //  println( "sizeof bit-field:       ", sizeof bit.bit ); // error
-    }
-
-Possible output: 
-    
-    
-    1) sizeof empty class:              1
-    2) sizeof pointer:                  8
-    3) sizeof(Bit) class:               4
-    4) sizeof(int[10]) array of 10 int: 40
-    5) sizeof a        array of 10 int: 40
-    6) length of array of 10 int:       10
-    7) length of array of 10 int (2):   10
-    8) sizeof the Derived class:        8
-    9) sizeof the Derived through Base: 4
-    A) sizeof(unsigned):                4
-    B) sizeof(int):                     4
-    C) sizeof(short):                   2
-    D) sizeof(char):                    1
-    E) sizeof(CharChar):                2
-    F) sizeof(CharCharInt):             8
-    G) sizeof(IntCharChar):             8
-    H) sizeof(CharIntChar):             12
-    I) sizeof(CharShortChar):           6
-    J) sizeof f():                      1
-    K) sizeof Base::a:                  4
+* [`sizeof`](../keyword/sizeof.md)
 
 ### Defect reports
 

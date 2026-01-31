@@ -48,118 +48,131 @@
 
 ###  `std::nullptr_t`
 
-|  Defined in header `[<cstddef>](../header/cstddef.html "cpp/header/cstddef")` |  |   
----|---|---  
-typedef decltype(nullptr) nullptr_t; |  |  (since C++11)  
-| |   
+* defined | header [`<cstddef>`](../header/cstddef.md)   
+
+* `typedef decltype(nullptr) nullptr_t;`
+  * | C++11
   
-[std::nullptr_t](../types/nullptr_t.html "cpp/types/nullptr t") is the type of the null pointer literal, [`nullptr`](nullptr.html "cpp/language/nullptr"). It is a distinct type that is not itself a pointer type or a pointer to member type. All Its prvalues are [null pointer constants](pointer.html#Null_pointers "cpp/language/pointer"). 
+* [std::nullptr_t](../types/nullptr_t.md)
+  * == type of [`nullptr`](nullptr.md)
+  * != itself a
+    * pointer type 
+    * pointer to member type
+  * 's prvalues: [null pointer constants](pointer.md#null-pointers) 
 
-sizeof([std::nullptr_t](../types/nullptr_t.html)) is equal to sizeof(void*). 
-
-(since C++11)  
+* `sizeof(std::nullptr_t)`
+  * == `sizeof(void*)`
   
 ### Integral types
 
 #### Standard integer types
 
-    int — basic integer type. The keyword int may be omitted if any of the modifiers listed below are used. If no length modifiers are present, it's guaranteed to have a width of at least 16 bits. However, on 32/64 bit systems it is almost exclusively guaranteed to have width of at least 32 bits (see below). 
+* `int`
+  * 👀basic integer type👀
+    * == basic/fundamental integer type
+  * keyword `int`
+    * 👀if you use some [modifier](#modifiers) -> `int` may be omitted👀
+  * if there is NO size modifiers -> 's width >= 16 bits
+    * | 32/64 bit systems, 's width >= 32 bits 
 
 ##### Modifiers
 
-Modifies the basic integer type. Can be mixed in any order. Only one of each group can be present in type name. 
-
-  * Signedness: 
-
-
-
-    signed — target type will have signed representation (this is the default if omitted) 
-    unsigned — target type will have unsigned representation 
-
-  * Size: 
-
-
-
-    short — target type will be optimized for space and will have width of at least 16 bits. 
-    long — target type will have width of at least 32 bits. 
-
-    long long — target type will have width of at least 64 bits. 
-| (since C++11)  
----|---  
-  
-Note: as with all type specifiers, any order is permitted: unsigned long long int and long int unsigned long name the same type. 
+* allows
+  * modify `int`
+* ALLOWED ANY order
+* 1 of EACH group | type name
+* built-in groups
+  * Signedness
+    * `signed`
+      * default one
+      * target type have signed representation 
+    * `unsigned`
+      * target type have unsigned representation 
+  * Size
+    * `short`
+      * target type 
+        * is optimized for space
+        * 's width >= 16 bits
+    * `long`
+      * target type's width >= 32 bits
+    * `long long`
+      * target type's width >= 64 bits
+      * | C++11 
 
 ##### Properties
 
-The following table summarizes all available standard integer types and their properties in various common data models: 
+* TODO: The following table summarizes all available standard integer types and their properties in various common data models:
 
-Type specifier  | Equivalent type  | Width in bits by [data model](types.html#Data_models)  
----|---|---  
-C++ standard  |  LP32  |  ILP32  |  LLP64  |  LP64   
-signed char | signed char | at least  
-**8** | **8** | **8** | **8** | **8**  
-unsigned char | unsigned char  
-short | short int | at least  
-**16** | **16** | **16** | **16** | **16**  
-short int  
-signed short  
-signed short int  
-unsigned short | unsigned short int  
-unsigned short int  
-int | int | at least  
-**16** | **16** | **32** | **32** | **32**  
-signed  
-signed int  
-unsigned | unsigned int  
-unsigned int  
-long | long int | at least  
-**32** | **32** | **32** | **32** | **64**  
-long int  
-signed long  
-signed long int  
-unsigned long | unsigned long int  
-unsigned long int  
-long long | long long int  
-(C++11) | at least  
-**64** | **64** | **64** | **64** | **64**  
-long long int  
-signed long long  
-signed long long int  
-unsigned long long | unsigned long long int  
-(C++11)  
-unsigned long long int  
+| Type specifier(s) | Equivalent type | C++ standard<br>(minimum width) | Width in bits by [data model](types.html#Data_models) |||||
+|-------------------|-----------------|--------------------------------|--------|-------|--------|-------|-------|
+|                   |                 |                                | **LP32** | **ILP32** | **LLP64** | **LP64** |
+| `signed char` | `signed char` | at least **8** | **8** | **8** | **8** | **8** |
+| `unsigned char` | `unsigned char` | at least **8** | **8** | **8** | **8** | **8** |
+| `short`<br>`short int`<br>`signed short`<br>`signed short int` | `short int` | at least **16** | **16** | **16** | **16** | **16** |
+| `unsigned short`<br>`unsigned short int` | `unsigned short int` | at least **16** | **16** | **16** | **16** | **16** |
+| `int`<br>`signed`<br>`signed int` | `int` | at least **16** | **16** | **32** | **32** | **32** |
+| `unsigned`<br>`unsigned int` | `unsigned int` | at least **16** | **16** | **32** | **32** | **32** |
+| `long`<br>`long int`<br>`signed long`<br>`signed long int` | `long int` | at least **32** | **32** | **32** | **32** | **64** |
+| `unsigned long`<br>`unsigned long int` | `unsigned long int` | at least **32** | **32** | **32** | **32** | **64** |
+| `long long` (C++11)<br>`long long int`<br>`signed long long`<br>`signed long long int` | `long long int` | at least **64** | **64** | **64** | **64** | **64** |
+| `unsigned long long` (C++11)<br>`unsigned long long int` | `unsigned long long int` | at least **64** | **64** | **64** | **64** | **64** |  
   
 Note: integer arithmetic is defined differently for the signed and unsigned integer types. See [arithmetic operators](operator_arithmetic.html "cpp/language/operator arithmetic"), in particular [integer overflows](operator_arithmetic.html#Overflows "cpp/language/operator arithmetic"). 
 
 [std::size_t](../types/size_t.html "cpp/types/size t") is the unsigned integer type of the result of the [`sizeof`](sizeof.html "cpp/language/sizeof") operator as well as the [`sizeof...`](sizeof....html "cpp/language/sizeof...") operator and the [`alignof`](alignof.html "cpp/language/alignof") operator(since C++11). 
 
-####  Extended integer types
+#### Extended integer types
 
-The extended integer types are implementation-defined. Note that [fixed width integer types](../types/integer.html "cpp/types/integer") are typically aliases of the standard integer types.  | (since C++11)  
----|---  
+* implementation-defined
+* [fixed width integer types](../types/integer.md) 
+  * == aliases of the standard integer types
+  * | C++11   
   
-#### Boolean type
+#### Boolean type -- `bool` --
 
-    bool — integer type, capable of holding one of the two values: [`true`](bool_literal.html "cpp/language/bool literal") or [`false`](bool_literal.html "cpp/language/bool literal"). The value of sizeof(bool) is implementation defined and might differ from 1. 
+* == integer type /
+  * ALLOWED values
+    * [`true`](bool_literal.md)
+    * [`false`](bool_literal.md)
+  * `sizeof(bool)`
+    * 's value is implementation-defined 
 
 #### Character types
 
-Character types are integer types used for a character representation. 
-
-    signed char — type for signed character representation. 
-    unsigned char — type for unsigned character representation. Also used to inspect [object representations](objects.html "cpp/language/object") (raw memory). 
-    char — type for character representation which can be most efficiently processed on the target system (has the same representation and alignment as either signed char or unsigned char, but is always a distinct type). [Multibyte characters strings](../string/multibyte.html "cpp/string/multibyte") use this type to represent code units. For every value of type unsigned char in range `[`​0​`, `255`]`, converting the value to char and then back to unsigned char produces the original value.(since C++11) The signedness of char depends on the compiler and the target platform: the defaults for ARM and PowerPC are typically unsigned, the defaults for x86 and x64 are typically signed. 
-    wchar_t — type for wide character representation (see [wide strings](../string/wide.html "cpp/string/wide")). It has the same size, signedness, and alignment as one of the integer types, but is a distinct type. In practice, it is 32 bits and holds UTF-32 on Linux and many other non-Windows systems, but 16 bits and holds UTF-16 code units on Windows. The standard used to require wchar_t to be large enough to represent any supported character code point. However, such requirement cannot be fulfilled on Windows, and thus it is considered as a [defect](types.html#Defect_reports) and removed. 
-
-    char16_t — type for UTF-16 character representation, required to be large enough to represent any UTF-16 code unit (16 bits). It has the same size, signedness, and alignment as [std::uint_least16_t](../types/integer.html "cpp/types/integer"), but is a distinct type. 
-
-    char32_t — type for UTF-32 character representation, required to be large enough to represent any UTF-32 code unit (32 bits). It has the same size, signedness, and alignment as [std::uint_least32_t](../types/integer.html "cpp/types/integer"), but is a distinct type. 
-| (since C++11)  
----|---  
-  
-    char8_t — type for UTF-8 character representation, required to be large enough to represent any UTF-8 code unit (8 bits). It has the same size, signedness, and alignment as unsigned char (and therefore, the same size and alignment as char and signed char), but is a distinct type. 
-| (since C++20)  
----|---  
+* == integer types /
+  * uses
+    * character representation 
+  * `signed char`
+    * type for signed character representation
+  * `unsigned char`
+    * type for unsigned character representation
+    * Also used to inspect [object representations](objects.html "cpp/language/object") (raw memory)
+  * `char`
+    * type for character representation which can be most efficiently processed on the target system (has the same representation and alignment as either signed char or unsigned char, but is always a distinct type)
+    * [Multibyte characters strings](../string/multibyte.html "cpp/string/multibyte") use this type to represent code units
+    * For every value of type unsigned char in range `[`​0​`, `255`]`, converting the value to char and then back to unsigned char produces the original value
+      * | C++11
+    * The signedness of char depends on the compiler and the target platform:
+      * the defaults for ARM and PowerPC are typically unsigned, 
+      * the defaults for x86 and x64 are typically signed. 
+  * `wchar_t`
+    * type for wide character representation (see [wide strings](../string/wide.html "cpp/string/wide"))
+    * It has the same size, signedness, and alignment as one of the integer types, but is a distinct type
+    * In practice, it is 32 bits and holds UTF-32 on Linux and many other non-Windows systems, but 16 bits and holds UTF-16 code units on Windows
+    * The standard used to require wchar_t to be large enough to represent any supported character code point
+    * However, such requirement cannot be fulfilled on Windows, and thus it is considered as a [defect](types.html#Defect_reports) and removed
+  * `char16_t`
+    * type for UTF-16 character representation, required to be large enough to represent any UTF-16 code unit (16 bits)
+    * It has the same size, signedness, and alignment as [std::uint_least16_t](../types/integer.html "cpp/types/integer"), but is a distinct type
+    * | C++11
+  * `char32_t`
+    * type for UTF-32 character representation, required to be large enough to represent any UTF-32 code unit (32 bits)
+    * It has the same size, signedness, and alignment as [std::uint_least32_t](../types/integer.html "cpp/types/integer"), but is a distinct type
+    * | C++11
+  * `char8_t`
+    * type for UTF-8 character representation, required to be large enough to represent any UTF-8 code unit (8 bits)
+    * It has the same size, signedness, and alignment as unsigned char (and therefore, the same size and alignment as char and signed char), but is a distinct type
+    * | C++20   
   
 Besides the minimal bit counts, the C++ Standard guarantees that 
 
@@ -402,7 +415,22 @@ Other models are very rare. For example, **ILP64** (**8/8/8** : int, long, and p
   
 ### Keywords
 
-[`void`](../keyword/void.html "cpp/keyword/void"), [`bool`](../keyword/bool.html "cpp/keyword/bool"), [`true`](../keyword/true.html "cpp/keyword/true"), [`false`](../keyword/false.html "cpp/keyword/false"), [`char`](../keyword/char.html "cpp/keyword/char"), [`char8_t`](../keyword/char8_t.html "cpp/keyword/char8 t"), [`char16_t`](../keyword/char16_t.html "cpp/keyword/char16 t"), [`char32_t`](../keyword/char32_t.html "cpp/keyword/char32 t"), [`wchar_t`](../keyword/wchar_t.html "cpp/keyword/wchar t"), [`int`](../keyword/int.html "cpp/keyword/int"), [`short`](../keyword/short.html "cpp/keyword/short"), [`long`](../keyword/long.html "cpp/keyword/long"), [`signed`](../keyword/signed.html "cpp/keyword/signed"), [`unsigned`](../keyword/unsigned.html "cpp/keyword/unsigned"), [`float`](../keyword/float.html "cpp/keyword/float"), [`double`](../keyword/double.html "cpp/keyword/double")
+* [`void`](../keyword/void.md)
+* [`bool`](../keyword/bool.md)
+* [`true`](../keyword/true.md)
+* [`false`](../keyword/false.md)
+* [`char`](../keyword/char.md)
+* [`char8_t`](../keyword/char8_t.md)
+* [`char16_t`](../keyword/char16_t.md)
+* [`char32_t`](../keyword/char32_t.md)
+* [`wchar_t`](../keyword/wchar_t.md)
+* [`int`](../keyword/int.md)
+* [`short`](../keyword/short.md)
+* [`long`](../keyword/long.md)
+* [`signed`](../keyword/signed.md)
+* [`unsigned`](../keyword/unsigned.md)
+* [`float`](../keyword/float.md)
+* [`double`](../keyword/double.md)
 
 ### Defect reports
 
