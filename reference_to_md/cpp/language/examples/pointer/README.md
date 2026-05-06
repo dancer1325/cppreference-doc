@@ -1,12 +1,3 @@
-# syntax
-## pointer declaration 
-### == any simple declaration / 's declarator has the form
-#### pointer declarator
-* [syntax.cpp](syntax.cpp)
-#### pointer to member declarator
-* [syntax.cpp](syntax.cpp)
-### cv: apply  
-#### | pointer /  it's being declared
-* TODO:
-#### NOT | pointed-to type
-* TODO:
+# [syntax](syntax.cpp)
+
+# [pointers](pointers.cpp)

@@ -66,35 +66,14 @@
   * ALLOWED
     * _pointer -- to an -- object OR function_
       * == pointer points -- to the -- object OR function 
+      * == (first byte in memory / occupied by the object)'s address
     * _pointer pasts the end of an object_
-    * _[null pointer value](pointer.md#null-pointers)_ for that type, or 
-    * _[invalid pointer value](pointer.md#invalid-pointers)_ 
+      * == (first byte in memory AFTER end of the storage / occupied by the object)'s address
+    * _[null pointer value](#null-pointers)_  
+    * _[invalid pointer value](#invalid-pointers)_  
 
-
-
-A pointer that points to an object _represents the address_ of the first byte in memory occupied by the object
-* A pointer past the end of an object _represents the address_ of the first byte in memory after the end of the storage occupied by the object. 
-
-Note that two pointers that represent the same address may nonetheless have different values. 
-    
-    
-    struct C
-    {
-        int x, y;
-    } c;
-     
-    int* px = &c.x;   // value of px is "pointer to c.x"
-    int* pxe= px + 1; // value of pxe is "pointer past the end of c.x"
-    int* py = &c.y;   // value of py is "pointer to c.y"
-     
-    [assert](../error/assert.html)(pxe == py); // == tests if two pointers represent the same address
-                       // may or may not fire
-     
-    *pxe = 1; // undefined behavior even if the assertion does not fire
-
-Indirection through an invalid pointer value and passing an invalid pointer value to a deallocation function have undefined behavior
-* Any other use of an invalid pointer value has implementation-defined behavior
-* Some implementations might define that copying an invalid pointer value causes a system-generated runtime fault. 
+* 2 pointers / represent the SAME address
+  * may have DIFFERENT values
 
 #### Pointers to objects
 
@@ -420,6 +399,19 @@ The macro [NULL](../types/NULL.html "cpp/types/NULL") can also be used, it expan
 Null pointers can be used to indicate the absence of an object (e.g. [`std::function::target()`](../utility/functional/function/target.html "cpp/utility/functional/function/target")), or as other error condition indicators (e.g. [dynamic_cast](dynamic_cast.html "cpp/language/dynamic cast")). In general, a function that receives a pointer argument almost always needs to check if the value is null and handle that case differently (for example, the [delete expression](delete.html "cpp/language/delete") does nothing when a null pointer is passed). 
 
 ### Invalid pointers
+
+* undefined behavior
+  * use cases
+    * indirection -- through an -- invalid pointer value
+    * pass an invalid pointer value -- to a -- deallocation function 
+
+* implementation-defined behavior
+  * use cases
+    * rest of use cases 
+
+* system-generated runtime fault
+  * use cases
+    * some implementations | copy an invalid pointer value 
 
 A pointer value p is _valid in the context of_ an evaluation e if one of the following condition is satisfied: 
 
